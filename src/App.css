@@ -4,6 +4,22 @@ body {
   padding: 0;
 }
 
+.Development{
+  position: absolute;
+  width: 100%;
+  top:    1vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+}
+.Development p {
+  font-family: "Maven Pro Medium";
+  font-size: 25px;
+  text-align: center;
+  color: #DE0156;
+}
+
 .preload {
   -webkit-transition: none !important;
   -moz-transition: none !important;

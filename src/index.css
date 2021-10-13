@@ -15,5 +15,5 @@
   src: local('Maven Pro Regular'), local(MavenProRegular), url(./fonts/MavenPro-Regular.ttf) format('truetype');
 }
 #root{
-  border: dashed red;
+  border: 5px dashed #DE0156;
 }
