@@ -1,0 +1,19 @@
+import React, { Component } from 'react'
+import Questionnaire from './Assertivite/Components/Questionnaire'
+
+export default class Assertivite extends Component {
+     
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
+    
+    render() {
+
+        
+        return (
+            <div className="App">
+            <Questionnaire />
+            </div>
+        )
+    }
+}

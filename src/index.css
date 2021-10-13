@@ -1,0 +1,16 @@
+@font-face {
+  font-family : 'Maven Pro Black';
+  src: local('Maven Pro Black'), local(MavenProBlack), url(./fonts/MavenPro-Black.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'Maven Pro Bold';
+  src: local('Maven Pro Bold'), local(MavenProBold), url(./fonts/MavenPro-Bold.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'Maven Pro Medium';
+  src: local('Maven Pro Medium'), local(MavenProMedium), url(./fonts/MavenPro-Medium.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'Maven Pro Regular';
+  src: local('Maven Pro Regular'), local(MavenProRegular), url(./fonts/MavenPro-Regular.ttf) format('truetype');
+}
