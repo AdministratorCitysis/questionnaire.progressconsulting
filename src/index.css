@@ -14,3 +14,7 @@
   font-family: 'Maven Pro Regular';
   src: local('Maven Pro Regular'), local(MavenProRegular), url(./fonts/MavenPro-Regular.ttf) format('truetype');
 }
+
+#root{
+  border: dashed red;
+}
