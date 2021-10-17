@@ -400,7 +400,16 @@ export default class Questionnaire extends Component {
                 answers:[
                     //Y > 16
                     [
-                        //X > 16 ==> Jaune
+                        //X > 16 & Y < X       ==> Jaune & Rouge
+                        {
+                            id:11,
+                            text:"Jaune et Rouge",
+                            color:'#EDE813',
+                            primary:"Votre couleur dominante est le jaune et votre couleur secondaire le rouge",
+                            secondary:["Vous aimez l’action, la rapidité, le contact… Vous êtes exigeant et attendez des résultats rapides… Prendre la parole en public pour donner votre avis n’est pas un problème. L’argumentation, voire la confrontation des idées est un mode de fonctionnement naturel… Pour vous convaincre, il faut des arguments concrets et vous parler droit au but… Votre valeur ajoutée principale : faire avancer les choses…"],
+                        
+                        },
+                        //X < 16 & X == Y      ==> Jaune
                         {
                             id:1,
                             text:"Jaune",
@@ -408,7 +417,15 @@ export default class Questionnaire extends Component {
                             primary:"RECONNAISSANCE, Être une référence",
                             secondary:["Vous êtes extraverti et orienté vers les personnes. Vous montrez de l'enthousiasme et vous passionnez très vite pour les nouveautés. Vous aimez travailler avec les autres et leur transmettre votre motivation. Vous entretenez votre réseau. Vous vivez à travers le regard des autres, vous aimez les compliments et soignez votre apparence. Vous avez tendance à ne pas finir vos tâches dès qu'un nouveau sujet passionnant se profile à l'horizon."],
                         },
-                        //X == 16 ==> Résultat
+                        //X < 16 & Y > X       ==> Jaune & Vert
+                        {
+                            id:12,
+                            text:"Jaune et Vert",
+                            color:'#EDE813',
+                            primary:"Votre couleur dominante est le jaune et votre couleur secondaire est le vert.",
+                            secondary:["Vous êtes à l’aise dans les situations sociales. Rentrer en contact, échanger, partager vos émotions avec les autres n’est pas un problème. Empathique, dynamique, vous mettez l’ambiance et créez la relation en accordant de l’importance à vos interlocuteurs. Positif, vous donnez du feedback encourageant aux autres. Votre valeur ajoutée principale : développer l’esprit d’équipe et créer un climat relationnel positif"],
+                        },
+                        //X == 16              ==> Relation
                         {
                             id:2,
                             text:"Relation",
@@ -416,19 +433,37 @@ export default class Questionnaire extends Component {
                             primary:"Votre résultat n'est pas défini sur l'axe horizontal",
                             secondary:["On peut néanmoins en déduire une attention vers le côté relationnel.La priorité est plutôt l'humain, les personnes, la relation aux autres"],
                         },
-                        //X > 16 ==> Vert
+                        //X < 16 & Y > 32-X    ==> Vert & Jaune
+                        {
+                            id:13,
+                            text:"Vert et Jaune",
+                            color:'#009640',
+                            primary:"Votre couleur dominante est le vert et votre couleur secondaire le jaune.",
+                            secondary:["Vous êtes à l’aise dans les situations sociales. Rentrer en contact, échanger, partager vos émotions avec les autres n’est pas un problème. Empathique, dynamique, vous mettez l’ambiance et créez la relation en accordant de l’importance à vos interlocuteurs. Positif, vous donnez du feedback encourageant aux autres. Votre valeur ajoutée principale : développer l’esprit d’équipe et créer un climat relationnel positif."],
+                           
+                        },
+                        //X < 16 & Y == X      ==> Vert
                         {
                             id:3,
                             text:"Vert",
                             color:'#009640',
                             primary:"HARMONIE, pour être accepté",
-                            secondary:["Vous êtes orienté vers les personnes et les relations, et plutôt introverti. Vous parlez doucement et chaleureusement. Vous ne supportez pas les conflits, ni les critiques directes, qui peuvent vous blesser. Vous agissez de façon calme et et modérée. Vous pouvez toutefois réagir violemment car vous avez tendance à intérioriser et à contenir vos émotions."],
+                            secondary:["Vous êtes orienté vers les personnes et les relations, et plutôt introverti. Vous parlez doucement et chaleureusement. Vous ne supportez pas les conflits, ni les critiques directes, qui peuvent vous blesser. Vous agissez de façon calme et modérée. Vous pouvez toutefois réagir violemment car vous avez tendance à intérioriser et à contenir vos émotions."],
+                           
+                        },
+                        //X < 16 & Y < 32-X    ==> Vert & Bleu
+                        {
+                            id:14,
+                            text:"Vert et Bleu",
+                            color:'#009640',
+                            primary:"Votre couleur dominante est le vert et votre couleur secondaire le bleu.",
+                            secondary:["Calme, à l’écoute, empathique, votre style discret mais attentionné vous vaut d’être une « ressource » ou un confident pour les autres. Serviable et introverti, vous apportez des solutions de fond en respectant/intégrant les avis des autres. Vous posez des questions et observer les situations. Votre discrétion est souvent appréciée. Votre principale valeur ajoutée : l’aide que vous apportez aux autres associée à une fiabilité certaine."],
                            
                         },
                     ],
                     //Y == 16
                     [
-                        //X > 16
+                        //X > 16               ==> Extraverti
                         {
                             id:4,
                             text:"Extraverti",
@@ -436,7 +471,7 @@ export default class Questionnaire extends Component {
                             primary:"Votre résultat n'est pas défini sur l'axe vertical",
                             secondary:["On peut néanmoins en déduire une attention aux sentiments, opinions ou raisonnements récurrents"],
                         },
-                        //X == 16
+                        //X == 16              ==> Indéfini
                         {
                             id:5,
                             text:"Indéfini",
@@ -445,18 +480,26 @@ export default class Questionnaire extends Component {
                             secondary:["Vous pouvez réessayer en remplaçant certaines réponses sur lesquelles vous avez peut-être hésité"],
                        
                         },
-                        //X < 16
+                        //X < 16               ==> Introverti
                         {
                             id:6,
                             text:"Introverti",
                             color: "#FFFFFF",
                             primary:"Votre résultat n'est pas défini sur l'axe vertical",
-                            secondary:["On peut néanmoins en déduire une énergie moins visible. Les sentiments, les opinions sont plus intériorisés"],
+                            secondary:["On peut néanmoins en déduire une énergie moins visible. Les sentiments, les opinions sont plus intériorisées"],
                         }
                     ],
-                    //Y > 16
+                    //Y < 16
                     [
-                        //X > 16
+                        //X > 16 & Y > 32-x     ==> Rouge & Jaune
+                        {
+                            id:18,
+                            text:"Rouge et Jaune",
+                            color:'#E30613',
+                            primary:"Votre couleur dominante est le rouge et votre couleur secondaire le jaune",
+                            secondary:["Vous aimez l’action, la rapidité, le contact… Vous êtes exigeant et attendez des résultats rapides… Prendre la parole en public pour donner votre avis n’est pas un problème. L’argumentation, voire la confrontation des idées est un mode de fonctionnement naturel… Pour vous convaincre, il faut des arguments concrets et vous parler droit au but… Votre valeur ajoutée principale : faire avancer les choses…"],
+                        },
+                        //X > 16 & Y == 32-X    ==> Rouge
                         {
                             id:7,
                             text:"Rouge",
@@ -464,7 +507,15 @@ export default class Questionnaire extends Component {
                             primary:"EFFICACITÉ, Pouvoir décider",
                             secondary:["Vous êtes orienté vers l'action et les résultats, et plutôt extraverti. Vous possédez une vision d'ensemble et ne vous embarrassez pas des détails. Vous êtes motivé par les challenges et allez droit au but. Vous parlez vite et fort. Vous n'avez pas peur de vous tromper, vous prenez vos décisions rapidement, même avec très peu de cartes en main et n’avez aucun souci à reconnaître vos éventuelles erreurs."],
                         },
-                        //X == 16
+                        //X > 16 & Y < 32-X     ==> Rouge & Bleu
+                        {
+                            id:17,
+                            text:"Rouge et Bleu",
+                            color:'#E30613',
+                            primary:"Votre couleur dominante est le rouge et votre couleur secondaire est le bleu. ",
+                            secondary:["Vous êtes calme, factuel et rationnel. Vous intervenez régulièrement pour mettre en évidence les dysfonctionnements autour de vous. Vous observes la réalité et y jetez un coup d’œil analytique et rationnel. Votre valeur ajoutée principale : la mise en évidence de certains risques que les autres ne voient pas."],
+                        },
+                        //X == 16               ==> Résultat
                         {
                             id:8,
                             text:"Résultat",
@@ -472,13 +523,29 @@ export default class Questionnaire extends Component {
                             primary:"Votre résultat n'est pas défini sur l'axe horizontal",
                             secondary:["On peut néanmoins en déduire l'attention portée aux tâches à réaliser, aux objectifs et aux résultats"],
                         },
-                        //X < 16
+                        //X < 16 & Y < X        ==> Bleu & Rouge
+                        {
+                            id:16,
+                            text:"Bleu et Rouge",
+                            color:'#045576',
+                            primary:"Votre couleur dominante est le bleu et votre couleur secondaire est le rouge.",
+                            secondary:["Vous êtes calme, factuel et rationnel. Vous intervenez régulièrement pour mettre en évidence les dysfonctionnements autour de vous. Vous observes la réalité et y jetez un coup d’œil analytique et rationnel. Votre valeur ajoutée principale : la mise en évidence de certains risques que les autres ne voient pas."],
+                        },
+                        //X < 16 & Y == X       ==> Bleu
                         {
                             id:9,
                             text:"Bleu",
                             color:'#045576',
                             primary:"SÉCURITÉ, soyez rassuré",
                             secondary:["Vous êtes  introverti, orienté vers les tâches . Vous êtes consciencieux et aimez travailler au calme. Vous êtes une personne posée, attentive aux  failles et  incohérences. Vous avez besoin de  structure et de précision. Vous détestez vous tromper, et cette simple éventualité suffit à vous paralyser. Vous avez besoin d'avoir toutes les cartes en main pour décider, de façon méthodique. Vous respectez les règles et les procédures car elles sont garantes de fiabilité."],
+                        },
+                        //X < 16 & Y > X        ==> Bleu & Vert
+                        {
+                            id:15,
+                            text:"Bleu et Vert",
+                            color:'#045576',
+                            primary:"Votre couleur dominante est le bleu et votre couleur secondaire est le vert.",
+                            secondary:["Calme, à l’écoute, empathique, votre style discret mais attentionné vous vaut d’être une « ressource » ou un confident pour les autres. Serviable et introverti, vous apportez des solutions de fond en respectant/intégrant les avis des autres. Vous posez des questions et observer les situations. Votre discrétion est souvent appréciée. Votre principale valeur ajoutée : l’aide que vous apportez aux autres associée à une fiabilité certaine."],
                         },
                     ],
                     
