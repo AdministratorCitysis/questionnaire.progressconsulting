@@ -35,9 +35,11 @@ import DelegationNL from './Components/DelegationNL'
 function App() {
   return (
     <HashRouter className="Route">
+      {/* PASSAGE EN PRODUCTION
       <div className="Development">
         <p>PREVIEW</p>
       </div>
+      */}
       <Switch>
        {/* <Route path="/couleurs" component={Couleurs} /> */}
         <Route path="/timing" component={Timing}/>
