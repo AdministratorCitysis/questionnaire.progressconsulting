@@ -789,7 +789,7 @@ select::-ms-expand {
   }
 
   .result-div {
-    width: 645px;
+    width: 750px;
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -810,7 +810,7 @@ select::-ms-expand {
   }
 
 .result-points {
-  padding: 20px 20px;
+  padding: 30px;
   display: flex;
   flex-flow: column;
 }
@@ -819,15 +819,17 @@ select::-ms-expand {
   font-family: "Maven Pro Medium";
   color: #002F47;
   font-size:30px ;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
   
 }
 
 .result-points p {
   font-family: "Maven Pro Regular";
   color: #8A8A8A;
-  font-size:30px ;
+  font-size:25px ;
   margin-bottom:20px;
+  text-align: justify;
 }
 
 .message-info {
@@ -1407,6 +1409,9 @@ size : portrait;
 }
 .result-div-xl {
   width : 90% !important;
+}
+.answer-text{
+  font-size: 20px;
 }
 }
 
