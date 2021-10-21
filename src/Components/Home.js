@@ -42,7 +42,8 @@ export default class Home extends Component {
                 <Link className="Link" to="/drivers"> <PortalIcon /><p>Questionnaire des drivers</p></Link>
                 <Link className="Link" to="/intelligence">  <PortalIcon /><p>Questionnaire sur l'intelligence émotionnelle</p></Link>
                 <Link className="Link" to="/personaen">  <PortalIcon /><p>Persona survey (EN)</p></Link>
-                <Link className="Link" to="/personafr">  <PortalIcon /><p>Questionnaire Persona (FR)</p></Link>
+                <Link className="Link" to="/personafr">  <PortalIcon /><p>Questionnaire Persona (FR) OLD</p></Link>
+                <Link className="Link" to="/personafrv2">  <PortalIcon /><p>Questionnaire Persona (FR) NEW</p></Link>
                 <Link className="Link" to="/personanl">  <PortalIcon /><p>Vragenlijst Persona (NL)</p></Link>
                 <Link className="Link" to="/creativite">  <PortalIcon /><p>Questionnaire Créativité</p></Link>
                 <Link className="Link" to="/tki/fr">  <PortalIcon /><p>Questionnaire TKI</p></Link>

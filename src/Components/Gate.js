@@ -3,7 +3,7 @@ import Background from '../includes/GateBackground.png'
 import logo from '../includes/logo.svg'
 var sectionStyle = {
     width: "100%",
-    height: "750px",
+    height: "100vh",
     backgroundImage: `url(${Background})`,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
