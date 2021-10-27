@@ -14,9 +14,6 @@ export default class Home extends Component {
         }
     }
 
-
-    
-
     render() {
 
 
@@ -33,7 +30,7 @@ export default class Home extends Component {
             </div> 
             </div>
             <div className="Links">
-                <Link className="Link" to="/couleurs"><PortalIcon /> <p>Questionnaire des Couleurs</p></Link>
+                {/*<Link className="Link" to="/couleurs"><PortalIcon /> <p>Questionnaire des Couleurs</p></Link>*/}
                 <Link className="Link" to="/timing"><PortalIcon /><p>Gestion temps de travail</p></Link> 
                 <Link className="Link" to="/gestion">   <PortalIcon /><p>Gestion du temps </p></Link>    
                 <Link className="Link" to="/delegation"> <PortalIcon /><p >Approche de la délégation </p></Link>
