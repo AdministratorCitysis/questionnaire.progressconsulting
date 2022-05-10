@@ -20,7 +20,7 @@ export default class Questionnaire extends Component {
                 questions:[
                     {
                         id:1,
-                        text:"En ce qui concerne l’association des idées et l’esprit de synthèse",
+                        text:"On vous reconnaît un bon esprit de synthèse et d’association des idées",
                         value:0,
                         categoryId:3,
                         completed:false,
@@ -76,14 +76,14 @@ export default class Questionnaire extends Component {
                     },
                     {
                         id:9,
-                        text:"Vous aimez voir le problème de manière globale plutôt que d’y entrer par des détails",
+                        text:"Vous avez besoin de voir le problème de manière globale plutôt que de pouvoir y entrer par un détail spécifique",
                         value:0,
                         categoryId:3,
                         completed:false,
                     },
                     {
                         id:10,
-                        text:"En ce qui concerne la réflexion avant l’action",
+                        text:"Vous avez besoin de prendre le temps de réfléchir avant de passer à l’action",
                         value:0,
                         categoryId:2,
                         completed:false,
@@ -104,7 +104,7 @@ export default class Questionnaire extends Component {
                     },
                     {
                         id:13,
-                        text:"Vous êtes à l'aise avec la pensée abstraite et conceptuelle",
+                        text:"Vous appréciez la pensée abstraite et conceptuelle",
                         value:0,
                         categoryId:3,
                         completed:false,
@@ -146,7 +146,7 @@ export default class Questionnaire extends Component {
                     },
                     {
                         id:19,
-                        text:"la créativité c’est plutôt un processus qu’un talent",
+                        text:"La créativité c’est plutôt un processus qu’un talent",
                         value:0,
                         categoryId:4,
                         completed:false,
@@ -188,7 +188,7 @@ export default class Questionnaire extends Component {
                     },
                     {
                         id:25,
-                        text:"L’audace et vous ?",
+                        text:"L’audace fait partie de votre personnalité",
                         value:0,
                         categoryId:3,
                         completed:false,
