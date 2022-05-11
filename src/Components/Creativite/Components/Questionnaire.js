@@ -195,7 +195,7 @@ export default class Questionnaire extends Component {
                     },
                     {
                         id:26,
-                        text:'Tenir des raisonnements cohérents',
+                        text:'Vous ne supportez pas quand les autres ne tiennent pas des propos cohérents',
                         value:0,
                         categoryId:2,
                         completed:false,
