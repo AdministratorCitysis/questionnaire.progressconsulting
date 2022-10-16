@@ -50,7 +50,7 @@ function App() {
         <Route path="/intelligence" component={Intelligence}/>
         <Route path="/personaEN" component={Caracteristique}/>
         <Route path="/personaFR" component={PersonaFROLD}/>
-        <Route path="/personafrv2" component={PersonaFR}/>
+        <Route path="/personacomplexefr" component={PersonaFR}/>
         <Route path="/personaNL" component={PersonaNL}/>
         <Route path="/drivers" component={Drivers}/>
         <Route path="/portail" component={Home}/>
