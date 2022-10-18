@@ -37,6 +37,7 @@ export default class Home extends Component {
                 <Link className="Link" to="/delegation-en"> <PortalIcon /><p >Approche de la délégation (EN) </p></Link>
                 <Link className="Link" to="/delegation-nl"> <PortalIcon /><p >Approche de la délégation (NL) </p></Link>
                 <Link className="Link" to="/drivers"> <PortalIcon /><p>Questionnaire des drivers</p></Link>
+                <Link className="Link" to="/drivers-nl"> <PortalIcon /><p>Questionnaire des drivers (NL)</p></Link>
                 <Link className="Link" to="/intelligence">  <PortalIcon /><p>Questionnaire sur l'intelligence émotionnelle</p></Link>
                 <Link className="Link" to="/personaen">  <PortalIcon /><p>Persona survey (EN)</p></Link>
                 <Link className="Link" to="/personafr">  <PortalIcon /><p>Questionnaire Persona (FR)</p></Link>

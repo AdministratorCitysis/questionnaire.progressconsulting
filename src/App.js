@@ -10,6 +10,7 @@ import Intelligence from './Components/Intelligence'
 import Caracteristique from './Components/Caracteristique'
 import Home from './Components/Home'
 import Drivers from './Components/Drivers'
+import DriversNL from './Components/DriversNL'
 import PersonaFROLD from './Components/personaFROLD'
 import PersonaFR from './Components/personaFR'
 import PersonaNL from './Components/personaNL'
@@ -53,6 +54,7 @@ function App() {
         <Route path="/personacomplexefr" component={PersonaFR}/>
         <Route path="/personaNL" component={PersonaNL}/>
         <Route path="/drivers" component={Drivers}/>
+        <Route path="/drivers-nl" component={DriversNL}/>
         <Route path="/portail" component={Home}/>
         <Route path="/creativite" component={Creativite}/>
         <Route path="/tki/fr" component={Tki}/>
