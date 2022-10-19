@@ -4,6 +4,7 @@ import './App.css';
 import Couleurs from './Components/Couleurs'
 import Timing from './Components/Timing'
 import GestionTemps from './Components/GestionTemps'
+import GestionTempsNL from './Components/GestionTempsNL'
 import Delegation from './Components/Delegation'
 import DelegationEN from './Components/DelegationEN'
 import Intelligence from './Components/Intelligence'
@@ -45,6 +46,7 @@ function App() {
        {/* <Route path="/couleurs" component={Couleurs} /> */}
         <Route path="/timing" component={Timing}/>
         <Route path="/gestion" component={GestionTemps}/>
+        <Route path="/gestion-nl" component={GestionTempsNL}/>
         <Route path="/delegation" component={Delegation}/>
         <Route path="/delegation-en" component={DelegationEN}/>
         <Route path="/delegation-nl" component={DelegationNL}/>

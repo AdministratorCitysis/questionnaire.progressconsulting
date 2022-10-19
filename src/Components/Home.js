@@ -33,6 +33,7 @@ export default class Home extends Component {
                 {/*<Link className="Link" to="/couleurs"><PortalIcon /> <p>Questionnaire des Couleurs</p></Link>*/}
                 <Link className="Link" to="/timing"><PortalIcon /><p>Gestion temps de travail</p></Link> 
                 <Link className="Link" to="/gestion">   <PortalIcon /><p>Gestion du temps </p></Link>    
+                <Link className="Link" to="/gestion-nl">   <PortalIcon /><p>Gestion du temps (NL)</p></Link>    
                 <Link className="Link" to="/delegation"> <PortalIcon /><p >Approche de la délégation </p></Link>
                 <Link className="Link" to="/delegation-en"> <PortalIcon /><p >Approche de la délégation (EN) </p></Link>
                 <Link className="Link" to="/delegation-nl"> <PortalIcon /><p >Approche de la délégation (NL) </p></Link>

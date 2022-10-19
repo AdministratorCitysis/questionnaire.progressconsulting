@@ -393,15 +393,15 @@ export default class Questionnaire extends Component {
                 answers : [
                     {
                     maxvalue:0,
-                    text:"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.",
+                    text:"Je hebt het moeilijk om je tijd te beheren. Het is aan jou om te analyseren wat het gevolg is van je werkomgeving en wat aan jezelf ligt.",
                     },
                     {
                     maxvalue:60,
-                    text:"Gestion de votre temps moyen. Vous devez progresser.",
+                    text:"Gemiddeld tijdsbeheer. Je moet hierin nog verbeteren.",
                     },
                     {
                     maxvalue:90,
-                    text:"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.",
+                    text:"Je beheert je tijd op een actieve en positieve manier. Goed bezig! Maar misschien kan het nog beter... en rust vooral niet op je lauweren, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.",
                     },
                 ],
                 categories:[
