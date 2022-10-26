@@ -13,12 +13,23 @@ const Stick = styled.div`
 min-height:5px;
 background: green;
 height: ${props => props.height}px;
+width: 75%;
 background-color: ${props => props.color};
+align-self: center;
+margin-bottom: 1vh;
+display: flex;
+flex-direction: column;
+justify-content: end;
+align-item: center;
 `;
 
 const ResultStick = styled.div`
 padding-top: 10px;
 width: ${props => props.count}%;
+display : flex;
+flex-direction: column;
+align-item: center;
+justify-content: center;
 `;
 
 const StickValue = styled.div `
@@ -26,6 +37,15 @@ color : ${props => props.color};
 font-family:"Maven Pro Regular";
 font-size: 20px;
 text-align:center;
+`;
+
+const StickPoint = styled.div `
+color : ${props => props.color};
+font-family:"Maven Pro Regular";
+font-size: 25px;
+text-align:center;
+font-weight: bold;
+padding-bottom: 10px;
 `;
 
 
@@ -43,7 +63,7 @@ text-align:center;
            }
            this.handleClick = this.handleClick.bind(this)
        }
-       
+        
        handleClick = (e) => {
         let btn = this.state.btn
         btn.checked = !btn.checked
@@ -65,7 +85,7 @@ text-align:center;
                         if(isCompleted)
                         {
                             printbutton =   <ReactToPrint
-                            trigger={() => <div className="download-button"><p>Bewaren</p></div>}
+                            trigger={() => <p>Bewaren</p>}
                             content={() => this.printRef.current} />   
 
                             message =       
@@ -74,13 +94,24 @@ text-align:center;
                                     <div className="result-title">Resultaten
                                     </div>
                                         <div className="result-data">
-                                            { categories.map((element,index) => {
-                                                return <ResultStick key={index} count={70/categories.length}>  
-                                                    <Stick height={element.value*5} color="#002F47"></Stick>
-                                                    <StickValue color="#002F47">{element.text}</StickValue>
-                                                    <StickValue color="#002F47">{element.value} punt(en)</StickValue>
-                                                </ResultStick>
-                                                        })}
+                                            <div className='result-data-column'>
+                                                { categories.map((element,index) => {
+                                                        return  <ResultStick key={index} count={70/categories.length}>  
+                                                                    <Stick height={element.value*10-element.value*2} color="#002F47">
+                                                                        <StickPoint color="#FFFFFF">{element.value}</StickPoint>
+                                                                    </Stick>
+                                                                </ResultStick>
+                                                                })
+                                                }
+                                            </div>
+                                            <div className='result-data-column'>   
+                                                { categories.map((element,index) => {
+                                                    return  <ResultStick key={index} count={70/categories.length}>  
+                                                                <StickValue color="#002F47">{element.text}</StickValue>
+                                                            </ResultStick>
+                                                            })
+                                                }
+                                            </div>
                                         </div>
                                 </div>
                             </div>
@@ -97,8 +128,10 @@ text-align:center;
                             { result = <Fragment>     
                                   <ToPrint ref={this.printRef} title={data.title}>                 
                                 {message}
-                                </ToPrint>      
-                                {printbutton}
+                                </ToPrint>
+                                <div className="download-button">
+                                    {printbutton}
+                                </div>    
                             </Fragment> 
                             }
                              else result = null

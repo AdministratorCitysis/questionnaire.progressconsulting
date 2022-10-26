@@ -6,20 +6,37 @@ import ToPrint from '../../ToPrint'
 
 const Stick = styled.div`
 min-height:5px;
-background: green;
 height: ${props => props.height}px;
+width: 75%;
 background-color: ${props => props.color};
+font-family : "Maven Pro Regular";
+font-size : 30px;
+align-self: center;
+display :flex;
+flex-flow : row wrap;
+justify-content : center;
+align-items : center;
+
+color : #F0F2FF;
+
+:hover {
+    color : white;    
+}
 `;
 
 const ResultStick = styled.div`
 padding-top: 10px;
 width: ${props => props.count}%;
+display : flex;
+flex-direction: column;
+align-item: center;
+justify-content: center;
 `;
 
 const StickValue = styled.div `
 color : ${props => props.color};
 font-family:"Maven Pro Regular";
-font-size: 20px;
+font-size: 18px;
 text-align:center;
 `;
 
@@ -68,7 +85,7 @@ text-align:center;
                         if(isCompleted)
                         {
                             printbutton =   <ReactToPrint
-                            trigger={() => <div className="download-button"><p>Sauvegarder</p></div>}
+                            trigger={() => <p>Sauvegarder</p>}
                             content={() => this.printRef.current} /> 
 
                             categories.forEach( cat =>
@@ -84,12 +101,22 @@ text-align:center;
                                 <div className="result-graph">
                                     <div className="result-title">Résultat</div>
                                         <div className="result-data">
+                                            <div className='result-data-column'>
                                             { categories.map((element,index) => {
-                                                return <ResultStick key={index} count={70/categories.length}>  
-                                                    <Stick height={element.value*5} color={element.color}></Stick>
-                                                    <StickValue color={element.color}>{element.text.map((element,index) => <p key={index}>{element}</p>)}<p>{element.value}</p></StickValue>
-                                                    </ResultStick>
-                                            })}
+                                                return  <ResultStick key={index} count={70/categories.length}>  
+                                                            <Stick height={element.value*15} color={element.color}><p>{element.value}</p></Stick>
+                                                        </ResultStick>
+                                            })
+                                            }
+                                            </div>
+                                            <div className='result-data-column'>
+                                            { categories.map((element,index) => {
+                                                return  <ResultStick key={index} count={70/categories.length}>  
+                                                            <StickValue color={element.color}>{element.text.map((element,index) => <p key={index}>{element}</p>)}</StickValue>
+                                                        </ResultStick>
+                                            })
+                                            }
+                                            </div>
                                         </div>
                                 </div>
                                 <div className="result-div-xl">
@@ -125,7 +152,9 @@ text-align:center;
                                 <ToPrint ref={this.printRef} title={data.title}>
                                       {message}
                                 </ToPrint>
-                                {printbutton}
+                                <div className="download-button">
+                                            {printbutton}
+                                </div>
                             </Fragment> 
                             }
                              else result = null

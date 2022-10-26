@@ -9,7 +9,7 @@ export default class Questionnaire extends Component {
         this.state = {
             questionnaire :
                 {
-                    titre: "Tijdsbeheer",
+                    titre: "Vragenlijst over Tijdsbeheer",
                     answers: [
                         {id:1,
                         number:"--",
@@ -40,7 +40,7 @@ export default class Questionnaire extends Component {
                         },
                         {
                         maxvalue:90,
-                        text:"Je ga actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.",
+                        text:"Je gaat actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.",
                         },
                     ],
                     categories : [

@@ -7,9 +7,11 @@ import ToPrint from '../../ToPrint'
 const Stick = styled.div`
 min-height:35px;
 height: ${props => props.height}px;
+width: 75%;
 background-color: ${props => props.color};
 font-family : "Maven Pro Regular";
 font-size : 30px;
+align-self: center;
 display :flex;
 flex-flow : row wrap;
 justify-content : center;
@@ -25,7 +27,10 @@ color : #F0F2FF;
 const ResultStick = styled.div`
 padding-top: 10px;
 width: ${props => props.count}%;
-
+display : flex;
+flex-direction: column;
+align-item: center;
+justify-content: center;
 `;
 
 const StickValue = styled.div `
@@ -83,7 +88,7 @@ display : none;
        handleClick = (e) => {
         let btn = this.state.btn
         btn.checked = !btn.checked
-        btn.checked ? btn.text = "Cacher le résultat" : btn.text = "Valideren"
+        btn.checked ? btn.text = "Het resultaat verbergen" : btn.text = "Valideren"
         this.setState(btn)
    }
 
@@ -119,7 +124,7 @@ display : none;
                         if(isCompleted)
                         {
                             printbutton =   <ReactToPrint
-                            trigger={() => <div className="download-button"><p>Bewaren</p></div>}
+                            trigger={() => <p>Bewaren</p>}
                             content={() => this.printRef.current} />   
 
                             message =       
@@ -127,12 +132,22 @@ display : none;
                                 <div className="result-graph">
                                     <div className="result-title">Jouw favoriete kleuren</div>
                                         <div className="result-data">
-                                            { categories.map((element,index) => {
-                                                return <ResultStick key={index} count={70/categories.length}>  
-                                                    <Stick height={element.value*5} color={element.color} onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>
-                                                    <StickValue color={element.color}>{element.text.map((element,index) => <p key={index}>{element}</p>)}<p>{element.value}</p></StickValue>
-                                                    </ResultStick>
-                                            })}
+                                            <div className='result-data-column'>
+                                                { categories.map((element,index) => {
+                                                return  <ResultStick key={index} count={70/categories.length}>  
+                                                            <Stick height={element.value*5} color={element.color} onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>
+                                                        </ResultStick>
+                                                        })
+                                                }
+                                            </div>
+                                            <div className='result-data-column'>
+                                                { categories.map((element,index) => {
+                                                    return  <ResultStick key={index} count={70/categories.length}>  
+                                                                <StickValue color={element.color}>{element.text.map((element,index) => <p key={index}>{element}</p>)}</StickValue>
+                                                            </ResultStick>
+                                                            })
+                                                }
+                                            </div>
                                             <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>
                                         </div>
                                 </div>
@@ -162,12 +177,15 @@ display : none;
                             }
 
                             if(this.state.btn.checked)
-                        { result = <div>
-                               <ToPrint ref={this.printRef} title={data.title}>
-                            {message}
-                            </ToPrint>
-                            {printbutton}
-                            </div> }
+                        { result =  <div>
+                                        <ToPrint ref={this.printRef} title={data.title}>
+                                            {message}
+                                        </ToPrint>
+                                        <div className="download-button">
+                                            {printbutton}
+                                        </div>
+                                    </div> 
+                        }
                              else result = null
                         
                         return(

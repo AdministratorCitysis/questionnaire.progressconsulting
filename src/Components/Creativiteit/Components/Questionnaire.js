@@ -302,7 +302,7 @@ export default class Questionnaire extends Component {
                 choices: [
                     {id:1,
                     number:"0",
-                    text:"Dat is niet zo voor mi",
+                    text:"Dat is niet zo voor mij",
                     value:0},
                     {id:2,
                     number:"1",
@@ -354,7 +354,7 @@ export default class Questionnaire extends Component {
                         id:3,
                         text:["Fantasierijk","Visionair"],
                         color : "#005F8E",
-                        description:"Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kunt u zich de toekomst voorstellen, u houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag",
+                        description:"Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag",
                         value:0
                     },
                     {
