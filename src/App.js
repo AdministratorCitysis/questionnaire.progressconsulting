@@ -17,6 +17,7 @@ import PersonaFR from './Components/personaFR'
 import PersonaNL from './Components/personaNL'
 import Gate from './Components/Gate'
 import Creativite from './Components/Creativite'
+import Creativiteit from './Components/Creativiteit'
 import Tki from './Components/Tki'
 import TKI_EN from './Components/TKI_EN'
 import TKI_NM from './Components/TKI_NL'
@@ -59,6 +60,7 @@ function App() {
         <Route path="/drivers-nl" component={DriversNL}/>
         <Route path="/portail" component={Home}/>
         <Route path="/creativite" component={Creativite}/>
+        <Route path="/creativiteit" component={Creativiteit}/>
         <Route path="/tki/fr" component={Tki}/>
         <Route path="/tki/en" component={TKI_EN}/>
         <Route path="/tki/nl" component={TKI_NM}/>

@@ -45,6 +45,7 @@ export default class Home extends Component {
                 <Link className="Link" to="/personacomplexefr">  <PortalIcon /><p>Questionnaire Persona (FR) Complexe</p></Link>
                 <Link className="Link" to="/personanl">  <PortalIcon /><p>Vragenlijst Persona (NL)</p></Link>
                 <Link className="Link" to="/creativite">  <PortalIcon /><p>Questionnaire Créativité</p></Link>
+                <Link className="Link" to="/creativiteit">  <PortalIcon /><p>Questionnaire Créativité (NL)</p></Link>
                 <Link className="Link" to="/tki/fr">  <PortalIcon /><p>Questionnaire TKI</p></Link>
                 <Link className="Link" to="/tki/en">  <PortalIcon /><p>TKI Form (EN)</p></Link>
                 <Link className="Link" to="/tki/nl">  <PortalIcon /><p>TKI enquête (NL)</p></Link>
