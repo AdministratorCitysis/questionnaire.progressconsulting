@@ -75,7 +75,9 @@ export default class Answer extends Component {
                         content={() => this.printRef.current} />   
                         //SCALE AND POSITIONS
                         const vectorsX = "206.5"
-                        const vectorsY = "109.5"
+                        /* Inversion de l'axe y. vectorsY prend la valeur max : 109.5 + 421 */
+                        /*const vectorsY = "109.5"*/
+                        const vectorsY = "530.5"
                         const distanceX = "478"
                         const distanceY = "421"
                         const scaleX = parseInt(distanceX)/17 
@@ -83,7 +85,8 @@ export default class Answer extends Component {
                         
                         //SETGRAPHIC
                         const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX))*parseInt(scaleX)
-                        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY))*parseInt(scaleY)
+                        /* Inversion du calcul du pointY sachant que le vectorY vaut déjà le max. On soustrait au lieu d'incrémenter */
+                        const pointY = parseInt(vectorsY) - (24.3 - parseInt(scoreY)) * parseInt(scaleY)
                         
                         //SET ANSWER
                         let xIndex 
@@ -177,10 +180,10 @@ export default class Answer extends Component {
                                 </filter>
                             </defs>
                                         <g id="Relational">
-                                            <text class="svg-text" transform="translate(377 89.5)">Relationnel</text>
+                                            <text class="svg-text" transform="translate(395 89.5)">Résultat</text>
                                         </g>
                                         <g id="Result">
-                                            <text class="svg-text" transform="translate(395 560.5)">Résultat</text>
+                                            <text class="svg-text" transform="translate(377 560.5)">Relationnel</text>
                                         </g>
                                         <g id="Extrovert">
                                             <text class="svg-text" transform="translate(64.5 330)">Extraverti</text>

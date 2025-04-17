@@ -38,7 +38,7 @@ function App() {
     <HashRouter className="Route">
       {/* PASSAGE EN PRODUCTION */
       <div className="Development">
-        <p>PREVIEW</p>
+        <p>DEVELOPPEMENT</p>
       </div>
       /**/}
       <Switch>
