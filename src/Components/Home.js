@@ -58,6 +58,7 @@ export default class Home extends Component {
                 <Link className="Link" to="/beslissings">  <PortalIcon /><p>Beslissings vragenlijst</p></Link>
                 <Link className="Link" to="/sct/individuel">  <PortalIcon /><p>SCT - Individuel</p></Link>
                 <Link className="Link" to="/sct/test/individuel">  <PortalIcon /><p>SCT - Individuel - Test</p></Link>
+                <Link className="Link" to="/persona/hautencouleur">  <PortalIcon /><p>Questionnaire Persona (FR) Haut en couleur</p></Link>
             </div>
             </div>
         )

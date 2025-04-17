@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch, HashRouter} from 'react-router-dom'
 import './App.css';
-import Couleurs from './Components/Couleurs'
+/*import Couleurs from './Components/Couleurs'*/
 import Timing from './Components/Timing'
 import GestionTemps from './Components/GestionTemps'
 import Delegation from './Components/Delegation'
@@ -12,6 +12,7 @@ import Home from './Components/Home'
 import Drivers from './Components/Drivers'
 import PersonaFROLD from './Components/personaFROLD'
 import PersonaFR from './Components/personaFR'
+import PersonaFRHautEnCouleur from './Components/PersonaFRhautencouleur'
 import PersonaNL from './Components/personaNL'
 import Gate from './Components/Gate'
 import Creativite from './Components/Creativite'
@@ -35,11 +36,11 @@ import DelegationNL from './Components/DelegationNL'
 function App() {
   return (
     <HashRouter className="Route">
-      {/* PASSAGE EN PRODUCTION
+      {/* PASSAGE EN PRODUCTION */
       <div className="Development">
         <p>PREVIEW</p>
       </div>
-      */}
+      /**/}
       <Switch>
        {/* <Route path="/couleurs" component={Couleurs} /> */}
         <Route path="/timing" component={Timing}/>
@@ -70,6 +71,7 @@ function App() {
         <Route path="/beslissings" component={Beslissings}/>
         <Route path="/sct/individuel" component={Individuel}/>
         <Route path="/sct/test/individuel" component={IndividuelTest}/>
+        <Route path="/persona/hautencouleur" component={PersonaFRHautEnCouleur}/>
         <Route component={Gate} />
       </Switch>
     </HashRouter>
