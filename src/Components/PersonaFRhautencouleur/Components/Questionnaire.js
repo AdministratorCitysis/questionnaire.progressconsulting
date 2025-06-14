@@ -12,7 +12,7 @@ export default class Questionnaire extends Component {
     
         this.state = {
              questionnaire: {
-                title: "Profil PERSONA H ",
+                title: "Profil PERSONA",
                 description : "Parmi ces trios de traits de caractère ci-dessous, choisissez celui qui vous ressemble le plus.",
                 instruction : "Répondez de manière honnête et non de ce qui est socialement souhaitable. N'y pensez pas trop longtemps. Il doit être aussi intuitif que possible.",
                 categories:[
