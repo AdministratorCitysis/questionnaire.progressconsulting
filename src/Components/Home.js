@@ -32,17 +32,20 @@ export default class Home extends Component {
             <div className="Links">
                 {/*<Link className="Link" to="/couleurs"><PortalIcon /> <p>Questionnaire des Couleurs</p></Link>*/}
                 <Link className="Link" to="/timing"><PortalIcon /><p>Gestion temps de travail</p></Link> 
-                <Link className="Link" to="/gestion">   <PortalIcon /><p>Gestion du temps </p></Link>    
+                <Link className="Link" to="/gestion">   <PortalIcon /><p>Gestion du temps </p></Link>  
+                <Link className="Link" to="/gestion-nl">   <PortalIcon /><p>Gestion du temps (NL)</p></Link>      
                 <Link className="Link" to="/delegation"> <PortalIcon /><p >Approche de la délégation </p></Link>
                 <Link className="Link" to="/delegation-en"> <PortalIcon /><p >Approche de la délégation (EN) </p></Link>
                 <Link className="Link" to="/delegation-nl"> <PortalIcon /><p >Approche de la délégation (NL) </p></Link>
                 <Link className="Link" to="/drivers"> <PortalIcon /><p>Questionnaire des drivers</p></Link>
+                <Link className="Link" to="/drivers-nl"> <PortalIcon /><p>Questionnaire des drivers (NL)</p></Link>
                 <Link className="Link" to="/intelligence">  <PortalIcon /><p>Questionnaire sur l'intelligence émotionnelle</p></Link>
                 <Link className="Link" to="/personaen">  <PortalIcon /><p>Persona survey (EN)</p></Link>
-                <Link className="Link" to="/personafr">  <PortalIcon /><p>Questionnaire Persona (FR) OLD</p></Link>
-                <Link className="Link" to="/personafrv2">  <PortalIcon /><p>Questionnaire Persona (FR) NEW</p></Link>
+                <Link className="Link" to="/personafr">  <PortalIcon /><p>Questionnaire Persona (FR)</p></Link>
+                <Link className="Link" to="/personacomplexefr">  <PortalIcon /><p>Questionnaire Persona (FR) Complexe</p></Link>
                 <Link className="Link" to="/personanl">  <PortalIcon /><p>Vragenlijst Persona (NL)</p></Link>
                 <Link className="Link" to="/creativite">  <PortalIcon /><p>Questionnaire Créativité</p></Link>
+                <Link className="Link" to="/creativiteit">  <PortalIcon /><p>Questionnaire Créativité (NL)</p></Link>
                 <Link className="Link" to="/tki/fr">  <PortalIcon /><p>Questionnaire TKI</p></Link>
                 <Link className="Link" to="/tki/en">  <PortalIcon /><p>TKI Form (EN)</p></Link>
                 <Link className="Link" to="/tki/nl">  <PortalIcon /><p>TKI enquête (NL)</p></Link>
@@ -58,6 +61,7 @@ export default class Home extends Component {
                 <Link className="Link" to="/beslissings">  <PortalIcon /><p>Beslissings vragenlijst</p></Link>
                 <Link className="Link" to="/sct/individuel">  <PortalIcon /><p>SCT - Individuel</p></Link>
                 <Link className="Link" to="/sct/test/individuel">  <PortalIcon /><p>SCT - Individuel - Test</p></Link>
+                <Link className="Link" to="/persona/hautencouleur">  <PortalIcon /><p>Questionnaire Persona (FR) Haut en couleur</p></Link>
             </div>
             </div>
         )

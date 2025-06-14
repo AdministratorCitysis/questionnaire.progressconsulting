@@ -208,7 +208,7 @@ select::-ms-expand {
   align-items: center;
 }
 .choice-text {
-  font-size: 25px;
+  font-size: 23px;
   display: flex;
   align-items: center;
   color: #002F47;
@@ -771,10 +771,16 @@ select::-ms-expand {
 
 .result-data {
   display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.result-data-column {
+  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-end;
-  padding-top: 20px;
   padding-bottom: 20px;
   font-size:"Maven Pro Medium";
   font-size:40px;

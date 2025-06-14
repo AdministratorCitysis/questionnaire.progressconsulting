@@ -74,12 +74,12 @@ display : none;
            super(props)
            this.printRef = React.createRef();
            this.state = {
-                message: "Veuillez compléter l'ensemble des questions pour connaître votre score",
+                message: "Vul alle vragen in om uw score te kennen",
                 stickValue: "",
                 stickColor: "green",
                 btn : {
                     checked : false,
-                    text : "Valider",
+                    text : "Valideren",
                 }
            }
            this.handleClick = this.handleClick.bind(this)
@@ -88,7 +88,7 @@ display : none;
        handleClick = (e) => {
         let btn = this.state.btn
         btn.checked = !btn.checked
-        btn.checked ? btn.text = "Cacher le résultat" : btn.text = "Valider"
+        btn.checked ? btn.text = "Het resultaat verbergen" : btn.text = "Valideren"
         this.setState(btn)
    }
 
@@ -124,15 +124,15 @@ display : none;
                         if(isCompleted)
                         {
                             printbutton =   <ReactToPrint
-                            trigger={() => <p>Sauvegarder</p>}
+                            trigger={() => <p>Bewaren</p>}
                             content={() => this.printRef.current} />   
 
                             message =       
                             <div className="result">
                                 <div className="result-graph">
-                                    <div className="result-title">Vos couleurs préférentielles</div>
+                                    <div className="result-title">Jouw favoriete kleuren</div>
                                         <div className="result-data">
-                                        <div className='result-data-column'>
+                                            <div className='result-data-column'>
                                                 { categories.map((element,index) => {
                                                 return  <ResultStick key={index} count={70/categories.length}>  
                                                             <Stick height={element.value*5} color={element.color} onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>
@@ -148,6 +148,7 @@ display : none;
                                                             })
                                                 }
                                             </div>
+                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>
                                         </div>
                                 </div>
                                 <div className="result-div-xl">

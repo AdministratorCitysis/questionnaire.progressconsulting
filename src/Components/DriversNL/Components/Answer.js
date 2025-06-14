@@ -5,7 +5,6 @@ import ReactToPrint from 'react-to-print'
 import ToPrint from '../../ToPrint'
 
 const Result = styled.div  `
-width : 100%;
 ${props => props.completed ? 'color: white; background-color : #2AA1A9;' : 'color : #002F47 ; background-color: white;'}
 `
 
@@ -55,19 +54,19 @@ padding-bottom: 10px;
            super(props)
            this.printRef = React.createRef();
            this.state = {
-                message: "Veuillez compléter l'ensemble des questions pour connaître votre score",
+                message: "Vul alle vragen in om uw score te kennen",
                 btn : {
                     checked : false,
-                    text : "Valider",
+                    text : "Valideren",
                 }
            }
            this.handleClick = this.handleClick.bind(this)
        }
-       
+        
        handleClick = (e) => {
         let btn = this.state.btn
         btn.checked = !btn.checked
-        btn.checked ? btn.text = "Cacher le résultat" : btn.text = "Valider"
+        btn.checked ? btn.text = "Het resultaat verbergen" : btn.text = "Valideren"
         this.setState(btn)
    }
        
@@ -85,15 +84,15 @@ padding-bottom: 10px;
                         if(isCompleted)
                         {
                             printbutton =   <ReactToPrint
-                            trigger={() => <p>Sauvegarder</p>}
+                            trigger={() => <p>Bewaren</p>}
                             content={() => this.printRef.current} />   
 
                             message =       
                             <div className="result">
                                 <div className="result-graph">
-                                    <div className="result-title">Résultats
+                                    <div className="result-title">Resultaten
                                     </div>
-                                    <div className="result-data">
+                                        <div className="result-data">
                                             <div className='result-data-column'>
                                                 { categories.map((element,index) => {
                                                         return  <ResultStick key={index} count={70/categories.length}>  
@@ -131,7 +130,7 @@ padding-bottom: 10px;
                                 </ToPrint>
                                 <div className="download-button">
                                     {printbutton}
-                                </div>     
+                                </div>    
                             </Fragment> 
                             }
                              else result = null
