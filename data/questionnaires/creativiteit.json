@@ -1,0 +1,2707 @@
+{
+  "routePath": "/creativiteit",
+  "routeComponent": "Creativiteit",
+  "routeImportSource": "./Components/Creativiteit",
+  "extractionTimestamp": "2026-04-19T10:07:00.371Z",
+  "sourceFiles": [
+    "src/Components/Creativiteit.js",
+    "src/Components/Creativiteit/Components/Answer.js",
+    "src/Components/Creativiteit/Components/Context.js",
+    "src/Components/Creativiteit/Components/Header.js",
+    "src/Components/Creativiteit/Components/Possibilites.js",
+    "src/Components/Creativiteit/Components/Question.js",
+    "src/Components/Creativiteit/Components/Questionnaire.js",
+    "src/Components/Creativiteit/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Vragenlijst over de creatieve stijlen*",
+      "description": "In hoeverre is elk van de volgende uitspraken op jou van toepassing?",
+      "asterix": "Gebaseerd op de benadering van Ned Herrmann's breinvoorkeur.",
+      "completed": false,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Je kunt goed ideeën combineren en synthetiseren",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Houdt van logische spelletjes",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Je bent verwonderd over creatievelingen en artiesten",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Hoe je je voelt in de omgang met anderen helpt je keuzes te maken",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Je kijkt graag naar het grote geheel en verliest je niet in de details",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Nadenken alvorens te handelen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Je bent vertrouwd met abstract en conceptueel denken",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Je gaat met gemak om met getallen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "Vertrouwd met technische concepten",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "Het is goed om af en toe overdreven idealistische ideeën te hebben",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 21,
+          "text": "Een succesvolle creatieve sessie is bijna als een spel",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 22,
+          "text": "Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 23,
+          "text": "Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 24,
+          "text": "Jouw enthousiasme schijnt aanstekelijk te zijn",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 25,
+          "text": "Je houdt van gedurfde persoonlijkheden",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 26,
+          "text": "Samenhangend kunnen redeneren",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 27,
+          "text": "Je houdt van erkende en bewezen creatieve technieken",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 28,
+          "text": "Creatief zijn betekent vaak observeren en zien wat anderen niet zien",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 29,
+          "text": "Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 30,
+          "text": "Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 31,
+          "text": "Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 32,
+          "text": "Je bent een sterke promotor van collectieve intelligentie",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 33,
+          "text": "Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 34,
+          "text": "Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 35,
+          "text": "Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 36,
+          "text": "Je bent niet graag alleen creatief bezig en brainstormt liever in een groep",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 37,
+          "text": "Je denkt vaak in beelden en metaforen",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 38,
+          "text": "Het helpt je om de dingen sequentieel te bekijken",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 39,
+          "text": "Een creatieve sessie moet goed georganiseerd zijn",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 40,
+          "text": "Je test je ideeën graag met iemand die je vertrouwt",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "0",
+          "text": "Dat is niet zo voor mij",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": "1",
+          "text": "Misschien doe ik dat wel eens",
+          "value": 1
+        },
+        {
+          "id": 3,
+          "number": "2",
+          "text": "Dat doe ik toch wel eens af en toe",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "number": "3",
+          "text": "Dat doe ik vaak",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "number": "4",
+          "text": "Dit ben ik totaal ten voeten uit",
+          "value": 4
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 0,
+          "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Gestion de votre temps moyen. Vous devez progresser."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": [
+            "Interpersoonlijk",
+            "communicator"
+          ],
+          "color": "#008ED6",
+          "description": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren. Hoe je je voelt in de omgang met anderen helpt je keuzes te maken. Je vindt dat een achtergrond van geluid of muziek je helpt om creatief te zijn. Het plezier van het samen uitwisselen komt soms vóór het resultaat van de gegenereerde ideeën. Het is goed om af en toe al te idealistische ideeën te hebben. Men zegt dat jouw enthousiasme aanstekelijk werkt. Creatief zijn betekent vaak observeren en zien wat anderen niet zien. Je bent een sterke promotor van collectieve intelligentie. Je bent niet graag alleen creatief bezig en brainstormt liever in groepsverband. Je test je ideeën graag met iemand die je vertrouwt",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": [
+            "Pragmatisch",
+            "Pionier"
+          ],
+          "color": "#0076B2",
+          "description": "Houdt van logische spelletjes. Creatief zijn betekent veel ideeën genereren om verschillende situaties aan te pakken. Nadenken alvorens te handelen. Getallen met het grootste gemak verwerken. Vertrouwd met technische concepten. Creativiteit moet ook een relevante oplossing bieden voor het gestelde probleem! Samenhangend kunnen redeneren. Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen. Je hebt een aantal boeken van creativiteitsdeskundigen gelezen om je te inspireren. Willen streven naar expertise. De dingen achtereenvolgens beschouwen. Aandacht voor de ontwikkeling van creatieve vaardigheden",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": [
+            "Fantasierijk",
+            "Visionair"
+          ],
+          "color": "#005F8E",
+          "description": "Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": [
+            "Gedetailleerd",
+            "Onderzoeker"
+          ],
+          "color": "#00476B",
+          "description": "Je probeert jezelf onder bedwang te houden om de creatieve oefening niet te beïnvloeden. Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert. Je voert nieuwe ideeën graag uit volgens een nauwkeurig tijdsbestek. Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden. Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces. Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin. Je houdt van erkende en bewezen creatieve technieken. Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties. Een creatieve sessie moet goed georganiseerd zijn. Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Vragenlijst over de creatieve stijlen*",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Je kunt goed ideeën combineren en synthetiseren",
+            "raw": {
+              "id": 1,
+              "text": "Je kunt goed ideeën combineren en synthetiseren",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Houdt van logische spelletjes",
+            "raw": {
+              "id": 2,
+              "text": "Houdt van logische spelletjes",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden",
+            "raw": {
+              "id": 3,
+              "text": "Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren",
+            "raw": {
+              "id": 4,
+              "text": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Je bent verwonderd over creatievelingen en artiesten",
+            "raw": {
+              "id": 5,
+              "text": "Je bent verwonderd over creatievelingen en artiesten",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken",
+            "raw": {
+              "id": 6,
+              "text": "Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert",
+            "raw": {
+              "id": 7,
+              "text": "Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Hoe je je voelt in de omgang met anderen helpt je keuzes te maken",
+            "raw": {
+              "id": 8,
+              "text": "Hoe je je voelt in de omgang met anderen helpt je keuzes te maken",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Je kijkt graag naar het grote geheel en verliest je niet in de details",
+            "raw": {
+              "id": 9,
+              "text": "Je kijkt graag naar het grote geheel en verliest je niet in de details",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Nadenken alvorens te handelen",
+            "raw": {
+              "id": 10,
+              "text": "Nadenken alvorens te handelen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek",
+            "raw": {
+              "id": 11,
+              "text": "Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn",
+            "raw": {
+              "id": 12,
+              "text": "Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Je bent vertrouwd met abstract en conceptueel denken",
+            "raw": {
+              "id": 13,
+              "text": "Je bent vertrouwd met abstract en conceptueel denken",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Je gaat met gemak om met getallen",
+            "raw": {
+              "id": 14,
+              "text": "Je gaat met gemak om met getallen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden",
+            "raw": {
+              "id": 15,
+              "text": "Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën",
+            "raw": {
+              "id": 16,
+              "text": "Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles",
+            "raw": {
+              "id": 17,
+              "text": "Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Vertrouwd met technische concepten",
+            "raw": {
+              "id": 18,
+              "text": "Vertrouwd met technische concepten",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces",
+            "raw": {
+              "id": 19,
+              "text": "Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Het is goed om af en toe overdreven idealistische ideeën te hebben",
+            "raw": {
+              "id": 20,
+              "text": "Het is goed om af en toe overdreven idealistische ideeën te hebben",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Een succesvolle creatieve sessie is bijna als een spel",
+            "raw": {
+              "id": 21,
+              "text": "Een succesvolle creatieve sessie is bijna als een spel",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!",
+            "raw": {
+              "id": 22,
+              "text": "Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin",
+            "raw": {
+              "id": 23,
+              "text": "Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Jouw enthousiasme schijnt aanstekelijk te zijn",
+            "raw": {
+              "id": 24,
+              "text": "Jouw enthousiasme schijnt aanstekelijk te zijn",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Je houdt van gedurfde persoonlijkheden",
+            "raw": {
+              "id": 25,
+              "text": "Je houdt van gedurfde persoonlijkheden",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Samenhangend kunnen redeneren",
+            "raw": {
+              "id": 26,
+              "text": "Samenhangend kunnen redeneren",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Je houdt van erkende en bewezen creatieve technieken",
+            "raw": {
+              "id": 27,
+              "text": "Je houdt van erkende en bewezen creatieve technieken",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Creatief zijn betekent vaak observeren en zien wat anderen niet zien",
+            "raw": {
+              "id": 28,
+              "text": "Creatief zijn betekent vaak observeren en zien wat anderen niet zien",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten",
+            "raw": {
+              "id": 29,
+              "text": "Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen",
+            "raw": {
+              "id": 30,
+              "text": "Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties",
+            "raw": {
+              "id": 31,
+              "text": "Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Je bent een sterke promotor van collectieve intelligentie",
+            "raw": {
+              "id": 32,
+              "text": "Je bent een sterke promotor van collectieve intelligentie",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste",
+            "raw": {
+              "id": 33,
+              "text": "Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren",
+            "raw": {
+              "id": 34,
+              "text": "Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint",
+            "raw": {
+              "id": 35,
+              "text": "Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Je bent niet graag alleen creatief bezig en brainstormt liever in een groep",
+            "raw": {
+              "id": 36,
+              "text": "Je bent niet graag alleen creatief bezig en brainstormt liever in een groep",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Je denkt vaak in beelden en metaforen",
+            "raw": {
+              "id": 37,
+              "text": "Je denkt vaak in beelden en metaforen",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Het helpt je om de dingen sequentieel te bekijken",
+            "raw": {
+              "id": 38,
+              "text": "Het helpt je om de dingen sequentieel te bekijken",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Een creatieve sessie moet goed georganiseerd zijn",
+            "raw": {
+              "id": 39,
+              "text": "Een creatieve sessie moet goed georganiseerd zijn",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Je test je ideeën graag met iemand die je vertrouwt",
+            "raw": {
+              "id": 40,
+              "text": "Je test je ideeën graag met iemand die je vertrouwt",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Dat is niet zo voor mij",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "Misschien doe ik dat wel eens",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "Dat doe ik toch wel eens af en toe",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "Dat doe ik vaak",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "Dit ben ik totaal ten voeten uit",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": [
+          "Interpersoonlijk",
+          "communicator"
+        ],
+        "raw": {
+          "id": 1,
+          "text": [
+            "Interpersoonlijk",
+            "communicator"
+          ],
+          "color": "#008ED6",
+          "description": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren. Hoe je je voelt in de omgang met anderen helpt je keuzes te maken. Je vindt dat een achtergrond van geluid of muziek je helpt om creatief te zijn. Het plezier van het samen uitwisselen komt soms vóór het resultaat van de gegenereerde ideeën. Het is goed om af en toe al te idealistische ideeën te hebben. Men zegt dat jouw enthousiasme aanstekelijk werkt. Creatief zijn betekent vaak observeren en zien wat anderen niet zien. Je bent een sterke promotor van collectieve intelligentie. Je bent niet graag alleen creatief bezig en brainstormt liever in groepsverband. Je test je ideeën graag met iemand die je vertrouwt",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": [
+          "Pragmatisch",
+          "Pionier"
+        ],
+        "raw": {
+          "id": 2,
+          "text": [
+            "Pragmatisch",
+            "Pionier"
+          ],
+          "color": "#0076B2",
+          "description": "Houdt van logische spelletjes. Creatief zijn betekent veel ideeën genereren om verschillende situaties aan te pakken. Nadenken alvorens te handelen. Getallen met het grootste gemak verwerken. Vertrouwd met technische concepten. Creativiteit moet ook een relevante oplossing bieden voor het gestelde probleem! Samenhangend kunnen redeneren. Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen. Je hebt een aantal boeken van creativiteitsdeskundigen gelezen om je te inspireren. Willen streven naar expertise. De dingen achtereenvolgens beschouwen. Aandacht voor de ontwikkeling van creatieve vaardigheden",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": [
+          "Fantasierijk",
+          "Visionair"
+        ],
+        "raw": {
+          "id": 3,
+          "text": [
+            "Fantasierijk",
+            "Visionair"
+          ],
+          "color": "#005F8E",
+          "description": "Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": [
+          "Gedetailleerd",
+          "Onderzoeker"
+        ],
+        "raw": {
+          "id": 4,
+          "text": [
+            "Gedetailleerd",
+            "Onderzoeker"
+          ],
+          "color": "#00476B",
+          "description": "Je probeert jezelf onder bedwang te houden om de creatieve oefening niet te beïnvloeden. Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert. Je voert nieuwe ideeën graag uit volgens een nauwkeurig tijdsbestek. Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden. Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces. Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin. Je houdt van erkende en bewezen creatieve technieken. Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties. Een creatieve sessie moet goed georganiseerd zijn. Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je kunt goed ideeën combineren en synthetiseren"
+      },
+      {
+        "questionId": 2,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Houdt van logische spelletjes"
+      },
+      {
+        "questionId": 3,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden"
+      },
+      {
+        "questionId": 4,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren"
+      },
+      {
+        "questionId": 5,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je bent verwonderd over creatievelingen en artiesten"
+      },
+      {
+        "questionId": 6,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken"
+      },
+      {
+        "questionId": 7,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert"
+      },
+      {
+        "questionId": 8,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Hoe je je voelt in de omgang met anderen helpt je keuzes te maken"
+      },
+      {
+        "questionId": 9,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je kijkt graag naar het grote geheel en verliest je niet in de details"
+      },
+      {
+        "questionId": 10,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Nadenken alvorens te handelen"
+      },
+      {
+        "questionId": 11,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek"
+      },
+      {
+        "questionId": 12,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn"
+      },
+      {
+        "questionId": 13,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je bent vertrouwd met abstract en conceptueel denken"
+      },
+      {
+        "questionId": 14,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je gaat met gemak om met getallen"
+      },
+      {
+        "questionId": 15,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden"
+      },
+      {
+        "questionId": 16,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën"
+      },
+      {
+        "questionId": 17,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles"
+      },
+      {
+        "questionId": 18,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vertrouwd met technische concepten"
+      },
+      {
+        "questionId": 19,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces"
+      },
+      {
+        "questionId": 20,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Het is goed om af en toe overdreven idealistische ideeën te hebben"
+      },
+      {
+        "questionId": 21,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Een succesvolle creatieve sessie is bijna als een spel"
+      },
+      {
+        "questionId": 22,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!"
+      },
+      {
+        "questionId": 23,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin"
+      },
+      {
+        "questionId": 24,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Jouw enthousiasme schijnt aanstekelijk te zijn"
+      },
+      {
+        "questionId": 25,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je houdt van gedurfde persoonlijkheden"
+      },
+      {
+        "questionId": 26,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Samenhangend kunnen redeneren"
+      },
+      {
+        "questionId": 27,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je houdt van erkende en bewezen creatieve technieken"
+      },
+      {
+        "questionId": 28,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Creatief zijn betekent vaak observeren en zien wat anderen niet zien"
+      },
+      {
+        "questionId": 29,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten"
+      },
+      {
+        "questionId": 30,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen"
+      },
+      {
+        "questionId": 31,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties"
+      },
+      {
+        "questionId": 32,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je bent een sterke promotor van collectieve intelligentie"
+      },
+      {
+        "questionId": 33,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste"
+      },
+      {
+        "questionId": 34,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren"
+      },
+      {
+        "questionId": 35,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint"
+      },
+      {
+        "questionId": 36,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je bent niet graag alleen creatief bezig en brainstormt liever in een groep"
+      },
+      {
+        "questionId": 37,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je denkt vaak in beelden en metaforen"
+      },
+      {
+        "questionId": 38,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Het helpt je om de dingen sequentieel te bekijken"
+      },
+      {
+        "questionId": 39,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Een creatieve sessie moet goed georganiseerd zijn"
+      },
+      {
+        "questionId": 40,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je test je ideeën graag met iemand die je vertrouwt"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Dat is niet zo voor mij",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "Misschien doe ik dat wel eens",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "Dat doe ik toch wel eens af en toe",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "Dat doe ik vaak",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "Dit ben ik totaal ten voeten uit",
+            "value": 4
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Gestion de votre temps moyen. Vous devez progresser."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Creativiteit/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Creativiteit/Components/Possibilites.js::handleChange",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Creativiteit/Components/Questionnaire.js::handleValue",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Creativiteit/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Vragenlijst over de creatieve stijlen*\",\n      description: \"In hoeverre is elk van de volgende uitspraken op jou van toepassing?\",\n      asterix: \"Gebaseerd op de benadering van Ned Herrmann's breinvoorkeur.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Je kunt goed ideeën combineren en synthetiseren\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Houdt van logische spelletjes\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Je bent verwonderd over creatievelingen en artiesten\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Hoe je je voelt in de omgang met anderen helpt je keuzes te maken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Je kijkt graag naar het grote geheel en verliest je niet in de details\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Nadenken alvorens te handelen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Je bent vertrouwd met abstract en conceptueel denken\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Je gaat met gemak om met getallen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Vertrouwd met technische concepten\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Het is goed om af en toe overdreven idealistische ideeën te hebben\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Een succesvolle creatieve sessie is bijna als een spel\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 22,\n        text: \"Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 24,\n        text: \"Jouw enthousiasme schijnt aanstekelijk te zijn\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Je houdt van gedurfde persoonlijkheden\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Samenhangend kunnen redeneren',\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Je houdt van erkende en bewezen creatieve technieken',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Creatief zijn betekent vaak observeren en zien wat anderen niet zien\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Je bent een sterke promotor van collectieve intelligentie\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Je bent niet graag alleen creatief bezig en brainstormt liever in een groep\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Je denkt vaak in beelden en metaforen\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Het helpt je om de dingen sequentieel te bekijken\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Een creatieve sessie moet goed georganiseerd zijn\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Je test je ideeën graag met iemand die je vertrouwt\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Dat is niet zo voor mij\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"Misschien doe ik dat wel eens\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"Dat doe ik toch wel eens af en toe\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"Dat doe ik vaak\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"Dit ben ik totaal ten voeten uit\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Interpersoonlijk\", \"communicator\"],\n        color: \"#008ED6\",\n        description: \"Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren. Hoe je je voelt in de omgang met anderen helpt je keuzes te maken. Je vindt dat een achtergrond van geluid of muziek je helpt om creatief te zijn. Het plezier van het samen uitwisselen komt soms vóór het resultaat van de gegenereerde ideeën. Het is goed om af en toe al te idealistische ideeën te hebben. Men zegt dat jouw enthousiasme aanstekelijk werkt. Creatief zijn betekent vaak observeren en zien wat anderen niet zien. Je bent een sterke promotor van collectieve intelligentie. Je bent niet graag alleen creatief bezig en brainstormt liever in groepsverband. Je test je ideeën graag met iemand die je vertrouwt\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Pragmatisch\", \"Pionier\"],\n        color: \"#0076B2\",\n        description: \"Houdt van logische spelletjes. Creatief zijn betekent veel ideeën genereren om verschillende situaties aan te pakken. Nadenken alvorens te handelen. Getallen met het grootste gemak verwerken. Vertrouwd met technische concepten. Creativiteit moet ook een relevante oplossing bieden voor het gestelde probleem! Samenhangend kunnen redeneren. Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen. Je hebt een aantal boeken van creativiteitsdeskundigen gelezen om je te inspireren. Willen streven naar expertise. De dingen achtereenvolgens beschouwen. Aandacht voor de ontwikkeling van creatieve vaardigheden\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Fantasierijk\", \"Visionair\"],\n        color: \"#005F8E\",\n        description: \"Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Gedetailleerd\", \"Onderzoeker\"],\n        color: \"#00476B\",\n        description: \"Je probeert jezelf onder bedwang te houden om de creatieve oefening niet te beïnvloeden. Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert. Je voert nieuwe ideeën graag uit volgens een nauwkeurig tijdsbestek. Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden. Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces. Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin. Je houdt van erkende en bewezen creatieve technieken. Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties. Een creatieve sessie moet goed georganiseerd zijn. Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Creativiteit/Components/Questionnaire.js::handleValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Creativiteit/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Bewaren</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Jouw favoriete kleuren</div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((answer, index) => <Fragment key={index}>\r\n                                            <h3>{answer.text.join(' ')}</h3>\r\n                                            <p>{answer.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div>\r\n                                        <ToPrint ref={this.printRef} title={data.title}>\r\n                                            {message}\r\n                                        </ToPrint>\r\n                                        <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                        </div>\r\n                                    </div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Creativiteit/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Creativiteit.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Vragenlijst over de creatieve stijlen*\",\n      description: \"In hoeverre is elk van de volgende uitspraken op jou van toepassing?\",\n      asterix: \"Gebaseerd op de benadering van Ned Herrmann's breinvoorkeur.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Je kunt goed ideeën combineren en synthetiseren\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Houdt van logische spelletjes\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Je probeert jezelf onder controle te houden om de creatieve oefening niet te beïnvloeden\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Je bent verwonderd over creatievelingen en artiesten\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Je denkt dat: creatief zijn betekent veel ideeën genereren om verschillende gebeurtenissen aan te pakken\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Hoe je je voelt in de omgang met anderen helpt je keuzes te maken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Je kijkt graag naar het grote geheel en verliest je niet in de details\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Nadenken alvorens te handelen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Je houdt van de uitvoering van nieuwe ideeën binnen een bepaald tijdsbestek\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Je vindt dat achtergrondmuziek of -geluid je helpt om creatief te zijn\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Je bent vertrouwd met abstract en conceptueel denken\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Je gaat met gemak om met getallen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Het plezier om samen ideeën uit te wisselen primeert soms op het resultaat van de gegenereerde ideeën\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Je verzamelt graag overal je inspiratiebronnen en bent nieuwsgierig naar alles\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Vertrouwd met technische concepten\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Het is goed om af en toe overdreven idealistische ideeën te hebben\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Een succesvolle creatieve sessie is bijna als een spel\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 22,\n        text: \"Creativiteit moet ook een relevante oplossing bieden voor het onderhavige probleem!\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 24,\n        text: \"Jouw enthousiasme schijnt aanstekelijk te zijn\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Je houdt van gedurfde persoonlijkheden\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Samenhangend kunnen redeneren',\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Je houdt van erkende en bewezen creatieve technieken',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Creatief zijn betekent vaak observeren en zien wat anderen niet zien\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Je bent een sterke promotor van collectieve intelligentie\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Je hebt een paar boeken van creativiteitsdeskundigen gelezen om je te inspireren\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Je bent niet graag alleen creatief bezig en brainstormt liever in een groep\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Je denkt vaak in beelden en metaforen\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Het helpt je om de dingen sequentieel te bekijken\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Een creatieve sessie moet goed georganiseerd zijn\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Je test je ideeën graag met iemand die je vertrouwt\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Dat is niet zo voor mij\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"Misschien doe ik dat wel eens\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"Dat doe ik toch wel eens af en toe\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"Dat doe ik vaak\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"Dit ben ik totaal ten voeten uit\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Interpersoonlijk\", \"communicator\"],\n        color: \"#008ED6\",\n        description: \"Het geheim van een goede creatieve sessie is vaak de kwaliteit van het luisteren. Hoe je je voelt in de omgang met anderen helpt je keuzes te maken. Je vindt dat een achtergrond van geluid of muziek je helpt om creatief te zijn. Het plezier van het samen uitwisselen komt soms vóór het resultaat van de gegenereerde ideeën. Het is goed om af en toe al te idealistische ideeën te hebben. Men zegt dat jouw enthousiasme aanstekelijk werkt. Creatief zijn betekent vaak observeren en zien wat anderen niet zien. Je bent een sterke promotor van collectieve intelligentie. Je bent niet graag alleen creatief bezig en brainstormt liever in groepsverband. Je test je ideeën graag met iemand die je vertrouwt\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Pragmatisch\", \"Pionier\"],\n        color: \"#0076B2\",\n        description: \"Houdt van logische spelletjes. Creatief zijn betekent veel ideeën genereren om verschillende situaties aan te pakken. Nadenken alvorens te handelen. Getallen met het grootste gemak verwerken. Vertrouwd met technische concepten. Creativiteit moet ook een relevante oplossing bieden voor het gestelde probleem! Samenhangend kunnen redeneren. Het is goed om samen creatief te zijn om kritisch denken te ontwikkelen. Je hebt een aantal boeken van creativiteitsdeskundigen gelezen om je te inspireren. Willen streven naar expertise. De dingen achtereenvolgens beschouwen. Aandacht voor de ontwikkeling van creatieve vaardigheden\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Fantasierijk\", \"Visionair\"],\n        color: \"#005F8E\",\n        description: \"Je bent goed in het combineren en synthetiseren van ideeën. Je staat versteld van ontwerpers en kunstenaars. Je ziet graag het grote geheel en verliest je niet in de details. Je bent vertrouwd met abstract en conceptueel denken. Je haalt je inspiratie graag overal vandaan en bent nieuwsgierig naar alles. Een succesvolle creatieve sessie is bijna als een spel. Je waardeert gedurfde persoonlijkheden. Met creativiteit kan je je de toekomst voorstellen, je houdt van visionaire projecten. Je lanceert je ideeën graag spontaan: de eerste ideeën zijn vaak de beste. Je gelooft dat je intuïtie een goede raadgever is. Je denkt vaak in beelden en metaforen. Je experimenteert graag\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Gedetailleerd\", \"Onderzoeker\"],\n        color: \"#00476B\",\n        description: \"Je probeert jezelf onder bedwang te houden om de creatieve oefening niet te beïnvloeden. Ideeën hebben ligt binnen ieders bereik! Wat telt is hoe je ze implementeert. Je voert nieuwe ideeën graag uit volgens een nauwkeurig tijdsbestek. Er wordt vaak een beroep gedaan op jouw organisatorische vaardigheden. Je bent nieuwsgierig naar de verschillende stadia van het creatieve proces. Je vindt het leuk om alle ideeën op te sommen zonder ze te beoordelen: je moet voorzichtig zijn in het begin. Je houdt van erkende en bewezen creatieve technieken. Bij een creatieve oefening moet je je niet teveel laten leiden door je emoties. Een creatieve sessie moet goed georganiseerd zijn. Je herinnert graag aan de regels van best practice voordat je aan een creatieve sessie begint\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire}>\r\n                <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n               <Answer questions={this.state.questionnaire.questions} categories={this.state.questionnaire.categories} />\r\n                <div className=\"asterix\">\r\n                <p>*{this.state.questionnaire.asterix}</p>\r\n                </div>\r\n                </div>\r\n               \r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Valideren\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Het resultaat verbergen\" : btn.text = \"Valideren\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: element.color\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Bewaren</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Jouw favoriete kleuren</div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((answer, index) => <Fragment key={index}>\r\n                                            <h3>{answer.text.join(' ')}</h3>\r\n                                            <p>{answer.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div>\r\n                                        <ToPrint ref={this.printRef} title={data.title}>\r\n                                            {message}\r\n                                        </ToPrint>\r\n                                        <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                        </div>\r\n                                    </div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Creativiteit/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

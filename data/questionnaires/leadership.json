@@ -1,0 +1,2008 @@
+{
+  "routePath": "/leadership",
+  "routeComponent": "Leadership",
+  "routeImportSource": "./Components/Leadership",
+  "extractionTimestamp": "2026-04-19T10:07:00.857Z",
+  "sourceFiles": [
+    "src/Components/Leadership.js",
+    "src/Components/Leadership/Components/Answer.js",
+    "src/Components/Leadership/Components/Context.js",
+    "src/Components/Leadership/Components/Header.js",
+    "src/Components/Leadership/Components/Question.js",
+    "src/Components/Leadership/Components/Questionnaire.js",
+    "src/Components/Leadership/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "Auto-diagnostic des styles de Leadership",
+    "description": "L'objectif du questionnaire est de vous donner l'information sur la perception que vous avez de votre propre style de management. Cet exercice propose vingt situations professionnelles typiques qui impliquent un dirigeant et un ou plusieurs collaborateurs.",
+    "instruction": "Parmi chaque situation, cochez une solution dont vous pensez qu'elle est la plus proche du comportement qui serait le vôtre dans la situation donnée.",
+    "completed": false,
+    "categories": [
+      {
+        "id": 11,
+        "text": [
+          "Comptétion"
+        ],
+        "value": 0
+      },
+      {
+        "id": 12,
+        "text": [
+          "Collaboration"
+        ],
+        "value": 0
+      },
+      {
+        "id": 13,
+        "text": [
+          "Compromis"
+        ],
+        "value": 0
+      },
+      {
+        "id": 14,
+        "text": [
+          "Eviter"
+        ],
+        "value": 0
+      },
+      {
+        "id": 15,
+        "text": [
+          "Céder"
+        ],
+        "value": 0
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "completed": false,
+        "text": "Vous avez demandé à une de vos collaboratrices de rédiger un rapport sur l'achat d'un nouvel appareil pour votre division. Vous pensez qu'elle est capable de faire cette démarche et, qu'avec votre encouragement, elle pourra la réaliser à temps. Cependant, le rapport est en retard. Vous allez...",
+        "choices": [
+          {
+            "id": 31,
+            "name": "Lui dire que vous voulez obtenir ce rapport, lui expliquer ce qui doit y figurer et suivre quotidiennement sa progression",
+            "categoryId": 14
+          },
+          {
+            "id": 32,
+            "name": "Lui accorder plus de temps pour accomplir sa mission",
+            "categoryId": 15
+          },
+          {
+            "id": 33,
+            "name": "Lui dire ce que vous attendez, quand vous voulez que ce rapport soit prêt, mais lui accorder du temps pour discuter avec elle des raisons pour lesquelles ce rapport n'est pas terminé",
+            "categoryId": 14
+          },
+          {
+            "id": 34,
+            "name": "Lui parler et l'encourager à terminer ce rapport",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "completed": false,
+        "text": "Vous avez la direction d'un groupe de travail spécial qui travaille durement pour terminer un rapport, destiné à tous les départements de votre firme. Votre groupe se voit affecter un nouveau membre. Il a un rapport financier à rédiger pour sa division d'ici la fin de la semaine prochaine, mais il ne sait rien des exigences qui ont été posées à l'égard du groupe de travail ni comment le rapport doit être présenté. Il est à la fois nerveux et enthousiaste à l'idée d'en savoir plus sur son rôle dans le groupe. Il veut apprendre aussi vite que possible. Vous allez...",
+        "choices": [
+          {
+            "id": 35,
+            "name": "Lui expliquer exactement ce qu'on doit pouvoir trouver dans le rapport et vous faites ce qu'il faut pour le suivre pas à pas dans ses prestations.",
+            "categoryId": 14
+          },
+          {
+            "id": 36,
+            "name": "Lui demander si vous pouvez faire quelque chose pour l'aider et soutenir son enthousiasme en tant que nouveau membre du groupe de travail.",
+            "categoryId": 15
+          },
+          {
+            "id": 37,
+            "name": "Lui expliquer la charpente du rapport et tous les détails, et y intégrer les idées qu'il pourrait avoir.",
+            "categoryId": 14
+          },
+          {
+            "id": 38,
+            "name": "L'accueillir dans le groupe, lui permettre de faire connaissance avec les autres membres du groupe de travail qui peuvent l'aider à présenter son rapport financier.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "completed": false,
+        "text": "Vous avez récemment eu quelques difficultés avec un de vos collaborateurs. Il est devenu lent et amorphe. Ce n'est que grâce à votre insistance et à votre appui constant que le travail a finalement été mené à bien. Vous fondant sur l'expérience que vous avez de lui, vous supposez qu'il manque d'expertise pour exécuter la mission hautement prioritaire que vous allez lui confier. Vous allez...",
+        "choices": [
+          {
+            "id": 39,
+            "name": "Continuer à le diriger et suivre à la trace l'avancement de son travail.",
+            "categoryId": 14
+          },
+          {
+            "id": 310,
+            "name": "Continuer à garder le contrôle direct de son travail et tenter de mieux diagnostiquer et comprendre ses attitudes et sentiments concernant les responsabilités qu'on lui a assignées.",
+            "categoryId": 15
+          },
+          {
+            "id": 311,
+            "name": "L'impliquer dans les problèmes qu'entraîne ce travail, lui offrir de l'aide et utiliser ses idées pour l'accomplissement du travail.",
+            "categoryId": 14
+          },
+          {
+            "id": 312,
+            "name": "Lui faire savoir qu'il s'agit d'un travail important et lui demander de vous contacter au cas où il aurait des questions ou des problèmes à ce propos.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "completed": false,
+        "text": "Votre groupe travaille dans la plupart des cas de façon efficace sous votre direction et avec vos encouragements. Malgré vos instructions précises et votre soutien constants, sa performance a sensiblement diminué. Le groupe a besoin d'un surplus de connaissance et d'expérience afin d'améliorer ses prestations. Votre chef est inquiet. Vous allez...",
+        "choices": [
+          {
+            "id": 313,
+            "name": "Mettre l'accent sur le besoin de meilleures performances et demander au groupe de résoudre lui-même ses problèmes.",
+            "categoryId": 14
+          },
+          {
+            "id": 314,
+            "name": "Veiller au repsect des délais fixés et à la bonne qualité du travail, mais parler avec le groupe pour savoir ce qu'il suggère.",
+            "categoryId": 15
+          },
+          {
+            "id": 315,
+            "name": "Informer exactement le groupe de ce que vous attendez de lui, quand il est nécessaire que ce soit prêt et quelles seraient les suites d'un maintien des mauvaises performances, et surveiller régulièrement leur progression.",
+            "categoryId": 14
+          },
+          {
+            "id": 316,
+            "name": "Aider le groupe à déterminer ce qui doit être fait et l'encourager à prendre les initiatives nécessaires.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "completed": false,
+        "text": "Du fait d'une limitation d'ordre budgétaire, votre division est obligée de consolider. Vous avez demandé à une collaboratrice très expérimentée de s'occuper personnellement de la consolidation. Cette personne a travaillé à toutes les facettes de votre division et a dans le passé toujours mis beaucoup de bonne volonté à aider. Bien qu'elle dispose selon vous de la capacité nécessaire à accomplir cette mission, elle semble être peu intéressée par le job. Vous allez...",
+        "choices": [
+          {
+            "id": 317,
+            "name": "Assurer vous-même la consolidation, tout en tenant compte de ses suggestions.",
+            "categoryId": 14
+          },
+          {
+            "id": 318,
+            "name": "Lui confier la mission et la laisser juge de la manière de la faire.",
+            "categoryId": 15
+          },
+          {
+            "id": 319,
+            "name": "Discuter avec elle de la situation et l'encourager à accepter cette mission, compte tenu de ses connaissances et de son expérience.",
+            "categoryId": 14
+          },
+          {
+            "id": 320,
+            "name": "Prendre la consolidation sur vos épaules et lui dire clairement ce qu'il y a à faire. Suivre de près son travail.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "completed": false,
+        "text": "Une femme très productive et très efficace de votre équipe a demandé des conseils pour accomplir son travail. Elle travaille habituellement de façon indépendante et avec une grande efficacité. Elle connaît depuis peu quelques problèmes dans son travail : elle pense qu'elle n'est pas en mesure de les résoudre elle-même. Vous allez...",
+        "choices": [
+          {
+            "id": 321,
+            "name": "Analyser les problèmes et indiquer des méthodes pour les résoudre.",
+            "categoryId": 14
+          },
+          {
+            "id": 322,
+            "name": "Lui laisser le soin de trouver elle-même une solution adaptée.",
+            "categoryId": 15
+          },
+          {
+            "id": 323,
+            "name": "Discuter avec elle, puis déterminer et fixer la solution appropriée vous même, et faire en sorte qu'elle soit appliquée.",
+            "categoryId": 14
+          },
+          {
+            "id": 324,
+            "name": "Discuter avec elle des problèmes et lui apporter votre soutien dans la recherche de la solution appropriée.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "completed": false,
+        "text": "Vous avez demandé à un de vos collaborateurs seniors de prendre la responsabilité d'une nouvelle mission. Dans ses autres responsabilités, il a - avec votre soutien - obtenu de bons résultats. Le travail que vous lui avez demandé d'accomplir est important pour l'avenir de votre groupe. Il est armé pour cette mission mais ne sait pas par où commencer car il lui manque l'expérience de ce type de travail. Vous allez...",
+        "choices": [
+          {
+            "id": 377,
+            "name": "Discuter avec lui du travail et souligner ses capacités à l'accomplir en mettant l'accent sur ses excellentes performances passées.",
+            "categoryId": 14
+          },
+          {
+            "id": 378,
+            "name": "Définir les activités indispensables à cette mission et se renseigner régulièrement sur la progression du travail.",
+            "categoryId": 15
+          },
+          {
+            "id": 379,
+            "name": "Lui confier la mission et lui laisser déterminer lui-même la façon, dont il veut aller de l'avant. Lui dire de vous contacter s'il rencontre des problèmes.",
+            "categoryId": 14
+          },
+          {
+            "id": 380,
+            "name": "Spécifier ce qu'il a à faire, et éventuellement faire usage des idées qu'il pourrait avoir.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "completed": false,
+        "text": "Un de vos collaborateurs est mal à l'aise face au travail que vous lui avez confié récemment. Il est pourtant compétent, et vous savez qu'il a les capacités nécessaires pour mener efficacement à bien cette mission. Vous allez...",
+        "choices": [
+          {
+            "id": 325,
+            "name": "Tenir compte de ses soucis et lui faire savoir que vous avez pleine confiance dans ses capacités à accomplir cette mission.",
+            "categoryId": 14
+          },
+          {
+            "id": 326,
+            "name": "Structurer la mission de façon qu'elle soit claire, mais tenir comptes des suggestions positives qu'il pourrait faire.",
+            "categoryId": 15
+          },
+          {
+            "id": 327,
+            "name": "Lui expliquer de manière précise ce qu'il y a à faire et assure un contrôle quotidien de son travail.",
+            "categoryId": 14
+          },
+          {
+            "id": 328,
+            "name": "Lui laisser le soin de découvrir lui-même comment ce travail doit être accompli.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "completed": false,
+        "text": "Vos collaborateurs vous ont demandé d'apporter une modification à leur mode de travail. Dans le passé, vous avez encouragé et soutenu leurs suggestions. Dans les circonstances actuelles, votre équipe est convaincue qu'un changement est nécessaires. Les membres de votre groupe sont très compétents et forme une bonne équipe. Vous allez...",
+        "choices": [
+          {
+            "id": 329,
+            "name": "Associer le groupe au développement d'un nouveau mode de travail et encourager les propositions et suggestions de tous les membres de l'équipe.",
+            "categoryId": 14
+          },
+          {
+            "id": 330,
+            "name": "Développer et introduire vous-même le nouveau schéma, mais y apporter les propositions de vos gens.",
+            "categoryId": 15
+          },
+          {
+            "id": 331,
+            "name": "Autoriser l'équipe à formuler elle-même le nouveau schéma et à le mettre en place.",
+            "categoryId": 14
+          },
+          {
+            "id": 332,
+            "name": "Développer vous-même le nouveau schéma et suivre de près sa mise en place.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "completed": false,
+        "text": "Vous êtes arrivé une demi-heure en retard à une réunion avec votre groupe. Au moment où vous arrivez, la réunion n'a pas encore commencé. Il ressort d'une enquête que certains membres ont voulu entamer la réunion, mais que la plupart des membres du groupe étaient découragés par un manque d'esprit d'équipe. Cela vous étonne, car la progression du groupe sur le projet était bonne. Vous allez...",
+        "choices": [
+          {
+            "id": 333,
+            "name": "Redéfinir l'objectif de la réunion et laisser fonctionner l'équipe sans intervention de votre part pour autant qu'on ne vous appelle pas à l'aide.",
+            "categoryId": 14
+          },
+          {
+            "id": 334,
+            "name": "Prendre immédiatement le contrôle et guider le groupe vers la poursuite et l'accomplissement du projet.",
+            "categoryId": 15
+          },
+          {
+            "id": 335,
+            "name": "Diriger l'interaction entre les membres vers un accomplissement du projet et les encourager à discuter leurs problèmes et leurs sentiments.",
+            "categoryId": 14
+          },
+          {
+            "id": 336,
+            "name": "Demander au groupe de poursuivre la discussion du projet et lui apporter tout le soutien et l'encouragement possibles.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "completed": false,
+        "text": "Un collaborateur du département a déjà accompli plusieurs choses et ce grâce à votre attitude peu directive, mais pleine de soutien et d'encouragements. Pour l'année qui vient, ce collaborateur de votre division aura les mêmes tâches et les mêmes responsabilités, et vous devez décider comment vous allez le suivre. Vous allez...",
+        "choices": [
+          {
+            "id": 337,
+            "name": "Le laisser fonctionner indépendamment et assurer son propre contrôle et sa propre motivation, sans trop de directivité ou de soutien.",
+            "categoryId": 14
+          },
+          {
+            "id": 338,
+            "name": "Mettre l'accent sur l'importance des objectifs à atteindre et diriger ses actions vers l'accomplissement de la mission assignée.",
+            "categoryId": 15
+          },
+          {
+            "id": 339,
+            "name": "Lui parler et fixer des buts et des objectifs à l'accomplissement de son travail, mais prendre ses suggestions en considération.",
+            "categoryId": 14
+          },
+          {
+            "id": 340,
+            "name": "L'impliquer dans la fixation d'objectifs et soutenir ses efforts.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "completed": false,
+        "text": "Dans le passé, vous avez travaillé en collaboration étroite avec votre groupe, en dirigeant et en soutenant leurs efforts. La productivité est élevée et vos gens forment une bonne équipe. Connaissant leurs possibilités, vous pensez qu'ils peuvent désormais travailler plus indépendamment. Vous avez à présent centré votre énergie sur d'autres domaines, et vos gens ont continué à remporter de bons résultats. Vous devez maintenant leur demander d'accepter un surcroît de travail. Vous allez...",
+        "choices": [
+          {
+            "id": 341,
+            "name": "Leur assigner le travail, vous assure qu'ils savent clairement ce qu'ils doivent faire et garder un contrôle vigilant.",
+            "categoryId": 14
+          },
+          {
+            "id": 342,
+            "name": "Leur donner le travail. Leur dire à quel point vous êtes satisfait de leurs performances passées, et que vous êtes convaincu qu'ils vont également faire merveille dans cette tâche.",
+            "categoryId": 15
+          },
+          {
+            "id": 343,
+            "name": "Vous assurez qu'ils ont bien compris ce qu'il y a à faire et intégrer dans la mission toutes les bonnes suggestions qu'ils pourraient faire.",
+            "categoryId": 14
+          },
+          {
+            "id": 344,
+            "name": "Les laisser décider eux-mêmes comment ils vont accomplir la mission.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "completed": false,
+        "text": "Vous avez récemment reçu un nouveau collaborateur supplémentaire pour un travail important. Bien qu'il soit inexpérimenté, il est enthousiaste et est convaincu qu'il peut accomplir le travail. Vous allez...",
+        "choices": [
+          {
+            "id": 345,
+            "name": "Le laisser déterminer quel est le contenu du job et comment il faut l'accomplir.",
+            "categoryId": 14
+          },
+          {
+            "id": 346,
+            "name": "Lui dire clairement quel est le contenu du job et ce que vous attendez de lui, et exercer un contrôle rapproché et régulier sur son travail.",
+            "categoryId": 15
+          },
+          {
+            "id": 347,
+            "name": "Lui expliquer ce que vous voulez lui faire faire, mais explorer s'il a des idées ou des suggestions.",
+            "categoryId": 14
+          },
+          {
+            "id": 348,
+            "name": "L'encourager et valoriser son enthousiasme, et lui demander comment il aborderait son job.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "completed": false,
+        "text": "Votre chef a demandé d'augmenter de 10% la productivité de votre division. Vous savez que c'est possible mais que cela exigera une implication active de votre part. Pour vous libérer à cet effet, vous devez déléguer la mise en place d'un nouveau système de contrôle des coûts. La collaboratrice à laquelle vous pensez pouvoir confier cette tâche possède une expérience considérable des systèmes de contrôle des coûts, mais semble avoir confiance en elle pour fonctionner de manière autonome... Vous allez...",
+        "choices": [
+          {
+            "id": 349,
+            "name": "Lui demander d'accepter cette mission, l'encourager et soutenir ses efforts.",
+            "categoryId": 14
+          },
+          {
+            "id": 350,
+            "name": "Parler avec elle de la mission, expliquer comment vous désirez que le travail soit fait, mais rester à l'écouter de ses éventuelles suggestions.",
+            "categoryId": 15
+          },
+          {
+            "id": 351,
+            "name": "Lui confier la mission et la laisser déterminer elle-même comment elle va la mener à bien.",
+            "categoryId": 14
+          },
+          {
+            "id": 352,
+            "name": "Lui confier la mission et rédiger un mémo dans lequel sont expliquées en détail toutes les étapes à franchir pour réaliser le travail.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "completed": false,
+        "text": "Une de vos collaboratrices a fait une suggestion portant sur un changement des méthodes de travail du groupe. Vous la trouvez logique. Dans le passé, elle a déjà eu l'occasion de faire des propositions et de les mettre en pratique avec vos encouragements et votre soutien. Vous avez confiance dans ses capacités. Vous allez...",
+        "choices": [
+          {
+            "id": 353,
+            "name": "Prendre la responsabilité de l'initiative et suivre activement cette collaboratrice lors de l'exécution du projet.",
+            "categoryId": 14
+          },
+          {
+            "id": 354,
+            "name": "Discuter avec elle de sa suggestion et la soutenir dans ses efforts pour implémenter le changement.",
+            "categoryId": 15
+          },
+          {
+            "id": 355,
+            "name": "Organiser vous-même la réalisation mais y englober ses idées.",
+            "categoryId": 14
+          },
+          {
+            "id": 356,
+            "name": "Lui confier la responsabilité de l'implémentation du changement sans vous y impliquer vous-même.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "completed": false,
+        "text": "Du fait d'une maladie dans votre famille, vous avez été contraint de manquer les deux premières réunions d'un comité placé sour votre direction. Vous avez découvert, en assistant à la troisième réunion, que le comité fonctionne bien et remporte de bons scores dans la poursuite de ses objectifs. Vous n'êtes pas certain d'avoir votre place dans ce groupe et ne savez pas quel rôle vous avez à y jouer. Vous allez...",
+        "choices": [
+          {
+            "id": 357,
+            "name": "Assister à la réunion mais laisser le groupe poursuivre son travail comme il l'a fait au cours des deux premières réunions.",
+            "categoryId": 14
+          },
+          {
+            "id": 358,
+            "name": "Reprendre la direction du comité et commencer à diriger ses activités.",
+            "categoryId": 15
+          },
+          {
+            "id": 359,
+            "name": "Faire ce que vous pouvez pour que le comité se sente important et concerné et soutenir les efforts accomplis.",
+            "categoryId": 14
+          },
+          {
+            "id": 360,
+            "name": "Diriger les activités du groupe, mais y intégrer les suggestions des membres du groupe.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "completed": false,
+        "text": "Votre équipe est très compétente et en mesure de bien travailler seule. Vous l'avez généralement laissée travailler indépendamment et avez délégué les responsabilités clés à des membres individuels. Leurs performances sont remarquables. Vous allez...",
+        "choices": [
+          {
+            "id": 361,
+            "name": "Apporter un soutien permanent et encourager les gens.",
+            "categoryId": 14
+          },
+          {
+            "id": 362,
+            "name": "Donner des indications et suivre de près leurs activités.",
+            "categoryId": 15
+          },
+          {
+            "id": 363,
+            "name": "Laisser le groupe continuer à travailler indépendamment.",
+            "categoryId": 14
+          },
+          {
+            "id": 364,
+            "name": "Diriger leurs efforts mais travailler en étroite collaboration avec eux pour être informé de leurs suggestions.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "completed": false,
+        "text": "Vos chefs et vous-même avez décidé qu'il faut introduire une nouvelle procédure dans votre division de manière à permettre une amélioration à long terme de la performance. Dans le passé, lors de l'implémentation de nouvelles procédures, vos gens se montraient enthousiastes à l'idée d'en faire usage, mais n'avaient pas, au départ, les connaissances requises pour les mettre en pratique. Vous allez...",
+        "choices": [
+          {
+            "id": 365,
+            "name": "Diriger vous-même l'implémentation de le nouvelle procédure, mais y impliquer le groupe en discutant les autres solutions possibles.",
+            "categoryId": 14
+          },
+          {
+            "id": 366,
+            "name": "Reprendre les rênes du groupe au début de l'application de la nouvelle procédure.",
+            "categoryId": 15
+          },
+          {
+            "id": 367,
+            "name": "Mêler le groupe aux discussions concernant la nouvelle procédure et stimuler leur coopération et leur implication.",
+            "categoryId": 14
+          },
+          {
+            "id": 368,
+            "name": "Laisser formuler et implémenter la nouvelle procédure par le groupe lui-même.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 219,
+        "completed": false,
+        "text": "Vous avez récemment été nommé chef de la division. Avec son patron précédent, la division a foncitonné de façon satisfaisante, avec beaucoup de soutien et d'encouragement. Après, que vous ayez repris la division, le groupe semble s'occuper plus d'actvités sociales que l'exécution de sa mission. A présent, les performances sont mauvaises. Vous allez...",
+        "choices": [
+          {
+            "id": 369,
+            "name": "Discuter avec le groupe de la faiblesse de leurs performances et les soutenir dans leurs efforts pour prendre des mesures en vue de les améliorer.",
+            "categoryId": 14
+          },
+          {
+            "id": 370,
+            "name": "Organiser et mener les mesures correctives nécessaires, tout en demandant l'apport et les suggestions du groupe.",
+            "categoryId": 15
+          },
+          {
+            "id": 371,
+            "name": "Faire état du problème et pousser les membres du groupe à prendre leurs propres responsabilités et à agir.",
+            "categoryId": 14
+          },
+          {
+            "id": 372,
+            "name": "Définir les tâches, les responsabilités et les résultats, et s'enquérir régulièrement de l'amélioration des performances.",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "completed": false,
+        "text": "Une de vos collaboratrices hésite à accepter une nouvelle mission. Elle a une expérience limitée dans le domaine où vous voulez la faire travailler. Elle a fourni du bon travail dans d'autres fonctions que vous lui avez confiées. Vous allez...",
+        "choices": [
+          {
+            "id": 373,
+            "name": "Lui expliquer ce qu'il y a à faire et comment elle doit le faire, mais aussi écouter ce qu'elle vous dit concernant la raison pour laquelle elle hésite à accepter ce nouveau challenge.",
+            "categoryId": 14
+          },
+          {
+            "id": 374,
+            "name": "Lui confier la nouvelle mission et lui faire déterminer elle-même la meilleure manière de l'accomplir.",
+            "categoryId": 15
+          },
+          {
+            "id": 375,
+            "name": "L'encourager à essayer d'accepter cette mission et faciliter ses efforts en résolvant ensemble les problèmes.",
+            "categoryId": 14
+          },
+          {
+            "id": 376,
+            "name": "Lui expliquer clairement ce qui doit être fait pour mener à bien la mission et exercer un contrôle régulier sur ses prestations.",
+            "categoryId": 15
+          }
+        ]
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Auto-diagnostic des styles de Leadership",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": "Vous avez demandé à une de vos collaboratrices de rédiger un rapport sur l'achat d'un nouvel appareil pour votre division. Vous pensez qu'elle est capable de faire cette démarche et, qu'avec votre encouragement, elle pourra la réaliser à temps. Cependant, le rapport est en retard. Vous allez...",
+            "raw": {
+              "id": 21,
+              "completed": false,
+              "text": "Vous avez demandé à une de vos collaboratrices de rédiger un rapport sur l'achat d'un nouvel appareil pour votre division. Vous pensez qu'elle est capable de faire cette démarche et, qu'avec votre encouragement, elle pourra la réaliser à temps. Cependant, le rapport est en retard. Vous allez...",
+              "choices": [
+                {
+                  "id": 31,
+                  "name": "Lui dire que vous voulez obtenir ce rapport, lui expliquer ce qui doit y figurer et suivre quotidiennement sa progression",
+                  "categoryId": 14
+                },
+                {
+                  "id": 32,
+                  "name": "Lui accorder plus de temps pour accomplir sa mission",
+                  "categoryId": 15
+                },
+                {
+                  "id": 33,
+                  "name": "Lui dire ce que vous attendez, quand vous voulez que ce rapport soit prêt, mais lui accorder du temps pour discuter avec elle des raisons pour lesquelles ce rapport n'est pas terminé",
+                  "categoryId": 14
+                },
+                {
+                  "id": 34,
+                  "name": "Lui parler et l'encourager à terminer ce rapport",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 31,
+                "name": "Lui dire que vous voulez obtenir ce rapport, lui expliquer ce qui doit y figurer et suivre quotidiennement sa progression",
+                "categoryId": 14
+              },
+              {
+                "id": 32,
+                "name": "Lui accorder plus de temps pour accomplir sa mission",
+                "categoryId": 15
+              },
+              {
+                "id": 33,
+                "name": "Lui dire ce que vous attendez, quand vous voulez que ce rapport soit prêt, mais lui accorder du temps pour discuter avec elle des raisons pour lesquelles ce rapport n'est pas terminé",
+                "categoryId": 14
+              },
+              {
+                "id": 34,
+                "name": "Lui parler et l'encourager à terminer ce rapport",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Vous avez la direction d'un groupe de travail spécial qui travaille durement pour terminer un rapport, destiné à tous les départements de votre firme. Votre groupe se voit affecter un nouveau membre. Il a un rapport financier à rédiger pour sa division d'ici la fin de la semaine prochaine, mais il ne sait rien des exigences qui ont été posées à l'égard du groupe de travail ni comment le rapport doit être présenté. Il est à la fois nerveux et enthousiaste à l'idée d'en savoir plus sur son rôle dans le groupe. Il veut apprendre aussi vite que possible. Vous allez...",
+            "raw": {
+              "id": 22,
+              "completed": false,
+              "text": "Vous avez la direction d'un groupe de travail spécial qui travaille durement pour terminer un rapport, destiné à tous les départements de votre firme. Votre groupe se voit affecter un nouveau membre. Il a un rapport financier à rédiger pour sa division d'ici la fin de la semaine prochaine, mais il ne sait rien des exigences qui ont été posées à l'égard du groupe de travail ni comment le rapport doit être présenté. Il est à la fois nerveux et enthousiaste à l'idée d'en savoir plus sur son rôle dans le groupe. Il veut apprendre aussi vite que possible. Vous allez...",
+              "choices": [
+                {
+                  "id": 35,
+                  "name": "Lui expliquer exactement ce qu'on doit pouvoir trouver dans le rapport et vous faites ce qu'il faut pour le suivre pas à pas dans ses prestations.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 36,
+                  "name": "Lui demander si vous pouvez faire quelque chose pour l'aider et soutenir son enthousiasme en tant que nouveau membre du groupe de travail.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 37,
+                  "name": "Lui expliquer la charpente du rapport et tous les détails, et y intégrer les idées qu'il pourrait avoir.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 38,
+                  "name": "L'accueillir dans le groupe, lui permettre de faire connaissance avec les autres membres du groupe de travail qui peuvent l'aider à présenter son rapport financier.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 35,
+                "name": "Lui expliquer exactement ce qu'on doit pouvoir trouver dans le rapport et vous faites ce qu'il faut pour le suivre pas à pas dans ses prestations.",
+                "categoryId": 14
+              },
+              {
+                "id": 36,
+                "name": "Lui demander si vous pouvez faire quelque chose pour l'aider et soutenir son enthousiasme en tant que nouveau membre du groupe de travail.",
+                "categoryId": 15
+              },
+              {
+                "id": 37,
+                "name": "Lui expliquer la charpente du rapport et tous les détails, et y intégrer les idées qu'il pourrait avoir.",
+                "categoryId": 14
+              },
+              {
+                "id": 38,
+                "name": "L'accueillir dans le groupe, lui permettre de faire connaissance avec les autres membres du groupe de travail qui peuvent l'aider à présenter son rapport financier.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Vous avez récemment eu quelques difficultés avec un de vos collaborateurs. Il est devenu lent et amorphe. Ce n'est que grâce à votre insistance et à votre appui constant que le travail a finalement été mené à bien. Vous fondant sur l'expérience que vous avez de lui, vous supposez qu'il manque d'expertise pour exécuter la mission hautement prioritaire que vous allez lui confier. Vous allez...",
+            "raw": {
+              "id": 23,
+              "completed": false,
+              "text": "Vous avez récemment eu quelques difficultés avec un de vos collaborateurs. Il est devenu lent et amorphe. Ce n'est que grâce à votre insistance et à votre appui constant que le travail a finalement été mené à bien. Vous fondant sur l'expérience que vous avez de lui, vous supposez qu'il manque d'expertise pour exécuter la mission hautement prioritaire que vous allez lui confier. Vous allez...",
+              "choices": [
+                {
+                  "id": 39,
+                  "name": "Continuer à le diriger et suivre à la trace l'avancement de son travail.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 310,
+                  "name": "Continuer à garder le contrôle direct de son travail et tenter de mieux diagnostiquer et comprendre ses attitudes et sentiments concernant les responsabilités qu'on lui a assignées.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 311,
+                  "name": "L'impliquer dans les problèmes qu'entraîne ce travail, lui offrir de l'aide et utiliser ses idées pour l'accomplissement du travail.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 312,
+                  "name": "Lui faire savoir qu'il s'agit d'un travail important et lui demander de vous contacter au cas où il aurait des questions ou des problèmes à ce propos.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 39,
+                "name": "Continuer à le diriger et suivre à la trace l'avancement de son travail.",
+                "categoryId": 14
+              },
+              {
+                "id": 310,
+                "name": "Continuer à garder le contrôle direct de son travail et tenter de mieux diagnostiquer et comprendre ses attitudes et sentiments concernant les responsabilités qu'on lui a assignées.",
+                "categoryId": 15
+              },
+              {
+                "id": 311,
+                "name": "L'impliquer dans les problèmes qu'entraîne ce travail, lui offrir de l'aide et utiliser ses idées pour l'accomplissement du travail.",
+                "categoryId": 14
+              },
+              {
+                "id": 312,
+                "name": "Lui faire savoir qu'il s'agit d'un travail important et lui demander de vous contacter au cas où il aurait des questions ou des problèmes à ce propos.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Votre groupe travaille dans la plupart des cas de façon efficace sous votre direction et avec vos encouragements. Malgré vos instructions précises et votre soutien constants, sa performance a sensiblement diminué. Le groupe a besoin d'un surplus de connaissance et d'expérience afin d'améliorer ses prestations. Votre chef est inquiet. Vous allez...",
+            "raw": {
+              "id": 24,
+              "completed": false,
+              "text": "Votre groupe travaille dans la plupart des cas de façon efficace sous votre direction et avec vos encouragements. Malgré vos instructions précises et votre soutien constants, sa performance a sensiblement diminué. Le groupe a besoin d'un surplus de connaissance et d'expérience afin d'améliorer ses prestations. Votre chef est inquiet. Vous allez...",
+              "choices": [
+                {
+                  "id": 313,
+                  "name": "Mettre l'accent sur le besoin de meilleures performances et demander au groupe de résoudre lui-même ses problèmes.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 314,
+                  "name": "Veiller au repsect des délais fixés et à la bonne qualité du travail, mais parler avec le groupe pour savoir ce qu'il suggère.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 315,
+                  "name": "Informer exactement le groupe de ce que vous attendez de lui, quand il est nécessaire que ce soit prêt et quelles seraient les suites d'un maintien des mauvaises performances, et surveiller régulièrement leur progression.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 316,
+                  "name": "Aider le groupe à déterminer ce qui doit être fait et l'encourager à prendre les initiatives nécessaires.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 313,
+                "name": "Mettre l'accent sur le besoin de meilleures performances et demander au groupe de résoudre lui-même ses problèmes.",
+                "categoryId": 14
+              },
+              {
+                "id": 314,
+                "name": "Veiller au repsect des délais fixés et à la bonne qualité du travail, mais parler avec le groupe pour savoir ce qu'il suggère.",
+                "categoryId": 15
+              },
+              {
+                "id": 315,
+                "name": "Informer exactement le groupe de ce que vous attendez de lui, quand il est nécessaire que ce soit prêt et quelles seraient les suites d'un maintien des mauvaises performances, et surveiller régulièrement leur progression.",
+                "categoryId": 14
+              },
+              {
+                "id": 316,
+                "name": "Aider le groupe à déterminer ce qui doit être fait et l'encourager à prendre les initiatives nécessaires.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Du fait d'une limitation d'ordre budgétaire, votre division est obligée de consolider. Vous avez demandé à une collaboratrice très expérimentée de s'occuper personnellement de la consolidation. Cette personne a travaillé à toutes les facettes de votre division et a dans le passé toujours mis beaucoup de bonne volonté à aider. Bien qu'elle dispose selon vous de la capacité nécessaire à accomplir cette mission, elle semble être peu intéressée par le job. Vous allez...",
+            "raw": {
+              "id": 25,
+              "completed": false,
+              "text": "Du fait d'une limitation d'ordre budgétaire, votre division est obligée de consolider. Vous avez demandé à une collaboratrice très expérimentée de s'occuper personnellement de la consolidation. Cette personne a travaillé à toutes les facettes de votre division et a dans le passé toujours mis beaucoup de bonne volonté à aider. Bien qu'elle dispose selon vous de la capacité nécessaire à accomplir cette mission, elle semble être peu intéressée par le job. Vous allez...",
+              "choices": [
+                {
+                  "id": 317,
+                  "name": "Assurer vous-même la consolidation, tout en tenant compte de ses suggestions.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 318,
+                  "name": "Lui confier la mission et la laisser juge de la manière de la faire.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 319,
+                  "name": "Discuter avec elle de la situation et l'encourager à accepter cette mission, compte tenu de ses connaissances et de son expérience.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 320,
+                  "name": "Prendre la consolidation sur vos épaules et lui dire clairement ce qu'il y a à faire. Suivre de près son travail.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 317,
+                "name": "Assurer vous-même la consolidation, tout en tenant compte de ses suggestions.",
+                "categoryId": 14
+              },
+              {
+                "id": 318,
+                "name": "Lui confier la mission et la laisser juge de la manière de la faire.",
+                "categoryId": 15
+              },
+              {
+                "id": 319,
+                "name": "Discuter avec elle de la situation et l'encourager à accepter cette mission, compte tenu de ses connaissances et de son expérience.",
+                "categoryId": 14
+              },
+              {
+                "id": 320,
+                "name": "Prendre la consolidation sur vos épaules et lui dire clairement ce qu'il y a à faire. Suivre de près son travail.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Une femme très productive et très efficace de votre équipe a demandé des conseils pour accomplir son travail. Elle travaille habituellement de façon indépendante et avec une grande efficacité. Elle connaît depuis peu quelques problèmes dans son travail : elle pense qu'elle n'est pas en mesure de les résoudre elle-même. Vous allez...",
+            "raw": {
+              "id": 26,
+              "completed": false,
+              "text": "Une femme très productive et très efficace de votre équipe a demandé des conseils pour accomplir son travail. Elle travaille habituellement de façon indépendante et avec une grande efficacité. Elle connaît depuis peu quelques problèmes dans son travail : elle pense qu'elle n'est pas en mesure de les résoudre elle-même. Vous allez...",
+              "choices": [
+                {
+                  "id": 321,
+                  "name": "Analyser les problèmes et indiquer des méthodes pour les résoudre.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 322,
+                  "name": "Lui laisser le soin de trouver elle-même une solution adaptée.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 323,
+                  "name": "Discuter avec elle, puis déterminer et fixer la solution appropriée vous même, et faire en sorte qu'elle soit appliquée.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 324,
+                  "name": "Discuter avec elle des problèmes et lui apporter votre soutien dans la recherche de la solution appropriée.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 321,
+                "name": "Analyser les problèmes et indiquer des méthodes pour les résoudre.",
+                "categoryId": 14
+              },
+              {
+                "id": 322,
+                "name": "Lui laisser le soin de trouver elle-même une solution adaptée.",
+                "categoryId": 15
+              },
+              {
+                "id": 323,
+                "name": "Discuter avec elle, puis déterminer et fixer la solution appropriée vous même, et faire en sorte qu'elle soit appliquée.",
+                "categoryId": 14
+              },
+              {
+                "id": 324,
+                "name": "Discuter avec elle des problèmes et lui apporter votre soutien dans la recherche de la solution appropriée.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Vous avez demandé à un de vos collaborateurs seniors de prendre la responsabilité d'une nouvelle mission. Dans ses autres responsabilités, il a - avec votre soutien - obtenu de bons résultats. Le travail que vous lui avez demandé d'accomplir est important pour l'avenir de votre groupe. Il est armé pour cette mission mais ne sait pas par où commencer car il lui manque l'expérience de ce type de travail. Vous allez...",
+            "raw": {
+              "id": 27,
+              "completed": false,
+              "text": "Vous avez demandé à un de vos collaborateurs seniors de prendre la responsabilité d'une nouvelle mission. Dans ses autres responsabilités, il a - avec votre soutien - obtenu de bons résultats. Le travail que vous lui avez demandé d'accomplir est important pour l'avenir de votre groupe. Il est armé pour cette mission mais ne sait pas par où commencer car il lui manque l'expérience de ce type de travail. Vous allez...",
+              "choices": [
+                {
+                  "id": 377,
+                  "name": "Discuter avec lui du travail et souligner ses capacités à l'accomplir en mettant l'accent sur ses excellentes performances passées.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 378,
+                  "name": "Définir les activités indispensables à cette mission et se renseigner régulièrement sur la progression du travail.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 379,
+                  "name": "Lui confier la mission et lui laisser déterminer lui-même la façon, dont il veut aller de l'avant. Lui dire de vous contacter s'il rencontre des problèmes.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 380,
+                  "name": "Spécifier ce qu'il a à faire, et éventuellement faire usage des idées qu'il pourrait avoir.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 377,
+                "name": "Discuter avec lui du travail et souligner ses capacités à l'accomplir en mettant l'accent sur ses excellentes performances passées.",
+                "categoryId": 14
+              },
+              {
+                "id": 378,
+                "name": "Définir les activités indispensables à cette mission et se renseigner régulièrement sur la progression du travail.",
+                "categoryId": 15
+              },
+              {
+                "id": 379,
+                "name": "Lui confier la mission et lui laisser déterminer lui-même la façon, dont il veut aller de l'avant. Lui dire de vous contacter s'il rencontre des problèmes.",
+                "categoryId": 14
+              },
+              {
+                "id": 380,
+                "name": "Spécifier ce qu'il a à faire, et éventuellement faire usage des idées qu'il pourrait avoir.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Un de vos collaborateurs est mal à l'aise face au travail que vous lui avez confié récemment. Il est pourtant compétent, et vous savez qu'il a les capacités nécessaires pour mener efficacement à bien cette mission. Vous allez...",
+            "raw": {
+              "id": 28,
+              "completed": false,
+              "text": "Un de vos collaborateurs est mal à l'aise face au travail que vous lui avez confié récemment. Il est pourtant compétent, et vous savez qu'il a les capacités nécessaires pour mener efficacement à bien cette mission. Vous allez...",
+              "choices": [
+                {
+                  "id": 325,
+                  "name": "Tenir compte de ses soucis et lui faire savoir que vous avez pleine confiance dans ses capacités à accomplir cette mission.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 326,
+                  "name": "Structurer la mission de façon qu'elle soit claire, mais tenir comptes des suggestions positives qu'il pourrait faire.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 327,
+                  "name": "Lui expliquer de manière précise ce qu'il y a à faire et assure un contrôle quotidien de son travail.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 328,
+                  "name": "Lui laisser le soin de découvrir lui-même comment ce travail doit être accompli.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 325,
+                "name": "Tenir compte de ses soucis et lui faire savoir que vous avez pleine confiance dans ses capacités à accomplir cette mission.",
+                "categoryId": 14
+              },
+              {
+                "id": 326,
+                "name": "Structurer la mission de façon qu'elle soit claire, mais tenir comptes des suggestions positives qu'il pourrait faire.",
+                "categoryId": 15
+              },
+              {
+                "id": 327,
+                "name": "Lui expliquer de manière précise ce qu'il y a à faire et assure un contrôle quotidien de son travail.",
+                "categoryId": 14
+              },
+              {
+                "id": 328,
+                "name": "Lui laisser le soin de découvrir lui-même comment ce travail doit être accompli.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Vos collaborateurs vous ont demandé d'apporter une modification à leur mode de travail. Dans le passé, vous avez encouragé et soutenu leurs suggestions. Dans les circonstances actuelles, votre équipe est convaincue qu'un changement est nécessaires. Les membres de votre groupe sont très compétents et forme une bonne équipe. Vous allez...",
+            "raw": {
+              "id": 29,
+              "completed": false,
+              "text": "Vos collaborateurs vous ont demandé d'apporter une modification à leur mode de travail. Dans le passé, vous avez encouragé et soutenu leurs suggestions. Dans les circonstances actuelles, votre équipe est convaincue qu'un changement est nécessaires. Les membres de votre groupe sont très compétents et forme une bonne équipe. Vous allez...",
+              "choices": [
+                {
+                  "id": 329,
+                  "name": "Associer le groupe au développement d'un nouveau mode de travail et encourager les propositions et suggestions de tous les membres de l'équipe.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 330,
+                  "name": "Développer et introduire vous-même le nouveau schéma, mais y apporter les propositions de vos gens.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 331,
+                  "name": "Autoriser l'équipe à formuler elle-même le nouveau schéma et à le mettre en place.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 332,
+                  "name": "Développer vous-même le nouveau schéma et suivre de près sa mise en place.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 329,
+                "name": "Associer le groupe au développement d'un nouveau mode de travail et encourager les propositions et suggestions de tous les membres de l'équipe.",
+                "categoryId": 14
+              },
+              {
+                "id": 330,
+                "name": "Développer et introduire vous-même le nouveau schéma, mais y apporter les propositions de vos gens.",
+                "categoryId": 15
+              },
+              {
+                "id": 331,
+                "name": "Autoriser l'équipe à formuler elle-même le nouveau schéma et à le mettre en place.",
+                "categoryId": 14
+              },
+              {
+                "id": 332,
+                "name": "Développer vous-même le nouveau schéma et suivre de près sa mise en place.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "text": "Vous êtes arrivé une demi-heure en retard à une réunion avec votre groupe. Au moment où vous arrivez, la réunion n'a pas encore commencé. Il ressort d'une enquête que certains membres ont voulu entamer la réunion, mais que la plupart des membres du groupe étaient découragés par un manque d'esprit d'équipe. Cela vous étonne, car la progression du groupe sur le projet était bonne. Vous allez...",
+            "raw": {
+              "id": 210,
+              "completed": false,
+              "text": "Vous êtes arrivé une demi-heure en retard à une réunion avec votre groupe. Au moment où vous arrivez, la réunion n'a pas encore commencé. Il ressort d'une enquête que certains membres ont voulu entamer la réunion, mais que la plupart des membres du groupe étaient découragés par un manque d'esprit d'équipe. Cela vous étonne, car la progression du groupe sur le projet était bonne. Vous allez...",
+              "choices": [
+                {
+                  "id": 333,
+                  "name": "Redéfinir l'objectif de la réunion et laisser fonctionner l'équipe sans intervention de votre part pour autant qu'on ne vous appelle pas à l'aide.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 334,
+                  "name": "Prendre immédiatement le contrôle et guider le groupe vers la poursuite et l'accomplissement du projet.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 335,
+                  "name": "Diriger l'interaction entre les membres vers un accomplissement du projet et les encourager à discuter leurs problèmes et leurs sentiments.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 336,
+                  "name": "Demander au groupe de poursuivre la discussion du projet et lui apporter tout le soutien et l'encouragement possibles.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 333,
+                "name": "Redéfinir l'objectif de la réunion et laisser fonctionner l'équipe sans intervention de votre part pour autant qu'on ne vous appelle pas à l'aide.",
+                "categoryId": 14
+              },
+              {
+                "id": 334,
+                "name": "Prendre immédiatement le contrôle et guider le groupe vers la poursuite et l'accomplissement du projet.",
+                "categoryId": 15
+              },
+              {
+                "id": 335,
+                "name": "Diriger l'interaction entre les membres vers un accomplissement du projet et les encourager à discuter leurs problèmes et leurs sentiments.",
+                "categoryId": 14
+              },
+              {
+                "id": 336,
+                "name": "Demander au groupe de poursuivre la discussion du projet et lui apporter tout le soutien et l'encouragement possibles.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "text": "Un collaborateur du département a déjà accompli plusieurs choses et ce grâce à votre attitude peu directive, mais pleine de soutien et d'encouragements. Pour l'année qui vient, ce collaborateur de votre division aura les mêmes tâches et les mêmes responsabilités, et vous devez décider comment vous allez le suivre. Vous allez...",
+            "raw": {
+              "id": 211,
+              "completed": false,
+              "text": "Un collaborateur du département a déjà accompli plusieurs choses et ce grâce à votre attitude peu directive, mais pleine de soutien et d'encouragements. Pour l'année qui vient, ce collaborateur de votre division aura les mêmes tâches et les mêmes responsabilités, et vous devez décider comment vous allez le suivre. Vous allez...",
+              "choices": [
+                {
+                  "id": 337,
+                  "name": "Le laisser fonctionner indépendamment et assurer son propre contrôle et sa propre motivation, sans trop de directivité ou de soutien.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 338,
+                  "name": "Mettre l'accent sur l'importance des objectifs à atteindre et diriger ses actions vers l'accomplissement de la mission assignée.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 339,
+                  "name": "Lui parler et fixer des buts et des objectifs à l'accomplissement de son travail, mais prendre ses suggestions en considération.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 340,
+                  "name": "L'impliquer dans la fixation d'objectifs et soutenir ses efforts.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 337,
+                "name": "Le laisser fonctionner indépendamment et assurer son propre contrôle et sa propre motivation, sans trop de directivité ou de soutien.",
+                "categoryId": 14
+              },
+              {
+                "id": 338,
+                "name": "Mettre l'accent sur l'importance des objectifs à atteindre et diriger ses actions vers l'accomplissement de la mission assignée.",
+                "categoryId": 15
+              },
+              {
+                "id": 339,
+                "name": "Lui parler et fixer des buts et des objectifs à l'accomplissement de son travail, mais prendre ses suggestions en considération.",
+                "categoryId": 14
+              },
+              {
+                "id": 340,
+                "name": "L'impliquer dans la fixation d'objectifs et soutenir ses efforts.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "text": "Dans le passé, vous avez travaillé en collaboration étroite avec votre groupe, en dirigeant et en soutenant leurs efforts. La productivité est élevée et vos gens forment une bonne équipe. Connaissant leurs possibilités, vous pensez qu'ils peuvent désormais travailler plus indépendamment. Vous avez à présent centré votre énergie sur d'autres domaines, et vos gens ont continué à remporter de bons résultats. Vous devez maintenant leur demander d'accepter un surcroît de travail. Vous allez...",
+            "raw": {
+              "id": 212,
+              "completed": false,
+              "text": "Dans le passé, vous avez travaillé en collaboration étroite avec votre groupe, en dirigeant et en soutenant leurs efforts. La productivité est élevée et vos gens forment une bonne équipe. Connaissant leurs possibilités, vous pensez qu'ils peuvent désormais travailler plus indépendamment. Vous avez à présent centré votre énergie sur d'autres domaines, et vos gens ont continué à remporter de bons résultats. Vous devez maintenant leur demander d'accepter un surcroît de travail. Vous allez...",
+              "choices": [
+                {
+                  "id": 341,
+                  "name": "Leur assigner le travail, vous assure qu'ils savent clairement ce qu'ils doivent faire et garder un contrôle vigilant.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 342,
+                  "name": "Leur donner le travail. Leur dire à quel point vous êtes satisfait de leurs performances passées, et que vous êtes convaincu qu'ils vont également faire merveille dans cette tâche.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 343,
+                  "name": "Vous assurez qu'ils ont bien compris ce qu'il y a à faire et intégrer dans la mission toutes les bonnes suggestions qu'ils pourraient faire.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 344,
+                  "name": "Les laisser décider eux-mêmes comment ils vont accomplir la mission.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 341,
+                "name": "Leur assigner le travail, vous assure qu'ils savent clairement ce qu'ils doivent faire et garder un contrôle vigilant.",
+                "categoryId": 14
+              },
+              {
+                "id": 342,
+                "name": "Leur donner le travail. Leur dire à quel point vous êtes satisfait de leurs performances passées, et que vous êtes convaincu qu'ils vont également faire merveille dans cette tâche.",
+                "categoryId": 15
+              },
+              {
+                "id": 343,
+                "name": "Vous assurez qu'ils ont bien compris ce qu'il y a à faire et intégrer dans la mission toutes les bonnes suggestions qu'ils pourraient faire.",
+                "categoryId": 14
+              },
+              {
+                "id": 344,
+                "name": "Les laisser décider eux-mêmes comment ils vont accomplir la mission.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "text": "Vous avez récemment reçu un nouveau collaborateur supplémentaire pour un travail important. Bien qu'il soit inexpérimenté, il est enthousiaste et est convaincu qu'il peut accomplir le travail. Vous allez...",
+            "raw": {
+              "id": 213,
+              "completed": false,
+              "text": "Vous avez récemment reçu un nouveau collaborateur supplémentaire pour un travail important. Bien qu'il soit inexpérimenté, il est enthousiaste et est convaincu qu'il peut accomplir le travail. Vous allez...",
+              "choices": [
+                {
+                  "id": 345,
+                  "name": "Le laisser déterminer quel est le contenu du job et comment il faut l'accomplir.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 346,
+                  "name": "Lui dire clairement quel est le contenu du job et ce que vous attendez de lui, et exercer un contrôle rapproché et régulier sur son travail.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 347,
+                  "name": "Lui expliquer ce que vous voulez lui faire faire, mais explorer s'il a des idées ou des suggestions.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 348,
+                  "name": "L'encourager et valoriser son enthousiasme, et lui demander comment il aborderait son job.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 345,
+                "name": "Le laisser déterminer quel est le contenu du job et comment il faut l'accomplir.",
+                "categoryId": 14
+              },
+              {
+                "id": 346,
+                "name": "Lui dire clairement quel est le contenu du job et ce que vous attendez de lui, et exercer un contrôle rapproché et régulier sur son travail.",
+                "categoryId": 15
+              },
+              {
+                "id": 347,
+                "name": "Lui expliquer ce que vous voulez lui faire faire, mais explorer s'il a des idées ou des suggestions.",
+                "categoryId": 14
+              },
+              {
+                "id": 348,
+                "name": "L'encourager et valoriser son enthousiasme, et lui demander comment il aborderait son job.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "text": "Votre chef a demandé d'augmenter de 10% la productivité de votre division. Vous savez que c'est possible mais que cela exigera une implication active de votre part. Pour vous libérer à cet effet, vous devez déléguer la mise en place d'un nouveau système de contrôle des coûts. La collaboratrice à laquelle vous pensez pouvoir confier cette tâche possède une expérience considérable des systèmes de contrôle des coûts, mais semble avoir confiance en elle pour fonctionner de manière autonome... Vous allez...",
+            "raw": {
+              "id": 214,
+              "completed": false,
+              "text": "Votre chef a demandé d'augmenter de 10% la productivité de votre division. Vous savez que c'est possible mais que cela exigera une implication active de votre part. Pour vous libérer à cet effet, vous devez déléguer la mise en place d'un nouveau système de contrôle des coûts. La collaboratrice à laquelle vous pensez pouvoir confier cette tâche possède une expérience considérable des systèmes de contrôle des coûts, mais semble avoir confiance en elle pour fonctionner de manière autonome... Vous allez...",
+              "choices": [
+                {
+                  "id": 349,
+                  "name": "Lui demander d'accepter cette mission, l'encourager et soutenir ses efforts.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 350,
+                  "name": "Parler avec elle de la mission, expliquer comment vous désirez que le travail soit fait, mais rester à l'écouter de ses éventuelles suggestions.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 351,
+                  "name": "Lui confier la mission et la laisser déterminer elle-même comment elle va la mener à bien.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 352,
+                  "name": "Lui confier la mission et rédiger un mémo dans lequel sont expliquées en détail toutes les étapes à franchir pour réaliser le travail.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 349,
+                "name": "Lui demander d'accepter cette mission, l'encourager et soutenir ses efforts.",
+                "categoryId": 14
+              },
+              {
+                "id": 350,
+                "name": "Parler avec elle de la mission, expliquer comment vous désirez que le travail soit fait, mais rester à l'écouter de ses éventuelles suggestions.",
+                "categoryId": 15
+              },
+              {
+                "id": 351,
+                "name": "Lui confier la mission et la laisser déterminer elle-même comment elle va la mener à bien.",
+                "categoryId": 14
+              },
+              {
+                "id": 352,
+                "name": "Lui confier la mission et rédiger un mémo dans lequel sont expliquées en détail toutes les étapes à franchir pour réaliser le travail.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "text": "Une de vos collaboratrices a fait une suggestion portant sur un changement des méthodes de travail du groupe. Vous la trouvez logique. Dans le passé, elle a déjà eu l'occasion de faire des propositions et de les mettre en pratique avec vos encouragements et votre soutien. Vous avez confiance dans ses capacités. Vous allez...",
+            "raw": {
+              "id": 215,
+              "completed": false,
+              "text": "Une de vos collaboratrices a fait une suggestion portant sur un changement des méthodes de travail du groupe. Vous la trouvez logique. Dans le passé, elle a déjà eu l'occasion de faire des propositions et de les mettre en pratique avec vos encouragements et votre soutien. Vous avez confiance dans ses capacités. Vous allez...",
+              "choices": [
+                {
+                  "id": 353,
+                  "name": "Prendre la responsabilité de l'initiative et suivre activement cette collaboratrice lors de l'exécution du projet.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 354,
+                  "name": "Discuter avec elle de sa suggestion et la soutenir dans ses efforts pour implémenter le changement.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 355,
+                  "name": "Organiser vous-même la réalisation mais y englober ses idées.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 356,
+                  "name": "Lui confier la responsabilité de l'implémentation du changement sans vous y impliquer vous-même.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 353,
+                "name": "Prendre la responsabilité de l'initiative et suivre activement cette collaboratrice lors de l'exécution du projet.",
+                "categoryId": 14
+              },
+              {
+                "id": 354,
+                "name": "Discuter avec elle de sa suggestion et la soutenir dans ses efforts pour implémenter le changement.",
+                "categoryId": 15
+              },
+              {
+                "id": 355,
+                "name": "Organiser vous-même la réalisation mais y englober ses idées.",
+                "categoryId": 14
+              },
+              {
+                "id": 356,
+                "name": "Lui confier la responsabilité de l'implémentation du changement sans vous y impliquer vous-même.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 216,
+            "text": "Du fait d'une maladie dans votre famille, vous avez été contraint de manquer les deux premières réunions d'un comité placé sour votre direction. Vous avez découvert, en assistant à la troisième réunion, que le comité fonctionne bien et remporte de bons scores dans la poursuite de ses objectifs. Vous n'êtes pas certain d'avoir votre place dans ce groupe et ne savez pas quel rôle vous avez à y jouer. Vous allez...",
+            "raw": {
+              "id": 216,
+              "completed": false,
+              "text": "Du fait d'une maladie dans votre famille, vous avez été contraint de manquer les deux premières réunions d'un comité placé sour votre direction. Vous avez découvert, en assistant à la troisième réunion, que le comité fonctionne bien et remporte de bons scores dans la poursuite de ses objectifs. Vous n'êtes pas certain d'avoir votre place dans ce groupe et ne savez pas quel rôle vous avez à y jouer. Vous allez...",
+              "choices": [
+                {
+                  "id": 357,
+                  "name": "Assister à la réunion mais laisser le groupe poursuivre son travail comme il l'a fait au cours des deux premières réunions.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 358,
+                  "name": "Reprendre la direction du comité et commencer à diriger ses activités.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 359,
+                  "name": "Faire ce que vous pouvez pour que le comité se sente important et concerné et soutenir les efforts accomplis.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 360,
+                  "name": "Diriger les activités du groupe, mais y intégrer les suggestions des membres du groupe.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 357,
+                "name": "Assister à la réunion mais laisser le groupe poursuivre son travail comme il l'a fait au cours des deux premières réunions.",
+                "categoryId": 14
+              },
+              {
+                "id": 358,
+                "name": "Reprendre la direction du comité et commencer à diriger ses activités.",
+                "categoryId": 15
+              },
+              {
+                "id": 359,
+                "name": "Faire ce que vous pouvez pour que le comité se sente important et concerné et soutenir les efforts accomplis.",
+                "categoryId": 14
+              },
+              {
+                "id": 360,
+                "name": "Diriger les activités du groupe, mais y intégrer les suggestions des membres du groupe.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "text": "Votre équipe est très compétente et en mesure de bien travailler seule. Vous l'avez généralement laissée travailler indépendamment et avez délégué les responsabilités clés à des membres individuels. Leurs performances sont remarquables. Vous allez...",
+            "raw": {
+              "id": 217,
+              "completed": false,
+              "text": "Votre équipe est très compétente et en mesure de bien travailler seule. Vous l'avez généralement laissée travailler indépendamment et avez délégué les responsabilités clés à des membres individuels. Leurs performances sont remarquables. Vous allez...",
+              "choices": [
+                {
+                  "id": 361,
+                  "name": "Apporter un soutien permanent et encourager les gens.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 362,
+                  "name": "Donner des indications et suivre de près leurs activités.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 363,
+                  "name": "Laisser le groupe continuer à travailler indépendamment.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 364,
+                  "name": "Diriger leurs efforts mais travailler en étroite collaboration avec eux pour être informé de leurs suggestions.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 361,
+                "name": "Apporter un soutien permanent et encourager les gens.",
+                "categoryId": 14
+              },
+              {
+                "id": 362,
+                "name": "Donner des indications et suivre de près leurs activités.",
+                "categoryId": 15
+              },
+              {
+                "id": 363,
+                "name": "Laisser le groupe continuer à travailler indépendamment.",
+                "categoryId": 14
+              },
+              {
+                "id": 364,
+                "name": "Diriger leurs efforts mais travailler en étroite collaboration avec eux pour être informé de leurs suggestions.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 218,
+            "text": "Vos chefs et vous-même avez décidé qu'il faut introduire une nouvelle procédure dans votre division de manière à permettre une amélioration à long terme de la performance. Dans le passé, lors de l'implémentation de nouvelles procédures, vos gens se montraient enthousiastes à l'idée d'en faire usage, mais n'avaient pas, au départ, les connaissances requises pour les mettre en pratique. Vous allez...",
+            "raw": {
+              "id": 218,
+              "completed": false,
+              "text": "Vos chefs et vous-même avez décidé qu'il faut introduire une nouvelle procédure dans votre division de manière à permettre une amélioration à long terme de la performance. Dans le passé, lors de l'implémentation de nouvelles procédures, vos gens se montraient enthousiastes à l'idée d'en faire usage, mais n'avaient pas, au départ, les connaissances requises pour les mettre en pratique. Vous allez...",
+              "choices": [
+                {
+                  "id": 365,
+                  "name": "Diriger vous-même l'implémentation de le nouvelle procédure, mais y impliquer le groupe en discutant les autres solutions possibles.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 366,
+                  "name": "Reprendre les rênes du groupe au début de l'application de la nouvelle procédure.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 367,
+                  "name": "Mêler le groupe aux discussions concernant la nouvelle procédure et stimuler leur coopération et leur implication.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 368,
+                  "name": "Laisser formuler et implémenter la nouvelle procédure par le groupe lui-même.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 365,
+                "name": "Diriger vous-même l'implémentation de le nouvelle procédure, mais y impliquer le groupe en discutant les autres solutions possibles.",
+                "categoryId": 14
+              },
+              {
+                "id": 366,
+                "name": "Reprendre les rênes du groupe au début de l'application de la nouvelle procédure.",
+                "categoryId": 15
+              },
+              {
+                "id": 367,
+                "name": "Mêler le groupe aux discussions concernant la nouvelle procédure et stimuler leur coopération et leur implication.",
+                "categoryId": 14
+              },
+              {
+                "id": 368,
+                "name": "Laisser formuler et implémenter la nouvelle procédure par le groupe lui-même.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "text": "Vous avez récemment été nommé chef de la division. Avec son patron précédent, la division a foncitonné de façon satisfaisante, avec beaucoup de soutien et d'encouragement. Après, que vous ayez repris la division, le groupe semble s'occuper plus d'actvités sociales que l'exécution de sa mission. A présent, les performances sont mauvaises. Vous allez...",
+            "raw": {
+              "id": 219,
+              "completed": false,
+              "text": "Vous avez récemment été nommé chef de la division. Avec son patron précédent, la division a foncitonné de façon satisfaisante, avec beaucoup de soutien et d'encouragement. Après, que vous ayez repris la division, le groupe semble s'occuper plus d'actvités sociales que l'exécution de sa mission. A présent, les performances sont mauvaises. Vous allez...",
+              "choices": [
+                {
+                  "id": 369,
+                  "name": "Discuter avec le groupe de la faiblesse de leurs performances et les soutenir dans leurs efforts pour prendre des mesures en vue de les améliorer.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 370,
+                  "name": "Organiser et mener les mesures correctives nécessaires, tout en demandant l'apport et les suggestions du groupe.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 371,
+                  "name": "Faire état du problème et pousser les membres du groupe à prendre leurs propres responsabilités et à agir.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 372,
+                  "name": "Définir les tâches, les responsabilités et les résultats, et s'enquérir régulièrement de l'amélioration des performances.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 369,
+                "name": "Discuter avec le groupe de la faiblesse de leurs performances et les soutenir dans leurs efforts pour prendre des mesures en vue de les améliorer.",
+                "categoryId": 14
+              },
+              {
+                "id": 370,
+                "name": "Organiser et mener les mesures correctives nécessaires, tout en demandant l'apport et les suggestions du groupe.",
+                "categoryId": 15
+              },
+              {
+                "id": 371,
+                "name": "Faire état du problème et pousser les membres du groupe à prendre leurs propres responsabilités et à agir.",
+                "categoryId": 14
+              },
+              {
+                "id": 372,
+                "name": "Définir les tâches, les responsabilités et les résultats, et s'enquérir régulièrement de l'amélioration des performances.",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 220,
+            "text": "Une de vos collaboratrices hésite à accepter une nouvelle mission. Elle a une expérience limitée dans le domaine où vous voulez la faire travailler. Elle a fourni du bon travail dans d'autres fonctions que vous lui avez confiées. Vous allez...",
+            "raw": {
+              "id": 220,
+              "completed": false,
+              "text": "Une de vos collaboratrices hésite à accepter une nouvelle mission. Elle a une expérience limitée dans le domaine où vous voulez la faire travailler. Elle a fourni du bon travail dans d'autres fonctions que vous lui avez confiées. Vous allez...",
+              "choices": [
+                {
+                  "id": 373,
+                  "name": "Lui expliquer ce qu'il y a à faire et comment elle doit le faire, mais aussi écouter ce qu'elle vous dit concernant la raison pour laquelle elle hésite à accepter ce nouveau challenge.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 374,
+                  "name": "Lui confier la nouvelle mission et lui faire déterminer elle-même la meilleure manière de l'accomplir.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 375,
+                  "name": "L'encourager à essayer d'accepter cette mission et faciliter ses efforts en résolvant ensemble les problèmes.",
+                  "categoryId": 14
+                },
+                {
+                  "id": 376,
+                  "name": "Lui expliquer clairement ce qui doit être fait pour mener à bien la mission et exercer un contrôle régulier sur ses prestations.",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 373,
+                "name": "Lui expliquer ce qu'il y a à faire et comment elle doit le faire, mais aussi écouter ce qu'elle vous dit concernant la raison pour laquelle elle hésite à accepter ce nouveau challenge.",
+                "categoryId": 14
+              },
+              {
+                "id": 374,
+                "name": "Lui confier la nouvelle mission et lui faire déterminer elle-même la meilleure manière de l'accomplir.",
+                "categoryId": 15
+              },
+              {
+                "id": 375,
+                "name": "L'encourager à essayer d'accepter cette mission et faciliter ses efforts en résolvant ensemble les problèmes.",
+                "categoryId": 14
+              },
+              {
+                "id": 376,
+                "name": "Lui expliquer clairement ce qui doit être fait pour mener à bien la mission et exercer un contrôle régulier sur ses prestations.",
+                "categoryId": 15
+              }
+            ]
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 11,
+        "name": [
+          "Comptétion"
+        ],
+        "raw": {
+          "id": 11,
+          "text": [
+            "Comptétion"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": [
+          "Collaboration"
+        ],
+        "raw": {
+          "id": 12,
+          "text": [
+            "Collaboration"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": [
+          "Compromis"
+        ],
+        "raw": {
+          "id": 13,
+          "text": [
+            "Compromis"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": [
+          "Eviter"
+        ],
+        "raw": {
+          "id": 14,
+          "text": [
+            "Eviter"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 15,
+        "name": [
+          "Céder"
+        ],
+        "raw": {
+          "id": 15,
+          "text": [
+            "Céder"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez demandé à une de vos collaboratrices de rédiger un rapport sur l'achat d'un nouvel appareil pour votre division. Vous pensez qu'elle est capable de faire cette démarche et, qu'avec votre encouragement, elle pourra la réaliser à temps. Cependant, le rapport est en retard. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 22,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez la direction d'un groupe de travail spécial qui travaille durement pour terminer un rapport, destiné à tous les départements de votre firme. Votre groupe se voit affecter un nouveau membre. Il a un rapport financier à rédiger pour sa division d'ici la fin de la semaine prochaine, mais il ne sait rien des exigences qui ont été posées à l'égard du groupe de travail ni comment le rapport doit être présenté. Il est à la fois nerveux et enthousiaste à l'idée d'en savoir plus sur son rôle dans le groupe. Il veut apprendre aussi vite que possible. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 23,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez récemment eu quelques difficultés avec un de vos collaborateurs. Il est devenu lent et amorphe. Ce n'est que grâce à votre insistance et à votre appui constant que le travail a finalement été mené à bien. Vous fondant sur l'expérience que vous avez de lui, vous supposez qu'il manque d'expertise pour exécuter la mission hautement prioritaire que vous allez lui confier. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 24,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Votre groupe travaille dans la plupart des cas de façon efficace sous votre direction et avec vos encouragements. Malgré vos instructions précises et votre soutien constants, sa performance a sensiblement diminué. Le groupe a besoin d'un surplus de connaissance et d'expérience afin d'améliorer ses prestations. Votre chef est inquiet. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 25,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Du fait d'une limitation d'ordre budgétaire, votre division est obligée de consolider. Vous avez demandé à une collaboratrice très expérimentée de s'occuper personnellement de la consolidation. Cette personne a travaillé à toutes les facettes de votre division et a dans le passé toujours mis beaucoup de bonne volonté à aider. Bien qu'elle dispose selon vous de la capacité nécessaire à accomplir cette mission, elle semble être peu intéressée par le job. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 26,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Une femme très productive et très efficace de votre équipe a demandé des conseils pour accomplir son travail. Elle travaille habituellement de façon indépendante et avec une grande efficacité. Elle connaît depuis peu quelques problèmes dans son travail : elle pense qu'elle n'est pas en mesure de les résoudre elle-même. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 27,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez demandé à un de vos collaborateurs seniors de prendre la responsabilité d'une nouvelle mission. Dans ses autres responsabilités, il a - avec votre soutien - obtenu de bons résultats. Le travail que vous lui avez demandé d'accomplir est important pour l'avenir de votre groupe. Il est armé pour cette mission mais ne sait pas par où commencer car il lui manque l'expérience de ce type de travail. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 28,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Un de vos collaborateurs est mal à l'aise face au travail que vous lui avez confié récemment. Il est pourtant compétent, et vous savez qu'il a les capacités nécessaires pour mener efficacement à bien cette mission. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 29,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vos collaborateurs vous ont demandé d'apporter une modification à leur mode de travail. Dans le passé, vous avez encouragé et soutenu leurs suggestions. Dans les circonstances actuelles, votre équipe est convaincue qu'un changement est nécessaires. Les membres de votre groupe sont très compétents et forme une bonne équipe. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 210,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous êtes arrivé une demi-heure en retard à une réunion avec votre groupe. Au moment où vous arrivez, la réunion n'a pas encore commencé. Il ressort d'une enquête que certains membres ont voulu entamer la réunion, mais que la plupart des membres du groupe étaient découragés par un manque d'esprit d'équipe. Cela vous étonne, car la progression du groupe sur le projet était bonne. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 211,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Un collaborateur du département a déjà accompli plusieurs choses et ce grâce à votre attitude peu directive, mais pleine de soutien et d'encouragements. Pour l'année qui vient, ce collaborateur de votre division aura les mêmes tâches et les mêmes responsabilités, et vous devez décider comment vous allez le suivre. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 212,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Dans le passé, vous avez travaillé en collaboration étroite avec votre groupe, en dirigeant et en soutenant leurs efforts. La productivité est élevée et vos gens forment une bonne équipe. Connaissant leurs possibilités, vous pensez qu'ils peuvent désormais travailler plus indépendamment. Vous avez à présent centré votre énergie sur d'autres domaines, et vos gens ont continué à remporter de bons résultats. Vous devez maintenant leur demander d'accepter un surcroît de travail. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 213,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez récemment reçu un nouveau collaborateur supplémentaire pour un travail important. Bien qu'il soit inexpérimenté, il est enthousiaste et est convaincu qu'il peut accomplir le travail. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 214,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Votre chef a demandé d'augmenter de 10% la productivité de votre division. Vous savez que c'est possible mais que cela exigera une implication active de votre part. Pour vous libérer à cet effet, vous devez déléguer la mise en place d'un nouveau système de contrôle des coûts. La collaboratrice à laquelle vous pensez pouvoir confier cette tâche possède une expérience considérable des systèmes de contrôle des coûts, mais semble avoir confiance en elle pour fonctionner de manière autonome... Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 215,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Une de vos collaboratrices a fait une suggestion portant sur un changement des méthodes de travail du groupe. Vous la trouvez logique. Dans le passé, elle a déjà eu l'occasion de faire des propositions et de les mettre en pratique avec vos encouragements et votre soutien. Vous avez confiance dans ses capacités. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 216,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Du fait d'une maladie dans votre famille, vous avez été contraint de manquer les deux premières réunions d'un comité placé sour votre direction. Vous avez découvert, en assistant à la troisième réunion, que le comité fonctionne bien et remporte de bons scores dans la poursuite de ses objectifs. Vous n'êtes pas certain d'avoir votre place dans ce groupe et ne savez pas quel rôle vous avez à y jouer. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 217,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Votre équipe est très compétente et en mesure de bien travailler seule. Vous l'avez généralement laissée travailler indépendamment et avez délégué les responsabilités clés à des membres individuels. Leurs performances sont remarquables. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 218,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vos chefs et vous-même avez décidé qu'il faut introduire une nouvelle procédure dans votre division de manière à permettre une amélioration à long terme de la performance. Dans le passé, lors de l'implémentation de nouvelles procédures, vos gens se montraient enthousiastes à l'idée d'en faire usage, mais n'avaient pas, au départ, les connaissances requises pour les mettre en pratique. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 219,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Vous avez récemment été nommé chef de la division. Avec son patron précédent, la division a foncitonné de façon satisfaisante, avec beaucoup de soutien et d'encouragement. Après, que vous ayez repris la division, le groupe semble s'occuper plus d'actvités sociales que l'exécution de sa mission. A présent, les performances sont mauvaises. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 220,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Une de vos collaboratrices hésite à accepter une nouvelle mission. Elle a une expérience limitée dans le domaine où vous voulez la faire travailler. Elle a fourni du bon travail dans d'autres fonctions que vous lui avez confiées. Vous allez...",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Leadership/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Leadership/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      //const categories = data.categories\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                Feedback manquant\r\n                                            </div> \r\n                            </div>;\n        /*<div className=\"result\">\r\n            <div className=\"result-graph\">\r\n                <div className=\"result-title\">Résultats\r\n                </div>\r\n                    <div className=\"result-data\">\r\n                        { categories.map((element,index) => {\r\n                            return <ResultStick key={index} count={70/categories.length}>  \r\n                                <Stick height={element.value*5} color=\"#002F47\"></Stick>\r\n                                {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                                <StickValue color=\"#002F47\">{element.value}</StickValue>\r\n                            </ResultStick>\r\n                                    })}\r\n                    </div>\r\n            </div>\r\n            {/*<div className=\"result-div\">\r\n                <div className=\"result-title\">\r\n                                    {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                </div>\r\n                <div className=\"result-points\">\r\n                                    {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                </div>\r\n                                </div> }\r\n        </div>*/\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Leadership/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Leadership/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      //const categories = data.categories\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                Feedback manquant\r\n                                            </div> \r\n                            </div>;\n        /*<div className=\"result\">\r\n            <div className=\"result-graph\">\r\n                <div className=\"result-title\">Résultats\r\n                </div>\r\n                    <div className=\"result-data\">\r\n                        { categories.map((element,index) => {\r\n                            return <ResultStick key={index} count={70/categories.length}>  \r\n                                <Stick height={element.value*5} color=\"#002F47\"></Stick>\r\n                                {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                                <StickValue color=\"#002F47\">{element.value}</StickValue>\r\n                            </ResultStick>\r\n                                    })}\r\n                    </div>\r\n            </div>\r\n            {/*<div className=\"result-div\">\r\n                <div className=\"result-title\">\r\n                                    {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                </div>\r\n                <div className=\"result-points\">\r\n                                    {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                </div>\r\n                                </div> }\r\n        </div>*/\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Leadership.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Leadership.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"Auto-diagnostic des styles de Leadership\",\n    description: \"L'objectif du questionnaire est de vous donner l'information sur la perception que vous avez de votre propre style de management. Cet exercice propose vingt situations professionnelles typiques qui impliquent un dirigeant et un ou plusieurs collaborateurs.\",\n    instruction: \"Parmi chaque situation, cochez une solution dont vous pensez qu'elle est la plus proche du comportement qui serait le vôtre dans la situation donnée.\",\n    completed: false,\n    categories: [{\n      id: 11,\n      text: [\"Comptétion\"],\n      value: 0\n    }, {\n      id: 12,\n      text: [\"Collaboration\"],\n      value: 0\n    }, {\n      id: 13,\n      text: [\"Compromis\"],\n      value: 0\n    }, {\n      id: 14,\n      text: [\"Eviter\"],\n      value: 0\n    }, {\n      id: 15,\n      text: [\"Céder\"],\n      value: 0\n    }],\n    questions: [{\n      id: 21,\n      completed: false,\n      text: \"Vous avez demandé à une de vos collaboratrices de rédiger un rapport sur l'achat d'un nouvel appareil pour votre division. Vous pensez qu'elle est capable de faire cette démarche et, qu'avec votre encouragement, elle pourra la réaliser à temps. Cependant, le rapport est en retard. Vous allez...\",\n      choices: [{\n        id: 31,\n        name: \"Lui dire que vous voulez obtenir ce rapport, lui expliquer ce qui doit y figurer et suivre quotidiennement sa progression\",\n        categoryId: 14\n      }, {\n        id: 32,\n        name: \"Lui accorder plus de temps pour accomplir sa mission\",\n        categoryId: 15\n      }, {\n        id: 33,\n        name: \"Lui dire ce que vous attendez, quand vous voulez que ce rapport soit prêt, mais lui accorder du temps pour discuter avec elle des raisons pour lesquelles ce rapport n'est pas terminé\",\n        categoryId: 14\n      }, {\n        id: 34,\n        name: \"Lui parler et l'encourager à terminer ce rapport\",\n        categoryId: 15\n      }]\n    }, {\n      id: 22,\n      completed: false,\n      text: \"Vous avez la direction d'un groupe de travail spécial qui travaille durement pour terminer un rapport, destiné à tous les départements de votre firme. Votre groupe se voit affecter un nouveau membre. Il a un rapport financier à rédiger pour sa division d'ici la fin de la semaine prochaine, mais il ne sait rien des exigences qui ont été posées à l'égard du groupe de travail ni comment le rapport doit être présenté. Il est à la fois nerveux et enthousiaste à l'idée d'en savoir plus sur son rôle dans le groupe. Il veut apprendre aussi vite que possible. Vous allez...\",\n      choices: [{\n        id: 35,\n        name: \"Lui expliquer exactement ce qu'on doit pouvoir trouver dans le rapport et vous faites ce qu'il faut pour le suivre pas à pas dans ses prestations.\",\n        categoryId: 14\n      }, {\n        id: 36,\n        name: \"Lui demander si vous pouvez faire quelque chose pour l'aider et soutenir son enthousiasme en tant que nouveau membre du groupe de travail.\",\n        categoryId: 15\n      }, {\n        id: 37,\n        name: \"Lui expliquer la charpente du rapport et tous les détails, et y intégrer les idées qu'il pourrait avoir.\",\n        categoryId: 14\n      }, {\n        id: 38,\n        name: \"L'accueillir dans le groupe, lui permettre de faire connaissance avec les autres membres du groupe de travail qui peuvent l'aider à présenter son rapport financier.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 23,\n      completed: false,\n      text: \"Vous avez récemment eu quelques difficultés avec un de vos collaborateurs. Il est devenu lent et amorphe. Ce n'est que grâce à votre insistance et à votre appui constant que le travail a finalement été mené à bien. Vous fondant sur l'expérience que vous avez de lui, vous supposez qu'il manque d'expertise pour exécuter la mission hautement prioritaire que vous allez lui confier. Vous allez...\",\n      choices: [{\n        id: 39,\n        name: \"Continuer à le diriger et suivre à la trace l'avancement de son travail.\",\n        categoryId: 14\n      }, {\n        id: 310,\n        name: \"Continuer à garder le contrôle direct de son travail et tenter de mieux diagnostiquer et comprendre ses attitudes et sentiments concernant les responsabilités qu'on lui a assignées.\",\n        categoryId: 15\n      }, {\n        id: 311,\n        name: \"L'impliquer dans les problèmes qu'entraîne ce travail, lui offrir de l'aide et utiliser ses idées pour l'accomplissement du travail.\",\n        categoryId: 14\n      }, {\n        id: 312,\n        name: \"Lui faire savoir qu'il s'agit d'un travail important et lui demander de vous contacter au cas où il aurait des questions ou des problèmes à ce propos.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 24,\n      completed: false,\n      text: \"Votre groupe travaille dans la plupart des cas de façon efficace sous votre direction et avec vos encouragements. Malgré vos instructions précises et votre soutien constants, sa performance a sensiblement diminué. Le groupe a besoin d'un surplus de connaissance et d'expérience afin d'améliorer ses prestations. Votre chef est inquiet. Vous allez...\",\n      choices: [{\n        id: 313,\n        name: \"Mettre l'accent sur le besoin de meilleures performances et demander au groupe de résoudre lui-même ses problèmes.\",\n        categoryId: 14\n      }, {\n        id: 314,\n        name: \"Veiller au repsect des délais fixés et à la bonne qualité du travail, mais parler avec le groupe pour savoir ce qu'il suggère.\",\n        categoryId: 15\n      }, {\n        id: 315,\n        name: \"Informer exactement le groupe de ce que vous attendez de lui, quand il est nécessaire que ce soit prêt et quelles seraient les suites d'un maintien des mauvaises performances, et surveiller régulièrement leur progression.\",\n        categoryId: 14\n      }, {\n        id: 316,\n        name: \"Aider le groupe à déterminer ce qui doit être fait et l'encourager à prendre les initiatives nécessaires.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 25,\n      completed: false,\n      text: \"Du fait d'une limitation d'ordre budgétaire, votre division est obligée de consolider. Vous avez demandé à une collaboratrice très expérimentée de s'occuper personnellement de la consolidation. Cette personne a travaillé à toutes les facettes de votre division et a dans le passé toujours mis beaucoup de bonne volonté à aider. Bien qu'elle dispose selon vous de la capacité nécessaire à accomplir cette mission, elle semble être peu intéressée par le job. Vous allez...\",\n      choices: [{\n        id: 317,\n        name: \"Assurer vous-même la consolidation, tout en tenant compte de ses suggestions.\",\n        categoryId: 14\n      }, {\n        id: 318,\n        name: \"Lui confier la mission et la laisser juge de la manière de la faire.\",\n        categoryId: 15\n      }, {\n        id: 319,\n        name: \"Discuter avec elle de la situation et l'encourager à accepter cette mission, compte tenu de ses connaissances et de son expérience.\",\n        categoryId: 14\n      }, {\n        id: 320,\n        name: \"Prendre la consolidation sur vos épaules et lui dire clairement ce qu'il y a à faire. Suivre de près son travail.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 26,\n      completed: false,\n      text: \"Une femme très productive et très efficace de votre équipe a demandé des conseils pour accomplir son travail. Elle travaille habituellement de façon indépendante et avec une grande efficacité. Elle connaît depuis peu quelques problèmes dans son travail : elle pense qu'elle n'est pas en mesure de les résoudre elle-même. Vous allez...\",\n      choices: [{\n        id: 321,\n        name: \"Analyser les problèmes et indiquer des méthodes pour les résoudre.\",\n        categoryId: 14\n      }, {\n        id: 322,\n        name: \"Lui laisser le soin de trouver elle-même une solution adaptée.\",\n        categoryId: 15\n      }, {\n        id: 323,\n        name: \"Discuter avec elle, puis déterminer et fixer la solution appropriée vous même, et faire en sorte qu'elle soit appliquée.\",\n        categoryId: 14\n      }, {\n        id: 324,\n        name: \"Discuter avec elle des problèmes et lui apporter votre soutien dans la recherche de la solution appropriée.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 27,\n      completed: false,\n      text: \"Vous avez demandé à un de vos collaborateurs seniors de prendre la responsabilité d'une nouvelle mission. Dans ses autres responsabilités, il a - avec votre soutien - obtenu de bons résultats. Le travail que vous lui avez demandé d'accomplir est important pour l'avenir de votre groupe. Il est armé pour cette mission mais ne sait pas par où commencer car il lui manque l'expérience de ce type de travail. Vous allez...\",\n      choices: [{\n        id: 377,\n        name: \"Discuter avec lui du travail et souligner ses capacités à l'accomplir en mettant l'accent sur ses excellentes performances passées.\",\n        categoryId: 14\n      }, {\n        id: 378,\n        name: \"Définir les activités indispensables à cette mission et se renseigner régulièrement sur la progression du travail.\",\n        categoryId: 15\n      }, {\n        id: 379,\n        name: \"Lui confier la mission et lui laisser déterminer lui-même la façon, dont il veut aller de l'avant. Lui dire de vous contacter s'il rencontre des problèmes.\",\n        categoryId: 14\n      }, {\n        id: 380,\n        name: \"Spécifier ce qu'il a à faire, et éventuellement faire usage des idées qu'il pourrait avoir.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 28,\n      completed: false,\n      text: \"Un de vos collaborateurs est mal à l'aise face au travail que vous lui avez confié récemment. Il est pourtant compétent, et vous savez qu'il a les capacités nécessaires pour mener efficacement à bien cette mission. Vous allez...\",\n      choices: [{\n        id: 325,\n        name: \"Tenir compte de ses soucis et lui faire savoir que vous avez pleine confiance dans ses capacités à accomplir cette mission.\",\n        categoryId: 14\n      }, {\n        id: 326,\n        name: \"Structurer la mission de façon qu'elle soit claire, mais tenir comptes des suggestions positives qu'il pourrait faire.\",\n        categoryId: 15\n      }, {\n        id: 327,\n        name: \"Lui expliquer de manière précise ce qu'il y a à faire et assure un contrôle quotidien de son travail.\",\n        categoryId: 14\n      }, {\n        id: 328,\n        name: \"Lui laisser le soin de découvrir lui-même comment ce travail doit être accompli.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 29,\n      completed: false,\n      text: \"Vos collaborateurs vous ont demandé d'apporter une modification à leur mode de travail. Dans le passé, vous avez encouragé et soutenu leurs suggestions. Dans les circonstances actuelles, votre équipe est convaincue qu'un changement est nécessaires. Les membres de votre groupe sont très compétents et forme une bonne équipe. Vous allez...\",\n      choices: [{\n        id: 329,\n        name: \"Associer le groupe au développement d'un nouveau mode de travail et encourager les propositions et suggestions de tous les membres de l'équipe.\",\n        categoryId: 14\n      }, {\n        id: 330,\n        name: \"Développer et introduire vous-même le nouveau schéma, mais y apporter les propositions de vos gens.\",\n        categoryId: 15\n      }, {\n        id: 331,\n        name: \"Autoriser l'équipe à formuler elle-même le nouveau schéma et à le mettre en place.\",\n        categoryId: 14\n      }, {\n        id: 332,\n        name: \"Développer vous-même le nouveau schéma et suivre de près sa mise en place.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 210,\n      completed: false,\n      text: \"Vous êtes arrivé une demi-heure en retard à une réunion avec votre groupe. Au moment où vous arrivez, la réunion n'a pas encore commencé. Il ressort d'une enquête que certains membres ont voulu entamer la réunion, mais que la plupart des membres du groupe étaient découragés par un manque d'esprit d'équipe. Cela vous étonne, car la progression du groupe sur le projet était bonne. Vous allez...\",\n      choices: [{\n        id: 333,\n        name: \"Redéfinir l'objectif de la réunion et laisser fonctionner l'équipe sans intervention de votre part pour autant qu'on ne vous appelle pas à l'aide.\",\n        categoryId: 14\n      }, {\n        id: 334,\n        name: \"Prendre immédiatement le contrôle et guider le groupe vers la poursuite et l'accomplissement du projet.\",\n        categoryId: 15\n      }, {\n        id: 335,\n        name: \"Diriger l'interaction entre les membres vers un accomplissement du projet et les encourager à discuter leurs problèmes et leurs sentiments.\",\n        categoryId: 14\n      }, {\n        id: 336,\n        name: \"Demander au groupe de poursuivre la discussion du projet et lui apporter tout le soutien et l'encouragement possibles.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 211,\n      completed: false,\n      text: \"Un collaborateur du département a déjà accompli plusieurs choses et ce grâce à votre attitude peu directive, mais pleine de soutien et d'encouragements. Pour l'année qui vient, ce collaborateur de votre division aura les mêmes tâches et les mêmes responsabilités, et vous devez décider comment vous allez le suivre. Vous allez...\",\n      choices: [{\n        id: 337,\n        name: \"Le laisser fonctionner indépendamment et assurer son propre contrôle et sa propre motivation, sans trop de directivité ou de soutien.\",\n        categoryId: 14\n      }, {\n        id: 338,\n        name: \"Mettre l'accent sur l'importance des objectifs à atteindre et diriger ses actions vers l'accomplissement de la mission assignée.\",\n        categoryId: 15\n      }, {\n        id: 339,\n        name: \"Lui parler et fixer des buts et des objectifs à l'accomplissement de son travail, mais prendre ses suggestions en considération.\",\n        categoryId: 14\n      }, {\n        id: 340,\n        name: \"L'impliquer dans la fixation d'objectifs et soutenir ses efforts.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 212,\n      completed: false,\n      text: \"Dans le passé, vous avez travaillé en collaboration étroite avec votre groupe, en dirigeant et en soutenant leurs efforts. La productivité est élevée et vos gens forment une bonne équipe. Connaissant leurs possibilités, vous pensez qu'ils peuvent désormais travailler plus indépendamment. Vous avez à présent centré votre énergie sur d'autres domaines, et vos gens ont continué à remporter de bons résultats. Vous devez maintenant leur demander d'accepter un surcroît de travail. Vous allez...\",\n      choices: [{\n        id: 341,\n        name: \"Leur assigner le travail, vous assure qu'ils savent clairement ce qu'ils doivent faire et garder un contrôle vigilant.\",\n        categoryId: 14\n      }, {\n        id: 342,\n        name: \"Leur donner le travail. Leur dire à quel point vous êtes satisfait de leurs performances passées, et que vous êtes convaincu qu'ils vont également faire merveille dans cette tâche.\",\n        categoryId: 15\n      }, {\n        id: 343,\n        name: \"Vous assurez qu'ils ont bien compris ce qu'il y a à faire et intégrer dans la mission toutes les bonnes suggestions qu'ils pourraient faire.\",\n        categoryId: 14\n      }, {\n        id: 344,\n        name: \"Les laisser décider eux-mêmes comment ils vont accomplir la mission.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 213,\n      completed: false,\n      text: \"Vous avez récemment reçu un nouveau collaborateur supplémentaire pour un travail important. Bien qu'il soit inexpérimenté, il est enthousiaste et est convaincu qu'il peut accomplir le travail. Vous allez...\",\n      choices: [{\n        id: 345,\n        name: \"Le laisser déterminer quel est le contenu du job et comment il faut l'accomplir.\",\n        categoryId: 14\n      }, {\n        id: 346,\n        name: \"Lui dire clairement quel est le contenu du job et ce que vous attendez de lui, et exercer un contrôle rapproché et régulier sur son travail.\",\n        categoryId: 15\n      }, {\n        id: 347,\n        name: \"Lui expliquer ce que vous voulez lui faire faire, mais explorer s'il a des idées ou des suggestions.\",\n        categoryId: 14\n      }, {\n        id: 348,\n        name: \"L'encourager et valoriser son enthousiasme, et lui demander comment il aborderait son job.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 214,\n      completed: false,\n      text: \"Votre chef a demandé d'augmenter de 10% la productivité de votre division. Vous savez que c'est possible mais que cela exigera une implication active de votre part. Pour vous libérer à cet effet, vous devez déléguer la mise en place d'un nouveau système de contrôle des coûts. La collaboratrice à laquelle vous pensez pouvoir confier cette tâche possède une expérience considérable des systèmes de contrôle des coûts, mais semble avoir confiance en elle pour fonctionner de manière autonome... Vous allez...\",\n      choices: [{\n        id: 349,\n        name: \"Lui demander d'accepter cette mission, l'encourager et soutenir ses efforts.\",\n        categoryId: 14\n      }, {\n        id: 350,\n        name: \"Parler avec elle de la mission, expliquer comment vous désirez que le travail soit fait, mais rester à l'écouter de ses éventuelles suggestions.\",\n        categoryId: 15\n      }, {\n        id: 351,\n        name: \"Lui confier la mission et la laisser déterminer elle-même comment elle va la mener à bien.\",\n        categoryId: 14\n      }, {\n        id: 352,\n        name: \"Lui confier la mission et rédiger un mémo dans lequel sont expliquées en détail toutes les étapes à franchir pour réaliser le travail.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 215,\n      completed: false,\n      text: \"Une de vos collaboratrices a fait une suggestion portant sur un changement des méthodes de travail du groupe. Vous la trouvez logique. Dans le passé, elle a déjà eu l'occasion de faire des propositions et de les mettre en pratique avec vos encouragements et votre soutien. Vous avez confiance dans ses capacités. Vous allez...\",\n      choices: [{\n        id: 353,\n        name: \"Prendre la responsabilité de l'initiative et suivre activement cette collaboratrice lors de l'exécution du projet.\",\n        categoryId: 14\n      }, {\n        id: 354,\n        name: \"Discuter avec elle de sa suggestion et la soutenir dans ses efforts pour implémenter le changement.\",\n        categoryId: 15\n      }, {\n        id: 355,\n        name: \"Organiser vous-même la réalisation mais y englober ses idées.\",\n        categoryId: 14\n      }, {\n        id: 356,\n        name: \"Lui confier la responsabilité de l'implémentation du changement sans vous y impliquer vous-même.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 216,\n      completed: false,\n      text: \"Du fait d'une maladie dans votre famille, vous avez été contraint de manquer les deux premières réunions d'un comité placé sour votre direction. Vous avez découvert, en assistant à la troisième réunion, que le comité fonctionne bien et remporte de bons scores dans la poursuite de ses objectifs. Vous n'êtes pas certain d'avoir votre place dans ce groupe et ne savez pas quel rôle vous avez à y jouer. Vous allez...\",\n      choices: [{\n        id: 357,\n        name: \"Assister à la réunion mais laisser le groupe poursuivre son travail comme il l'a fait au cours des deux premières réunions.\",\n        categoryId: 14\n      }, {\n        id: 358,\n        name: \"Reprendre la direction du comité et commencer à diriger ses activités.\",\n        categoryId: 15\n      }, {\n        id: 359,\n        name: \"Faire ce que vous pouvez pour que le comité se sente important et concerné et soutenir les efforts accomplis.\",\n        categoryId: 14\n      }, {\n        id: 360,\n        name: \"Diriger les activités du groupe, mais y intégrer les suggestions des membres du groupe.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 217,\n      completed: false,\n      text: \"Votre équipe est très compétente et en mesure de bien travailler seule. Vous l'avez généralement laissée travailler indépendamment et avez délégué les responsabilités clés à des membres individuels. Leurs performances sont remarquables. Vous allez...\",\n      choices: [{\n        id: 361,\n        name: \"Apporter un soutien permanent et encourager les gens.\",\n        categoryId: 14\n      }, {\n        id: 362,\n        name: \"Donner des indications et suivre de près leurs activités.\",\n        categoryId: 15\n      }, {\n        id: 363,\n        name: \"Laisser le groupe continuer à travailler indépendamment.\",\n        categoryId: 14\n      }, {\n        id: 364,\n        name: \"Diriger leurs efforts mais travailler en étroite collaboration avec eux pour être informé de leurs suggestions.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 218,\n      completed: false,\n      text: \"Vos chefs et vous-même avez décidé qu'il faut introduire une nouvelle procédure dans votre division de manière à permettre une amélioration à long terme de la performance. Dans le passé, lors de l'implémentation de nouvelles procédures, vos gens se montraient enthousiastes à l'idée d'en faire usage, mais n'avaient pas, au départ, les connaissances requises pour les mettre en pratique. Vous allez...\",\n      choices: [{\n        id: 365,\n        name: \"Diriger vous-même l'implémentation de le nouvelle procédure, mais y impliquer le groupe en discutant les autres solutions possibles.\",\n        categoryId: 14\n      }, {\n        id: 366,\n        name: \"Reprendre les rênes du groupe au début de l'application de la nouvelle procédure.\",\n        categoryId: 15\n      }, {\n        id: 367,\n        name: \"Mêler le groupe aux discussions concernant la nouvelle procédure et stimuler leur coopération et leur implication.\",\n        categoryId: 14\n      }, {\n        id: 368,\n        name: \"Laisser formuler et implémenter la nouvelle procédure par le groupe lui-même.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 219,\n      completed: false,\n      text: \"Vous avez récemment été nommé chef de la division. Avec son patron précédent, la division a foncitonné de façon satisfaisante, avec beaucoup de soutien et d'encouragement. Après, que vous ayez repris la division, le groupe semble s'occuper plus d'actvités sociales que l'exécution de sa mission. A présent, les performances sont mauvaises. Vous allez...\",\n      choices: [{\n        id: 369,\n        name: \"Discuter avec le groupe de la faiblesse de leurs performances et les soutenir dans leurs efforts pour prendre des mesures en vue de les améliorer.\",\n        categoryId: 14\n      }, {\n        id: 370,\n        name: \"Organiser et mener les mesures correctives nécessaires, tout en demandant l'apport et les suggestions du groupe.\",\n        categoryId: 15\n      }, {\n        id: 371,\n        name: \"Faire état du problème et pousser les membres du groupe à prendre leurs propres responsabilités et à agir.\",\n        categoryId: 14\n      }, {\n        id: 372,\n        name: \"Définir les tâches, les responsabilités et les résultats, et s'enquérir régulièrement de l'amélioration des performances.\",\n        categoryId: 15\n      }]\n    }, {\n      id: 220,\n      completed: false,\n      text: \"Une de vos collaboratrices hésite à accepter une nouvelle mission. Elle a une expérience limitée dans le domaine où vous voulez la faire travailler. Elle a fourni du bon travail dans d'autres fonctions que vous lui avez confiées. Vous allez...\",\n      choices: [{\n        id: 373,\n        name: \"Lui expliquer ce qu'il y a à faire et comment elle doit le faire, mais aussi écouter ce qu'elle vous dit concernant la raison pour laquelle elle hésite à accepter ce nouveau challenge.\",\n        categoryId: 14\n      }, {\n        id: 374,\n        name: \"Lui confier la nouvelle mission et lui faire déterminer elle-même la meilleure manière de l'accomplir.\",\n        categoryId: 15\n      }, {\n        id: 375,\n        name: \"L'encourager à essayer d'accepter cette mission et faciliter ses efforts en résolvant ensemble les problèmes.\",\n        categoryId: 14\n      }, {\n        id: 376,\n        name: \"Lui expliquer clairement ce qui doit être fait pour mener à bien la mission et exercer un contrôle régulier sur ses prestations.\",\n        categoryId: 15\n      }]\n    }]\n  };\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n                <div className=\"survey\">\r\n                    <Header questionnaire={this.state} />\r\n                    <Questions handleclick={this.handleAddPoint} />\r\n                    <Answer questions={this.state.questions} categories={this.state.categories} />\r\n                </div>\r\n        </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{data.title}</p>\r\n            </div>  \r\n             <div className=\"description-text\">\r\n                {data.description.split(\"\\n\").map((text, index) => <p key={index}>{text}</p>)} \r\n                </div> \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\"> {data.instruction} </p>    \r\n                </div>  \r\n        </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {value => <div className=\"boxes\">\r\n                   {value.questions.map((question, index) => <div key={index} className=\"box-100\">\r\n                            <Question question={question} index={index} handleclick={this.handleClick} />\r\n                        </div>)}\r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      //const categories = data.categories\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                Feedback manquant\r\n                                            </div> \r\n                            </div>;\n        /*<div className=\"result\">\r\n            <div className=\"result-graph\">\r\n                <div className=\"result-title\">Résultats\r\n                </div>\r\n                    <div className=\"result-data\">\r\n                        { categories.map((element,index) => {\r\n                            return <ResultStick key={index} count={70/categories.length}>  \r\n                                <Stick height={element.value*5} color=\"#002F47\"></Stick>\r\n                                {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                                <StickValue color=\"#002F47\">{element.value}</StickValue>\r\n                            </ResultStick>\r\n                                    })}\r\n                    </div>\r\n            </div>\r\n            {/*<div className=\"result-div\">\r\n                <div className=\"result-title\">\r\n                                    {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                </div>\r\n                <div className=\"result-points\">\r\n                                    {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                </div>\r\n                                </div> }\r\n        </div>*/\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    oldCategoryId: -1\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Question.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  const data = {\n    questionId: e.target.name,\n    categoryId: e.target.value,\n    oldCategoryId: this.state.oldCategoryId\n  };\n  console.log(\"handleClick Caracteristiques - categoryId\", e.target.value);\n  this.props.handleclick(data);\n  this.setState({\n    oldCategoryId: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Leadership/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  const choices = question.choices;\n  return <Fragment>\r\n\r\n            <div className=\"situation\">\r\n                <div className=\"square-number\"><p>{this.props.index + 1}</p></div>\r\n                <p className=\"situation-text\">{question.text}</p>\r\n            </div>\r\n                <div className=\"box-100 border-4\">\r\n                <div className=\"checklist\">\r\n                    {choices.map((choice, index) => <div key={index} className=\"checklistItem-50\">\r\n                            <input className=\"checkbox-radio\" type=\"radio\" id={choice.id} name={question.id} value={choice.categoryId} onClick={this.handleClick} />\r\n                            <label className=\"checkbox-label\" htmlFor={choice.id} />\r\n                            <p>{choice.name}</p>\r\n                        </div>)}\r\n                </div>\r\n            </div>\r\n            </Fragment>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

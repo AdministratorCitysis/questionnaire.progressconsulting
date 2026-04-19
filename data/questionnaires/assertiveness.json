@@ -1,0 +1,1646 @@
+{
+  "routePath": "/assertiveness",
+  "routeComponent": "Assertiveness",
+  "routeImportSource": "./Components/Assertiveness",
+  "extractionTimestamp": "2026-04-19T10:07:00.790Z",
+  "sourceFiles": [
+    "src/Components/Assertiveness.js",
+    "src/Components/Assertiveness/Components/Answer.js",
+    "src/Components/Assertiveness/Components/Context.js",
+    "src/Components/Assertiveness/Components/Header.js",
+    "src/Components/Assertiveness/Components/Question.js",
+    "src/Components/Assertiveness/Components/Questionnaire.js",
+    "src/Components/Assertiveness/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "Assertiveness",
+    "instruction": "Answer all the statements to know your result.",
+    "description": [
+      "Answer spontaneously by clicking True or False.",
+      "True = if you think or react like this most of the time.",
+      "False = If you almost never think or react like this."
+    ],
+    "categories": [
+      {
+        "id": 11,
+        "text": [
+          "Submissive attitude"
+        ],
+        "value": 0
+      },
+      {
+        "id": 12,
+        "text": [
+          "Aggressive attitude"
+        ],
+        "value": 0
+      },
+      {
+        "id": 13,
+        "text": [
+          "Manipulative attitude"
+        ],
+        "value": 0
+      },
+      {
+        "id": 14,
+        "text": [
+          "Assertive attitude"
+        ],
+        "value": 0
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "completed": false,
+        "text": "I often say «yes» while I would like to say «no».",
+        "categoryId": 11
+      },
+      {
+        "id": 22,
+        "completed": false,
+        "text": "I defend my rights, without giving up the rights of others.",
+        "categoryId": 14
+      },
+      {
+        "id": 23,
+        "completed": false,
+        "text": "I choose to hide what I think or feel when I don’t know somebody very well.",
+        "categoryId": 13
+      },
+      {
+        "id": 24,
+        "completed": false,
+        "text": "I am rather authoritarian and determined.",
+        "categoryId": 12
+      },
+      {
+        "id": 25,
+        "completed": false,
+        "text": "It is mostly easier and more convenient to act through a ‘middle man’ than directly.",
+        "categoryId": 13
+      },
+      {
+        "id": 26,
+        "completed": false,
+        "text": "I am not scared to give criticism and to say to people what I really think.",
+        "categoryId": 12
+      },
+      {
+        "id": 27,
+        "completed": false,
+        "text": "I don’t dare to refuse certain tasks that are not really under my responsibility.",
+        "categoryId": 11
+      },
+      {
+        "id": 28,
+        "completed": false,
+        "text": "I am not scared to give my opinion, even if there are some rather hostile people around.",
+        "categoryId": 14
+      },
+      {
+        "id": 29,
+        "completed": false,
+        "text": "When I am involved in a discussion, I’d rather put myself ‘in the back’ to see which direction the discussion will take.",
+        "categoryId": 13
+      },
+      {
+        "id": 210,
+        "completed": false,
+        "text": "People reproach me sometimes that I like to contradict them.",
+        "categoryId": 12
+      },
+      {
+        "id": 211,
+        "completed": false,
+        "text": "It is difficult for me to listen to others.",
+        "categoryId": 12
+      },
+      {
+        "id": 212,
+        "completed": false,
+        "text": "I always try to belong to the ‘insiders’, that has helped me a lot already.",
+        "categoryId": 13
+      },
+      {
+        "id": 213,
+        "completed": false,
+        "text": "Generally speaking, people consider me as being pretty practical and easy in communicating with others.",
+        "categoryId": 13
+      },
+      {
+        "id": 214,
+        "completed": false,
+        "text": "My relations with others are merely depending on trust than on domination or calculation.",
+        "categoryId": 14
+      },
+      {
+        "id": 215,
+        "completed": false,
+        "text": "I don’t like to ask assistance to a colleague; he could think that I am not capable of doing things.",
+        "categoryId": 11
+      },
+      {
+        "id": 216,
+        "completed": false,
+        "text": "I am shy and I feel disadvantaged (inhibited) when I have to do something unusual.",
+        "categoryId": 11
+      },
+      {
+        "id": 217,
+        "completed": false,
+        "text": "People say that I am short tempered; I get easily excited and people tend to laugh with that.",
+        "categoryId": 11
+      },
+      {
+        "id": 218,
+        "completed": false,
+        "text": "I feel very comfortable when I talk to someone one on one.",
+        "categoryId": 14
+      },
+      {
+        "id": 219,
+        "completed": false,
+        "text": "I am playing games quite often. How else can you reach your goals?",
+        "categoryId": 13
+      },
+      {
+        "id": 220,
+        "completed": false,
+        "text": "I like to talk and I sometimes tell people to quit talking, although I am not always aware of that (or I don’t realize it right away).",
+        "categoryId": 12
+      },
+      {
+        "id": 221,
+        "completed": false,
+        "text": "I am ambitious and I will do whatever has to be done to get where I want to get.",
+        "categoryId": 12
+      },
+      {
+        "id": 222,
+        "completed": false,
+        "text": "I mostly know whom you have to talk to and when: that is important to succeed in life.",
+        "categoryId": 13
+      },
+      {
+        "id": 223,
+        "completed": false,
+        "text": "If there is a disagreement, I’ll always strive for a realistic compromise, based on the common interest.",
+        "categoryId": 14
+      },
+      {
+        "id": 224,
+        "completed": false,
+        "text": "I like to show you my cards.",
+        "categoryId": 14
+      },
+      {
+        "id": 225,
+        "completed": false,
+        "text": "I tend to postpone the things that I have to do, to a later day/time.",
+        "categoryId": 11
+      },
+      {
+        "id": 226,
+        "completed": false,
+        "text": "I often leave a task unaccomplished, without really finishing it.",
+        "categoryId": 11
+      },
+      {
+        "id": 227,
+        "completed": false,
+        "text": "I always act the way I am, without hiding my feelings.",
+        "categoryId": 14
+      },
+      {
+        "id": 228,
+        "completed": false,
+        "text": "A lot of things have to happen before you can intimidate me.",
+        "categoryId": 12
+      },
+      {
+        "id": 229,
+        "completed": false,
+        "text": "Scaring the others is often a good method to gain power.",
+        "categoryId": 12
+      },
+      {
+        "id": 230,
+        "completed": false,
+        "text": "If someone tries to make a fool of me, I will seek revenge when the opportunity arises.",
+        "categoryId": 12
+      },
+      {
+        "id": 231,
+        "completed": false,
+        "text": "A good way of criticizing someone is by reproaching him that he doesn’t follow his own rules. So in the end he has to agree with me.",
+        "categoryId": 13
+      },
+      {
+        "id": 232,
+        "completed": false,
+        "text": "I know how to ‘use’ the system : I always find a way out of things.",
+        "categoryId": 13
+      },
+      {
+        "id": 233,
+        "completed": false,
+        "text": "I can be myself and be socially accepted at the same time.",
+        "categoryId": 14
+      },
+      {
+        "id": 234,
+        "completed": false,
+        "text": "When I don’t agree with others, I don’t mind telling them that right away and I’ll make sure they’ll listen to me.",
+        "categoryId": 14
+      },
+      {
+        "id": 235,
+        "completed": false,
+        "text": "I always make sure that I don’t bother others.",
+        "categoryId": 11
+      },
+      {
+        "id": 236,
+        "completed": false,
+        "text": "I find it hard to choose a side and make choices.",
+        "categoryId": 11
+      },
+      {
+        "id": 237,
+        "completed": false,
+        "text": "When I am in a group, I don’t like to be the only one with a certain opinion. In that case I rather not talk.",
+        "categoryId": 11
+      },
+      {
+        "id": 238,
+        "completed": false,
+        "text": "I am not afraid of talking in public.",
+        "categoryId": 14
+      },
+      {
+        "id": 239,
+        "completed": false,
+        "text": "Life is a continuing road full of fights for power and struggles.",
+        "categoryId": 12
+      },
+      {
+        "id": 240,
+        "completed": false,
+        "text": "I am not afraid to start dangerous or adventurous challenges.",
+        "categoryId": 12
+      },
+      {
+        "id": 241,
+        "completed": false,
+        "text": "Creating conflicts can sometimes be more efficient than trying to reduce tensions.",
+        "categoryId": 13
+      },
+      {
+        "id": 242,
+        "completed": false,
+        "text": "Talking in a straight way is a good way of gaining trust.",
+        "categoryId": 13
+      },
+      {
+        "id": 243,
+        "completed": false,
+        "text": "I can listen and I don’t stop others from talking.",
+        "categoryId": 14
+      },
+      {
+        "id": 244,
+        "completed": false,
+        "text": "Whatever I decided, I will always bring it to a good end.",
+        "categoryId": 14
+      },
+      {
+        "id": 245,
+        "completed": false,
+        "text": "I am not scared to express my feelings the way I experience them.",
+        "categoryId": 14
+      },
+      {
+        "id": 246,
+        "completed": false,
+        "text": "I know how to get people to like me and win them for my ideas.",
+        "categoryId": 13
+      },
+      {
+        "id": 247,
+        "completed": false,
+        "text": "Flattering people is just a good method to get what you want to get.",
+        "categoryId": 13
+      },
+      {
+        "id": 248,
+        "completed": false,
+        "text": "I have problems reducing my speaking time.",
+        "categoryId": 12
+      },
+      {
+        "id": 249,
+        "completed": false,
+        "text": "I know how to handle strong irony.",
+        "categoryId": 12
+      },
+      {
+        "id": 250,
+        "completed": false,
+        "text": "I am helpful and easy going. Sometimes I even let people «use» me.",
+        "categoryId": 11
+      },
+      {
+        "id": 251,
+        "completed": false,
+        "text": "I rather observe than participate.",
+        "categoryId": 11
+      },
+      {
+        "id": 252,
+        "completed": false,
+        "text": "I rather stay in the background than coming to the foreground.",
+        "categoryId": 11
+      },
+      {
+        "id": 253,
+        "completed": false,
+        "text": "I don’t think manipulating is an efficient solution.",
+        "categoryId": 14
+      },
+      {
+        "id": 254,
+        "completed": false,
+        "text": "You don’t have to show too fast your aims, that is unthoughtful.",
+        "categoryId": 13
+      },
+      {
+        "id": 255,
+        "completed": false,
+        "text": "It seems that I sometimes shock people with the things that I say.",
+        "categoryId": 12
+      },
+      {
+        "id": 256,
+        "completed": false,
+        "text": "I would rather be a wolf than a lamb.",
+        "categoryId": 12
+      },
+      {
+        "id": 257,
+        "completed": false,
+        "text": "Manipulating others a little bit is often the only practical way of getting what you want to get.",
+        "categoryId": 13
+      },
+      {
+        "id": 258,
+        "completed": false,
+        "text": "I mostly know how to protest in an effective way, without being excessively aggressive.",
+        "categoryId": 14
+      },
+      {
+        "id": 259,
+        "completed": false,
+        "text": "I think that problems can only be solved if you look for the underlying reasons.",
+        "categoryId": 11
+      },
+      {
+        "id": 260,
+        "completed": false,
+        "text": "I don’t like it if people would think I am no good.",
+        "categoryId": 11
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "uncertain",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Assertiveness",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": "I often say «yes» while I would like to say «no».",
+            "raw": {
+              "id": 21,
+              "completed": false,
+              "text": "I often say «yes» while I would like to say «no».",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 22,
+            "text": "I defend my rights, without giving up the rights of others.",
+            "raw": {
+              "id": 22,
+              "completed": false,
+              "text": "I defend my rights, without giving up the rights of others.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 23,
+            "text": "I choose to hide what I think or feel when I don’t know somebody very well.",
+            "raw": {
+              "id": 23,
+              "completed": false,
+              "text": "I choose to hide what I think or feel when I don’t know somebody very well.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 24,
+            "text": "I am rather authoritarian and determined.",
+            "raw": {
+              "id": 24,
+              "completed": false,
+              "text": "I am rather authoritarian and determined.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 25,
+            "text": "It is mostly easier and more convenient to act through a ‘middle man’ than directly.",
+            "raw": {
+              "id": 25,
+              "completed": false,
+              "text": "It is mostly easier and more convenient to act through a ‘middle man’ than directly.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 26,
+            "text": "I am not scared to give criticism and to say to people what I really think.",
+            "raw": {
+              "id": 26,
+              "completed": false,
+              "text": "I am not scared to give criticism and to say to people what I really think.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 27,
+            "text": "I don’t dare to refuse certain tasks that are not really under my responsibility.",
+            "raw": {
+              "id": 27,
+              "completed": false,
+              "text": "I don’t dare to refuse certain tasks that are not really under my responsibility.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 28,
+            "text": "I am not scared to give my opinion, even if there are some rather hostile people around.",
+            "raw": {
+              "id": 28,
+              "completed": false,
+              "text": "I am not scared to give my opinion, even if there are some rather hostile people around.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 29,
+            "text": "When I am involved in a discussion, I’d rather put myself ‘in the back’ to see which direction the discussion will take.",
+            "raw": {
+              "id": 29,
+              "completed": false,
+              "text": "When I am involved in a discussion, I’d rather put myself ‘in the back’ to see which direction the discussion will take.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 210,
+            "text": "People reproach me sometimes that I like to contradict them.",
+            "raw": {
+              "id": 210,
+              "completed": false,
+              "text": "People reproach me sometimes that I like to contradict them.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 211,
+            "text": "It is difficult for me to listen to others.",
+            "raw": {
+              "id": 211,
+              "completed": false,
+              "text": "It is difficult for me to listen to others.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 212,
+            "text": "I always try to belong to the ‘insiders’, that has helped me a lot already.",
+            "raw": {
+              "id": 212,
+              "completed": false,
+              "text": "I always try to belong to the ‘insiders’, that has helped me a lot already.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 213,
+            "text": "Generally speaking, people consider me as being pretty practical and easy in communicating with others.",
+            "raw": {
+              "id": 213,
+              "completed": false,
+              "text": "Generally speaking, people consider me as being pretty practical and easy in communicating with others.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 214,
+            "text": "My relations with others are merely depending on trust than on domination or calculation.",
+            "raw": {
+              "id": 214,
+              "completed": false,
+              "text": "My relations with others are merely depending on trust than on domination or calculation.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 215,
+            "text": "I don’t like to ask assistance to a colleague; he could think that I am not capable of doing things.",
+            "raw": {
+              "id": 215,
+              "completed": false,
+              "text": "I don’t like to ask assistance to a colleague; he could think that I am not capable of doing things.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 216,
+            "text": "I am shy and I feel disadvantaged (inhibited) when I have to do something unusual.",
+            "raw": {
+              "id": 216,
+              "completed": false,
+              "text": "I am shy and I feel disadvantaged (inhibited) when I have to do something unusual.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 217,
+            "text": "People say that I am short tempered; I get easily excited and people tend to laugh with that.",
+            "raw": {
+              "id": 217,
+              "completed": false,
+              "text": "People say that I am short tempered; I get easily excited and people tend to laugh with that.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 218,
+            "text": "I feel very comfortable when I talk to someone one on one.",
+            "raw": {
+              "id": 218,
+              "completed": false,
+              "text": "I feel very comfortable when I talk to someone one on one.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 219,
+            "text": "I am playing games quite often. How else can you reach your goals?",
+            "raw": {
+              "id": 219,
+              "completed": false,
+              "text": "I am playing games quite often. How else can you reach your goals?",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 220,
+            "text": "I like to talk and I sometimes tell people to quit talking, although I am not always aware of that (or I don’t realize it right away).",
+            "raw": {
+              "id": 220,
+              "completed": false,
+              "text": "I like to talk and I sometimes tell people to quit talking, although I am not always aware of that (or I don’t realize it right away).",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 221,
+            "text": "I am ambitious and I will do whatever has to be done to get where I want to get.",
+            "raw": {
+              "id": 221,
+              "completed": false,
+              "text": "I am ambitious and I will do whatever has to be done to get where I want to get.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 222,
+            "text": "I mostly know whom you have to talk to and when: that is important to succeed in life.",
+            "raw": {
+              "id": 222,
+              "completed": false,
+              "text": "I mostly know whom you have to talk to and when: that is important to succeed in life.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 223,
+            "text": "If there is a disagreement, I’ll always strive for a realistic compromise, based on the common interest.",
+            "raw": {
+              "id": 223,
+              "completed": false,
+              "text": "If there is a disagreement, I’ll always strive for a realistic compromise, based on the common interest.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 224,
+            "text": "I like to show you my cards.",
+            "raw": {
+              "id": 224,
+              "completed": false,
+              "text": "I like to show you my cards.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 225,
+            "text": "I tend to postpone the things that I have to do, to a later day/time.",
+            "raw": {
+              "id": 225,
+              "completed": false,
+              "text": "I tend to postpone the things that I have to do, to a later day/time.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 226,
+            "text": "I often leave a task unaccomplished, without really finishing it.",
+            "raw": {
+              "id": 226,
+              "completed": false,
+              "text": "I often leave a task unaccomplished, without really finishing it.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 227,
+            "text": "I always act the way I am, without hiding my feelings.",
+            "raw": {
+              "id": 227,
+              "completed": false,
+              "text": "I always act the way I am, without hiding my feelings.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 228,
+            "text": "A lot of things have to happen before you can intimidate me.",
+            "raw": {
+              "id": 228,
+              "completed": false,
+              "text": "A lot of things have to happen before you can intimidate me.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 229,
+            "text": "Scaring the others is often a good method to gain power.",
+            "raw": {
+              "id": 229,
+              "completed": false,
+              "text": "Scaring the others is often a good method to gain power.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 230,
+            "text": "If someone tries to make a fool of me, I will seek revenge when the opportunity arises.",
+            "raw": {
+              "id": 230,
+              "completed": false,
+              "text": "If someone tries to make a fool of me, I will seek revenge when the opportunity arises.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 231,
+            "text": "A good way of criticizing someone is by reproaching him that he doesn’t follow his own rules. So in the end he has to agree with me.",
+            "raw": {
+              "id": 231,
+              "completed": false,
+              "text": "A good way of criticizing someone is by reproaching him that he doesn’t follow his own rules. So in the end he has to agree with me.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 232,
+            "text": "I know how to ‘use’ the system : I always find a way out of things.",
+            "raw": {
+              "id": 232,
+              "completed": false,
+              "text": "I know how to ‘use’ the system : I always find a way out of things.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 233,
+            "text": "I can be myself and be socially accepted at the same time.",
+            "raw": {
+              "id": 233,
+              "completed": false,
+              "text": "I can be myself and be socially accepted at the same time.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 234,
+            "text": "When I don’t agree with others, I don’t mind telling them that right away and I’ll make sure they’ll listen to me.",
+            "raw": {
+              "id": 234,
+              "completed": false,
+              "text": "When I don’t agree with others, I don’t mind telling them that right away and I’ll make sure they’ll listen to me.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 235,
+            "text": "I always make sure that I don’t bother others.",
+            "raw": {
+              "id": 235,
+              "completed": false,
+              "text": "I always make sure that I don’t bother others.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 236,
+            "text": "I find it hard to choose a side and make choices.",
+            "raw": {
+              "id": 236,
+              "completed": false,
+              "text": "I find it hard to choose a side and make choices.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 237,
+            "text": "When I am in a group, I don’t like to be the only one with a certain opinion. In that case I rather not talk.",
+            "raw": {
+              "id": 237,
+              "completed": false,
+              "text": "When I am in a group, I don’t like to be the only one with a certain opinion. In that case I rather not talk.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 238,
+            "text": "I am not afraid of talking in public.",
+            "raw": {
+              "id": 238,
+              "completed": false,
+              "text": "I am not afraid of talking in public.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 239,
+            "text": "Life is a continuing road full of fights for power and struggles.",
+            "raw": {
+              "id": 239,
+              "completed": false,
+              "text": "Life is a continuing road full of fights for power and struggles.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 240,
+            "text": "I am not afraid to start dangerous or adventurous challenges.",
+            "raw": {
+              "id": 240,
+              "completed": false,
+              "text": "I am not afraid to start dangerous or adventurous challenges.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 241,
+            "text": "Creating conflicts can sometimes be more efficient than trying to reduce tensions.",
+            "raw": {
+              "id": 241,
+              "completed": false,
+              "text": "Creating conflicts can sometimes be more efficient than trying to reduce tensions.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 242,
+            "text": "Talking in a straight way is a good way of gaining trust.",
+            "raw": {
+              "id": 242,
+              "completed": false,
+              "text": "Talking in a straight way is a good way of gaining trust.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 243,
+            "text": "I can listen and I don’t stop others from talking.",
+            "raw": {
+              "id": 243,
+              "completed": false,
+              "text": "I can listen and I don’t stop others from talking.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 244,
+            "text": "Whatever I decided, I will always bring it to a good end.",
+            "raw": {
+              "id": 244,
+              "completed": false,
+              "text": "Whatever I decided, I will always bring it to a good end.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 245,
+            "text": "I am not scared to express my feelings the way I experience them.",
+            "raw": {
+              "id": 245,
+              "completed": false,
+              "text": "I am not scared to express my feelings the way I experience them.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 246,
+            "text": "I know how to get people to like me and win them for my ideas.",
+            "raw": {
+              "id": 246,
+              "completed": false,
+              "text": "I know how to get people to like me and win them for my ideas.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 247,
+            "text": "Flattering people is just a good method to get what you want to get.",
+            "raw": {
+              "id": 247,
+              "completed": false,
+              "text": "Flattering people is just a good method to get what you want to get.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 248,
+            "text": "I have problems reducing my speaking time.",
+            "raw": {
+              "id": 248,
+              "completed": false,
+              "text": "I have problems reducing my speaking time.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 249,
+            "text": "I know how to handle strong irony.",
+            "raw": {
+              "id": 249,
+              "completed": false,
+              "text": "I know how to handle strong irony.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 250,
+            "text": "I am helpful and easy going. Sometimes I even let people «use» me.",
+            "raw": {
+              "id": 250,
+              "completed": false,
+              "text": "I am helpful and easy going. Sometimes I even let people «use» me.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 251,
+            "text": "I rather observe than participate.",
+            "raw": {
+              "id": 251,
+              "completed": false,
+              "text": "I rather observe than participate.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 252,
+            "text": "I rather stay in the background than coming to the foreground.",
+            "raw": {
+              "id": 252,
+              "completed": false,
+              "text": "I rather stay in the background than coming to the foreground.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 253,
+            "text": "I don’t think manipulating is an efficient solution.",
+            "raw": {
+              "id": 253,
+              "completed": false,
+              "text": "I don’t think manipulating is an efficient solution.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 254,
+            "text": "You don’t have to show too fast your aims, that is unthoughtful.",
+            "raw": {
+              "id": 254,
+              "completed": false,
+              "text": "You don’t have to show too fast your aims, that is unthoughtful.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 255,
+            "text": "It seems that I sometimes shock people with the things that I say.",
+            "raw": {
+              "id": 255,
+              "completed": false,
+              "text": "It seems that I sometimes shock people with the things that I say.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 256,
+            "text": "I would rather be a wolf than a lamb.",
+            "raw": {
+              "id": 256,
+              "completed": false,
+              "text": "I would rather be a wolf than a lamb.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 257,
+            "text": "Manipulating others a little bit is often the only practical way of getting what you want to get.",
+            "raw": {
+              "id": 257,
+              "completed": false,
+              "text": "Manipulating others a little bit is often the only practical way of getting what you want to get.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 258,
+            "text": "I mostly know how to protest in an effective way, without being excessively aggressive.",
+            "raw": {
+              "id": 258,
+              "completed": false,
+              "text": "I mostly know how to protest in an effective way, without being excessively aggressive.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 259,
+            "text": "I think that problems can only be solved if you look for the underlying reasons.",
+            "raw": {
+              "id": 259,
+              "completed": false,
+              "text": "I think that problems can only be solved if you look for the underlying reasons.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 260,
+            "text": "I don’t like it if people would think I am no good.",
+            "raw": {
+              "id": 260,
+              "completed": false,
+              "text": "I don’t like it if people would think I am no good.",
+              "categoryId": 11
+            },
+            "options": []
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "uncertain",
+    "groups": [
+      {
+        "id": 11,
+        "name": [
+          "Submissive attitude"
+        ],
+        "raw": {
+          "id": 11,
+          "text": [
+            "Submissive attitude"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": [
+          "Aggressive attitude"
+        ],
+        "raw": {
+          "id": 12,
+          "text": [
+            "Aggressive attitude"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": [
+          "Manipulative attitude"
+        ],
+        "raw": {
+          "id": 13,
+          "text": [
+            "Manipulative attitude"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": [
+          "Assertive attitude"
+        ],
+        "raw": {
+          "id": 14,
+          "text": [
+            "Assertive attitude"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I often say «yes» while I would like to say «no»."
+      },
+      {
+        "questionId": 22,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I defend my rights, without giving up the rights of others."
+      },
+      {
+        "questionId": 23,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I choose to hide what I think or feel when I don’t know somebody very well."
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I am rather authoritarian and determined."
+      },
+      {
+        "questionId": 25,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "It is mostly easier and more convenient to act through a ‘middle man’ than directly."
+      },
+      {
+        "questionId": 26,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I am not scared to give criticism and to say to people what I really think."
+      },
+      {
+        "questionId": 27,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I don’t dare to refuse certain tasks that are not really under my responsibility."
+      },
+      {
+        "questionId": 28,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I am not scared to give my opinion, even if there are some rather hostile people around."
+      },
+      {
+        "questionId": 29,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "When I am involved in a discussion, I’d rather put myself ‘in the back’ to see which direction the discussion will take."
+      },
+      {
+        "questionId": 210,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "People reproach me sometimes that I like to contradict them."
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "It is difficult for me to listen to others."
+      },
+      {
+        "questionId": 212,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I always try to belong to the ‘insiders’, that has helped me a lot already."
+      },
+      {
+        "questionId": 213,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Generally speaking, people consider me as being pretty practical and easy in communicating with others."
+      },
+      {
+        "questionId": 214,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "My relations with others are merely depending on trust than on domination or calculation."
+      },
+      {
+        "questionId": 215,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I don’t like to ask assistance to a colleague; he could think that I am not capable of doing things."
+      },
+      {
+        "questionId": 216,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I am shy and I feel disadvantaged (inhibited) when I have to do something unusual."
+      },
+      {
+        "questionId": 217,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "People say that I am short tempered; I get easily excited and people tend to laugh with that."
+      },
+      {
+        "questionId": 218,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I feel very comfortable when I talk to someone one on one."
+      },
+      {
+        "questionId": 219,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I am playing games quite often. How else can you reach your goals?"
+      },
+      {
+        "questionId": 220,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I like to talk and I sometimes tell people to quit talking, although I am not always aware of that (or I don’t realize it right away)."
+      },
+      {
+        "questionId": 221,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I am ambitious and I will do whatever has to be done to get where I want to get."
+      },
+      {
+        "questionId": 222,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I mostly know whom you have to talk to and when: that is important to succeed in life."
+      },
+      {
+        "questionId": 223,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "If there is a disagreement, I’ll always strive for a realistic compromise, based on the common interest."
+      },
+      {
+        "questionId": 224,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I like to show you my cards."
+      },
+      {
+        "questionId": 225,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I tend to postpone the things that I have to do, to a later day/time."
+      },
+      {
+        "questionId": 226,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I often leave a task unaccomplished, without really finishing it."
+      },
+      {
+        "questionId": 227,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I always act the way I am, without hiding my feelings."
+      },
+      {
+        "questionId": 228,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "A lot of things have to happen before you can intimidate me."
+      },
+      {
+        "questionId": 229,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Scaring the others is often a good method to gain power."
+      },
+      {
+        "questionId": 230,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "If someone tries to make a fool of me, I will seek revenge when the opportunity arises."
+      },
+      {
+        "questionId": 231,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "A good way of criticizing someone is by reproaching him that he doesn’t follow his own rules. So in the end he has to agree with me."
+      },
+      {
+        "questionId": 232,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I know how to ‘use’ the system : I always find a way out of things."
+      },
+      {
+        "questionId": 233,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I can be myself and be socially accepted at the same time."
+      },
+      {
+        "questionId": 234,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "When I don’t agree with others, I don’t mind telling them that right away and I’ll make sure they’ll listen to me."
+      },
+      {
+        "questionId": 235,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I always make sure that I don’t bother others."
+      },
+      {
+        "questionId": 236,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I find it hard to choose a side and make choices."
+      },
+      {
+        "questionId": 237,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "When I am in a group, I don’t like to be the only one with a certain opinion. In that case I rather not talk."
+      },
+      {
+        "questionId": 238,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I am not afraid of talking in public."
+      },
+      {
+        "questionId": 239,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Life is a continuing road full of fights for power and struggles."
+      },
+      {
+        "questionId": 240,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I am not afraid to start dangerous or adventurous challenges."
+      },
+      {
+        "questionId": 241,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Creating conflicts can sometimes be more efficient than trying to reduce tensions."
+      },
+      {
+        "questionId": 242,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Talking in a straight way is a good way of gaining trust."
+      },
+      {
+        "questionId": 243,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I can listen and I don’t stop others from talking."
+      },
+      {
+        "questionId": 244,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Whatever I decided, I will always bring it to a good end."
+      },
+      {
+        "questionId": 245,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I am not scared to express my feelings the way I experience them."
+      },
+      {
+        "questionId": 246,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "I know how to get people to like me and win them for my ideas."
+      },
+      {
+        "questionId": 247,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Flattering people is just a good method to get what you want to get."
+      },
+      {
+        "questionId": 248,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I have problems reducing my speaking time."
+      },
+      {
+        "questionId": 249,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I know how to handle strong irony."
+      },
+      {
+        "questionId": 250,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I am helpful and easy going. Sometimes I even let people «use» me."
+      },
+      {
+        "questionId": 251,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I rather observe than participate."
+      },
+      {
+        "questionId": 252,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I rather stay in the background than coming to the foreground."
+      },
+      {
+        "questionId": 253,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I don’t think manipulating is an efficient solution."
+      },
+      {
+        "questionId": 254,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "You don’t have to show too fast your aims, that is unthoughtful."
+      },
+      {
+        "questionId": 255,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "It seems that I sometimes shock people with the things that I say."
+      },
+      {
+        "questionId": 256,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "I would rather be a wolf than a lamb."
+      },
+      {
+        "questionId": 257,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Manipulating others a little bit is often the only practical way of getting what you want to get."
+      },
+      {
+        "questionId": 258,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "I mostly know how to protest in an effective way, without being excessively aggressive."
+      },
+      {
+        "questionId": 259,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I think that problems can only be solved if you look for the underlying reasons."
+      },
+      {
+        "questionId": 260,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "I don’t like it if people would think I am no good."
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Assertiveness/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertiveness/Components/Question.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Assertiveness/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Save</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Answers\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Assertiveness/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertiveness/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Save</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Answers\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Assertiveness/Components/Question.js::handleClick",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Assertiveness.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"Assertiveness\",\n    instruction: \"Answer all the statements to know your result.\",\n    description: [\"Answer spontaneously by clicking True or False.\", \"True = if you think or react like this most of the time.\", \"False = If you almost never think or react like this.\"],\n    categories: [{\n      id: 11,\n      text: [\"Submissive attitude\"],\n      value: 0\n    }, {\n      id: 12,\n      text: [\"Aggressive attitude\"],\n      value: 0\n    }, {\n      id: 13,\n      text: [\"Manipulative attitude\"],\n      value: 0\n    }, {\n      id: 14,\n      text: [\"Assertive attitude\"],\n      value: 0\n    }],\n    questions: [{\n      id: 21,\n      completed: false,\n      text: \"I often say «yes» while I would like to say «no».\",\n      categoryId: 11\n    }, {\n      id: 22,\n      completed: false,\n      text: \"I defend my rights, without giving up the rights of others.\",\n      categoryId: 14\n    }, {\n      id: 23,\n      completed: false,\n      text: \"I choose to hide what I think or feel when I don’t know somebody very well.\",\n      categoryId: 13\n    }, {\n      id: 24,\n      completed: false,\n      text: \"I am rather authoritarian and determined.\",\n      categoryId: 12\n    }, {\n      id: 25,\n      completed: false,\n      text: \"It is mostly easier and more convenient to act through a ‘middle man’ than directly.\",\n      categoryId: 13\n    }, {\n      id: 26,\n      completed: false,\n      text: \"I am not scared to give criticism and to say to people what I really think.\",\n      categoryId: 12\n    }, {\n      id: 27,\n      completed: false,\n      text: \"I don’t dare to refuse certain tasks that are not really under my responsibility.\",\n      categoryId: 11\n    }, {\n      id: 28,\n      completed: false,\n      text: \"I am not scared to give my opinion, even if there are some rather hostile people around.\",\n      categoryId: 14\n    }, {\n      id: 29,\n      completed: false,\n      text: 'When I am involved in a discussion, I’d rather put myself ‘in the back’ to see which direction the discussion will take.',\n      categoryId: 13\n    }, {\n      id: 210,\n      completed: false,\n      text: \"People reproach me sometimes that I like to contradict them.\",\n      categoryId: 12\n    }, {\n      id: 211,\n      completed: false,\n      text: \"It is difficult for me to listen to others.\",\n      categoryId: 12\n    }, {\n      id: 212,\n      completed: false,\n      text: \"I always try to belong to the ‘insiders’, that has helped me a lot already.\",\n      categoryId: 13\n    }, {\n      id: 213,\n      completed: false,\n      text: \"Generally speaking, people consider me as being pretty practical and easy in communicating with others.\",\n      categoryId: 13\n    }, {\n      id: 214,\n      completed: false,\n      text: \"My relations with others are merely depending on trust than on domination or calculation.\",\n      categoryId: 14\n    }, {\n      id: 215,\n      completed: false,\n      text: \"I don’t like to ask assistance to a colleague; he could think that I am not capable of doing things.\",\n      categoryId: 11\n    }, {\n      id: 216,\n      completed: false,\n      text: \"I am shy and I feel disadvantaged (inhibited) when I have to do something unusual.\",\n      categoryId: 11\n    }, {\n      id: 217,\n      completed: false,\n      text: \"People say that I am short tempered; I get easily excited and people tend to laugh with that.\",\n      categoryId: 11\n    }, {\n      id: 218,\n      completed: false,\n      text: \"I feel very comfortable when I talk to someone one on one.\",\n      categoryId: 14\n    }, {\n      id: 219,\n      completed: false,\n      text: \"I am playing games quite often. How else can you reach your goals?\",\n      categoryId: 13\n    }, {\n      id: 220,\n      completed: false,\n      text: \"I like to talk and I sometimes tell people to quit talking, although I am not always aware of that (or I don’t realize it right away).\",\n      categoryId: 12\n    }, {\n      id: 221,\n      completed: false,\n      text: \"I am ambitious and I will do whatever has to be done to get where I want to get.\",\n      categoryId: 12\n    }, {\n      id: 222,\n      completed: false,\n      text: \"I mostly know whom you have to talk to and when: that is important to succeed in life.\",\n      categoryId: 13\n    }, {\n      id: 223,\n      completed: false,\n      text: \"If there is a disagreement, I’ll always strive for a realistic compromise, based on the common interest.\",\n      categoryId: 14\n    }, {\n      id: 224,\n      completed: false,\n      text: 'I like to show you my cards.',\n      categoryId: 14\n    }, {\n      id: 225,\n      completed: false,\n      text: \"I tend to postpone the things that I have to do, to a later day/time.\",\n      categoryId: 11\n    }, {\n      id: 226,\n      completed: false,\n      text: \"I often leave a task unaccomplished, without really finishing it.\",\n      categoryId: 11\n    }, {\n      id: 227,\n      completed: false,\n      text: \"I always act the way I am, without hiding my feelings.\",\n      categoryId: 14\n    }, {\n      id: 228,\n      completed: false,\n      text: \"A lot of things have to happen before you can intimidate me.\",\n      categoryId: 12\n    }, {\n      id: 229,\n      completed: false,\n      text: \"Scaring the others is often a good method to gain power.\",\n      categoryId: 12\n    }, {\n      id: 230,\n      completed: false,\n      text: \"If someone tries to make a fool of me, I will seek revenge when the opportunity arises.\",\n      categoryId: 12\n    }, {\n      id: 231,\n      completed: false,\n      text: \"A good way of criticizing someone is by reproaching him that he doesn’t follow his own rules. So in the end he has to agree with me.\",\n      categoryId: 13\n    }, {\n      id: 232,\n      completed: false,\n      text: \"I know how to ‘use’ the system : I always find a way out of things.\",\n      categoryId: 13\n    }, {\n      id: 233,\n      completed: false,\n      text: \"I can be myself and be socially accepted at the same time.\",\n      categoryId: 14\n    }, {\n      id: 234,\n      completed: false,\n      text: \"When I don’t agree with others, I don’t mind telling them that right away and I’ll make sure they’ll listen to me.\",\n      categoryId: 14\n    }, {\n      id: 235,\n      completed: false,\n      text: \"I always make sure that I don’t bother others.\",\n      categoryId: 11\n    }, {\n      id: 236,\n      completed: false,\n      text: \"I find it hard to choose a side and make choices.\",\n      categoryId: 11\n    }, {\n      id: 237,\n      completed: false,\n      text: \"When I am in a group, I don’t like to be the only one with a certain opinion. In that case I rather not talk.\",\n      categoryId: 11\n    }, {\n      id: 238,\n      completed: false,\n      text: \"I am not afraid of talking in public.\",\n      categoryId: 14\n    }, {\n      id: 239,\n      completed: false,\n      text: \"Life is a continuing road full of fights for power and struggles.\",\n      categoryId: 12\n    }, {\n      id: 240,\n      completed: false,\n      text: \"I am not afraid to start dangerous or adventurous challenges.\",\n      categoryId: 12\n    }, {\n      id: 241,\n      completed: false,\n      text: \"Creating conflicts can sometimes be more efficient than trying to reduce tensions.\",\n      categoryId: 13\n    }, {\n      id: 242,\n      completed: false,\n      text: \"Talking in a straight way is a good way of gaining trust.\",\n      categoryId: 13\n    }, {\n      id: 243,\n      completed: false,\n      text: \"I can listen and I don’t stop others from talking.\",\n      categoryId: 14\n    }, {\n      id: 244,\n      completed: false,\n      text: \"Whatever I decided, I will always bring it to a good end.\",\n      categoryId: 14\n    }, {\n      id: 245,\n      completed: false,\n      text: \"I am not scared to express my feelings the way I experience them.\",\n      categoryId: 14\n    }, {\n      id: 246,\n      completed: false,\n      text: \"I know how to get people to like me and win them for my ideas.\",\n      categoryId: 13\n    }, {\n      id: 247,\n      completed: false,\n      text: \"Flattering people is just a good method to get what you want to get.\",\n      categoryId: 13\n    }, {\n      id: 248,\n      completed: false,\n      text: \"I have problems reducing my speaking time.\",\n      categoryId: 12\n    }, {\n      id: 249,\n      completed: false,\n      text: \"I know how to handle strong irony.\",\n      categoryId: 12\n    }, {\n      id: 250,\n      completed: false,\n      text: \"I am helpful and easy going. Sometimes I even let people «use» me.\",\n      categoryId: 11\n    }, {\n      id: 251,\n      completed: false,\n      text: \"I rather observe than participate.\",\n      categoryId: 11\n    }, {\n      id: 252,\n      completed: false,\n      text: \"I rather stay in the background than coming to the foreground.\",\n      categoryId: 11\n    }, {\n      id: 253,\n      completed: false,\n      text: \"I don’t think manipulating is an efficient solution.\",\n      categoryId: 14\n    }, {\n      id: 254,\n      completed: false,\n      text: \"You don’t have to show too fast your aims, that is unthoughtful.\",\n      categoryId: 13\n    }, {\n      id: 255,\n      completed: false,\n      text: \"It seems that I sometimes shock people with the things that I say.\",\n      categoryId: 12\n    }, {\n      id: 256,\n      completed: false,\n      text: \"I would rather be a wolf than a lamb.\",\n      categoryId: 12\n    }, {\n      id: 257,\n      completed: false,\n      text: \"Manipulating others a little bit is often the only practical way of getting what you want to get.\",\n      categoryId: 13\n    }, {\n      id: 258,\n      completed: false,\n      text: \"I mostly know how to protest in an effective way, without being excessively aggressive.\",\n      categoryId: 14\n    }, {\n      id: 259,\n      completed: false,\n      text: \"I think that problems can only be solved if you look for the underlying reasons.\",\n      categoryId: 11\n    }, {\n      id: 260,\n      completed: false,\n      text: \"I don’t like it if people would think I am no good.\",\n      categoryId: 11\n    }]\n  };\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n                <div className=\"survey\">\r\n                    <Header questionnaire={this.state} />\r\n                    <Questions handleclick={this.handleAddPoint} />\r\n                    <Answer questions={this.state.questions} categories={this.state.categories} />\r\n\r\n                </div>\r\n        </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{data.title}</p>\r\n            </div>  \r\n             <div className=\"description-text\">\r\n                {data.description.map((text, index) => <p key={index}>{text}</p>)} \r\n                </div> \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\"> {data.instruction} </p>    \r\n                </div>  \r\n        </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {value => <div className=\"questions\">\r\n                   <table className=\"questions-table\">\r\n                        <tbody>\r\n                            {value.questions.map((question, index) => <Question key={index} index={index} question={question} handleclick={this.handleClick} />)}\r\n                        </tbody>\r\n                   </table>\r\n                  \r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Please complete all the questions to know your score\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Validate\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: \"#002F47\"\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Hide result\" : btn.text = \"Validate\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Save</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Answers\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    oldValue: 0,\n    boxesColor: \"#2AA1A9\",\n    Truecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    },\n    Falsecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Question.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      },
+      {
+        "file": "src/Components/Assertiveness/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  //const choices = question.choices\n\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n            <td className=\"question-text\">{question.text}</td>\r\n            <Possibilites>\r\n                <BoolInput type=\"radio\" id={question.id + \"true\"} name={question.id} value=\"1\" onClick={this.handleClick} />\r\n                <BoolInput type=\"radio\" id={question.id + \"false\"} name={question.id} value=\"0\" onClick={this.handleClick} />\r\n                <BoolCheckboxes color={this.state.boxesColor}>\r\n                    <TrueDiv colors={this.state.Truecolors} />\r\n                    <FalseDiv colors={this.state.Falsecolors} /> \r\n                    <TrueLabel colors={this.state.Truecolors} htmlFor={question.id + \"true\"}>True</TrueLabel>\r\n                    <FalseLabel colors={this.state.Falsecolors} htmlFor={question.id + \"false\"}>False</FalseLabel>\r\n                </BoolCheckboxes>\r\n            </Possibilites>\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

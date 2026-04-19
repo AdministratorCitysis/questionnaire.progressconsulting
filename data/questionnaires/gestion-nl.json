@@ -1,0 +1,2967 @@
+{
+  "routePath": "/gestion-nl",
+  "routeComponent": "GestionTempsNL",
+  "routeImportSource": "./Components/GestionTempsNL",
+  "extractionTimestamp": "2026-04-19T10:06:59.396Z",
+  "sourceFiles": [
+    "src/Components/GestionTempsNL.js",
+    "src/Components/GestionTempsNL/Components/Answer.js",
+    "src/Components/GestionTempsNL/Components/Categorie.js",
+    "src/Components/GestionTempsNL/Components/Categories.js",
+    "src/Components/GestionTempsNL/Components/Header.js",
+    "src/Components/GestionTempsNL/Components/Possibilites.js",
+    "src/Components/GestionTempsNL/Components/Question.js",
+    "src/Components/GestionTempsNL/Components/Questionnaire.js",
+    "src/Components/GestionTempsNL/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Vragenlijst over Tijdsbeheer",
+      "answers": [
+        {
+          "id": 1,
+          "number": "--",
+          "text": "Volledig ONWAAR",
+          "value": -2
+        },
+        {
+          "id": 2,
+          "number": "-",
+          "text": "Enigszins ONWAAR",
+          "value": -1
+        },
+        {
+          "id": 3,
+          "number": "+",
+          "text": "Enigszins WAAR",
+          "value": {
+            "__unparsed": "+1"
+          }
+        },
+        {
+          "id": 4,
+          "number": "++",
+          "text": "Helemaal WAAR",
+          "value": {
+            "__unparsed": "+2"
+          }
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 0,
+          "text": "Je heb veel moeite met je tijdsbeheer. Het is aan jou om te analyseren wat te wijten is aan je werkomgeving en wat aan jezelf te wijten is."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Je tijdsbeheer is gemiddeld. Je moet je hierin verder ontwikkelen."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Je gaat actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": " ",
+          "description": "Antwoord oprecht, spontaan voor uzelf, door een kruisje te zetten in het vakje dat het best overeenstemt met uw gevoel bij elke voorgestelde stelling",
+          "completed": false,
+          "value": "",
+          "message": "Vul alle vragen in om uw score te kennen",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Ik vergeet mijn afspraken niet af te zeggen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Ik heb mijn eigen methodes om tijd te besparen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Ik heb tijd om mezelf te informeren en te trainen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Ik ken mijn verlangens en motivaties",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Ik kan me concentreren op belangrijke taken zonder onderbroken te worden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Ik weet waar mijn tijd naartoe gaat",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Ik krijg genoeg slaap",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Ik stel persoonlijke en professionele doelen op korte en middellange termijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Ik doorbreek van tijd tot tijd mijn gewoontes en routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Ik zorg ervoor om stress te beperken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Ik maak altijd af wat ik van plan was te doen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Ik maak tijd voor mezelf, om te doen wat ik leuk vind",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Ik onderhandel over bepaalde prioriteiten met mijn baas",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Ik heb weinig onverwachte gebeurtenissen gedurende de dag",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Ik ken mijn zwakheden en ik hou er rekening mee",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Ik ken mijn tijdrovers",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Ik kan wat belangrijk is onderscheiden van wat bijzaak is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Ik voel me meestal fit",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Ik weet van tevoren hoeveel tijd een activiteit me kost",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Ik behandel nooit meerdere dingen tegelijk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Het gebeurt zelden dat ik onder druk en deadline werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Ik kom steeds op tijd voor afspraken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Ik ben niet altijd beschikbaar",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Ik aarzel niet om een onnodig lange vergadering af te breken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Ik filter steeds mijn telefoongesprekken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "Ik heb voldoende tijd voor mijn professionele lectuur",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "Ik heb mijn archiveringssysteem aangepast aan mijn functie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "Ik actualiseer regelmatig mijn doelstellingen en werkmethoden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "Ik heb tijd om anderen te informeren en op te leiden",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": " ",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn",
+            "raw": {
+              "id": 1,
+              "text": "Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Ik vergeet mijn afspraken niet af te zeggen",
+            "raw": {
+              "id": 2,
+              "text": "Ik vergeet mijn afspraken niet af te zeggen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen",
+            "raw": {
+              "id": 3,
+              "text": "De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven",
+            "raw": {
+              "id": 4,
+              "text": "Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Ik heb mijn eigen methodes om tijd te besparen",
+            "raw": {
+              "id": 5,
+              "text": "Ik heb mijn eigen methodes om tijd te besparen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet",
+            "raw": {
+              "id": 6,
+              "text": "In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Ik heb tijd om mezelf te informeren en te trainen",
+            "raw": {
+              "id": 7,
+              "text": "Ik heb tijd om mezelf te informeren en te trainen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen",
+            "raw": {
+              "id": 8,
+              "text": "Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Ik ken mijn verlangens en motivaties",
+            "raw": {
+              "id": 9,
+              "text": "Ik ken mijn verlangens en motivaties",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Ik kan me concentreren op belangrijke taken zonder onderbroken te worden",
+            "raw": {
+              "id": 10,
+              "text": "Ik kan me concentreren op belangrijke taken zonder onderbroken te worden",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Ik weet waar mijn tijd naartoe gaat",
+            "raw": {
+              "id": 11,
+              "text": "Ik weet waar mijn tijd naartoe gaat",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren",
+            "raw": {
+              "id": 12,
+              "text": "Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt",
+            "raw": {
+              "id": 13,
+              "text": "Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Ik krijg genoeg slaap",
+            "raw": {
+              "id": 14,
+              "text": "Ik krijg genoeg slaap",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk",
+            "raw": {
+              "id": 15,
+              "text": "Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Ik stel persoonlijke en professionele doelen op korte en middellange termijn",
+            "raw": {
+              "id": 16,
+              "text": "Ik stel persoonlijke en professionele doelen op korte en middellange termijn",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Ik doorbreek van tijd tot tijd mijn gewoontes en routines",
+            "raw": {
+              "id": 17,
+              "text": "Ik doorbreek van tijd tot tijd mijn gewoontes en routines",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Ik zorg ervoor om stress te beperken",
+            "raw": {
+              "id": 18,
+              "text": "Ik zorg ervoor om stress te beperken",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Ik maak altijd af wat ik van plan was te doen",
+            "raw": {
+              "id": 19,
+              "text": "Ik maak altijd af wat ik van plan was te doen",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Ik maak tijd voor mezelf, om te doen wat ik leuk vind",
+            "raw": {
+              "id": 20,
+              "text": "Ik maak tijd voor mezelf, om te doen wat ik leuk vind",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Ik onderhandel over bepaalde prioriteiten met mijn baas",
+            "raw": {
+              "id": 21,
+              "text": "Ik onderhandel over bepaalde prioriteiten met mijn baas",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Ik heb weinig onverwachte gebeurtenissen gedurende de dag",
+            "raw": {
+              "id": 22,
+              "text": "Ik heb weinig onverwachte gebeurtenissen gedurende de dag",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren",
+            "raw": {
+              "id": 23,
+              "text": "Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Ik ken mijn zwakheden en ik hou er rekening mee",
+            "raw": {
+              "id": 24,
+              "text": "Ik ken mijn zwakheden en ik hou er rekening mee",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng",
+            "raw": {
+              "id": 25,
+              "text": "Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Ik ken mijn tijdrovers",
+            "raw": {
+              "id": 26,
+              "text": "Ik ken mijn tijdrovers",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Ik kan wat belangrijk is onderscheiden van wat bijzaak is",
+            "raw": {
+              "id": 27,
+              "text": "Ik kan wat belangrijk is onderscheiden van wat bijzaak is",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Ik voel me meestal fit",
+            "raw": {
+              "id": 28,
+              "text": "Ik voel me meestal fit",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren",
+            "raw": {
+              "id": 29,
+              "text": "Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Ik weet van tevoren hoeveel tijd een activiteit me kost",
+            "raw": {
+              "id": 30,
+              "text": "Ik weet van tevoren hoeveel tijd een activiteit me kost",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie",
+            "raw": {
+              "id": 31,
+              "text": "Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten",
+            "raw": {
+              "id": 32,
+              "text": "Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Ik behandel nooit meerdere dingen tegelijk",
+            "raw": {
+              "id": 33,
+              "text": "Ik behandel nooit meerdere dingen tegelijk",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Het gebeurt zelden dat ik onder druk en deadline werk",
+            "raw": {
+              "id": 34,
+              "text": "Het gebeurt zelden dat ik onder druk en deadline werk",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden",
+            "raw": {
+              "id": 35,
+              "text": "Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Ik kom steeds op tijd voor afspraken",
+            "raw": {
+              "id": 36,
+              "text": "Ik kom steeds op tijd voor afspraken",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Ik ben niet altijd beschikbaar",
+            "raw": {
+              "id": 37,
+              "text": "Ik ben niet altijd beschikbaar",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is",
+            "raw": {
+              "id": 38,
+              "text": "Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken",
+            "raw": {
+              "id": 39,
+              "text": "Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Ik aarzel niet om een onnodig lange vergadering af te breken",
+            "raw": {
+              "id": 40,
+              "text": "Ik aarzel niet om een onnodig lange vergadering af te breken",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "Ik filter steeds mijn telefoongesprekken",
+            "raw": {
+              "id": 41,
+              "text": "Ik filter steeds mijn telefoongesprekken",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "Ik heb voldoende tijd voor mijn professionele lectuur",
+            "raw": {
+              "id": 42,
+              "text": "Ik heb voldoende tijd voor mijn professionele lectuur",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "Ik heb mijn archiveringssysteem aangepast aan mijn functie",
+            "raw": {
+              "id": 43,
+              "text": "Ik heb mijn archiveringssysteem aangepast aan mijn functie",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "Ik actualiseer regelmatig mijn doelstellingen en werkmethoden",
+            "raw": {
+              "id": 44,
+              "text": "Ik actualiseer regelmatig mijn doelstellingen en werkmethoden",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "Ik heb tijd om anderen te informeren en op te leiden",
+            "raw": {
+              "id": 45,
+              "text": "Ik heb tijd om anderen te informeren en op te leiden",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Volledig ONWAAR",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Enigszins ONWAAR",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Enigszins WAAR",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Helemaal WAAR",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "--",
+            "text": "Volledig ONWAAR",
+            "value": -2
+          },
+          {
+            "id": 2,
+            "number": "-",
+            "text": "Enigszins ONWAAR",
+            "value": -1
+          },
+          {
+            "id": 3,
+            "number": "+",
+            "text": "Enigszins WAAR",
+            "value": {
+              "__unparsed": "+1"
+            }
+          },
+          {
+            "id": 4,
+            "number": "++",
+            "text": "Helemaal WAAR",
+            "value": {
+              "__unparsed": "+2"
+            }
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": " ",
+          "description": "Antwoord oprecht, spontaan voor uzelf, door een kruisje te zetten in het vakje dat het best overeenstemt met uw gevoel bij elke voorgestelde stelling",
+          "completed": false,
+          "value": "",
+          "message": "Vul alle vragen in om uw score te kennen",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Ik vergeet mijn afspraken niet af te zeggen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Ik heb mijn eigen methodes om tijd te besparen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Ik heb tijd om mezelf te informeren en te trainen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Ik ken mijn verlangens en motivaties",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Ik kan me concentreren op belangrijke taken zonder onderbroken te worden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Ik weet waar mijn tijd naartoe gaat",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Ik krijg genoeg slaap",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Ik stel persoonlijke en professionele doelen op korte en middellange termijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Ik doorbreek van tijd tot tijd mijn gewoontes en routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Ik zorg ervoor om stress te beperken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Ik maak altijd af wat ik van plan was te doen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Ik maak tijd voor mezelf, om te doen wat ik leuk vind",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Ik onderhandel over bepaalde prioriteiten met mijn baas",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Ik heb weinig onverwachte gebeurtenissen gedurende de dag",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Ik ken mijn zwakheden en ik hou er rekening mee",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Ik ken mijn tijdrovers",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Ik kan wat belangrijk is onderscheiden van wat bijzaak is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Ik voel me meestal fit",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Ik weet van tevoren hoeveel tijd een activiteit me kost",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Ik behandel nooit meerdere dingen tegelijk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Het gebeurt zelden dat ik onder druk en deadline werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Ik kom steeds op tijd voor afspraken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Ik ben niet altijd beschikbaar",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Ik aarzel niet om een onnodig lange vergadering af te breken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Ik filter steeds mijn telefoongesprekken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "Ik heb voldoende tijd voor mijn professionele lectuur",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "Ik heb mijn archiveringssysteem aangepast aan mijn functie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "Ik actualiseer regelmatig mijn doelstellingen en werkmethoden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "Ik heb tijd om anderen te informeren en op te leiden",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": " ",
+        "raw": {
+          "id": 1,
+          "name": " ",
+          "description": "Antwoord oprecht, spontaan voor uzelf, door een kruisje te zetten in het vakje dat het best overeenstemt met uw gevoel bij elke voorgestelde stelling",
+          "completed": false,
+          "value": "",
+          "message": "Vul alle vragen in om uw score te kennen",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Ik vergeet mijn afspraken niet af te zeggen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Ik heb mijn eigen methodes om tijd te besparen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Ik heb tijd om mezelf te informeren en te trainen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Ik ken mijn verlangens en motivaties",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Ik kan me concentreren op belangrijke taken zonder onderbroken te worden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Ik weet waar mijn tijd naartoe gaat",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Ik krijg genoeg slaap",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Ik stel persoonlijke en professionele doelen op korte en middellange termijn",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Ik doorbreek van tijd tot tijd mijn gewoontes en routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Ik zorg ervoor om stress te beperken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Ik maak altijd af wat ik van plan was te doen",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Ik maak tijd voor mezelf, om te doen wat ik leuk vind",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Ik onderhandel over bepaalde prioriteiten met mijn baas",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Ik heb weinig onverwachte gebeurtenissen gedurende de dag",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Ik ken mijn zwakheden en ik hou er rekening mee",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Ik ken mijn tijdrovers",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Ik kan wat belangrijk is onderscheiden van wat bijzaak is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Ik voel me meestal fit",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Ik weet van tevoren hoeveel tijd een activiteit me kost",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Ik behandel nooit meerdere dingen tegelijk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Het gebeurt zelden dat ik onder druk en deadline werk",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Ik kom steeds op tijd voor afspraken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Ik ben niet altijd beschikbaar",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Ik aarzel niet om een onnodig lange vergadering af te breken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Ik filter steeds mijn telefoongesprekken",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "Ik heb voldoende tijd voor mijn professionele lectuur",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "Ik heb mijn archiveringssysteem aangepast aan mijn functie",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "Ik actualiseer regelmatig mijn doelstellingen en werkmethoden",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "Ik heb tijd om anderen te informeren en op te leiden",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Je heb veel moeite met je tijdsbeheer. Het is aan jou om te analyseren wat te wijten is aan je werkomgeving en wat aan jezelf te wijten is."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Je tijdsbeheer is gemiddeld. Je moet je hierin verder ontwikkelen."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Je gaat actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/GestionTempsNL/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/GestionTempsNL/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  const question = {\n    id: this.state.question.id,\n    value: value\n  };\n  this.props.setquestioncompleted(question);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/GestionTempsNL/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = question => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === question.id);\n  newquestions[questionIndex].completed = true;\n  newquestions[questionIndex].value = question.value;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n  //const answer = this.state.questionnaire.answers.find(element => element.value === parseInt(newquestions[questionIndex].value))\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/GestionTempsNL/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Vragenlijst over Tijdsbeheer\",\n      answers: [{\n        id: 1,\n        number: \"--\",\n        text: \"Volledig ONWAAR\",\n        value: -2\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Enigszins ONWAAR\",\n        value: -1\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Enigszins WAAR\",\n        value: +1\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Helemaal WAAR\",\n        value: +2\n      }],\n      reponses: [{\n        maxvalue: 0,\n        text: \"Je heb veel moeite met je tijdsbeheer. Het is aan jou om te analyseren wat te wijten is aan je werkomgeving en wat aan jezelf te wijten is.\"\n      }, {\n        maxvalue: 60,\n        text: \"Je tijdsbeheer is gemiddeld. Je moet je hierin verder ontwikkelen.\"\n      }, {\n        maxvalue: 90,\n        text: \"Je gaat actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"Antwoord oprecht, spontaan voor uzelf, door een kruisje te zetten in het vakje dat het best overeenstemt met uw gevoel bij elke voorgestelde stelling\",\n        completed: false,\n        value: '',\n        message: \"Vul alle vragen in om uw score te kennen\",\n        questions: [{\n          id: 1,\n          text: \"Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Ik vergeet mijn afspraken niet af te zeggen\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Ik heb mijn eigen methodes om tijd te besparen\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Ik heb tijd om mezelf te informeren en te trainen\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Ik ken mijn verlangens en motivaties\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Ik kan me concentreren op belangrijke taken zonder onderbroken te worden\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Ik weet waar mijn tijd naartoe gaat\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Ik krijg genoeg slaap\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Ik stel persoonlijke en professionele doelen op korte en middellange termijn\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Ik doorbreek van tijd tot tijd mijn gewoontes en routines\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Ik zorg ervoor om stress te beperken\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Ik maak altijd af wat ik van plan was te doen\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Ik maak tijd voor mezelf, om te doen wat ik leuk vind\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"Ik onderhandel over bepaalde prioriteiten met mijn baas\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Ik heb weinig onverwachte gebeurtenissen gedurende de dag\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Ik ken mijn zwakheden en ik hou er rekening mee\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Ik ken mijn tijdrovers\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Ik kan wat belangrijk is onderscheiden van wat bijzaak is\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Ik voel me meestal fit\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Ik weet van tevoren hoeveel tijd een activiteit me kost\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Ik behandel nooit meerdere dingen tegelijk\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Het gebeurt zelden dat ik onder druk en deadline werk\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Ik kom steeds op tijd voor afspraken\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Ik ben niet altijd beschikbaar\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Ik aarzel niet om een onnodig lange vergadering af te breken\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"Ik filter steeds mijn telefoongesprekken\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"Ik heb voldoende tijd voor mijn professionele lectuur\",\n          value: '',\n          completed: false\n        }, {\n          id: 43,\n          text: \"Ik heb mijn archiveringssysteem aangepast aan mijn functie\",\n          value: '',\n          completed: false\n        }, {\n          id: 44,\n          text: \"Ik actualiseer regelmatig mijn doelstellingen en werkmethoden\",\n          value: '',\n          completed: false\n        }, {\n          id: 45,\n          text: \"Ik heb tijd om anderen te informeren en op te leiden\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/GestionTempsNL/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Uw resultaat is: </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/GestionTempsNL/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "source": "src/Components/GestionTempsNL/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Uw resultaat is: </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/GestionTempsNL.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Vragenlijst over Tijdsbeheer\",\n      answers: [{\n        id: 1,\n        number: \"--\",\n        text: \"Volledig ONWAAR\",\n        value: -2\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Enigszins ONWAAR\",\n        value: -1\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Enigszins WAAR\",\n        value: +1\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Helemaal WAAR\",\n        value: +2\n      }],\n      reponses: [{\n        maxvalue: 0,\n        text: \"Je heb veel moeite met je tijdsbeheer. Het is aan jou om te analyseren wat te wijten is aan je werkomgeving en wat aan jezelf te wijten is.\"\n      }, {\n        maxvalue: 60,\n        text: \"Je tijdsbeheer is gemiddeld. Je moet je hierin verder ontwikkelen.\"\n      }, {\n        maxvalue: 90,\n        text: \"Je gaat actief en positief om met je tijd. Goed gedaan! Maar misschien kan je het nog beter... en ga vooral niet op je lauweren rusten, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"Antwoord oprecht, spontaan voor uzelf, door een kruisje te zetten in het vakje dat het best overeenstemt met uw gevoel bij elke voorgestelde stelling\",\n        completed: false,\n        value: '',\n        message: \"Vul alle vragen in om uw score te kennen\",\n        questions: [{\n          id: 1,\n          text: \"Wanneer ik op mijn werkplek aankom, weet ik welke de eerste 3 uit te voeren taken zijn\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Ik vergeet mijn afspraken niet af te zeggen\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"De analyse van de manier waarop ik mijn tijd beheer heeft me ertoe gebracht een aantal van mijn gedragingen te veranderen\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Ik besteed voldoende tijd aan mijn vrije tijd en gezinsleven\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Ik heb mijn eigen methodes om tijd te besparen\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"In een vergadering of in een professioneel gesprek, vergeet ik de tijdsvariabele niet\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Ik heb tijd om mezelf te informeren en te trainen\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Ik slaag erin me buiten mijn werkuren los te koppelen van mijn professionele beslommeringen\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Ik ken mijn verlangens en motivaties\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Ik kan me concentreren op belangrijke taken zonder onderbroken te worden\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Ik weet waar mijn tijd naartoe gaat\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Ik denk elke dag een paar minuten na over hoe ik mijn prioriteiten kan organiseren\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Ik praat met mijn collega's over hoe ieder van hen zijn tijd indeelt\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Ik krijg genoeg slaap\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Ik houd rekening met mijn persoonlijke ritmes bij het organiseren van mijn werk\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Ik stel persoonlijke en professionele doelen op korte en middellange termijn\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Ik doorbreek van tijd tot tijd mijn gewoontes en routines\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Ik zorg ervoor om stress te beperken\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Ik maak altijd af wat ik van plan was te doen\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Ik maak tijd voor mezelf, om te doen wat ik leuk vind\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"Ik onderhandel over bepaalde prioriteiten met mijn baas\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Ik heb weinig onverwachte gebeurtenissen gedurende de dag\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Ik ken te allen tijde alle taken en activiteiten die ik moet uitvoeren\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Ik ken mijn zwakheden en ik hou er rekening mee\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Ik ken de werkgebieden waar ik veel tijd doorbreng en die waar ik juist weinig tijd doorbreng\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Ik ken mijn tijdrovers\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Ik kan wat belangrijk is onderscheiden van wat bijzaak is\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Ik voel me meestal fit\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Ik weet hoe ik nee moet zeggen en bepaalde verzoeken moet weigeren\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Ik weet van tevoren hoeveel tijd een activiteit me kost\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"Ik wissel af tussen mijn verschillende activiteiten en tussen reflectie en actie\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Ik gebruik één agenda voor mijn eigen en persoonlijke activiteiten\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Ik behandel nooit meerdere dingen tegelijk\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Het gebeurt zelden dat ik onder druk en deadline werk\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Ongeacht het type afspraak of vergadering, ik vind altijd tijd om het voor te bereiden\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Ik kom steeds op tijd voor afspraken\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Ik ben niet altijd beschikbaar\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Ik weet hoe ik moet uitstellen wat niet de prioriteit van het moment is\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"Ik heb methoden ontwikkeld om mijn reistijd en verplaatsingen te beperken of te gebruiken\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Ik aarzel niet om een onnodig lange vergadering af te breken\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"Ik filter steeds mijn telefoongesprekken\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"Ik heb voldoende tijd voor mijn professionele lectuur\",\n          value: '',\n          completed: false\n        }, {\n          id: 43,\n          text: \"Ik heb mijn archiveringssysteem aangepast aan mijn functie\",\n          value: '',\n          completed: false\n        }, {\n          id: 44,\n          text: \"Ik actualiseer regelmatig mijn doelstellingen en werkmethoden\",\n          value: '',\n          completed: false\n        }, {\n          id: 45,\n          text: \"Ik heb tijd om anderen te informeren en op te leiden\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === question.id);\n  newquestions[questionIndex].completed = true;\n  newquestions[questionIndex].value = question.value;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n  //const answer = this.state.questionnaire.answers.find(element => element.value === parseInt(newquestions[questionIndex].value))\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} questionnaire={data} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const descritption = this.props.categorie.description;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"categorie-description\">\r\n                <p>{descritption}</p>\r\n                </div>\r\n                <div className=\"questions\">\r\n                {this.state.title}\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    btn: {\n      checked: false,\n      text: \"Valideren\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Het resultaat verbergen\" : btn.text = \"Valideren\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Uw resultaat is: </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  const question = {\n    id: this.state.question.id,\n    value: value\n  };\n  this.props.setquestioncompleted(question);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/GestionTempsNL/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

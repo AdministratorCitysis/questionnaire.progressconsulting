@@ -1,0 +1,3223 @@
+{
+  "routePath": "/drivers",
+  "routeComponent": "Drivers",
+  "routeImportSource": "./Components/Drivers",
+  "extractionTimestamp": "2026-04-19T10:07:00.120Z",
+  "sourceFiles": [
+    "src/Components/Drivers.js",
+    "src/Components/Drivers/Components/Answer.js",
+    "src/Components/Drivers/Components/Context.js",
+    "src/Components/Drivers/Components/Header.js",
+    "src/Components/Drivers/Components/Possibilites.js",
+    "src/Components/Drivers/Components/Question.js",
+    "src/Components/Drivers/Components/Questionnaire.js",
+    "src/Components/Drivers/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Test des drivers",
+      "description": "Répondez aux 50 questions en choisissant l'option qui vous correspond le mieux",
+      "completed": false,
+      "questions": [
+        {
+          "id": 1,
+          "text": "J'ai toujours l'impression de me battre contre la montre",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Je pense que l'effort est plus important que le résultat",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Je pense que dans la vie je dois me débrouiller tout seul",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Pour commencer une tâche, il me faut toutes les informations",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Il est important que les autres soient bien disposés à mon égard",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Le stress me dope",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "J'ai toujours peur de ne pas être à la hauteur",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Je suis très exigeant envers moi-même et les autres",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Pour être satisfait, je dois exceller",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Pour être aimé, je rends service plus que la moyenne",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "je ne peux déléguer car les autres sont trop lents",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "je dois dépenser beaucoup d'énergie pour faire les choses",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Je n'exprime pas mes émotions",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Pour être efficace, ma tâche doit être parfaite",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Pour mon patron, je suis disponible, même chez moi",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "Je parle vite",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "J'aime accomplir de nobles tâches",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Les faits, les chiffres, la logique, voilà les vraies valeurs",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "Il faut dire aux gens ce qu'ils ont envie d'entendre",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 21,
+          "text": "J'ai envie d'interrompre les gens pour finir leurs phrases à leur place",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 22,
+          "text": "J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 23,
+          "text": "L'échange intellectuel est le domaine où je suis à l'aise",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 24,
+          "text": "L'exactitude à tout prix, voilà le prix de mon image",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 25,
+          "text": "J'aime savoir qu'un collègue a besoin de moi",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 26,
+          "text": "Je dis souvent \"Pressons … oui … oui …. Et alors ?\"",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 27,
+          "text": "Les autres disent de moi que je me plains souvent",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 28,
+          "text": "J'aime ce qui fait appel à la logique",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 29,
+          "text": "Je dois donner l'impression que je sais tout",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 30,
+          "text": "Il faut savoir se couper en quatre",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 31,
+          "text": "J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 32,
+          "text": "Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 33,
+          "text": "J'ai du mal à faire confiance et à m'abandonner",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 34,
+          "text": "Pour moi, une objection est le signe de mon incompétence",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 35,
+          "text": "J'aime aider les autres",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 36,
+          "text": "Je tapote souvent avec mes doigts ou mes pieds",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 37,
+          "text": "Je crée des situations confuses où je me sens stupide et impuissant",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 38,
+          "text": "La manière dont les autres me jugent sur ce que je fais m'importe beaucoup",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 39,
+          "text": "Je suis convaincu que je suis le meilleur",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 40,
+          "text": "Je ne sais pas dire non",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 41,
+          "text": "Je vais trop vite, ce qui me fait faire des fautes d'inattention",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 42,
+          "text": "Que d'efforts pour répondre à toutes ces questions !",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 43,
+          "text": "Je me sens en sécurité si je ne m'implique pas émotionnellement",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 44,
+          "text": "Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 45,
+          "text": "J'aime jouer le rôle de confident",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 46,
+          "text": "Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 47,
+          "text": "Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 48,
+          "text": "Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 49,
+          "text": "J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 50,
+          "text": "En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "0",
+          "text": "Ce n'est pas moi",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": "1",
+          "text": "C'est peut-être moi",
+          "value": 1
+        },
+        {
+          "id": 3,
+          "number": "2",
+          "text": "C'est quelques fois moi",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "number": "3",
+          "text": "C'est souvent moi",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "number": "4",
+          "text": "C'est tout à fait moi",
+          "value": 4
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 0,
+          "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Gestion de votre temps moyen. Vous devez progresser."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": "Sois fort",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": "Fais plaisir",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": "Fais des efforts",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": "Fais vite",
+          "value": 0
+        },
+        {
+          "id": 5,
+          "text": "Sois parfait",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Test des drivers",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "J'ai toujours l'impression de me battre contre la montre",
+            "raw": {
+              "id": 1,
+              "text": "J'ai toujours l'impression de me battre contre la montre",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Je pense que l'effort est plus important que le résultat",
+            "raw": {
+              "id": 2,
+              "text": "Je pense que l'effort est plus important que le résultat",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Je pense que dans la vie je dois me débrouiller tout seul",
+            "raw": {
+              "id": 3,
+              "text": "Je pense que dans la vie je dois me débrouiller tout seul",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Pour commencer une tâche, il me faut toutes les informations",
+            "raw": {
+              "id": 4,
+              "text": "Pour commencer une tâche, il me faut toutes les informations",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Il est important que les autres soient bien disposés à mon égard",
+            "raw": {
+              "id": 5,
+              "text": "Il est important que les autres soient bien disposés à mon égard",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Le stress me dope",
+            "raw": {
+              "id": 6,
+              "text": "Le stress me dope",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "J'ai toujours peur de ne pas être à la hauteur",
+            "raw": {
+              "id": 7,
+              "text": "J'ai toujours peur de ne pas être à la hauteur",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Je suis très exigeant envers moi-même et les autres",
+            "raw": {
+              "id": 8,
+              "text": "Je suis très exigeant envers moi-même et les autres",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Pour être satisfait, je dois exceller",
+            "raw": {
+              "id": 9,
+              "text": "Pour être satisfait, je dois exceller",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Pour être aimé, je rends service plus que la moyenne",
+            "raw": {
+              "id": 10,
+              "text": "Pour être aimé, je rends service plus que la moyenne",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "je ne peux déléguer car les autres sont trop lents",
+            "raw": {
+              "id": 11,
+              "text": "je ne peux déléguer car les autres sont trop lents",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "je dois dépenser beaucoup d'énergie pour faire les choses",
+            "raw": {
+              "id": 12,
+              "text": "je dois dépenser beaucoup d'énergie pour faire les choses",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Je n'exprime pas mes émotions",
+            "raw": {
+              "id": 13,
+              "text": "Je n'exprime pas mes émotions",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Pour être efficace, ma tâche doit être parfaite",
+            "raw": {
+              "id": 14,
+              "text": "Pour être efficace, ma tâche doit être parfaite",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Pour mon patron, je suis disponible, même chez moi",
+            "raw": {
+              "id": 15,
+              "text": "Pour mon patron, je suis disponible, même chez moi",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Je parle vite",
+            "raw": {
+              "id": 16,
+              "text": "Je parle vite",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller",
+            "raw": {
+              "id": 17,
+              "text": "J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "J'aime accomplir de nobles tâches",
+            "raw": {
+              "id": 18,
+              "text": "J'aime accomplir de nobles tâches",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Les faits, les chiffres, la logique, voilà les vraies valeurs",
+            "raw": {
+              "id": 19,
+              "text": "Les faits, les chiffres, la logique, voilà les vraies valeurs",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Il faut dire aux gens ce qu'ils ont envie d'entendre",
+            "raw": {
+              "id": 20,
+              "text": "Il faut dire aux gens ce qu'ils ont envie d'entendre",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "J'ai envie d'interrompre les gens pour finir leurs phrases à leur place",
+            "raw": {
+              "id": 21,
+              "text": "J'ai envie d'interrompre les gens pour finir leurs phrases à leur place",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres",
+            "raw": {
+              "id": 22,
+              "text": "J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "L'échange intellectuel est le domaine où je suis à l'aise",
+            "raw": {
+              "id": 23,
+              "text": "L'échange intellectuel est le domaine où je suis à l'aise",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "L'exactitude à tout prix, voilà le prix de mon image",
+            "raw": {
+              "id": 24,
+              "text": "L'exactitude à tout prix, voilà le prix de mon image",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "J'aime savoir qu'un collègue a besoin de moi",
+            "raw": {
+              "id": 25,
+              "text": "J'aime savoir qu'un collègue a besoin de moi",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Je dis souvent \"Pressons … oui … oui …. Et alors ?\"",
+            "raw": {
+              "id": 26,
+              "text": "Je dis souvent \"Pressons … oui … oui …. Et alors ?\"",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Les autres disent de moi que je me plains souvent",
+            "raw": {
+              "id": 27,
+              "text": "Les autres disent de moi que je me plains souvent",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "J'aime ce qui fait appel à la logique",
+            "raw": {
+              "id": 28,
+              "text": "J'aime ce qui fait appel à la logique",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Je dois donner l'impression que je sais tout",
+            "raw": {
+              "id": 29,
+              "text": "Je dois donner l'impression que je sais tout",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Il faut savoir se couper en quatre",
+            "raw": {
+              "id": 30,
+              "text": "Il faut savoir se couper en quatre",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose",
+            "raw": {
+              "id": 31,
+              "text": "J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil",
+            "raw": {
+              "id": 32,
+              "text": "Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "J'ai du mal à faire confiance et à m'abandonner",
+            "raw": {
+              "id": 33,
+              "text": "J'ai du mal à faire confiance et à m'abandonner",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Pour moi, une objection est le signe de mon incompétence",
+            "raw": {
+              "id": 34,
+              "text": "Pour moi, une objection est le signe de mon incompétence",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "J'aime aider les autres",
+            "raw": {
+              "id": 35,
+              "text": "J'aime aider les autres",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Je tapote souvent avec mes doigts ou mes pieds",
+            "raw": {
+              "id": 36,
+              "text": "Je tapote souvent avec mes doigts ou mes pieds",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Je crée des situations confuses où je me sens stupide et impuissant",
+            "raw": {
+              "id": 37,
+              "text": "Je crée des situations confuses où je me sens stupide et impuissant",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "La manière dont les autres me jugent sur ce que je fais m'importe beaucoup",
+            "raw": {
+              "id": 38,
+              "text": "La manière dont les autres me jugent sur ce que je fais m'importe beaucoup",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Je suis convaincu que je suis le meilleur",
+            "raw": {
+              "id": 39,
+              "text": "Je suis convaincu que je suis le meilleur",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Je ne sais pas dire non",
+            "raw": {
+              "id": 40,
+              "text": "Je ne sais pas dire non",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "Je vais trop vite, ce qui me fait faire des fautes d'inattention",
+            "raw": {
+              "id": 41,
+              "text": "Je vais trop vite, ce qui me fait faire des fautes d'inattention",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "Que d'efforts pour répondre à toutes ces questions !",
+            "raw": {
+              "id": 42,
+              "text": "Que d'efforts pour répondre à toutes ces questions !",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "Je me sens en sécurité si je ne m'implique pas émotionnellement",
+            "raw": {
+              "id": 43,
+              "text": "Je me sens en sécurité si je ne m'implique pas émotionnellement",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence",
+            "raw": {
+              "id": 44,
+              "text": "Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "J'aime jouer le rôle de confident",
+            "raw": {
+              "id": 45,
+              "text": "J'aime jouer le rôle de confident",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "text": "Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps",
+            "raw": {
+              "id": 46,
+              "text": "Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "text": "Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'",
+            "raw": {
+              "id": 47,
+              "text": "Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "text": "Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions",
+            "raw": {
+              "id": 48,
+              "text": "Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "text": "J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis",
+            "raw": {
+              "id": 49,
+              "text": "J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "text": "En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi",
+            "raw": {
+              "id": 50,
+              "text": "En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Ce n'est pas moi",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "C'est peut-être moi",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "C'est quelques fois moi",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "C'est souvent moi",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "C'est tout à fait moi",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": "Sois fort",
+        "raw": {
+          "id": 1,
+          "text": "Sois fort",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": "Fais plaisir",
+        "raw": {
+          "id": 2,
+          "text": "Fais plaisir",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": "Fais des efforts",
+        "raw": {
+          "id": 3,
+          "text": "Fais des efforts",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": "Fais vite",
+        "raw": {
+          "id": 4,
+          "text": "Fais vite",
+          "value": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": "Sois parfait",
+        "raw": {
+          "id": 5,
+          "text": "Sois parfait",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "J'ai toujours l'impression de me battre contre la montre"
+      },
+      {
+        "questionId": 2,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je pense que l'effort est plus important que le résultat"
+      },
+      {
+        "questionId": 3,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je pense que dans la vie je dois me débrouiller tout seul"
+      },
+      {
+        "questionId": 4,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Pour commencer une tâche, il me faut toutes les informations"
+      },
+      {
+        "questionId": 5,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il est important que les autres soient bien disposés à mon égard"
+      },
+      {
+        "questionId": 6,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Le stress me dope"
+      },
+      {
+        "questionId": 7,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "J'ai toujours peur de ne pas être à la hauteur"
+      },
+      {
+        "questionId": 8,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je suis très exigeant envers moi-même et les autres"
+      },
+      {
+        "questionId": 9,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Pour être satisfait, je dois exceller"
+      },
+      {
+        "questionId": 10,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Pour être aimé, je rends service plus que la moyenne"
+      },
+      {
+        "questionId": 11,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "je ne peux déléguer car les autres sont trop lents"
+      },
+      {
+        "questionId": 12,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "je dois dépenser beaucoup d'énergie pour faire les choses"
+      },
+      {
+        "questionId": 13,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je n'exprime pas mes émotions"
+      },
+      {
+        "questionId": 14,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Pour être efficace, ma tâche doit être parfaite"
+      },
+      {
+        "questionId": 15,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Pour mon patron, je suis disponible, même chez moi"
+      },
+      {
+        "questionId": 16,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je parle vite"
+      },
+      {
+        "questionId": 17,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller"
+      },
+      {
+        "questionId": 18,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "J'aime accomplir de nobles tâches"
+      },
+      {
+        "questionId": 19,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Les faits, les chiffres, la logique, voilà les vraies valeurs"
+      },
+      {
+        "questionId": 20,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il faut dire aux gens ce qu'ils ont envie d'entendre"
+      },
+      {
+        "questionId": 21,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "J'ai envie d'interrompre les gens pour finir leurs phrases à leur place"
+      },
+      {
+        "questionId": 22,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres"
+      },
+      {
+        "questionId": 23,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "L'échange intellectuel est le domaine où je suis à l'aise"
+      },
+      {
+        "questionId": 24,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "L'exactitude à tout prix, voilà le prix de mon image"
+      },
+      {
+        "questionId": 25,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "J'aime savoir qu'un collègue a besoin de moi"
+      },
+      {
+        "questionId": 26,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je dis souvent \"Pressons … oui … oui …. Et alors ?\""
+      },
+      {
+        "questionId": 27,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Les autres disent de moi que je me plains souvent"
+      },
+      {
+        "questionId": 28,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "J'aime ce qui fait appel à la logique"
+      },
+      {
+        "questionId": 29,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Je dois donner l'impression que je sais tout"
+      },
+      {
+        "questionId": 30,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il faut savoir se couper en quatre"
+      },
+      {
+        "questionId": 31,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose"
+      },
+      {
+        "questionId": 32,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil"
+      },
+      {
+        "questionId": 33,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "J'ai du mal à faire confiance et à m'abandonner"
+      },
+      {
+        "questionId": 34,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Pour moi, une objection est le signe de mon incompétence"
+      },
+      {
+        "questionId": 35,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "J'aime aider les autres"
+      },
+      {
+        "questionId": 36,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je tapote souvent avec mes doigts ou mes pieds"
+      },
+      {
+        "questionId": 37,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Je crée des situations confuses où je me sens stupide et impuissant"
+      },
+      {
+        "questionId": 38,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "La manière dont les autres me jugent sur ce que je fais m'importe beaucoup"
+      },
+      {
+        "questionId": 39,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Je suis convaincu que je suis le meilleur"
+      },
+      {
+        "questionId": 40,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je ne sais pas dire non"
+      },
+      {
+        "questionId": 41,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je vais trop vite, ce qui me fait faire des fautes d'inattention"
+      },
+      {
+        "questionId": 42,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Que d'efforts pour répondre à toutes ces questions !"
+      },
+      {
+        "questionId": 43,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Je me sens en sécurité si je ne m'implique pas émotionnellement"
+      },
+      {
+        "questionId": 44,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence"
+      },
+      {
+        "questionId": 45,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "J'aime jouer le rôle de confident"
+      },
+      {
+        "questionId": 46,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps"
+      },
+      {
+        "questionId": 47,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'"
+      },
+      {
+        "questionId": 48,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions"
+      },
+      {
+        "questionId": 49,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis"
+      },
+      {
+        "questionId": 50,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Ce n'est pas moi",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "C'est peut-être moi",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "C'est quelques fois moi",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "C'est souvent moi",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "C'est tout à fait moi",
+            "value": 4
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Gestion de votre temps moyen. Vous devez progresser."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Drivers/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Drivers/Components/Possibilites.js::handleChange",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Drivers/Components/Questionnaire.js::handleValue",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Drivers/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Test des drivers\",\n      description: \"Répondez aux 50 questions en choisissant l'option qui vous correspond le mieux\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"J'ai toujours l'impression de me battre contre la montre\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Je pense que l'effort est plus important que le résultat\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Je pense que dans la vie je dois me débrouiller tout seul\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Pour commencer une tâche, il me faut toutes les informations\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Il est important que les autres soient bien disposés à mon égard\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Le stress me dope\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 7,\n        text: \"J'ai toujours peur de ne pas être à la hauteur\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Je suis très exigeant envers moi-même et les autres\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Pour être satisfait, je dois exceller\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Pour être aimé, je rends service plus que la moyenne\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"je ne peux déléguer car les autres sont trop lents\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"je dois dépenser beaucoup d'énergie pour faire les choses\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Je n'exprime pas mes émotions\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Pour être efficace, ma tâche doit être parfaite\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Pour mon patron, je suis disponible, même chez moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Je parle vite\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 17,\n        text: \"J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"J'aime accomplir de nobles tâches\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Les faits, les chiffres, la logique, voilà les vraies valeurs\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Il faut dire aux gens ce qu'ils ont envie d'entendre\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 21,\n        text: \"J'ai envie d'interrompre les gens pour finir leurs phrases à leur place\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 22,\n        text: \"J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 23,\n        text: \"L'échange intellectuel est le domaine où je suis à l'aise\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 24,\n        text: \"L'exactitude à tout prix, voilà le prix de mon image\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 25,\n        text: \"J'aime savoir qu'un collègue a besoin de moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Je dis souvent \"Pressons … oui … oui …. Et alors ?\"',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Les autres disent de moi que je me plains souvent',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 28,\n        text: \"J'aime ce qui fait appel à la logique\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Je dois donner l'impression que je sais tout\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Il faut savoir se couper en quatre\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 33,\n        text: \"J'ai du mal à faire confiance et à m'abandonner\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Pour moi, une objection est le signe de mon incompétence\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 35,\n        text: \"J'aime aider les autres\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Je tapote souvent avec mes doigts ou mes pieds\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Je crée des situations confuses où je me sens stupide et impuissant\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"La manière dont les autres me jugent sur ce que je fais m'importe beaucoup\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Je suis convaincu que je suis le meilleur\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Je ne sais pas dire non\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 41,\n        text: \"Je vais trop vite, ce qui me fait faire des fautes d'inattention\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 42,\n        text: \"Que d'efforts pour répondre à toutes ces questions !\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 43,\n        text: \"Je me sens en sécurité si je ne m'implique pas émotionnellement\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 44,\n        text: \"Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 45,\n        text: \"J'aime jouer le rôle de confident\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 46,\n        text: \"Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 47,\n        text: \"Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 48,\n        text: \"Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 49,\n        text: \"J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 50,\n        text: \"En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Ce n'est pas moi\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"C'est peut-être moi\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"C'est quelques fois moi\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"C'est souvent moi\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"C'est tout à fait moi\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"Sois fort\",\n        value: 0\n      }, {\n        id: 2,\n        text: \"Fais plaisir\",\n        value: 0\n      }, {\n        id: 3,\n        text: \"Fais des efforts\",\n        value: 0\n      }, {\n        id: 4,\n        text: \"Fais vite\",\n        value: 0\n      }, {\n        id: 5,\n        text: \"Sois parfait\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Drivers/Components/Questionnaire.js::handleValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Drivers/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    <Stick height={element.value * 10 - element.value * 2} color=\"#002F47\">\r\n                                                                        <StickPoint color=\"#FFFFFF\">{element.value}</StickPoint>\r\n                                                                    </Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>   \r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color=\"#002F47\">{element.text}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <Result className=\"answer\" completed={isCompleted}>\r\n                                            <Result className=\"answer-text\" completed={isCompleted}>\r\n                                                {this.state.message}\r\n                                            </Result>\r\n                                </Result>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>     \r\n                                  <ToPrint ref={this.printRef} title={data.title}>                 \r\n                                {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                    {printbutton}\r\n                                </div>     \r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Drivers/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Drivers.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Drivers.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Test des drivers\",\n      description: \"Répondez aux 50 questions en choisissant l'option qui vous correspond le mieux\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"J'ai toujours l'impression de me battre contre la montre\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Je pense que l'effort est plus important que le résultat\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Je pense que dans la vie je dois me débrouiller tout seul\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Pour commencer une tâche, il me faut toutes les informations\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Il est important que les autres soient bien disposés à mon égard\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Le stress me dope\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 7,\n        text: \"J'ai toujours peur de ne pas être à la hauteur\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Je suis très exigeant envers moi-même et les autres\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Pour être satisfait, je dois exceller\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Pour être aimé, je rends service plus que la moyenne\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"je ne peux déléguer car les autres sont trop lents\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"je dois dépenser beaucoup d'énergie pour faire les choses\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Je n'exprime pas mes émotions\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Pour être efficace, ma tâche doit être parfaite\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Pour mon patron, je suis disponible, même chez moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Je parle vite\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 17,\n        text: \"J'ai un sentiment d'oppression et la peur d'exploser si je me laisse aller\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"J'aime accomplir de nobles tâches\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Les faits, les chiffres, la logique, voilà les vraies valeurs\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Il faut dire aux gens ce qu'ils ont envie d'entendre\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 21,\n        text: \"J'ai envie d'interrompre les gens pour finir leurs phrases à leur place\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 22,\n        text: \"J'ai le sentiment depuis longtemps d'être responsable de ce qui arrive aux autres\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 23,\n        text: \"L'échange intellectuel est le domaine où je suis à l'aise\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 24,\n        text: \"L'exactitude à tout prix, voilà le prix de mon image\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 25,\n        text: \"J'aime savoir qu'un collègue a besoin de moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Je dis souvent \"Pressons … oui … oui …. Et alors ?\"',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Les autres disent de moi que je me plains souvent',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 28,\n        text: \"J'aime ce qui fait appel à la logique\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Je dois donner l'impression que je sais tout\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Il faut savoir se couper en quatre\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"J'ai coutume de faire les cents pas lorsque je suis en attente de quelque chose\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Les gens viennent vers moi sans que je le leur demande, car on me trouve gentil\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 33,\n        text: \"J'ai du mal à faire confiance et à m'abandonner\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Pour moi, une objection est le signe de mon incompétence\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 35,\n        text: \"J'aime aider les autres\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Je tapote souvent avec mes doigts ou mes pieds\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Je crée des situations confuses où je me sens stupide et impuissant\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"La manière dont les autres me jugent sur ce que je fais m'importe beaucoup\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Je suis convaincu que je suis le meilleur\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Je ne sais pas dire non\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 41,\n        text: \"Je vais trop vite, ce qui me fait faire des fautes d'inattention\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 42,\n        text: \"Que d'efforts pour répondre à toutes ces questions !\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 43,\n        text: \"Je me sens en sécurité si je ne m'implique pas émotionnellement\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 44,\n        text: \"Tant qu'une tâche n'est pas réalisée comme je l'imaginais, je recommence\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 45,\n        text: \"J'aime jouer le rôle de confident\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 46,\n        text: \"Je ne peux rester inactif et au besoin, je fais plusieurs choses en même temps\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 47,\n        text: \"Ma mère me disait souvent 'Avec un peu plus d'efforts tu …'\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 48,\n        text: \"Dans una tâche à plusieurs, je n'aime pas que l'on ne respecte pas le timing, l'objectif et que l'on fasse des digressions\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 49,\n        text: \"J'attends de mes collaborateurs qu'ils fassent exactement ce que je leur dis\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 50,\n        text: \"En répondant à ces questiions, je me demande si les réponses correspondent bien à ce qu'lon attend de moi\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Ce n'est pas moi\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"C'est peut-être moi\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"C'est quelques fois moi\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"C'est souvent moi\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"C'est tout à fait moi\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"Sois fort\",\n        value: 0\n      }, {\n        id: 2,\n        text: \"Fais plaisir\",\n        value: 0\n      }, {\n        id: 3,\n        text: \"Fais des efforts\",\n        value: 0\n      }, {\n        id: 4,\n        text: \"Fais vite\",\n        value: 0\n      }, {\n        id: 5,\n        text: \"Sois parfait\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n               <Answer questions={this.state.questionnaire.questions} categories={this.state.questionnaire.categories} />\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    <Stick height={element.value * 10 - element.value * 2} color=\"#002F47\">\r\n                                                                        <StickPoint color=\"#FFFFFF\">{element.value}</StickPoint>\r\n                                                                    </Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>   \r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color=\"#002F47\">{element.text}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <Result className=\"answer\" completed={isCompleted}>\r\n                                            <Result className=\"answer-text\" completed={isCompleted}>\r\n                                                {this.state.message}\r\n                                            </Result>\r\n                                </Result>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>     \r\n                                  <ToPrint ref={this.printRef} title={data.title}>                 \r\n                                {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                    {printbutton}\r\n                                </div>     \r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Drivers/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch, HashRouter} from 'react-router-dom'
+import {Route, Switch, HashRouter, Redirect} from 'react-router-dom'
 import './App.css';
 /*import Couleurs from './Components/Couleurs'*/
 import Timing from './Components/Timing'
@@ -35,6 +35,8 @@ import Beslissings from './Components/Beslissings'
 import Individuel from './Components/SCTIndividuel'
 import IndividuelTest from './Components/SCTIndividuelTest'
 import DelegationNL from './Components/DelegationNL'
+import AdminLoginPage from './admin/pages/AdminLoginPage'
+import AdminDashboardPage from './admin/pages/AdminDashboardPage'
 
 function App() {
   return (
@@ -46,6 +48,9 @@ function App() {
       */}
       <Switch>
        {/*<Route path="/couleurs" component={Couleurs} />*/}
+        <Route exact path="/admin" render={() => <Redirect to="/admin/login" />} />
+        <Route path="/admin/login" component={AdminLoginPage} />
+        <Route path="/admin/dashboard" component={AdminDashboardPage} />
         <Route path="/timing" component={Timing}/>
         <Route path="/gestion" component={GestionTemps}/>
         <Route path="/gestion-nl" component={GestionTempsNL}/>

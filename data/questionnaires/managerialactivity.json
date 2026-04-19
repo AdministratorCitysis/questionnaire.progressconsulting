@@ -1,0 +1,2842 @@
+{
+  "routePath": "/managerialactivity",
+  "routeComponent": "ActivitemanagerialeEN",
+  "routeImportSource": "./Components/ActivitemanagerialeEN",
+  "extractionTimestamp": "2026-04-19T10:07:01.147Z",
+  "sourceFiles": [
+    "src/Components/ActivitemanagerialeEN.js",
+    "src/Components/ActivitemanagerialeEN/Components/Answer.js",
+    "src/Components/ActivitemanagerialeEN/Components/Categorie.js",
+    "src/Components/ActivitemanagerialeEN/Components/Categories.js",
+    "src/Components/ActivitemanagerialeEN/Components/Header.js",
+    "src/Components/ActivitemanagerialeEN/Components/Possibilites.js",
+    "src/Components/ActivitemanagerialeEN/Components/Question.js",
+    "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js",
+    "src/Components/ActivitemanagerialeEN/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Managerial activites",
+      "answers": [
+        {
+          "id": 1,
+          "number": "1",
+          "text": "Never",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "text": "Rarely",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "text": "Sometimes",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "text": "Often",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "text": "Always",
+          "value": 5
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 15,
+          "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+        },
+        {
+          "maxvalue": 25,
+          "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+        },
+        {
+          "maxvalue": 35,
+          "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+        },
+        {
+          "maxvalue": 45,
+          "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+        },
+        {
+          "maxvalue": 10000,
+          "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "For each question, please tick one answer to know your result.",
+          "title": "In the list of managerial activities below, what is the frequency of implementation in your work?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I organize and lead team meetings.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I explain the vision and strategic decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I provide positive feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I give negative feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I assess skills/results.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I define the missions / skills.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I establish an individual action plan (training plan).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "I define the team's objectives.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I define the individual goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I assist a team member who is 'stuck'.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "I de-escalate conflicts.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "I update myself about the activity of my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "I set priorities / coordinate projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "I am involved in transversal projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "I develop a network of internal / external relations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "I initiate the career plans of my team members.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "I live the values of companies (exemplarity).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "I provide the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "I hold performance reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "I hold development reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "I establish the processes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "I transmit the information to my manager.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "I follow up on activities.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "I assign the tasks.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "I coordinate with the other managers.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "I carry out the administrative follow-up.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "I participate in the identification of the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "I propose ideas for improvement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "I set up a personal development plan.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "I study people's behavior (level, attitude, ...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "I devote time to listening (1/1,...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "I determine the objectives of my team and evaluate them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "I encourage the team to propose ideas and I present them to others.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "I am accessible for the team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "I manage the informal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "I make decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "I delegate.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "I support / defend my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "I ask for feedback (on myself, the way I manage).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "I organize a teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "I organize a work group.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": "category-1",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "I organize and lead team meetings.",
+            "raw": {
+              "id": 1,
+              "text": "I organize and lead team meetings.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "I explain the vision and strategic decisions.",
+            "raw": {
+              "id": 2,
+              "text": "I explain the vision and strategic decisions.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "I provide positive feedback.",
+            "raw": {
+              "id": 3,
+              "text": "I provide positive feedback.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "I give negative feedback.",
+            "raw": {
+              "id": 4,
+              "text": "I give negative feedback.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "I assess skills/results.",
+            "raw": {
+              "id": 5,
+              "text": "I assess skills/results.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "I define the missions / skills.",
+            "raw": {
+              "id": 6,
+              "text": "I define the missions / skills.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "I establish an individual action plan (training plan).",
+            "raw": {
+              "id": 7,
+              "text": "I establish an individual action plan (training plan).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "I define the team's objectives.",
+            "raw": {
+              "id": 8,
+              "text": "I define the team's objectives.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "I define the individual goals.",
+            "raw": {
+              "id": 9,
+              "text": "I define the individual goals.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "I assist a team member who is 'stuck'.",
+            "raw": {
+              "id": 10,
+              "text": "I assist a team member who is 'stuck'.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "I de-escalate conflicts.",
+            "raw": {
+              "id": 11,
+              "text": "I de-escalate conflicts.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "I update myself about the activity of my team.",
+            "raw": {
+              "id": 12,
+              "text": "I update myself about the activity of my team.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "I set priorities / coordinate projects.",
+            "raw": {
+              "id": 13,
+              "text": "I set priorities / coordinate projects.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "I am involved in transversal projects.",
+            "raw": {
+              "id": 14,
+              "text": "I am involved in transversal projects.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "I develop a network of internal / external relations.",
+            "raw": {
+              "id": 15,
+              "text": "I develop a network of internal / external relations.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "I initiate the career plans of my team members.",
+            "raw": {
+              "id": 16,
+              "text": "I initiate the career plans of my team members.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "I live the values of companies (exemplarity).",
+            "raw": {
+              "id": 17,
+              "text": "I live the values of companies (exemplarity).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "I provide the necessary means.",
+            "raw": {
+              "id": 18,
+              "text": "I provide the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "I hold performance reviews.",
+            "raw": {
+              "id": 19,
+              "text": "I hold performance reviews.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "I hold development reviews.",
+            "raw": {
+              "id": 20,
+              "text": "I hold development reviews.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "I establish the processes.",
+            "raw": {
+              "id": 21,
+              "text": "I establish the processes.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "I transmit the information to my manager.",
+            "raw": {
+              "id": 23,
+              "text": "I transmit the information to my manager.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "I follow up on activities.",
+            "raw": {
+              "id": 24,
+              "text": "I follow up on activities.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "I assign the tasks.",
+            "raw": {
+              "id": 25,
+              "text": "I assign the tasks.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "I coordinate with the other managers.",
+            "raw": {
+              "id": 26,
+              "text": "I coordinate with the other managers.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "I carry out the administrative follow-up.",
+            "raw": {
+              "id": 27,
+              "text": "I carry out the administrative follow-up.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "I participate in the identification of the necessary means.",
+            "raw": {
+              "id": 28,
+              "text": "I participate in the identification of the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "I propose ideas for improvement.",
+            "raw": {
+              "id": 29,
+              "text": "I propose ideas for improvement.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "I set up a personal development plan.",
+            "raw": {
+              "id": 30,
+              "text": "I set up a personal development plan.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "I study people's behavior (level, attitude, ...).",
+            "raw": {
+              "id": 31,
+              "text": "I study people's behavior (level, attitude, ...).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "I devote time to listening (1/1,...).",
+            "raw": {
+              "id": 32,
+              "text": "I devote time to listening (1/1,...).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "I determine the objectives of my team and evaluate them.",
+            "raw": {
+              "id": 33,
+              "text": "I determine the objectives of my team and evaluate them.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "I encourage the team to propose ideas and I present them to others.",
+            "raw": {
+              "id": 34,
+              "text": "I encourage the team to propose ideas and I present them to others.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "I am accessible for the team.",
+            "raw": {
+              "id": 35,
+              "text": "I am accessible for the team.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "I manage the informal.",
+            "raw": {
+              "id": 36,
+              "text": "I manage the informal.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "I make decisions.",
+            "raw": {
+              "id": 37,
+              "text": "I make decisions.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "I delegate.",
+            "raw": {
+              "id": 38,
+              "text": "I delegate.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "I support / defend my team.",
+            "raw": {
+              "id": 39,
+              "text": "I support / defend my team.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "I ask for feedback (on myself, the way I manage).",
+            "raw": {
+              "id": 40,
+              "text": "I ask for feedback (on myself, the way I manage).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "I organize a teambuilding.",
+            "raw": {
+              "id": 41,
+              "text": "I organize a teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "I organize a work group.",
+            "raw": {
+              "id": 42,
+              "text": "I organize a work group.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarely",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Sometimes",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Often",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Always",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Never",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Rarely",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Sometimes",
+            "value": 3
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Often",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Always",
+            "value": 5
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": "",
+          "description": "For each question, please tick one answer to know your result.",
+          "title": "In the list of managerial activities below, what is the frequency of implementation in your work?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I organize and lead team meetings.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I explain the vision and strategic decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I provide positive feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I give negative feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I assess skills/results.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I define the missions / skills.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I establish an individual action plan (training plan).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "I define the team's objectives.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I define the individual goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I assist a team member who is 'stuck'.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "I de-escalate conflicts.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "I update myself about the activity of my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "I set priorities / coordinate projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "I am involved in transversal projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "I develop a network of internal / external relations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "I initiate the career plans of my team members.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "I live the values of companies (exemplarity).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "I provide the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "I hold performance reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "I hold development reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "I establish the processes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "I transmit the information to my manager.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "I follow up on activities.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "I assign the tasks.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "I coordinate with the other managers.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "I carry out the administrative follow-up.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "I participate in the identification of the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "I propose ideas for improvement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "I set up a personal development plan.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "I study people's behavior (level, attitude, ...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "I devote time to listening (1/1,...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "I determine the objectives of my team and evaluate them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "I encourage the team to propose ideas and I present them to others.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "I am accessible for the team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "I manage the informal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "I make decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "I delegate.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "I support / defend my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "I ask for feedback (on myself, the way I manage).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "I organize a teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "I organize a work group.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": null,
+        "raw": {
+          "id": 1,
+          "name": "",
+          "description": "For each question, please tick one answer to know your result.",
+          "title": "In the list of managerial activities below, what is the frequency of implementation in your work?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I organize and lead team meetings.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I explain the vision and strategic decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I provide positive feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I give negative feedback.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I assess skills/results.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I define the missions / skills.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I establish an individual action plan (training plan).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "I define the team's objectives.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I define the individual goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I assist a team member who is 'stuck'.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "I de-escalate conflicts.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "I update myself about the activity of my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "I set priorities / coordinate projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "I am involved in transversal projects.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "I develop a network of internal / external relations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "I initiate the career plans of my team members.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "I live the values of companies (exemplarity).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "I provide the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "I hold performance reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "I hold development reviews.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "I establish the processes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "I transmit the information to my manager.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "I follow up on activities.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "I assign the tasks.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "I coordinate with the other managers.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "I carry out the administrative follow-up.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "I participate in the identification of the necessary means.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "I propose ideas for improvement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "I set up a personal development plan.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "I study people's behavior (level, attitude, ...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "I devote time to listening (1/1,...).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "I determine the objectives of my team and evaluate them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "I encourage the team to propose ideas and I present them to others.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "I am accessible for the team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "I manage the informal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "I make decisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "I delegate.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "I support / defend my team.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "I ask for feedback (on myself, the way I manage).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "I organize a teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "I organize a work group.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 15,
+            "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+          },
+          {
+            "maxvalue": 25,
+            "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+          },
+          {
+            "maxvalue": 35,
+            "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+          },
+          {
+            "maxvalue": 45,
+            "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+          },
+          {
+            "maxvalue": 10000,
+            "text": "This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Managerial activites\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Never\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Rarely\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Sometimes\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Often\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Always\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 25,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 35,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 45,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 10000,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"For each question, please tick one answer to know your result.\",\n        title: \"In the list of managerial activities below, what is the frequency of implementation in your work?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"I organize and lead team meetings.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"I explain the vision and strategic decisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"I provide positive feedback.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"I give negative feedback.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"I assess skills/results.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"I define the missions / skills.\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"I establish an individual action plan (training plan).\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"I define the team's objectives.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"I define the individual goals.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"I assist a team member who is 'stuck'.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"I de-escalate conflicts.\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"I update myself about the activity of my team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"I set priorities / coordinate projects.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"I am involved in transversal projects.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"I develop a network of internal / external relations.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"I initiate the career plans of my team members.\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"I live the values of companies (exemplarity).\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"I provide the necessary means.\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"I hold performance reviews.\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"I hold development reviews.\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"I establish the processes.\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"I transmit the information to my manager.\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"I follow up on activities.\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"I assign the tasks.\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"I coordinate with the other managers.\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"I carry out the administrative follow-up.\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"I participate in the identification of the necessary means.\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"I propose ideas for improvement.\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"I set up a personal development plan.\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"I study people's behavior (level, attitude, ...).\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"I devote time to listening (1/1,...).\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"I determine the objectives of my team and evaluate them.\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"I encourage the team to propose ideas and I present them to others.\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"I am accessible for the team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"I manage the informal.\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"I make decisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"I delegate.\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"I support / defend my team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"I ask for feedback (on myself, the way I manage).\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"I organize a teambuilding.\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"I organize a work group.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Your score is :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "source": "src/Components/ActivitemanagerialeEN/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Your score is :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/ActivitemanagerialeEN.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Managerial activites\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Never\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Rarely\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Sometimes\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Often\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Always\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 25,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 35,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 45,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }, {\n        maxvalue: 10000,\n        text: \"This figure is theoretical, you will discuss face-to-face. This allowed you to concretize the managerial activities that you can set up.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"For each question, please tick one answer to know your result.\",\n        title: \"In the list of managerial activities below, what is the frequency of implementation in your work?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"I organize and lead team meetings.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"I explain the vision and strategic decisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"I provide positive feedback.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"I give negative feedback.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"I assess skills/results.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"I define the missions / skills.\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"I establish an individual action plan (training plan).\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"I define the team's objectives.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"I define the individual goals.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"I assist a team member who is 'stuck'.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"I de-escalate conflicts.\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"I update myself about the activity of my team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"I set priorities / coordinate projects.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"I am involved in transversal projects.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"I develop a network of internal / external relations.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"I initiate the career plans of my team members.\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"I live the values of companies (exemplarity).\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"I provide the necessary means.\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"I hold performance reviews.\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"I hold development reviews.\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"I establish the processes.\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"I transmit the information to my manager.\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"I follow up on activities.\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"I assign the tasks.\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"I coordinate with the other managers.\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"I carry out the administrative follow-up.\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"I participate in the identification of the necessary means.\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"I propose ideas for improvement.\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"I set up a personal development plan.\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"I study people's behavior (level, attitude, ...).\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"I devote time to listening (1/1,...).\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"I determine the objectives of my team and evaluate them.\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"I encourage the team to propose ideas and I present them to others.\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"I am accessible for the team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"I manage the informal.\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"I make decisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"I delegate.\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"I support / defend my team.\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"I ask for feedback (on myself, the way I manage).\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"I organize a teambuilding.\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"I organize a work group.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} title={data.titre} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"questions\">\r\n                    <div className=\"questions-description\">\r\n                        <p>{this.props.categorie.title}</p>\r\n                    </div>\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Please complete all the questions to know your scoreVeuillez répondre à toutes les questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Validate\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Hide\" : btn.text = \"Validate\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Your score is :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/ActivitemanagerialeEN/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

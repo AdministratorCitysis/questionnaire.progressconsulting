@@ -1,0 +1,2922 @@
+{
+  "routePath": "/activitemanageriale",
+  "routeComponent": "Activitemanageriale",
+  "routeImportSource": "./Components/Activitemanageriale",
+  "extractionTimestamp": "2026-04-19T10:07:01.101Z",
+  "sourceFiles": [
+    "src/Components/Activitemanageriale.js",
+    "src/Components/Activitemanageriale/Components/Answer.js",
+    "src/Components/Activitemanageriale/Components/Categorie.js",
+    "src/Components/Activitemanageriale/Components/Categories.js",
+    "src/Components/Activitemanageriale/Components/Header.js",
+    "src/Components/Activitemanageriale/Components/Possibilites.js",
+    "src/Components/Activitemanageriale/Components/Question.js",
+    "src/Components/Activitemanageriale/Components/Questionnaire.js",
+    "src/Components/Activitemanageriale/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Les activités managériales",
+      "answers": [
+        {
+          "id": 1,
+          "number": "1",
+          "text": "Jamais",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "text": "Rarement",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "text": "Parfois",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "text": "Souvent",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "text": "Toujours",
+          "value": 5
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 15,
+          "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+        },
+        {
+          "maxvalue": 25,
+          "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+        },
+        {
+          "maxvalue": 35,
+          "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+        },
+        {
+          "maxvalue": 45,
+          "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+        },
+        {
+          "maxvalue": 10000,
+          "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "Pour chaque question, veuillez cocher une réponse pour connaître votre résultat.",
+          "title": "Dans la liste des activités managériales ci-dessous, quelle est la fréquence de mise en œuvre dans votre travail?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "J'organise et j'anime les réunions d'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "J'explique la vision et les décisions stratégiques.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Je donne du feedback positif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je donne du feedback négatif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'évalue les compétences/résultats.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je définis les missions / compétences. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'établis un plan d'action individuel (plan de formation).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je définis les objectifs de l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je définis les objectifs individuels.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'assiste un collaborateur bloqué.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je désamorce les conflits.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je rends compte de l'activité de mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je fixe les priorités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je m'implique dans les projets transversaux.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je développe un réseau de relations internes / externes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'entreprends les plans de carrière de mes collaborateurs.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je vis les valeurs d'entreprises (exemplarité).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je mets à disposition les moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je tiens des entretiens de fonctionnement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je tiens des entretiens d'évolution.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "J'établis les process.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je communique les décisions du Comité de Direction.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je fais remonter l'information vers mon responsable.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je fais le suivi des activités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je répartis les tâches.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je me coordonne avec les autres responsables.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je réalise le suivi administratif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je participe à l'identification des moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je propose des idées d'amélioration.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je mets en place une plan de développement personnel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "J'étudie le comportement des gens (niveau, attitude,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je consacre du temps pour écouter (1/1,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je détermine les objectifs de mon équipe et je les évalue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "J'incite l'équipe à proposer des idées et je les présente aux autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Je suis accessible pour l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je gère l'informel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je prends des décisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je délègue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Je soutiens / défends mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je demande du feedback  (sur moi-même, ma manière de gérer).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "J'organise un teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'organise un groupe de travail.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": "category-1",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "J'organise et j'anime les réunions d'équipe.",
+            "raw": {
+              "id": 1,
+              "text": "J'organise et j'anime les réunions d'équipe.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "J'explique la vision et les décisions stratégiques.",
+            "raw": {
+              "id": 2,
+              "text": "J'explique la vision et les décisions stratégiques.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Je donne du feedback positif.",
+            "raw": {
+              "id": 3,
+              "text": "Je donne du feedback positif.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Je donne du feedback négatif.",
+            "raw": {
+              "id": 4,
+              "text": "Je donne du feedback négatif.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "J'évalue les compétences/résultats.",
+            "raw": {
+              "id": 5,
+              "text": "J'évalue les compétences/résultats.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Je définis les missions / compétences. ",
+            "raw": {
+              "id": 6,
+              "text": "Je définis les missions / compétences. ",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "J'établis un plan d'action individuel (plan de formation).",
+            "raw": {
+              "id": 7,
+              "text": "J'établis un plan d'action individuel (plan de formation).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Je définis les objectifs de l'équipe.",
+            "raw": {
+              "id": 8,
+              "text": "Je définis les objectifs de l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Je définis les objectifs individuels.",
+            "raw": {
+              "id": 9,
+              "text": "Je définis les objectifs individuels.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "J'assiste un collaborateur bloqué.",
+            "raw": {
+              "id": 10,
+              "text": "J'assiste un collaborateur bloqué.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Je désamorce les conflits.",
+            "raw": {
+              "id": 11,
+              "text": "Je désamorce les conflits.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Je rends compte de l'activité de mon équipe.",
+            "raw": {
+              "id": 12,
+              "text": "Je rends compte de l'activité de mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Je fixe les priorités.",
+            "raw": {
+              "id": 13,
+              "text": "Je fixe les priorités.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Je m'implique dans les projets transversaux.",
+            "raw": {
+              "id": 14,
+              "text": "Je m'implique dans les projets transversaux.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Je développe un réseau de relations internes / externes.",
+            "raw": {
+              "id": 15,
+              "text": "Je développe un réseau de relations internes / externes.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "J'entreprends les plans de carrière de mes collaborateurs.",
+            "raw": {
+              "id": 16,
+              "text": "J'entreprends les plans de carrière de mes collaborateurs.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Je vis les valeurs d'entreprises (exemplarité).",
+            "raw": {
+              "id": 17,
+              "text": "Je vis les valeurs d'entreprises (exemplarité).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Je mets à disposition les moyens nécessaires.",
+            "raw": {
+              "id": 18,
+              "text": "Je mets à disposition les moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Je tiens des entretiens de fonctionnement.",
+            "raw": {
+              "id": 19,
+              "text": "Je tiens des entretiens de fonctionnement.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Je tiens des entretiens d'évolution.",
+            "raw": {
+              "id": 20,
+              "text": "Je tiens des entretiens d'évolution.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "J'établis les process.",
+            "raw": {
+              "id": 21,
+              "text": "J'établis les process.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Je communique les décisions du Comité de Direction.",
+            "raw": {
+              "id": 22,
+              "text": "Je communique les décisions du Comité de Direction.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Je fais remonter l'information vers mon responsable.",
+            "raw": {
+              "id": 23,
+              "text": "Je fais remonter l'information vers mon responsable.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Je fais le suivi des activités.",
+            "raw": {
+              "id": 24,
+              "text": "Je fais le suivi des activités.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Je répartis les tâches.",
+            "raw": {
+              "id": 25,
+              "text": "Je répartis les tâches.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Je me coordonne avec les autres responsables.",
+            "raw": {
+              "id": 26,
+              "text": "Je me coordonne avec les autres responsables.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Je réalise le suivi administratif.",
+            "raw": {
+              "id": 27,
+              "text": "Je réalise le suivi administratif.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Je participe à l'identification des moyens nécessaires.",
+            "raw": {
+              "id": 28,
+              "text": "Je participe à l'identification des moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Je propose des idées d'amélioration.",
+            "raw": {
+              "id": 29,
+              "text": "Je propose des idées d'amélioration.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Je mets en place une plan de développement personnel.",
+            "raw": {
+              "id": 30,
+              "text": "Je mets en place une plan de développement personnel.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "J'étudie le comportement des gens (niveau, attitude,…).",
+            "raw": {
+              "id": 31,
+              "text": "J'étudie le comportement des gens (niveau, attitude,…).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Je consacre du temps pour écouter (1/1,…).",
+            "raw": {
+              "id": 32,
+              "text": "Je consacre du temps pour écouter (1/1,…).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Je détermine les objectifs de mon équipe et je les évalue.",
+            "raw": {
+              "id": 33,
+              "text": "Je détermine les objectifs de mon équipe et je les évalue.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "J'incite l'équipe à proposer des idées et je les présente aux autres.",
+            "raw": {
+              "id": 34,
+              "text": "J'incite l'équipe à proposer des idées et je les présente aux autres.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Je suis accessible pour l'équipe.",
+            "raw": {
+              "id": 35,
+              "text": "Je suis accessible pour l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Je gère l'informel.",
+            "raw": {
+              "id": 36,
+              "text": "Je gère l'informel.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Je prends des décisions.",
+            "raw": {
+              "id": 37,
+              "text": "Je prends des décisions.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Je délègue.",
+            "raw": {
+              "id": 38,
+              "text": "Je délègue.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Je soutiens / défends mon équipe.",
+            "raw": {
+              "id": 39,
+              "text": "Je soutiens / défends mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Je demande du feedback  (sur moi-même, ma manière de gérer).",
+            "raw": {
+              "id": 40,
+              "text": "Je demande du feedback  (sur moi-même, ma manière de gérer).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "J'organise un teambuilding.",
+            "raw": {
+              "id": 41,
+              "text": "J'organise un teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "J'organise un groupe de travail.",
+            "raw": {
+              "id": 42,
+              "text": "J'organise un groupe de travail.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Jamais",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Rarement",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Souvent",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Toujours",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Jamais",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Rarement",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Parfois",
+            "value": 3
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Souvent",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Toujours",
+            "value": 5
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": "",
+          "description": "Pour chaque question, veuillez cocher une réponse pour connaître votre résultat.",
+          "title": "Dans la liste des activités managériales ci-dessous, quelle est la fréquence de mise en œuvre dans votre travail?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "J'organise et j'anime les réunions d'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "J'explique la vision et les décisions stratégiques.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Je donne du feedback positif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je donne du feedback négatif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'évalue les compétences/résultats.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je définis les missions / compétences. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'établis un plan d'action individuel (plan de formation).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je définis les objectifs de l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je définis les objectifs individuels.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'assiste un collaborateur bloqué.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je désamorce les conflits.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je rends compte de l'activité de mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je fixe les priorités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je m'implique dans les projets transversaux.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je développe un réseau de relations internes / externes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'entreprends les plans de carrière de mes collaborateurs.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je vis les valeurs d'entreprises (exemplarité).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je mets à disposition les moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je tiens des entretiens de fonctionnement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je tiens des entretiens d'évolution.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "J'établis les process.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je communique les décisions du Comité de Direction.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je fais remonter l'information vers mon responsable.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je fais le suivi des activités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je répartis les tâches.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je me coordonne avec les autres responsables.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je réalise le suivi administratif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je participe à l'identification des moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je propose des idées d'amélioration.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je mets en place une plan de développement personnel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "J'étudie le comportement des gens (niveau, attitude,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je consacre du temps pour écouter (1/1,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je détermine les objectifs de mon équipe et je les évalue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "J'incite l'équipe à proposer des idées et je les présente aux autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Je suis accessible pour l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je gère l'informel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je prends des décisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je délègue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Je soutiens / défends mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je demande du feedback  (sur moi-même, ma manière de gérer).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "J'organise un teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'organise un groupe de travail.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": null,
+        "raw": {
+          "id": 1,
+          "name": "",
+          "description": "Pour chaque question, veuillez cocher une réponse pour connaître votre résultat.",
+          "title": "Dans la liste des activités managériales ci-dessous, quelle est la fréquence de mise en œuvre dans votre travail?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "J'organise et j'anime les réunions d'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "J'explique la vision et les décisions stratégiques.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Je donne du feedback positif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je donne du feedback négatif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'évalue les compétences/résultats.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je définis les missions / compétences. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'établis un plan d'action individuel (plan de formation).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je définis les objectifs de l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je définis les objectifs individuels.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'assiste un collaborateur bloqué.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je désamorce les conflits.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je rends compte de l'activité de mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je fixe les priorités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je m'implique dans les projets transversaux.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je développe un réseau de relations internes / externes.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'entreprends les plans de carrière de mes collaborateurs.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je vis les valeurs d'entreprises (exemplarité).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je mets à disposition les moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je tiens des entretiens de fonctionnement.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je tiens des entretiens d'évolution.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "J'établis les process.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je communique les décisions du Comité de Direction.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je fais remonter l'information vers mon responsable.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je fais le suivi des activités.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je répartis les tâches.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je me coordonne avec les autres responsables.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je réalise le suivi administratif.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je participe à l'identification des moyens nécessaires.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je propose des idées d'amélioration.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je mets en place une plan de développement personnel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "J'étudie le comportement des gens (niveau, attitude,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je consacre du temps pour écouter (1/1,…).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je détermine les objectifs de mon équipe et je les évalue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "J'incite l'équipe à proposer des idées et je les présente aux autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Je suis accessible pour l'équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je gère l'informel.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je prends des décisions.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je délègue.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "Je soutiens / défends mon équipe.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je demande du feedback  (sur moi-même, ma manière de gérer).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "J'organise un teambuilding.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'organise un groupe de travail.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 15,
+            "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+          },
+          {
+            "maxvalue": 25,
+            "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+          },
+          {
+            "maxvalue": 35,
+            "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+          },
+          {
+            "maxvalue": 45,
+            "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+          },
+          {
+            "maxvalue": 10000,
+            "text": "Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Les activités managériales\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Jamais\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Rarement\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Parfois\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Souvent\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Toujours\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 25,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 35,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 45,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 10000,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"Pour chaque question, veuillez cocher une réponse pour connaître votre résultat.\",\n        title: \"Dans la liste des activités managériales ci-dessous, quelle est la fréquence de mise en œuvre dans votre travail?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"J'organise et j'anime les réunions d'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"J'explique la vision et les décisions stratégiques.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Je donne du feedback positif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je donne du feedback négatif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"J'évalue les compétences/résultats.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je définis les missions / compétences. \",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"J'établis un plan d'action individuel (plan de formation).\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je définis les objectifs de l'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Je définis les objectifs individuels.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"J'assiste un collaborateur bloqué.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Je désamorce les conflits.\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je rends compte de l'activité de mon équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je fixe les priorités.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je m'implique dans les projets transversaux.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je développe un réseau de relations internes / externes.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"J'entreprends les plans de carrière de mes collaborateurs.\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Je vis les valeurs d'entreprises (exemplarité).\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je mets à disposition les moyens nécessaires.\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je tiens des entretiens de fonctionnement.\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je tiens des entretiens d'évolution.\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"J'établis les process.\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Je communique les décisions du Comité de Direction.\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Je fais remonter l'information vers mon responsable.\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je fais le suivi des activités.\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Je répartis les tâches.\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Je me coordonne avec les autres responsables.\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je réalise le suivi administratif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je participe à l'identification des moyens nécessaires.\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je propose des idées d'amélioration.\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Je mets en place une plan de développement personnel.\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"J'étudie le comportement des gens (niveau, attitude,…).\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Je consacre du temps pour écouter (1/1,…).\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je détermine les objectifs de mon équipe et je les évalue.\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"J'incite l'équipe à proposer des idées et je les présente aux autres.\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Je suis accessible pour l'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Je gère l'informel.\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Je prends des décisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Je délègue.\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"Je soutiens / défends mon équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je demande du feedback  (sur moi-même, ma manière de gérer).\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"J'organise un teambuilding.\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"J'organise un groupe de travail.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::SetCategorieValue",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  console.log(\"Je suis dans render answer\");\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Votre résultat est de :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::SetQuestionCompleted",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Questionnaire.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Activitemanageriale/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  console.log(\"Je suis dans render answer\");\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Votre résultat est de :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Activitemanageriale.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Les activités managériales\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Jamais\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Rarement\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Parfois\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Souvent\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Toujours\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 25,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 35,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 45,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }, {\n        maxvalue: 10000,\n        text: \"Ce chiffre est théorique, vous allez discuter ensemble en présentiel. Ceci vous a permis de concrétiser les activités managériales que vous pouvez mettre en place.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"Pour chaque question, veuillez cocher une réponse pour connaître votre résultat.\",\n        title: \"Dans la liste des activités managériales ci-dessous, quelle est la fréquence de mise en œuvre dans votre travail?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"J'organise et j'anime les réunions d'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"J'explique la vision et les décisions stratégiques.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Je donne du feedback positif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je donne du feedback négatif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"J'évalue les compétences/résultats.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je définis les missions / compétences. \",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"J'établis un plan d'action individuel (plan de formation).\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je définis les objectifs de l'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Je définis les objectifs individuels.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"J'assiste un collaborateur bloqué.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Je désamorce les conflits.\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je rends compte de l'activité de mon équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je fixe les priorités.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je m'implique dans les projets transversaux.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je développe un réseau de relations internes / externes.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"J'entreprends les plans de carrière de mes collaborateurs.\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Je vis les valeurs d'entreprises (exemplarité).\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je mets à disposition les moyens nécessaires.\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je tiens des entretiens de fonctionnement.\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je tiens des entretiens d'évolution.\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"J'établis les process.\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Je communique les décisions du Comité de Direction.\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Je fais remonter l'information vers mon responsable.\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je fais le suivi des activités.\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Je répartis les tâches.\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Je me coordonne avec les autres responsables.\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je réalise le suivi administratif.\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je participe à l'identification des moyens nécessaires.\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je propose des idées d'amélioration.\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Je mets en place une plan de développement personnel.\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"J'étudie le comportement des gens (niveau, attitude,…).\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Je consacre du temps pour écouter (1/1,…).\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je détermine les objectifs de mon équipe et je les évalue.\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"J'incite l'équipe à proposer des idées et je les présente aux autres.\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Je suis accessible pour l'équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Je gère l'informel.\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Je prends des décisions.\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Je délègue.\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"Je soutiens / défends mon équipe.\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je demande du feedback  (sur moi-même, ma manière de gérer).\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"J'organise un teambuilding.\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"J'organise un groupe de travail.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questionnaire.js",
+        "name": "render",
+        "code": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} title={data.titre} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"questions\">\r\n                    <div className=\"questions-description\">\r\n                        <p>{this.props.categorie.title}</p>\r\n                    </div>\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez répondre à toutes les questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  console.log(\"Je suis dans render answer\");\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <p className=\"answer-value-text\">Votre résultat est de :<span>&nbsp;</span></p> \r\n                    <p className=\"answer-value-value\">{cat.value}</p>\r\n                </div>\r\n                <div className=\"answer-text\">\r\n                    {text}\r\n                </div>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\" completed={isCompleted}>\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <Result className=\"answer-div\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </Result>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Activitemanageriale/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

@@ -1,0 +1,2707 @@
+{
+  "routePath": "/creativite",
+  "routeComponent": "Creativite",
+  "routeImportSource": "./Components/Creativite",
+  "extractionTimestamp": "2026-04-19T10:07:00.273Z",
+  "sourceFiles": [
+    "src/Components/Creativite.js",
+    "src/Components/Creativite/Components/Answer.js",
+    "src/Components/Creativite/Components/Context.js",
+    "src/Components/Creativite/Components/Header.js",
+    "src/Components/Creativite/Components/Possibilites.js",
+    "src/Components/Creativite/Components/Question.js",
+    "src/Components/Creativite/Components/Questionnaire.js",
+    "src/Components/Creativite/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Questionnaire des styles créatifs*",
+      "description": "Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?",
+      "asterix": "Inspiré de l'approche des préférences cérébrales de Ned Herrmann.",
+      "completed": false,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Vous êtes doué pour associer des idées et en faire la synthèse",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Vous aimez les jeux de logique",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Vous êtes épaté par les créateurs et les artistes",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Vous aimez réfléchir avant d'agir",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Vous aimez l'implémentation de nouvelles idées selon un calendrier précis",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Vous êtes à l'aise avec la pensée abstraite et conceptuelle",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Selon vous, chiffres et créativité vont très bien ensemble",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "On fait souvent appel à vos capacités d'organisateur",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Vous êtes curieux de connaître les différentes étapes du processus créatif",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "C'est bon de temps en temps d'avoir des idées utopistes",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 21,
+          "text": "Une session créative réussie ressemble quasiment à un jeu",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 22,
+          "text": "La créativité doit aussi apporter une solution pertinente au problème soulevé !",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 23,
+          "text": "Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 24,
+          "text": "On dit de vous que votre enthousiasme pour la nouveauté est communicatif",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 25,
+          "text": "Vous appréciez les personalités audacieuses",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 26,
+          "text": "Vous aimez tenir des raisonnement cohérents",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 27,
+          "text": "Vous aimez les techniques créatives reconnues et éprouvées",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 28,
+          "text": "Être créatif, c'est souvent observer et voir ce que les autres ne voient pas ",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 29,
+          "text": "La créativité permet d'imaginer le futur, vous aimez les projets visionnaires",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 30,
+          "text": "Il est bon d'être créatifs ensemble pour développer une pensée critique",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 31,
+          "text": "Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 32,
+          "text": "Vous êtes un fervent promoteur de l'intelligence collective",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 33,
+          "text": "Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 34,
+          "text": "Vous avez lu quelques livres d'experts en créativité pour vous inspirer",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 35,
+          "text": "Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 36,
+          "text": "Vous n'aimez pas être créatif seul et préférez brainstormer en groupe",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 37,
+          "text": "Vous pensez souvent par images et métaphores",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 38,
+          "text": "Découper un problème en plusieurs séquences vous aider à générer des solutions",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 39,
+          "text": "Une session créative doit être bien organisée",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 40,
+          "text": "Vous aimez tester vos idées auprès d'une personne de confiance",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "0",
+          "text": "Ce n'est pas moi",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": "1",
+          "text": "C'est peut-être moi",
+          "value": 1
+        },
+        {
+          "id": 3,
+          "number": "2",
+          "text": "C'est quelques fois moi",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "number": "3",
+          "text": "C'est souvent moi",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "number": "4",
+          "text": "C'est tout à fait moi",
+          "value": 4
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 0,
+          "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Gestion de votre temps moyen. Vous devez progresser."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": [
+            "Enthousiaste",
+            "communicateur"
+          ],
+          "color": "#008ED6",
+          "description": "L'enthousiaste communicateur est un style créatif ouvert aux autres. Ce style retire son énergie des contacts et des échanges avec les autres. Ses émotions et sa sensibilité sont source de nouvelles idées, car il voit ce que d'autres n'ont pas vu. Avec un certain idéalisme et optimisme, il aime partager son enthousiasme pour créer ensemble de nouvelles manières de faire.",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": [
+            "Pragmatique",
+            "pionnier"
+          ],
+          "color": "#0076B2",
+          "description": "Quand ce style créatif est activé, nous préférons réfléchir seul avant d'agir et lancer nos idées. Il s'agit tout d'abord d'observer les faits derrière un problème, pourquoi pas en partant de ce que nous disent les chiffres. Ensuite, nous pouvons aborder plusieurs éventualités, pourquoi pas en listant d'abord toutes les possibilités de manière neutre ou en dessinant un croquis technique. Il s'agit de rester cohérent de ne pas se laisser emporter par nos biais personnels de la pensée qui limiteraient notre créativité. Ensuite viendra le moment de vérité : le test de notre idée et la récolte du feedback des utilisateurs.",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": [
+            "Imaginatif",
+            "visionnaire"
+          ],
+          "color": "#005F8E",
+          "description": "Ce style créatif nous fait penser par images. Sa force réside dans l'association d'idées apparemment sans lien. Grâce à une vision globale et conceptuelle, on peut résoudre des problèmes par intuition et explorer de nouvelles pistes. Il faut une certaine dose d'audace et surtout beaucoup de curiosité pour nourrir ce style créatif! Chaque jour donne l'opportunité de nouvelles expérimentations, si on ouvre bien l'oeil !",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": [
+            "Chercheur",
+            "organisé"
+          ],
+          "color": "#00476B",
+          "description": "Le style créatif du Chercheur Organisé nous aide à gérer notre projet créatif et à faire en sorte que nos idées prennent vie. On peut s'inspirer des succès des personnalités créatives pour  répliquer leurs techniques. Il s'agit d'utiliser des outils créatifs éprouvés pour mettre de l'ordre dans ses idées. Parfois, l'observation d'un petit détail peut nous donner de grandes idées ! Seulement après on peut faire le tri dans les différentes catégories d'idées et se lancer dans la planification, avec le test d'un prototype par exemple.",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Questionnaire des styles créatifs*",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Vous êtes doué pour associer des idées et en faire la synthèse",
+            "raw": {
+              "id": 1,
+              "text": "Vous êtes doué pour associer des idées et en faire la synthèse",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Vous aimez les jeux de logique",
+            "raw": {
+              "id": 2,
+              "text": "Vous aimez les jeux de logique",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif",
+            "raw": {
+              "id": 3,
+              "text": "Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute",
+            "raw": {
+              "id": 4,
+              "text": "Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Vous êtes épaté par les créateurs et les artistes",
+            "raw": {
+              "id": 5,
+              "text": "Vous êtes épaté par les créateurs et les artistes",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités",
+            "raw": {
+              "id": 6,
+              "text": "Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre",
+            "raw": {
+              "id": 7,
+              "text": "Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées",
+            "raw": {
+              "id": 8,
+              "text": "Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails",
+            "raw": {
+              "id": 9,
+              "text": "Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Vous aimez réfléchir avant d'agir",
+            "raw": {
+              "id": 10,
+              "text": "Vous aimez réfléchir avant d'agir",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Vous aimez l'implémentation de nouvelles idées selon un calendrier précis",
+            "raw": {
+              "id": 11,
+              "text": "Vous aimez l'implémentation de nouvelles idées selon un calendrier précis",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif",
+            "raw": {
+              "id": 12,
+              "text": "Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Vous êtes à l'aise avec la pensée abstraite et conceptuelle",
+            "raw": {
+              "id": 13,
+              "text": "Vous êtes à l'aise avec la pensée abstraite et conceptuelle",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Selon vous, chiffres et créativité vont très bien ensemble",
+            "raw": {
+              "id": 14,
+              "text": "Selon vous, chiffres et créativité vont très bien ensemble",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "On fait souvent appel à vos capacités d'organisateur",
+            "raw": {
+              "id": 15,
+              "text": "On fait souvent appel à vos capacités d'organisateur",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées",
+            "raw": {
+              "id": 16,
+              "text": "Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout",
+            "raw": {
+              "id": 17,
+              "text": "Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées",
+            "raw": {
+              "id": 18,
+              "text": "Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Vous êtes curieux de connaître les différentes étapes du processus créatif",
+            "raw": {
+              "id": 19,
+              "text": "Vous êtes curieux de connaître les différentes étapes du processus créatif",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "C'est bon de temps en temps d'avoir des idées utopistes",
+            "raw": {
+              "id": 20,
+              "text": "C'est bon de temps en temps d'avoir des idées utopistes",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Une session créative réussie ressemble quasiment à un jeu",
+            "raw": {
+              "id": 21,
+              "text": "Une session créative réussie ressemble quasiment à un jeu",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "La créativité doit aussi apporter une solution pertinente au problème soulevé !",
+            "raw": {
+              "id": 22,
+              "text": "La créativité doit aussi apporter une solution pertinente au problème soulevé !",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début",
+            "raw": {
+              "id": 23,
+              "text": "Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "On dit de vous que votre enthousiasme pour la nouveauté est communicatif",
+            "raw": {
+              "id": 24,
+              "text": "On dit de vous que votre enthousiasme pour la nouveauté est communicatif",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Vous appréciez les personalités audacieuses",
+            "raw": {
+              "id": 25,
+              "text": "Vous appréciez les personalités audacieuses",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Vous aimez tenir des raisonnement cohérents",
+            "raw": {
+              "id": 26,
+              "text": "Vous aimez tenir des raisonnement cohérents",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Vous aimez les techniques créatives reconnues et éprouvées",
+            "raw": {
+              "id": 27,
+              "text": "Vous aimez les techniques créatives reconnues et éprouvées",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Être créatif, c'est souvent observer et voir ce que les autres ne voient pas ",
+            "raw": {
+              "id": 28,
+              "text": "Être créatif, c'est souvent observer et voir ce que les autres ne voient pas ",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "La créativité permet d'imaginer le futur, vous aimez les projets visionnaires",
+            "raw": {
+              "id": 29,
+              "text": "La créativité permet d'imaginer le futur, vous aimez les projets visionnaires",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Il est bon d'être créatifs ensemble pour développer une pensée critique",
+            "raw": {
+              "id": 30,
+              "text": "Il est bon d'être créatifs ensemble pour développer une pensée critique",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions",
+            "raw": {
+              "id": 31,
+              "text": "Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Vous êtes un fervent promoteur de l'intelligence collective",
+            "raw": {
+              "id": 32,
+              "text": "Vous êtes un fervent promoteur de l'intelligence collective",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures",
+            "raw": {
+              "id": 33,
+              "text": "Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Vous avez lu quelques livres d'experts en créativité pour vous inspirer",
+            "raw": {
+              "id": 34,
+              "text": "Vous avez lu quelques livres d'experts en créativité pour vous inspirer",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative",
+            "raw": {
+              "id": 35,
+              "text": "Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Vous n'aimez pas être créatif seul et préférez brainstormer en groupe",
+            "raw": {
+              "id": 36,
+              "text": "Vous n'aimez pas être créatif seul et préférez brainstormer en groupe",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Vous pensez souvent par images et métaphores",
+            "raw": {
+              "id": 37,
+              "text": "Vous pensez souvent par images et métaphores",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Découper un problème en plusieurs séquences vous aider à générer des solutions",
+            "raw": {
+              "id": 38,
+              "text": "Découper un problème en plusieurs séquences vous aider à générer des solutions",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Une session créative doit être bien organisée",
+            "raw": {
+              "id": 39,
+              "text": "Une session créative doit être bien organisée",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Vous aimez tester vos idées auprès d'une personne de confiance",
+            "raw": {
+              "id": 40,
+              "text": "Vous aimez tester vos idées auprès d'une personne de confiance",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Ce n'est pas moi",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "C'est peut-être moi",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "C'est quelques fois moi",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "C'est souvent moi",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "C'est tout à fait moi",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Ce n'est pas moi",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "C'est peut-être moi",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "C'est quelques fois moi",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "C'est souvent moi",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "C'est tout à fait moi",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": [
+          "Enthousiaste",
+          "communicateur"
+        ],
+        "raw": {
+          "id": 1,
+          "text": [
+            "Enthousiaste",
+            "communicateur"
+          ],
+          "color": "#008ED6",
+          "description": "L'enthousiaste communicateur est un style créatif ouvert aux autres. Ce style retire son énergie des contacts et des échanges avec les autres. Ses émotions et sa sensibilité sont source de nouvelles idées, car il voit ce que d'autres n'ont pas vu. Avec un certain idéalisme et optimisme, il aime partager son enthousiasme pour créer ensemble de nouvelles manières de faire.",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": [
+          "Pragmatique",
+          "pionnier"
+        ],
+        "raw": {
+          "id": 2,
+          "text": [
+            "Pragmatique",
+            "pionnier"
+          ],
+          "color": "#0076B2",
+          "description": "Quand ce style créatif est activé, nous préférons réfléchir seul avant d'agir et lancer nos idées. Il s'agit tout d'abord d'observer les faits derrière un problème, pourquoi pas en partant de ce que nous disent les chiffres. Ensuite, nous pouvons aborder plusieurs éventualités, pourquoi pas en listant d'abord toutes les possibilités de manière neutre ou en dessinant un croquis technique. Il s'agit de rester cohérent de ne pas se laisser emporter par nos biais personnels de la pensée qui limiteraient notre créativité. Ensuite viendra le moment de vérité : le test de notre idée et la récolte du feedback des utilisateurs.",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": [
+          "Imaginatif",
+          "visionnaire"
+        ],
+        "raw": {
+          "id": 3,
+          "text": [
+            "Imaginatif",
+            "visionnaire"
+          ],
+          "color": "#005F8E",
+          "description": "Ce style créatif nous fait penser par images. Sa force réside dans l'association d'idées apparemment sans lien. Grâce à une vision globale et conceptuelle, on peut résoudre des problèmes par intuition et explorer de nouvelles pistes. Il faut une certaine dose d'audace et surtout beaucoup de curiosité pour nourrir ce style créatif! Chaque jour donne l'opportunité de nouvelles expérimentations, si on ouvre bien l'oeil !",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": [
+          "Chercheur",
+          "organisé"
+        ],
+        "raw": {
+          "id": 4,
+          "text": [
+            "Chercheur",
+            "organisé"
+          ],
+          "color": "#00476B",
+          "description": "Le style créatif du Chercheur Organisé nous aide à gérer notre projet créatif et à faire en sorte que nos idées prennent vie. On peut s'inspirer des succès des personnalités créatives pour  répliquer leurs techniques. Il s'agit d'utiliser des outils créatifs éprouvés pour mettre de l'ordre dans ses idées. Parfois, l'observation d'un petit détail peut nous donner de grandes idées ! Seulement après on peut faire le tri dans les différentes catégories d'idées et se lancer dans la planification, avec le test d'un prototype par exemple.",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous êtes doué pour associer des idées et en faire la synthèse"
+      },
+      {
+        "questionId": 2,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez les jeux de logique"
+      },
+      {
+        "questionId": 3,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif"
+      },
+      {
+        "questionId": 4,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute"
+      },
+      {
+        "questionId": 5,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous êtes épaté par les créateurs et les artistes"
+      },
+      {
+        "questionId": 6,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités"
+      },
+      {
+        "questionId": 7,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre"
+      },
+      {
+        "questionId": 8,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées"
+      },
+      {
+        "questionId": 9,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails"
+      },
+      {
+        "questionId": 10,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez réfléchir avant d'agir"
+      },
+      {
+        "questionId": 11,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez l'implémentation de nouvelles idées selon un calendrier précis"
+      },
+      {
+        "questionId": 12,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif"
+      },
+      {
+        "questionId": 13,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous êtes à l'aise avec la pensée abstraite et conceptuelle"
+      },
+      {
+        "questionId": 14,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Selon vous, chiffres et créativité vont très bien ensemble"
+      },
+      {
+        "questionId": 15,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "On fait souvent appel à vos capacités d'organisateur"
+      },
+      {
+        "questionId": 16,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées"
+      },
+      {
+        "questionId": 17,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout"
+      },
+      {
+        "questionId": 18,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées"
+      },
+      {
+        "questionId": 19,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous êtes curieux de connaître les différentes étapes du processus créatif"
+      },
+      {
+        "questionId": 20,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "C'est bon de temps en temps d'avoir des idées utopistes"
+      },
+      {
+        "questionId": 21,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Une session créative réussie ressemble quasiment à un jeu"
+      },
+      {
+        "questionId": 22,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "La créativité doit aussi apporter une solution pertinente au problème soulevé !"
+      },
+      {
+        "questionId": 23,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début"
+      },
+      {
+        "questionId": 24,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "On dit de vous que votre enthousiasme pour la nouveauté est communicatif"
+      },
+      {
+        "questionId": 25,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous appréciez les personalités audacieuses"
+      },
+      {
+        "questionId": 26,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez tenir des raisonnement cohérents"
+      },
+      {
+        "questionId": 27,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez les techniques créatives reconnues et éprouvées"
+      },
+      {
+        "questionId": 28,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Être créatif, c'est souvent observer et voir ce que les autres ne voient pas "
+      },
+      {
+        "questionId": 29,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "La créativité permet d'imaginer le futur, vous aimez les projets visionnaires"
+      },
+      {
+        "questionId": 30,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il est bon d'être créatifs ensemble pour développer une pensée critique"
+      },
+      {
+        "questionId": 31,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions"
+      },
+      {
+        "questionId": 32,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vous êtes un fervent promoteur de l'intelligence collective"
+      },
+      {
+        "questionId": 33,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures"
+      },
+      {
+        "questionId": 34,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vous avez lu quelques livres d'experts en créativité pour vous inspirer"
+      },
+      {
+        "questionId": 35,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative"
+      },
+      {
+        "questionId": 36,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vous n'aimez pas être créatif seul et préférez brainstormer en groupe"
+      },
+      {
+        "questionId": 37,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vous pensez souvent par images et métaphores"
+      },
+      {
+        "questionId": 38,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Découper un problème en plusieurs séquences vous aider à générer des solutions"
+      },
+      {
+        "questionId": 39,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Une session créative doit être bien organisée"
+      },
+      {
+        "questionId": 40,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vous aimez tester vos idées auprès d'une personne de confiance"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Ce n'est pas moi",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "C'est peut-être moi",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "C'est quelques fois moi",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "C'est souvent moi",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "C'est tout à fait moi",
+            "value": 4
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Gestion de votre temps moyen. Vous devez progresser."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Creativite/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Creativite/Components/Possibilites.js::handleChange",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Creativite/Components/Questionnaire.js::handleValue",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Creativite/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Questionnaire des styles créatifs*\",\n      description: \"Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?\",\n      asterix: \"Inspiré de l'approche des préférences cérébrales de Ned Herrmann.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Vous êtes doué pour associer des idées et en faire la synthèse\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Vous aimez les jeux de logique\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Vous êtes épaté par les créateurs et les artistes\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Vous aimez réfléchir avant d'agir\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Vous aimez l'implémentation de nouvelles idées selon un calendrier précis\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Vous êtes à l'aise avec la pensée abstraite et conceptuelle\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Selon vous, chiffres et créativité vont très bien ensemble\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"On fait souvent appel à vos capacités d'organisateur\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Vous êtes curieux de connaître les différentes étapes du processus créatif\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 20,\n        text: \"C'est bon de temps en temps d'avoir des idées utopistes\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Une session créative réussie ressemble quasiment à un jeu\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 22,\n        text: \"La créativité doit aussi apporter une solution pertinente au problème soulevé !\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 24,\n        text: \"On dit de vous que votre enthousiasme pour la nouveauté est communicatif\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Vous appréciez les personalités audacieuses\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Vous aimez tenir des raisonnement cohérents',\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Vous aimez les techniques créatives reconnues et éprouvées',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Être créatif, c'est souvent observer et voir ce que les autres ne voient pas \",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"La créativité permet d'imaginer le futur, vous aimez les projets visionnaires\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Il est bon d'être créatifs ensemble pour développer une pensée critique\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Vous êtes un fervent promoteur de l'intelligence collective\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Vous avez lu quelques livres d'experts en créativité pour vous inspirer\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Vous n'aimez pas être créatif seul et préférez brainstormer en groupe\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Vous pensez souvent par images et métaphores\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Découper un problème en plusieurs séquences vous aider à générer des solutions\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Une session créative doit être bien organisée\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Vous aimez tester vos idées auprès d'une personne de confiance\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Ce n'est pas moi\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"C'est peut-être moi\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"C'est quelques fois moi\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"C'est souvent moi\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"C'est tout à fait moi\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Enthousiaste\", \"communicateur\"],\n        color: \"#008ED6\",\n        description: \"L'enthousiaste communicateur est un style créatif ouvert aux autres. Ce style retire son énergie des contacts et des échanges avec les autres. Ses émotions et sa sensibilité sont source de nouvelles idées, car il voit ce que d'autres n'ont pas vu. Avec un certain idéalisme et optimisme, il aime partager son enthousiasme pour créer ensemble de nouvelles manières de faire.\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Pragmatique\", \"pionnier\"],\n        color: \"#0076B2\",\n        description: \"Quand ce style créatif est activé, nous préférons réfléchir seul avant d'agir et lancer nos idées. Il s'agit tout d'abord d'observer les faits derrière un problème, pourquoi pas en partant de ce que nous disent les chiffres. Ensuite, nous pouvons aborder plusieurs éventualités, pourquoi pas en listant d'abord toutes les possibilités de manière neutre ou en dessinant un croquis technique. Il s'agit de rester cohérent de ne pas se laisser emporter par nos biais personnels de la pensée qui limiteraient notre créativité. Ensuite viendra le moment de vérité : le test de notre idée et la récolte du feedback des utilisateurs.\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Imaginatif\", \"visionnaire\"],\n        color: \"#005F8E\",\n        description: \"Ce style créatif nous fait penser par images. Sa force réside dans l'association d'idées apparemment sans lien. Grâce à une vision globale et conceptuelle, on peut résoudre des problèmes par intuition et explorer de nouvelles pistes. Il faut une certaine dose d'audace et surtout beaucoup de curiosité pour nourrir ce style créatif! Chaque jour donne l'opportunité de nouvelles expérimentations, si on ouvre bien l'oeil !\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Chercheur\", \"organisé\"],\n        color: \"#00476B\",\n        description: \"Le style créatif du Chercheur Organisé nous aide à gérer notre projet créatif et à faire en sorte que nos idées prennent vie. On peut s'inspirer des succès des personnalités créatives pour  répliquer leurs techniques. Il s'agit d'utiliser des outils créatifs éprouvés pour mettre de l'ordre dans ses idées. Parfois, l'observation d'un petit détail peut nous donner de grandes idées ! Seulement après on peut faire le tri dans les différentes catégories d'idées et se lancer dans la planification, avec le test d'un prototype par exemple.\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Creativite/Components/Questionnaire.js::handleValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Creativite/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Vos couleurs préférentielles</div>\r\n                                        <div className=\"result-data\">\r\n                                        <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((answer, index) => <Fragment key={index}>\r\n                                            <h3>{answer.text.join(' ')}</h3>\r\n                                            <p>{answer.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div>\r\n                                        <ToPrint ref={this.printRef} title={data.title}>\r\n                                            {message}\r\n                                        </ToPrint>\r\n                                        <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                        </div>\r\n                                    </div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Creativite/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Creativite.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Creativite.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Questionnaire des styles créatifs*\",\n      description: \"Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?\",\n      asterix: \"Inspiré de l'approche des préférences cérébrales de Ned Herrmann.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Vous êtes doué pour associer des idées et en faire la synthèse\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Vous aimez les jeux de logique\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Vous essayez de garder le contrôle de vous pour ne pas biaiser l'exercice créatif\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Le secret d'une bonne session créative réside souvent dans la qualité de l'écoute\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Vous êtes épaté par les créateurs et les artistes\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Vous pensez que : être créatif c'est générer beaucoup d'idées pour se préparer aux différentes éventualités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Avoir des idées, c'est à la portée de tous ! Ce qui compte, c'est comment on va les mettre en œuvre\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Votre ressenti lors des contacts avec les autres vous aide à faire des choix entre différentes idées\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Vous aimez voir le problème de manière globale et ne pas vous perdre dans les détails\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Vous aimez réfléchir avant d'agir\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Vous aimez l'implémentation de nouvelles idées selon un calendrier précis\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Vous avez l'impression qu'un fond sonore ou musical vous aide pour être créatif\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Vous êtes à l'aise avec la pensée abstraite et conceptuelle\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Selon vous, chiffres et créativité vont très bien ensemble\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"On fait souvent appel à vos capacités d'organisateur\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Le plaisir d'échanger ensemble passe parfois avant le résultat des idées générées\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Vous aimez collecter vos sources d'inspiration partout et êtes curieux de tout\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Vous aimez dessiner des plans ou des détails techniques pour générer de nouvelles idées\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Vous êtes curieux de connaître les différentes étapes du processus créatif\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 20,\n        text: \"C'est bon de temps en temps d'avoir des idées utopistes\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Une session créative réussie ressemble quasiment à un jeu\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 22,\n        text: \"La créativité doit aussi apporter une solution pertinente au problème soulevé !\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Vous aimez lister toutes les idées sans les juger : il faut rester neutre au début\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 24,\n        text: \"On dit de vous que votre enthousiasme pour la nouveauté est communicatif\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Vous appréciez les personalités audacieuses\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Vous aimez tenir des raisonnement cohérents',\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Vous aimez les techniques créatives reconnues et éprouvées',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Être créatif, c'est souvent observer et voir ce que les autres ne voient pas \",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"La créativité permet d'imaginer le futur, vous aimez les projets visionnaires\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Il est bon d'être créatifs ensemble pour développer une pensée critique\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Dans un exercice créatif, il ne faut pas trop se laisser mener par ses émotions\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Vous êtes un fervent promoteur de l'intelligence collective\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Vous aimez lancer vos idées de manière spontanée : les premières idées sont souvent les meilleures\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Vous avez lu quelques livres d'experts en créativité pour vous inspirer\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Vous aimez rappeler les règles de bonnes pratiques avant de lancer une session créative\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Vous n'aimez pas être créatif seul et préférez brainstormer en groupe\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Vous pensez souvent par images et métaphores\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Découper un problème en plusieurs séquences vous aider à générer des solutions\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Une session créative doit être bien organisée\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Vous aimez tester vos idées auprès d'une personne de confiance\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Ce n'est pas moi\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"C'est peut-être moi\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"C'est quelques fois moi\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"C'est souvent moi\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"C'est tout à fait moi\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps. A vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen. Vous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo! Mais peut-être pouvez-vous encore mieux... et surtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Enthousiaste\", \"communicateur\"],\n        color: \"#008ED6\",\n        description: \"L'enthousiaste communicateur est un style créatif ouvert aux autres. Ce style retire son énergie des contacts et des échanges avec les autres. Ses émotions et sa sensibilité sont source de nouvelles idées, car il voit ce que d'autres n'ont pas vu. Avec un certain idéalisme et optimisme, il aime partager son enthousiasme pour créer ensemble de nouvelles manières de faire.\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Pragmatique\", \"pionnier\"],\n        color: \"#0076B2\",\n        description: \"Quand ce style créatif est activé, nous préférons réfléchir seul avant d'agir et lancer nos idées. Il s'agit tout d'abord d'observer les faits derrière un problème, pourquoi pas en partant de ce que nous disent les chiffres. Ensuite, nous pouvons aborder plusieurs éventualités, pourquoi pas en listant d'abord toutes les possibilités de manière neutre ou en dessinant un croquis technique. Il s'agit de rester cohérent de ne pas se laisser emporter par nos biais personnels de la pensée qui limiteraient notre créativité. Ensuite viendra le moment de vérité : le test de notre idée et la récolte du feedback des utilisateurs.\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Imaginatif\", \"visionnaire\"],\n        color: \"#005F8E\",\n        description: \"Ce style créatif nous fait penser par images. Sa force réside dans l'association d'idées apparemment sans lien. Grâce à une vision globale et conceptuelle, on peut résoudre des problèmes par intuition et explorer de nouvelles pistes. Il faut une certaine dose d'audace et surtout beaucoup de curiosité pour nourrir ce style créatif! Chaque jour donne l'opportunité de nouvelles expérimentations, si on ouvre bien l'oeil !\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Chercheur\", \"organisé\"],\n        color: \"#00476B\",\n        description: \"Le style créatif du Chercheur Organisé nous aide à gérer notre projet créatif et à faire en sorte que nos idées prennent vie. On peut s'inspirer des succès des personnalités créatives pour  répliquer leurs techniques. Il s'agit d'utiliser des outils créatifs éprouvés pour mettre de l'ordre dans ses idées. Parfois, l'observation d'un petit détail peut nous donner de grandes idées ! Seulement après on peut faire le tri dans les différentes catégories d'idées et se lancer dans la planification, avec le test d'un prototype par exemple.\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire}>\r\n                <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n               <Answer questions={this.state.questionnaire.questions} categories={this.state.questionnaire.categories} />\r\n                <div className=\"asterix\">\r\n                <p>*{this.state.questionnaire.asterix}</p>\r\n                </div>\r\n                </div>\r\n               \r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: element.color\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Vos couleurs préférentielles</div>\r\n                                        <div className=\"result-data\">\r\n                                        <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((answer, index) => <Fragment key={index}>\r\n                                            <h3>{answer.text.join(' ')}</h3>\r\n                                            <p>{answer.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div>\r\n                                        <ToPrint ref={this.printRef} title={data.title}>\r\n                                            {message}\r\n                                        </ToPrint>\r\n                                        <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                        </div>\r\n                                    </div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Creativite/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

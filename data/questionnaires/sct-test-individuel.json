@@ -1,0 +1,3787 @@
+{
+  "routePath": "/sct/test/individuel",
+  "routeComponent": "IndividuelTest",
+  "routeImportSource": "./Components/SCTIndividuelTest",
+  "extractionTimestamp": "2026-04-19T10:07:01.394Z",
+  "sourceFiles": [
+    "src/Components/SCT-Individuel-Test/components/Answer.js",
+    "src/Components/SCT-Individuel-Test/components/Classement.js",
+    "src/Components/SCT-Individuel-Test/components/Context.js",
+    "src/Components/SCT-Individuel-Test/components/Header.js",
+    "src/Components/SCT-Individuel-Test/components/Possibilites.js",
+    "src/Components/SCT-Individuel-Test/components/Question.js",
+    "src/Components/SCT-Individuel-Test/components/Questionnaire.js",
+    "src/Components/SCT-Individuel-Test/components/Questions.js",
+    "src/Components/SCT-Individuel-Test/components/Suggestion.js",
+    "src/Components/SCT-Individuel-Test/components/Suggestions.js",
+    "src/Components/SCTIndividuelTest.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "Questionnaire SCT",
+    "categories": [
+      {
+        "id": 1,
+        "text": [
+          "Prémoderne Clanique"
+        ],
+        "color": "#62388E",
+        "value": 0
+      },
+      {
+        "id": 2,
+        "text": [
+          "Prémoderne Guerrier"
+        ],
+        "color": "#E51A1F",
+        "value": 0
+      },
+      {
+        "id": 3,
+        "text": [
+          "Prémoderne Autoritaire"
+        ],
+        "color": "#5B9BD4",
+        "value": 0
+      },
+      {
+        "id": 4,
+        "text": [
+          "Modernisme"
+        ],
+        "color": "#FCBF17",
+        "value": 0
+      },
+      {
+        "id": 5,
+        "text": [
+          "Postmoderne"
+        ],
+        "color": "#70AD47",
+        "value": 0
+      },
+      {
+        "id": 6,
+        "text": [
+          "Hypermoderne"
+        ],
+        "color": "#F1E60F",
+        "value": 0
+      },
+      {
+        "id": 7,
+        "text": [
+          "Hypermoderne Intégral"
+        ],
+        "color": "#47BCC2",
+        "value": 0
+      }
+    ],
+    "Classements": [
+      {
+        "id": 1,
+        "title": "Partie 1. Classer ces différents mots/expressions par ordre d'importance. Du plus attirant au moins attirant.",
+        "instruction": "",
+        "maxpoint": 7,
+        "completed": false,
+        "suggestions": [
+          {
+            "id": 1,
+            "text": "Proposition",
+            "completed": false,
+            "possibilites": [
+              {
+                "id": 1,
+                "title": "Tradition",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Être respecté(e) !",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Mérite",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Sens",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Egalité",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Discipline",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Créativité",
+                "categoryId": 6,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "completed": false,
+            "text": "Proposition",
+            "possibilites": [
+              {
+                "id": 1,
+                "title": "Pouvoir",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Management participatif",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Entrepreneur",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Structure",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Rituel",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Autonomie",
+                "categoryId": 6,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Ecologie",
+                "categoryId": 7,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "completed": false,
+            "text": "Proposition",
+            "possibilites": [
+              {
+                "id": 1,
+                "title": "Ambition",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Processus",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Univers",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Harmonie",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Honneur",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Liberté",
+                "categoryId": 6,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Rapidité",
+                "categoryId": 2,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "completed": false,
+            "text": "Proposition",
+            "possibilites": [
+              {
+                "id": 1,
+                "title": "Impact sociétal",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Energie",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Racines",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Succès",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Ordre",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Amour",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Agilité",
+                "categoryId": 6,
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Questionnaire": [
+      {
+        "id": 1,
+        "title": "Partie 2. Dans quelle mesure êtes-vous d'accord avec ces affirmations ?",
+        "instruction": "",
+        "completed": false,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Le passé est important – il nous aide à définir qui nous sommes",
+            "value": 0,
+            "categoryId": 1,
+            "completed": false
+          },
+          {
+            "id": 2,
+            "text": "La clarté des rôles et responsabilités est essentielle dans une organisation",
+            "value": 0,
+            "categoryId": 3,
+            "completed": false
+          },
+          {
+            "id": 3,
+            "text": "Le monde est plein d’opportunités",
+            "value": 0,
+            "categoryId": 4,
+            "completed": false
+          },
+          {
+            "id": 4,
+            "text": "La compétition crée de la performance, comme dans le sport",
+            "value": 0,
+            "categoryId": 2,
+            "completed": false
+          },
+          {
+            "id": 5,
+            "text": "Nous sommes connecté(e)s les uns aux autres",
+            "value": 0,
+            "categoryId": 7,
+            "completed": false
+          },
+          {
+            "id": 6,
+            "text": "Le consensus est la meilleure manière de gérer un différent",
+            "value": 0,
+            "categoryId": 5,
+            "completed": false
+          },
+          {
+            "id": 7,
+            "text": "Le monde est complexe… et c’est intéressant",
+            "value": 0,
+            "categoryId": 6,
+            "completed": false
+          },
+          {
+            "id": 8,
+            "text": "L’humain est au centre de tout",
+            "value": 0,
+            "categoryId": 5,
+            "completed": false
+          },
+          {
+            "id": 9,
+            "text": "Le courage est une vertu cardinale",
+            "value": 0,
+            "categoryId": 2,
+            "completed": false
+          },
+          {
+            "id": 10,
+            "text": "Il n’y a pas de hasard",
+            "value": 0,
+            "categoryId": 7,
+            "completed": false
+          },
+          {
+            "id": 11,
+            "text": "La connaissance est un but en soi",
+            "value": 0,
+            "categoryId": 6,
+            "completed": false
+          },
+          {
+            "id": 12,
+            "text": "J’aime les fêtes de fin d’année, les « pots de départ »…",
+            "value": 0,
+            "categoryId": 1,
+            "completed": false
+          },
+          {
+            "id": 13,
+            "text": "Le droit est essentiel dans nos sociétés",
+            "value": 0,
+            "categoryId": 3,
+            "completed": false
+          },
+          {
+            "id": 14,
+            "text": "L’important, c’est de se dépasser",
+            "value": 0,
+            "categoryId": 4,
+            "completed": false
+          },
+          {
+            "id": 15,
+            "text": "Il est important pour une équipe de partager des moments de « communion »",
+            "value": 0,
+            "categoryId": 1,
+            "completed": false
+          },
+          {
+            "id": 16,
+            "text": "Croître est passionnant",
+            "value": 0,
+            "categoryId": 4,
+            "completed": false
+          },
+          {
+            "id": 17,
+            "text": "La bienveillance est une qualité cardinale",
+            "value": 0,
+            "categoryId": 5,
+            "completed": false
+          },
+          {
+            "id": 18,
+            "text": "Le monde est incertain.",
+            "value": 0,
+            "categoryId": 3,
+            "completed": false
+          },
+          {
+            "id": 19,
+            "text": "Le monde est une jungle…",
+            "value": 0,
+            "categoryId": 2,
+            "completed": false
+          },
+          {
+            "id": 20,
+            "text": "Il est essentiel de préserver nos éco-systèmes",
+            "value": 0,
+            "categoryId": 7,
+            "completed": false
+          },
+          {
+            "id": 21,
+            "text": "J’ai besoin de liberté au travail",
+            "value": 0,
+            "categoryId": 6,
+            "completed": false
+          },
+          {
+            "id": 22,
+            "text": "Il faut une personnalité forte pour être efficace",
+            "value": 0,
+            "categoryId": 2,
+            "completed": false
+          },
+          {
+            "id": 23,
+            "text": "Le développement personnel est un élément clé de l'épanouissement professionnel",
+            "value": 0,
+            "categoryId": 7,
+            "completed": false
+          },
+          {
+            "id": 24,
+            "text": "Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication",
+            "value": 0,
+            "categoryId": 1,
+            "completed": false
+          },
+          {
+            "id": 25,
+            "text": "Il faut des règles claires de fonctionnement",
+            "value": 0,
+            "categoryId": 3,
+            "completed": false
+          },
+          {
+            "id": 26,
+            "text": "La coopération est l’avenir de l’Homme",
+            "value": 0,
+            "categoryId": 5,
+            "completed": false
+          },
+          {
+            "id": 27,
+            "text": "Il faut saisir sa chance quand elle se présente",
+            "value": 0,
+            "categoryId": 4,
+            "completed": false
+          },
+          {
+            "id": 28,
+            "text": "Esthétique et efficacité vont de pair",
+            "value": 0,
+            "categoryId": 6,
+            "completed": false
+          },
+          {
+            "id": 29,
+            "text": "Le but d'une organisation est de survivre dans un environnement souvent hostile",
+            "value": 0,
+            "categoryId": 2,
+            "completed": false
+          },
+          {
+            "id": 30,
+            "text": "La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent",
+            "value": 0,
+            "categoryId": 5,
+            "completed": false
+          },
+          {
+            "id": 31,
+            "text": "L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance",
+            "value": 0,
+            "categoryId": 4,
+            "completed": false
+          },
+          {
+            "id": 32,
+            "text": "Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis",
+            "value": 0,
+            "categoryId": 3,
+            "completed": false
+          },
+          {
+            "id": 33,
+            "text": "La responsabilité d’une organisation est de répondre aux défis sociétaux globaux",
+            "value": 0,
+            "categoryId": 7,
+            "completed": false
+          },
+          {
+            "id": 34,
+            "text": "Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe",
+            "value": 0,
+            "categoryId": 6,
+            "completed": false
+          },
+          {
+            "id": 35,
+            "text": "Nous devons respecter l’histoire de notre organisation",
+            "value": 0,
+            "categoryId": 1,
+            "completed": false
+          }
+        ],
+        "choices": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Pas du tout d'accord",
+            "value": -4
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Pas vraiment d'accord",
+            "value": -2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Ni d'accord, ni pas d'accrod",
+            "value": 0
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Plutôt d'accord",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Tout à fait d'accord",
+            "value": 8
+          }
+        ]
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "classement-1",
+        "title": "Partie 1. Classer ces différents mots/expressions par ordre d'importance. Du plus attirant au moins attirant.",
+        "order": 1,
+        "typeHint": "ranking_or_ordering",
+        "questions": [
+          {
+            "id": 1,
+            "text": "Proposition",
+            "raw": {
+              "id": 1,
+              "text": "Proposition",
+              "completed": false,
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Tradition",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Être respecté(e) !",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Mérite",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Sens",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Egalité",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Discipline",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Créativité",
+                  "categoryId": 6,
+                  "value": 0
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 1,
+                "title": "Tradition",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Être respecté(e) !",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Mérite",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Sens",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Egalité",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Discipline",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Créativité",
+                "categoryId": 6,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Proposition",
+            "raw": {
+              "id": 2,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Pouvoir",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Management participatif",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Entrepreneur",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Structure",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Rituel",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Autonomie",
+                  "categoryId": 6,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Ecologie",
+                  "categoryId": 7,
+                  "value": 0
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 1,
+                "title": "Pouvoir",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Management participatif",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Entrepreneur",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Structure",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Rituel",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Autonomie",
+                "categoryId": 6,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Ecologie",
+                "categoryId": 7,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Proposition",
+            "raw": {
+              "id": 3,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Ambition",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Processus",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Univers",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Harmonie",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Honneur",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Liberté",
+                  "categoryId": 6,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Rapidité",
+                  "categoryId": 2,
+                  "value": 0
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 1,
+                "title": "Ambition",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Processus",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Univers",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Harmonie",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Honneur",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Liberté",
+                "categoryId": 6,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Rapidité",
+                "categoryId": 2,
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Proposition",
+            "raw": {
+              "id": 4,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Impact sociétal",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Energie",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Racines",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Succès",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Ordre",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Amour",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Agilité",
+                  "categoryId": 6,
+                  "value": 0
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 1,
+                "title": "Impact sociétal",
+                "categoryId": 7,
+                "value": 0
+              },
+              {
+                "id": 2,
+                "title": "Energie",
+                "categoryId": 2,
+                "value": 0
+              },
+              {
+                "id": 3,
+                "title": "Racines",
+                "categoryId": 1,
+                "value": 0
+              },
+              {
+                "id": 4,
+                "title": "Succès",
+                "categoryId": 4,
+                "value": 0
+              },
+              {
+                "id": 5,
+                "title": "Ordre",
+                "categoryId": 3,
+                "value": 0
+              },
+              {
+                "id": 6,
+                "title": "Amour",
+                "categoryId": 5,
+                "value": 0
+              },
+              {
+                "id": 7,
+                "title": "Agilité",
+                "categoryId": 6,
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "responseOptions": [],
+        "rawSection": {
+          "id": 1,
+          "title": "Partie 1. Classer ces différents mots/expressions par ordre d'importance. Du plus attirant au moins attirant.",
+          "instruction": "",
+          "maxpoint": 7,
+          "completed": false,
+          "suggestions": [
+            {
+              "id": 1,
+              "text": "Proposition",
+              "completed": false,
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Tradition",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Être respecté(e) !",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Mérite",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Sens",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Egalité",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Discipline",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Créativité",
+                  "categoryId": 6,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Pouvoir",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Management participatif",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Entrepreneur",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Structure",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Rituel",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Autonomie",
+                  "categoryId": 6,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Ecologie",
+                  "categoryId": 7,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Ambition",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Processus",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Univers",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Harmonie",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Honneur",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Liberté",
+                  "categoryId": 6,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Rapidité",
+                  "categoryId": 2,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "completed": false,
+              "text": "Proposition",
+              "possibilites": [
+                {
+                  "id": 1,
+                  "title": "Impact sociétal",
+                  "categoryId": 7,
+                  "value": 0
+                },
+                {
+                  "id": 2,
+                  "title": "Energie",
+                  "categoryId": 2,
+                  "value": 0
+                },
+                {
+                  "id": 3,
+                  "title": "Racines",
+                  "categoryId": 1,
+                  "value": 0
+                },
+                {
+                  "id": 4,
+                  "title": "Succès",
+                  "categoryId": 4,
+                  "value": 0
+                },
+                {
+                  "id": 5,
+                  "title": "Ordre",
+                  "categoryId": 3,
+                  "value": 0
+                },
+                {
+                  "id": 6,
+                  "title": "Amour",
+                  "categoryId": 5,
+                  "value": 0
+                },
+                {
+                  "id": 7,
+                  "title": "Agilité",
+                  "categoryId": 6,
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "questionnaire-block-1",
+        "title": "Partie 2. Dans quelle mesure êtes-vous d'accord avec ces affirmations ?",
+        "order": 2,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Le passé est important – il nous aide à définir qui nous sommes",
+            "raw": {
+              "id": 1,
+              "text": "Le passé est important – il nous aide à définir qui nous sommes",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "La clarté des rôles et responsabilités est essentielle dans une organisation",
+            "raw": {
+              "id": 2,
+              "text": "La clarté des rôles et responsabilités est essentielle dans une organisation",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Le monde est plein d’opportunités",
+            "raw": {
+              "id": 3,
+              "text": "Le monde est plein d’opportunités",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "La compétition crée de la performance, comme dans le sport",
+            "raw": {
+              "id": 4,
+              "text": "La compétition crée de la performance, comme dans le sport",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Nous sommes connecté(e)s les uns aux autres",
+            "raw": {
+              "id": 5,
+              "text": "Nous sommes connecté(e)s les uns aux autres",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Le consensus est la meilleure manière de gérer un différent",
+            "raw": {
+              "id": 6,
+              "text": "Le consensus est la meilleure manière de gérer un différent",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Le monde est complexe… et c’est intéressant",
+            "raw": {
+              "id": 7,
+              "text": "Le monde est complexe… et c’est intéressant",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "L’humain est au centre de tout",
+            "raw": {
+              "id": 8,
+              "text": "L’humain est au centre de tout",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Le courage est une vertu cardinale",
+            "raw": {
+              "id": 9,
+              "text": "Le courage est une vertu cardinale",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Il n’y a pas de hasard",
+            "raw": {
+              "id": 10,
+              "text": "Il n’y a pas de hasard",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "La connaissance est un but en soi",
+            "raw": {
+              "id": 11,
+              "text": "La connaissance est un but en soi",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "J’aime les fêtes de fin d’année, les « pots de départ »…",
+            "raw": {
+              "id": 12,
+              "text": "J’aime les fêtes de fin d’année, les « pots de départ »…",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Le droit est essentiel dans nos sociétés",
+            "raw": {
+              "id": 13,
+              "text": "Le droit est essentiel dans nos sociétés",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "L’important, c’est de se dépasser",
+            "raw": {
+              "id": 14,
+              "text": "L’important, c’est de se dépasser",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Il est important pour une équipe de partager des moments de « communion »",
+            "raw": {
+              "id": 15,
+              "text": "Il est important pour une équipe de partager des moments de « communion »",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Croître est passionnant",
+            "raw": {
+              "id": 16,
+              "text": "Croître est passionnant",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "La bienveillance est une qualité cardinale",
+            "raw": {
+              "id": 17,
+              "text": "La bienveillance est une qualité cardinale",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Le monde est incertain.",
+            "raw": {
+              "id": 18,
+              "text": "Le monde est incertain.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Le monde est une jungle…",
+            "raw": {
+              "id": 19,
+              "text": "Le monde est une jungle…",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Il est essentiel de préserver nos éco-systèmes",
+            "raw": {
+              "id": 20,
+              "text": "Il est essentiel de préserver nos éco-systèmes",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "J’ai besoin de liberté au travail",
+            "raw": {
+              "id": 21,
+              "text": "J’ai besoin de liberté au travail",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Il faut une personnalité forte pour être efficace",
+            "raw": {
+              "id": 22,
+              "text": "Il faut une personnalité forte pour être efficace",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Le développement personnel est un élément clé de l'épanouissement professionnel",
+            "raw": {
+              "id": 23,
+              "text": "Le développement personnel est un élément clé de l'épanouissement professionnel",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication",
+            "raw": {
+              "id": 24,
+              "text": "Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Il faut des règles claires de fonctionnement",
+            "raw": {
+              "id": 25,
+              "text": "Il faut des règles claires de fonctionnement",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "La coopération est l’avenir de l’Homme",
+            "raw": {
+              "id": 26,
+              "text": "La coopération est l’avenir de l’Homme",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Il faut saisir sa chance quand elle se présente",
+            "raw": {
+              "id": 27,
+              "text": "Il faut saisir sa chance quand elle se présente",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Esthétique et efficacité vont de pair",
+            "raw": {
+              "id": 28,
+              "text": "Esthétique et efficacité vont de pair",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Le but d'une organisation est de survivre dans un environnement souvent hostile",
+            "raw": {
+              "id": 29,
+              "text": "Le but d'une organisation est de survivre dans un environnement souvent hostile",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent",
+            "raw": {
+              "id": 30,
+              "text": "La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance",
+            "raw": {
+              "id": 31,
+              "text": "L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis",
+            "raw": {
+              "id": 32,
+              "text": "Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "La responsabilité d’une organisation est de répondre aux défis sociétaux globaux",
+            "raw": {
+              "id": 33,
+              "text": "La responsabilité d’une organisation est de répondre aux défis sociétaux globaux",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe",
+            "raw": {
+              "id": 34,
+              "text": "Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Nous devons respecter l’histoire de notre organisation",
+            "raw": {
+              "id": 35,
+              "text": "Nous devons respecter l’histoire de notre organisation",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Pas du tout d'accord",
+                "value": -4
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Pas vraiment d'accord",
+                "value": -2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Ni d'accord, ni pas d'accrod",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Plutôt d'accord",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Tout à fait d'accord",
+                "value": 8
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Pas du tout d'accord",
+            "value": -4
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Pas vraiment d'accord",
+            "value": -2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Ni d'accord, ni pas d'accrod",
+            "value": 0
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Plutôt d'accord",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Tout à fait d'accord",
+            "value": 8
+          }
+        ],
+        "rawSection": {
+          "id": 1,
+          "title": "Partie 2. Dans quelle mesure êtes-vous d'accord avec ces affirmations ?",
+          "instruction": "",
+          "completed": false,
+          "questions": [
+            {
+              "id": 1,
+              "text": "Le passé est important – il nous aide à définir qui nous sommes",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "La clarté des rôles et responsabilités est essentielle dans une organisation",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Le monde est plein d’opportunités",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "La compétition crée de la performance, comme dans le sport",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Nous sommes connecté(e)s les uns aux autres",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Le consensus est la meilleure manière de gérer un différent",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Le monde est complexe… et c’est intéressant",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "L’humain est au centre de tout",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Le courage est une vertu cardinale",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Il n’y a pas de hasard",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "La connaissance est un but en soi",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "J’aime les fêtes de fin d’année, les « pots de départ »…",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Le droit est essentiel dans nos sociétés",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "L’important, c’est de se dépasser",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Il est important pour une équipe de partager des moments de « communion »",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Croître est passionnant",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "La bienveillance est une qualité cardinale",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Le monde est incertain.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Le monde est une jungle…",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Il est essentiel de préserver nos éco-systèmes",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "J’ai besoin de liberté au travail",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Il faut une personnalité forte pour être efficace",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Le développement personnel est un élément clé de l'épanouissement professionnel",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Il faut des règles claires de fonctionnement",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "La coopération est l’avenir de l’Homme",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Il faut saisir sa chance quand elle se présente",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Esthétique et efficacité vont de pair",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Le but d'une organisation est de survivre dans un environnement souvent hostile",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "La responsabilité d’une organisation est de répondre aux défis sociétaux globaux",
+              "value": 0,
+              "categoryId": 7,
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe",
+              "value": 0,
+              "categoryId": 6,
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Nous devons respecter l’histoire de notre organisation",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            }
+          ],
+          "choices": [
+            {
+              "id": 1,
+              "number": "1",
+              "text": "Pas du tout d'accord",
+              "value": -4
+            },
+            {
+              "id": 2,
+              "number": "2",
+              "text": "Pas vraiment d'accord",
+              "value": -2
+            },
+            {
+              "id": 3,
+              "number": "3",
+              "text": "Ni d'accord, ni pas d'accrod",
+              "value": 0
+            },
+            {
+              "id": 4,
+              "number": "4",
+              "text": "Plutôt d'accord",
+              "value": 4
+            },
+            {
+              "id": 5,
+              "number": "5",
+              "text": "Tout à fait d'accord",
+              "value": 8
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": [
+          "Prémoderne Clanique"
+        ],
+        "raw": {
+          "id": 1,
+          "text": [
+            "Prémoderne Clanique"
+          ],
+          "color": "#62388E",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": [
+          "Prémoderne Guerrier"
+        ],
+        "raw": {
+          "id": 2,
+          "text": [
+            "Prémoderne Guerrier"
+          ],
+          "color": "#E51A1F",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": [
+          "Prémoderne Autoritaire"
+        ],
+        "raw": {
+          "id": 3,
+          "text": [
+            "Prémoderne Autoritaire"
+          ],
+          "color": "#5B9BD4",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": [
+          "Modernisme"
+        ],
+        "raw": {
+          "id": 4,
+          "text": [
+            "Modernisme"
+          ],
+          "color": "#FCBF17",
+          "value": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": [
+          "Postmoderne"
+        ],
+        "raw": {
+          "id": 5,
+          "text": [
+            "Postmoderne"
+          ],
+          "color": "#70AD47",
+          "value": 0
+        }
+      },
+      {
+        "id": 6,
+        "name": [
+          "Hypermoderne"
+        ],
+        "raw": {
+          "id": 6,
+          "text": [
+            "Hypermoderne"
+          ],
+          "color": "#F1E60F",
+          "value": 0
+        }
+      },
+      {
+        "id": 7,
+        "name": [
+          "Hypermoderne Intégral"
+        ],
+        "raw": {
+          "id": 7,
+          "text": [
+            "Hypermoderne Intégral"
+          ],
+          "color": "#47BCC2",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 1,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le passé est important – il nous aide à définir qui nous sommes"
+      },
+      {
+        "questionId": 2,
+        "groupId": 3,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La clarté des rôles et responsabilités est essentielle dans une organisation"
+      },
+      {
+        "questionId": 3,
+        "groupId": 4,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le monde est plein d’opportunités"
+      },
+      {
+        "questionId": 4,
+        "groupId": 2,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La compétition crée de la performance, comme dans le sport"
+      },
+      {
+        "questionId": 5,
+        "groupId": 7,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Nous sommes connecté(e)s les uns aux autres"
+      },
+      {
+        "questionId": 6,
+        "groupId": 5,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le consensus est la meilleure manière de gérer un différent"
+      },
+      {
+        "questionId": 7,
+        "groupId": 6,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le monde est complexe… et c’est intéressant"
+      },
+      {
+        "questionId": 8,
+        "groupId": 5,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "L’humain est au centre de tout"
+      },
+      {
+        "questionId": 9,
+        "groupId": 2,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le courage est une vertu cardinale"
+      },
+      {
+        "questionId": 10,
+        "groupId": 7,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il n’y a pas de hasard"
+      },
+      {
+        "questionId": 11,
+        "groupId": 6,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La connaissance est un but en soi"
+      },
+      {
+        "questionId": 12,
+        "groupId": 1,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "J’aime les fêtes de fin d’année, les « pots de départ »…"
+      },
+      {
+        "questionId": 13,
+        "groupId": 3,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le droit est essentiel dans nos sociétés"
+      },
+      {
+        "questionId": 14,
+        "groupId": 4,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "L’important, c’est de se dépasser"
+      },
+      {
+        "questionId": 15,
+        "groupId": 1,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il est important pour une équipe de partager des moments de « communion »"
+      },
+      {
+        "questionId": 16,
+        "groupId": 4,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Croître est passionnant"
+      },
+      {
+        "questionId": 17,
+        "groupId": 5,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La bienveillance est une qualité cardinale"
+      },
+      {
+        "questionId": 18,
+        "groupId": 3,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le monde est incertain."
+      },
+      {
+        "questionId": 19,
+        "groupId": 2,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le monde est une jungle…"
+      },
+      {
+        "questionId": 20,
+        "groupId": 7,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il est essentiel de préserver nos éco-systèmes"
+      },
+      {
+        "questionId": 21,
+        "groupId": 6,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "J’ai besoin de liberté au travail"
+      },
+      {
+        "questionId": 22,
+        "groupId": 2,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il faut une personnalité forte pour être efficace"
+      },
+      {
+        "questionId": 23,
+        "groupId": 7,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le développement personnel est un élément clé de l'épanouissement professionnel"
+      },
+      {
+        "questionId": 24,
+        "groupId": 1,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication"
+      },
+      {
+        "questionId": 25,
+        "groupId": 3,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il faut des règles claires de fonctionnement"
+      },
+      {
+        "questionId": 26,
+        "groupId": 5,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La coopération est l’avenir de l’Homme"
+      },
+      {
+        "questionId": 27,
+        "groupId": 4,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Il faut saisir sa chance quand elle se présente"
+      },
+      {
+        "questionId": 28,
+        "groupId": 6,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Esthétique et efficacité vont de pair"
+      },
+      {
+        "questionId": 29,
+        "groupId": 2,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le but d'une organisation est de survivre dans un environnement souvent hostile"
+      },
+      {
+        "questionId": 30,
+        "groupId": 5,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent"
+      },
+      {
+        "questionId": 31,
+        "groupId": 4,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance"
+      },
+      {
+        "questionId": 32,
+        "groupId": 3,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis"
+      },
+      {
+        "questionId": 33,
+        "groupId": 7,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "La responsabilité d’une organisation est de répondre aux défis sociétaux globaux"
+      },
+      {
+        "questionId": 34,
+        "groupId": 6,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe"
+      },
+      {
+        "questionId": 35,
+        "groupId": 1,
+        "source": "Questionnaire[].questions[].categoryId",
+        "questionText": "Nous devons respecter l’histoire de notre organisation"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "classement_ordering_scoring",
+        "source": "Classements[].suggestions[].possibilites[]",
+        "rawSections": [
+          {
+            "id": 1,
+            "title": "Partie 1. Classer ces différents mots/expressions par ordre d'importance. Du plus attirant au moins attirant.",
+            "instruction": "",
+            "maxpoint": 7,
+            "completed": false,
+            "suggestions": [
+              {
+                "id": 1,
+                "text": "Proposition",
+                "completed": false,
+                "possibilites": [
+                  {
+                    "id": 1,
+                    "title": "Tradition",
+                    "categoryId": 1,
+                    "value": 0
+                  },
+                  {
+                    "id": 2,
+                    "title": "Être respecté(e) !",
+                    "categoryId": 2,
+                    "value": 0
+                  },
+                  {
+                    "id": 3,
+                    "title": "Mérite",
+                    "categoryId": 4,
+                    "value": 0
+                  },
+                  {
+                    "id": 4,
+                    "title": "Sens",
+                    "categoryId": 7,
+                    "value": 0
+                  },
+                  {
+                    "id": 5,
+                    "title": "Egalité",
+                    "categoryId": 5,
+                    "value": 0
+                  },
+                  {
+                    "id": 6,
+                    "title": "Discipline",
+                    "categoryId": 3,
+                    "value": 0
+                  },
+                  {
+                    "id": 7,
+                    "title": "Créativité",
+                    "categoryId": 6,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "completed": false,
+                "text": "Proposition",
+                "possibilites": [
+                  {
+                    "id": 1,
+                    "title": "Pouvoir",
+                    "categoryId": 2,
+                    "value": 0
+                  },
+                  {
+                    "id": 2,
+                    "title": "Management participatif",
+                    "categoryId": 5,
+                    "value": 0
+                  },
+                  {
+                    "id": 3,
+                    "title": "Entrepreneur",
+                    "categoryId": 4,
+                    "value": 0
+                  },
+                  {
+                    "id": 4,
+                    "title": "Structure",
+                    "categoryId": 3,
+                    "value": 0
+                  },
+                  {
+                    "id": 5,
+                    "title": "Rituel",
+                    "categoryId": 1,
+                    "value": 0
+                  },
+                  {
+                    "id": 6,
+                    "title": "Autonomie",
+                    "categoryId": 6,
+                    "value": 0
+                  },
+                  {
+                    "id": 7,
+                    "title": "Ecologie",
+                    "categoryId": 7,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "completed": false,
+                "text": "Proposition",
+                "possibilites": [
+                  {
+                    "id": 1,
+                    "title": "Ambition",
+                    "categoryId": 4,
+                    "value": 0
+                  },
+                  {
+                    "id": 2,
+                    "title": "Processus",
+                    "categoryId": 3,
+                    "value": 0
+                  },
+                  {
+                    "id": 3,
+                    "title": "Univers",
+                    "categoryId": 7,
+                    "value": 0
+                  },
+                  {
+                    "id": 4,
+                    "title": "Harmonie",
+                    "categoryId": 5,
+                    "value": 0
+                  },
+                  {
+                    "id": 5,
+                    "title": "Honneur",
+                    "categoryId": 1,
+                    "value": 0
+                  },
+                  {
+                    "id": 6,
+                    "title": "Liberté",
+                    "categoryId": 6,
+                    "value": 0
+                  },
+                  {
+                    "id": 7,
+                    "title": "Rapidité",
+                    "categoryId": 2,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "completed": false,
+                "text": "Proposition",
+                "possibilites": [
+                  {
+                    "id": 1,
+                    "title": "Impact sociétal",
+                    "categoryId": 7,
+                    "value": 0
+                  },
+                  {
+                    "id": 2,
+                    "title": "Energie",
+                    "categoryId": 2,
+                    "value": 0
+                  },
+                  {
+                    "id": 3,
+                    "title": "Racines",
+                    "categoryId": 1,
+                    "value": 0
+                  },
+                  {
+                    "id": 4,
+                    "title": "Succès",
+                    "categoryId": 4,
+                    "value": 0
+                  },
+                  {
+                    "id": 5,
+                    "title": "Ordre",
+                    "categoryId": 3,
+                    "value": 0
+                  },
+                  {
+                    "id": 6,
+                    "title": "Amour",
+                    "categoryId": 5,
+                    "value": 0
+                  },
+                  {
+                    "id": 7,
+                    "title": "Agilité",
+                    "categoryId": 6,
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "uncertainty": "La valeur finale depend de la logique de classement (ordre/drag) dans les composants Suggestion/Classement."
+      },
+      {
+        "kind": "questionnaire_block_choices",
+        "source": "Questionnaire[].choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Pas du tout d'accord",
+            "value": -4
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Pas vraiment d'accord",
+            "value": -2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Ni d'accord, ni pas d'accrod",
+            "value": 0
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Plutôt d'accord",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Tout à fait d'accord",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/SCT-Individuel-Test/components/Answer.js::render",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      let completed = [];\n      data.Classements.every(q => completed.push(q.completed));\n      data.Questionnaire[0].questions.every(q => completed.push(q.completed));\n      const isCompleted = completed.every(i => i === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        const categories = data.categories;\n        //Regroupement de chaque proposition de chaque suggestion\n        let possibilites = [];\n        const suggestions = data.Classements[0].suggestions;\n        suggestions.forEach(suggestion => {\n          suggestion.possibilites.forEach(possibilite => possibilites.push(possibilite));\n        });\n        //console.log(\"possibilites\", possibilites)\n        //Addition des points de chaque question à leur catégories associées\n        const questionnaire = data.Questionnaire[0];\n        categories.map(cat => cat.value = questionnaire.questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value + possibilites.filter(possibilite => possibilite.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value);\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/SCT-Individuel-Test/components/Questionnaire.js::handlePointClassement",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handlePointClassement = data => {\n  let newClassements = this.state.Classements;\n  const classementIndex = newClassements.findIndex(classement => classement.id === data.classementId);\n  let newClassement = newClassements.find(classement => classement.id === data.classementId);\n  const indexSuggestion = newClassement.suggestions.findIndex(element => element.id === data.suggestionId);\n  newClassement.suggestions[indexSuggestion].possibilites = data.possibilites;\n  newClassement.suggestions[indexSuggestion].completed = data.checked;\n  newClassement.completed = newClassement.suggestions.every(suggestion => suggestion.completed === true);\n  newClassements[classementIndex] = newClassement;\n  this.setState({\n    Classements: newClassements\n  });\n};"
+      },
+      {
+        "source": "src/Components/SCT-Individuel-Test/components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      let completed = [];\n      data.Classements.every(q => completed.push(q.completed));\n      data.Questionnaire[0].questions.every(q => completed.push(q.completed));\n      const isCompleted = completed.every(i => i === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        const categories = data.categories;\n        //Regroupement de chaque proposition de chaque suggestion\n        let possibilites = [];\n        const suggestions = data.Classements[0].suggestions;\n        suggestions.forEach(suggestion => {\n          suggestion.possibilites.forEach(possibilite => possibilites.push(possibilite));\n        });\n        //console.log(\"possibilites\", possibilites)\n        //Addition des points de chaque question à leur catégories associées\n        const questionnaire = data.Questionnaire[0];\n        categories.map(cat => cat.value = questionnaire.questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value + possibilites.filter(possibilite => possibilite.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value);\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/SCT-Individuel-Test/components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      let completed = [];\n      data.Classements.every(q => completed.push(q.completed));\n      data.Questionnaire[0].questions.every(q => completed.push(q.completed));\n      const isCompleted = completed.every(i => i === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        const categories = data.categories;\n        //Regroupement de chaque proposition de chaque suggestion\n        let possibilites = [];\n        const suggestions = data.Classements[0].suggestions;\n        suggestions.forEach(suggestion => {\n          suggestion.possibilites.forEach(possibilite => possibilites.push(possibilite));\n        });\n        //console.log(\"possibilites\", possibilites)\n        //Addition des points de chaque question à leur catégories associées\n        const questionnaire = data.Questionnaire[0];\n        categories.map(cat => cat.value = questionnaire.questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value + possibilites.filter(possibilite => possibilite.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value);\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/SCT-Individuel-Test/components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  question.value = parseInt(e.target.value);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/SCTIndividuelTest.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/SCTIndividuelTest.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <div className=\"survey\">\r\n                    <Header />\r\n                    <Questionnaire />\r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"header\">\r\n                        <div className=\"logo\">\r\n                            <img src={logo} alt=\"\" />\r\n                        </div>\r\n                        <div className=\"questionnaire-title\">\r\n                            <p className=\"\">{this.state.title}</p>\r\n                        </div>   \r\n                        <div className=\"questionnaire-description\">\r\n                            {this.state.description}\r\n                        </div>\r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"Questionnaire SCT\",\n    categories: [{\n      id: 1,\n      text: [\"Prémoderne Clanique\"],\n      color: '#62388E',\n      value: 0\n    }, {\n      id: 2,\n      text: [\"Prémoderne Guerrier\"],\n      color: '#E51A1F',\n      value: 0\n    }, {\n      id: 3,\n      text: [\"Prémoderne Autoritaire\"],\n      color: '#5B9BD4',\n      value: 0\n    }, {\n      id: 4,\n      text: [\"Modernisme\"],\n      color: '#FCBF17',\n      value: 0\n    }, {\n      id: 5,\n      text: [\"Postmoderne\"],\n      color: '#70AD47',\n      value: 0\n    }, {\n      id: 6,\n      text: [\"Hypermoderne\"],\n      color: '#F1E60F',\n      value: 0\n    }, {\n      id: 7,\n      text: [\"Hypermoderne Intégral\"],\n      color: '#47BCC2',\n      value: 0\n    }],\n    Classements: [{\n      id: 1,\n      \"title\": \"Partie 1. Classer ces différents mots/expressions par ordre d'importance. Du plus attirant au moins attirant.\",\n      \"instruction\": \"\",\n      \"maxpoint\": 7,\n      \"completed\": false,\n      \"suggestions\": [{\n        \"id\": 1,\n        \"text\": \"Proposition\",\n        \"completed\": false,\n        \"possibilites\": [{\n          \"id\": 1,\n          \"title\": \"Tradition\",\n          \"categoryId\": 1,\n          value: 0\n        }, {\n          \"id\": 2,\n          \"title\": \"Être respecté(e) !\",\n          \"categoryId\": 2,\n          value: 0\n        }, {\n          \"id\": 3,\n          \"title\": \"Mérite\",\n          \"categoryId\": 4,\n          value: 0\n        }, {\n          \"id\": 4,\n          \"title\": \"Sens\",\n          \"categoryId\": 7,\n          value: 0\n        }, {\n          \"id\": 5,\n          \"title\": \"Egalité\",\n          \"categoryId\": 5,\n          value: 0\n        }, {\n          \"id\": 6,\n          \"title\": \"Discipline\",\n          \"categoryId\": 3,\n          value: 0\n        }, {\n          \"id\": 7,\n          \"title\": \"Créativité\",\n          \"categoryId\": 6,\n          value: 0\n        }]\n      }, {\n        \"id\": 2,\n        \"completed\": false,\n        \"text\": \"Proposition\",\n        \"possibilites\": [{\n          \"id\": 1,\n          \"title\": \"Pouvoir\",\n          \"categoryId\": 2,\n          value: 0\n        }, {\n          \"id\": 2,\n          \"title\": \"Management participatif\",\n          \"categoryId\": 5,\n          value: 0\n        }, {\n          \"id\": 3,\n          \"title\": \"Entrepreneur\",\n          \"categoryId\": 4,\n          value: 0\n        }, {\n          \"id\": 4,\n          \"title\": \"Structure\",\n          \"categoryId\": 3,\n          value: 0\n        }, {\n          \"id\": 5,\n          \"title\": \"Rituel\",\n          \"categoryId\": 1,\n          value: 0\n        }, {\n          \"id\": 6,\n          \"title\": \"Autonomie\",\n          \"categoryId\": 6,\n          value: 0\n        }, {\n          \"id\": 7,\n          \"title\": \"Ecologie\",\n          \"categoryId\": 7,\n          value: 0\n        }]\n      }, {\n        \"id\": 3,\n        \"completed\": false,\n        \"text\": \"Proposition\",\n        \"possibilites\": [{\n          \"id\": 1,\n          \"title\": \"Ambition\",\n          \"categoryId\": 4,\n          value: 0\n        }, {\n          \"id\": 2,\n          \"title\": \"Processus\",\n          \"categoryId\": 3,\n          value: 0\n        }, {\n          \"id\": 3,\n          \"title\": \"Univers\",\n          \"categoryId\": 7,\n          value: 0\n        }, {\n          \"id\": 4,\n          \"title\": \"Harmonie\",\n          \"categoryId\": 5,\n          value: 0\n        }, {\n          \"id\": 5,\n          \"title\": \"Honneur\",\n          \"categoryId\": 1,\n          value: 0\n        }, {\n          \"id\": 6,\n          \"title\": \"Liberté\",\n          \"categoryId\": 6,\n          value: 0\n        }, {\n          \"id\": 7,\n          \"title\": \"Rapidité\",\n          \"categoryId\": 2,\n          value: 0\n        }]\n      }, {\n        \"id\": 4,\n        \"completed\": false,\n        \"text\": \"Proposition\",\n        \"possibilites\": [{\n          \"id\": 1,\n          \"title\": \"Impact sociétal\",\n          \"categoryId\": 7,\n          value: 0\n        }, {\n          \"id\": 2,\n          \"title\": \"Energie\",\n          \"categoryId\": 2,\n          value: 0\n        }, {\n          \"id\": 3,\n          \"title\": \"Racines\",\n          \"categoryId\": 1,\n          value: 0\n        }, {\n          \"id\": 4,\n          \"title\": \"Succès\",\n          \"categoryId\": 4,\n          value: 0\n        }, {\n          \"id\": 5,\n          \"title\": \"Ordre\",\n          \"categoryId\": 3,\n          value: 0\n        }, {\n          \"id\": 6,\n          \"title\": \"Amour\",\n          \"categoryId\": 5,\n          value: 0\n        }, {\n          \"id\": 7,\n          \"title\": \"Agilité\",\n          \"categoryId\": 6,\n          value: 0\n        }]\n      }]\n    }],\n    Questionnaire: [{\n      id: 1,\n      \"title\": \"Partie 2. Dans quelle mesure êtes-vous d'accord avec ces affirmations ?\",\n      \"instruction\": \"\",\n      \"completed\": false,\n      questions: [\n      //Série 1 \n      {\n        id: 1,\n        text: \"Le passé est important – il nous aide à définir qui nous sommes\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 2,\n        text: \"La clarté des rôles et responsabilités est essentielle dans une organisation\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Le monde est plein d’opportunités\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 4,\n        text: \"La compétition crée de la performance, comme dans le sport\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Nous sommes connecté(e)s les uns aux autres\",\n        value: 0,\n        categoryId: 7,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Le consensus est la meilleure manière de gérer un différent\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Le monde est complexe… et c’est intéressant\",\n        value: 0,\n        categoryId: 6,\n        completed: false\n      },\n      //Série 2\n      {\n        id: 8,\n        text: \"L’humain est au centre de tout\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Le courage est une vertu cardinale\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Il n’y a pas de hasard\",\n        value: 0,\n        categoryId: 7,\n        completed: false\n      }, {\n        id: 11,\n        text: \"La connaissance est un but en soi\",\n        value: 0,\n        categoryId: 6,\n        completed: false\n      }, {\n        id: 12,\n        text: \"J’aime les fêtes de fin d’année, les « pots de départ »…\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Le droit est essentiel dans nos sociétés\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"L’important, c’est de se dépasser\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      },\n      //Série 3\n      {\n        id: 15,\n        text: \"Il est important pour une équipe de partager des moments de « communion »\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Croître est passionnant\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 17,\n        text: \"La bienveillance est une qualité cardinale\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Le monde est incertain.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Le monde est une jungle…\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Il est essentiel de préserver nos éco-systèmes\",\n        value: 0,\n        categoryId: 7,\n        completed: false\n      }, {\n        id: 21,\n        text: \"J’ai besoin de liberté au travail\",\n        value: 0,\n        categoryId: 6,\n        completed: false\n      },\n      //Série 4\n      {\n        id: 22,\n        text: \"Il faut une personnalité forte pour être efficace\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Le développement personnel est un élément clé de l'épanouissement professionnel\",\n        value: 0,\n        categoryId: 7,\n        completed: false\n      }, {\n        id: 24,\n        text: \"Il n’est pas important de tout comprendre… certaines choses n’ont pas d’explication\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Il faut des règles claires de fonctionnement\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 26,\n        text: \"La coopération est l’avenir de l’Homme\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 27,\n        text: \"Il faut saisir sa chance quand elle se présente\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Esthétique et efficacité vont de pair\",\n        value: 0,\n        categoryId: 6,\n        completed: false\n      },\n      //Série 5\n      {\n        id: 29,\n        text: \"Le but d'une organisation est de survivre dans un environnement souvent hostile\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 30,\n        text: \"La mission d'une organisation est de générer du bien-être pour celles et ceux qui y travaillent\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 31,\n        text: \"L'ambition d'une organisation est de générer de la rentabilité pour assurer sa croissance\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Le mandat d'une organisation est de produire des services et biens de qualité dans les délais impartis\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 33,\n        text: \"La responsabilité d’une organisation est de répondre aux défis sociétaux globaux\",\n        value: 0,\n        categoryId: 7,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Le défi d'une organisation est de trouver son chemin dans un environnement de plus en plus complexe\",\n        value: 0,\n        categoryId: 6,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Nous devons respecter l’histoire de notre organisation\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"1\",\n        text: \"Pas du tout d'accord\",\n        value: -4\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Pas vraiment d'accord\",\n        value: -2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Ni d'accord, ni pas d'accrod\",\n        value: 0\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Plutôt d'accord\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Tout à fait d'accord\",\n        value: 8\n      }]\n    }]\n  };\n  this.handlePointClassement = this.handlePointClassement.bind(this);\n  this.handlePointQuestionnaire = this.handlePointQuestionnaire.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questionnaire.js",
+        "name": "handlePointClassement",
+        "code": "handlePointClassement = data => {\n  let newClassements = this.state.Classements;\n  const classementIndex = newClassements.findIndex(classement => classement.id === data.classementId);\n  let newClassement = newClassements.find(classement => classement.id === data.classementId);\n  const indexSuggestion = newClassement.suggestions.findIndex(element => element.id === data.suggestionId);\n  newClassement.suggestions[indexSuggestion].possibilites = data.possibilites;\n  newClassement.suggestions[indexSuggestion].completed = data.checked;\n  newClassement.completed = newClassement.suggestions.every(suggestion => suggestion.completed === true);\n  newClassements[classementIndex] = newClassement;\n  this.setState({\n    Classements: newClassements\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questionnaire.js",
+        "name": "handlePointQuestionnaire",
+        "code": "handlePointQuestionnaire = data => {\n  let Questionnaire = this.state.Questionnaire;\n  const questionIndex = Questionnaire[0].questions.findIndex(question => question.id === data.id);\n  Questionnaire[0].questions[questionIndex] = data;\n  this.setState({\n    Questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n               {this.state.Classements.map((classement, index) => <Classement key={index} data={classement} handleaddpoint={this.handlePointClassement} />)}\r\n               {this.state.Questionnaire.map((questionnaire_, index) => <div className=\"classement\">\r\n                 <p className=\"classement-title\">{questionnaire_.title}</p>\r\n                 <div className=\"choices-list w100\">\r\n                     <ul className=\"w100\">\r\n               {questionnaire_.choices.map((choice, Index) => <li key={Index} className=\"choice-list\">\r\n               <p className=\"choice-number\">{choice.number}</p>\r\n                   <p className=\"choice-text\">{choice.text}</p>\r\n               </li>)}\r\n                     </ul>\r\n                 </div>\r\n                <Questions key={index} questions={questionnaire_.questions} description={questionnaire_.title} handlevalue={this.handlePointQuestionnaire} />\r\n                </div>)}\r\n               <Answer />\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Classement.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  data.classementId = this.props.data.id;\n  this.props.handleaddpoint(data);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Classement.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"classement\">\r\n                <p className=\"classement-title\">{this.props.data.title}{this.props.data.instruction}</p>\r\n                <Suggestions data={this.props.data.suggestions} handleaddpoint={this.handleAddPoint} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: \"#002F47\"\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      let completed = [];\n      data.Classements.every(q => completed.push(q.completed));\n      data.Questionnaire[0].questions.every(q => completed.push(q.completed));\n      const isCompleted = completed.every(i => i === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        const categories = data.categories;\n        //Regroupement de chaque proposition de chaque suggestion\n        let possibilites = [];\n        const suggestions = data.Classements[0].suggestions;\n        suggestions.forEach(suggestion => {\n          suggestion.possibilites.forEach(possibilite => possibilites.push(possibilite));\n        });\n        //console.log(\"possibilites\", possibilites)\n        //Addition des points de chaque question à leur catégories associées\n        const questionnaire = data.Questionnaire[0];\n        categories.map(cat => cat.value = questionnaire.questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value + possibilites.filter(possibilite => possibilite.categoryId === cat.id).reduce((acc, cur) => ({\n          value: acc.value + cur.value\n        })).value);\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 5} color={element.color} onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestions.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = element => {\n  this.props.handleaddpoint(element);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestions.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"suggestions\">\r\n            {this.props.data.map((suggestion, index) => <Suggestion key={index} data={suggestion} handleaddpoint={this.handleAddPoint} />)}\r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestion.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    possibilites: this.props.data.possibilites,\n    pointlist: [10, 6, 2, 0, 0, 0, 0],\n    isCompleted: false,\n    newlist: [],\n    oldlist: [],\n    numberlist: CreateNumberList(this.props.data.possibilites.length),\n    checked: false\n  };\n  this.onSortEnd = this.onSortEnd.bind(this);\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestion.js",
+        "name": "onSortEnd",
+        "code": "onSortEnd = ({\n  oldIndex,\n  newIndex\n}) => {\n  const oldlist = this.state.possibilites;\n  let newlist = arrayMove(this.state.possibilites, oldIndex, newIndex);\n  const isChecked = this.state.checked;\n\n  //console.log(\"old list\", oldlist)\n  //console.log(\"new list\", newlist)\n\n  //Sending Reset Suggestion to NOT COMPLETED\n  /*  const data = {\r\n        suggestionId : this.props.data.id,\r\n        checked: false\r\n    }\r\n      this.props.handleaddpoint(data) */\n\n  this.setState({\n    checked: isChecked ? false : false,\n    possibilites: newlist,\n    oldlist: oldlist\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestion.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let checked = !this.state.checked;\n  let newlist = this.state.possibilites;\n  for (let i = 0; i < newlist.length; i++) {\n    newlist[i].value = parseInt(this.state.pointlist[i]);\n  }\n  const data = {\n    checked: checked,\n    suggestionId: this.props.data.id,\n    classementId: 0,\n    possibilites: newlist\n  };\n  this.props.handleaddpoint(data);\n  this.setState({\n    checked: checked,\n    oldlist: newlist\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Suggestion.js",
+        "name": "render",
+        "code": "render() {\n  const text = this.props.data.text;\n  return <div className=\"suggestion\">\r\n            <p className=\"suggestion-title\">{text}</p>\r\n            <div className=\"suggestion-body\">\r\n            <div className=\"suggestion-numbers\">\r\n                  <ul>\r\n                      {this.state.numberlist}\r\n                  </ul>\r\n              </div>\r\n            <div className=\"suggestion-choices\">   \r\n                <SortableContainer onSortEnd={this.onSortEnd} helperClass=\"suggestion-choices-helper\">\r\n                {this.state.possibilites.map((suggestion, index) => <SortableItem key={`item-${suggestion.id}`} index={index} item={suggestion.id} value={suggestion} />)}\r\n            </SortableContainer>\r\n            </div>\r\n            </div>\r\n            <div className=\"suggestion-button\">\r\n            <CheckIcon checked={this.state.checked} className=\"fa fa-4x fa-check check-styled\" onClick={this.handleClick} />\r\n            <CheckMessage checked={this.state.checked}>Valider vos 4 réponses</CheckMessage>\r\n            </div>\r\n          </div>;\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question\n  };\n}"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  question.value = parseInt(e.target.value);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/SCT-Individuel-Test/components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.Questionnaire[0].choices;\n      console.log(choices);\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

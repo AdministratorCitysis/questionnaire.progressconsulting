@@ -1,0 +1,1404 @@
+{
+  "routePath": "/delegation",
+  "routeComponent": "Delegation",
+  "routeImportSource": "./Components/Delegation",
+  "extractionTimestamp": "2026-04-19T10:06:59.457Z",
+  "sourceFiles": [
+    "src/Components/Delegation.js",
+    "src/Components/Delegation/Components/Answer.js",
+    "src/Components/Delegation/Components/Context.js",
+    "src/Components/Delegation/Components/Header.js",
+    "src/Components/Delegation/Components/Possibilites.js",
+    "src/Components/Delegation/Components/Question.js",
+    "src/Components/Delegation/Components/Questionnaire.js",
+    "src/Components/Delegation/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Quelle est votre approche de la délégation",
+      "description": "Identifier votre approche de la délégation",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Tout peut se déléguer",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Il est de bonne guerre de déléguer en priorité les activités les moins motivantes",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "La délégation suppose un climat de confiance entre le chef et le collaborateur",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Toute délégation implique un contrôle",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "La délégation engendre souvent le laxisme et la dilution des responsabilités",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Une délégation n'est jamais définitive",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Il faut parfois savoir imposer la délégation à des collaborateurs réticents",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Un collaborateur peut très bien refuser la délégation qu'on lui propose",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "La délégation suppose un droit à l'erreur pour le collaborateur",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "La notion de contrôle est contraire à l'esprit de la démarche de délégation",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "La délégation permet au responsable hiérarchique de mieux gérer son temps",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "La délégation se pratique essentiellement en cas d'absence du responsable",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "--",
+          "text": "Tout à fait FAUX",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": "-",
+          "text": "Plutôt FAUX",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "number": "+",
+          "text": "Plutôt VRAI",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "number": "++",
+          "text": "Tout à fait VRAI",
+          "value": 0
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 30,
+          "text": "Vous avez sans doute du mal avec la délégation et la séance plénière devrait vous aider à y voir plus clair."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Vous déléguez régulièrement mais vous pouvez sans doute encore faire des progrès dans cet outil de motivation de vos équipes et de gestion des priorités pour vous."
+        },
+        {
+          "maxvalue": 80,
+          "text": "Vous êtes un champion de la délégation ! Nous nous réjouissons de partager votre expérience lors de la séance plénière."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": "positive",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "text": "negative",
+          "values": [
+            4,
+            3,
+            2,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Quelle est votre approche de la délégation",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Tout peut se déléguer",
+            "raw": {
+              "id": 1,
+              "text": "Tout peut se déléguer",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités",
+            "raw": {
+              "id": 2,
+              "text": "Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur",
+            "raw": {
+              "id": 3,
+              "text": "Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Il est de bonne guerre de déléguer en priorité les activités les moins motivantes",
+            "raw": {
+              "id": 4,
+              "text": "Il est de bonne guerre de déléguer en priorité les activités les moins motivantes",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "La délégation suppose un climat de confiance entre le chef et le collaborateur",
+            "raw": {
+              "id": 5,
+              "text": "La délégation suppose un climat de confiance entre le chef et le collaborateur",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Toute délégation implique un contrôle",
+            "raw": {
+              "id": 6,
+              "text": "Toute délégation implique un contrôle",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "La délégation engendre souvent le laxisme et la dilution des responsabilités",
+            "raw": {
+              "id": 7,
+              "text": "La délégation engendre souvent le laxisme et la dilution des responsabilités",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Une délégation n'est jamais définitive",
+            "raw": {
+              "id": 8,
+              "text": "Une délégation n'est jamais définitive",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Il faut parfois savoir imposer la délégation à des collaborateurs réticents",
+            "raw": {
+              "id": 9,
+              "text": "Il faut parfois savoir imposer la délégation à des collaborateurs réticents",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Un collaborateur peut très bien refuser la délégation qu'on lui propose",
+            "raw": {
+              "id": 10,
+              "text": "Un collaborateur peut très bien refuser la délégation qu'on lui propose",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "La délégation suppose un droit à l'erreur pour le collaborateur",
+            "raw": {
+              "id": 11,
+              "text": "La délégation suppose un droit à l'erreur pour le collaborateur",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?",
+            "raw": {
+              "id": 12,
+              "text": "La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats",
+            "raw": {
+              "id": 13,
+              "text": "Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "La notion de contrôle est contraire à l'esprit de la démarche de délégation",
+            "raw": {
+              "id": 14,
+              "text": "La notion de contrôle est contraire à l'esprit de la démarche de délégation",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation",
+            "raw": {
+              "id": 15,
+              "text": "Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "La délégation permet au responsable hiérarchique de mieux gérer son temps",
+            "raw": {
+              "id": 16,
+              "text": "La délégation permet au responsable hiérarchique de mieux gérer son temps",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire",
+            "raw": {
+              "id": 17,
+              "text": "Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique",
+            "raw": {
+              "id": 18,
+              "text": "En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur",
+            "raw": {
+              "id": 19,
+              "text": "Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "La délégation se pratique essentiellement en cas d'absence du responsable",
+            "raw": {
+              "id": 20,
+              "text": "La délégation se pratique essentiellement en cas d'absence du responsable",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": 0
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": 0
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "--",
+            "text": "Tout à fait FAUX",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "-",
+            "text": "Plutôt FAUX",
+            "value": 0
+          },
+          {
+            "id": 3,
+            "number": "+",
+            "text": "Plutôt VRAI",
+            "value": 0
+          },
+          {
+            "id": 4,
+            "number": "++",
+            "text": "Tout à fait VRAI",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": "positive",
+        "raw": {
+          "id": 1,
+          "text": "positive",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "negative",
+        "raw": {
+          "id": 2,
+          "text": "negative",
+          "values": [
+            4,
+            3,
+            2,
+            1
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Tout peut se déléguer"
+      },
+      {
+        "questionId": 2,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités"
+      },
+      {
+        "questionId": 3,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur"
+      },
+      {
+        "questionId": 4,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il est de bonne guerre de déléguer en priorité les activités les moins motivantes"
+      },
+      {
+        "questionId": 5,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "La délégation suppose un climat de confiance entre le chef et le collaborateur"
+      },
+      {
+        "questionId": 6,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Toute délégation implique un contrôle"
+      },
+      {
+        "questionId": 7,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "La délégation engendre souvent le laxisme et la dilution des responsabilités"
+      },
+      {
+        "questionId": 8,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Une délégation n'est jamais définitive"
+      },
+      {
+        "questionId": 9,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Il faut parfois savoir imposer la délégation à des collaborateurs réticents"
+      },
+      {
+        "questionId": 10,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Un collaborateur peut très bien refuser la délégation qu'on lui propose"
+      },
+      {
+        "questionId": 11,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "La délégation suppose un droit à l'erreur pour le collaborateur"
+      },
+      {
+        "questionId": 12,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?"
+      },
+      {
+        "questionId": 13,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats"
+      },
+      {
+        "questionId": 14,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "La notion de contrôle est contraire à l'esprit de la démarche de délégation"
+      },
+      {
+        "questionId": 15,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation"
+      },
+      {
+        "questionId": 16,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "La délégation permet au responsable hiérarchique de mieux gérer son temps"
+      },
+      {
+        "questionId": 17,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire"
+      },
+      {
+        "questionId": 18,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique"
+      },
+      {
+        "questionId": 19,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur"
+      },
+      {
+        "questionId": 20,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "La délégation se pratique essentiellement en cas d'absence du responsable"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "category_specific_choice_values",
+        "groupId": 1,
+        "values": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "source": "questionnaire.categories[].values (applique dans Possibilites)"
+      },
+      {
+        "kind": "category_specific_choice_values",
+        "groupId": 2,
+        "values": [
+          4,
+          3,
+          2,
+          1
+        ],
+        "source": "questionnaire.categories[].values (applique dans Possibilites)"
+      },
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "--",
+            "text": "Tout à fait FAUX",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "-",
+            "text": "Plutôt FAUX",
+            "value": 0
+          },
+          {
+            "id": 3,
+            "number": "+",
+            "text": "Plutôt VRAI",
+            "value": 0
+          },
+          {
+            "id": 4,
+            "number": "++",
+            "text": "Tout à fait VRAI",
+            "value": 0
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 30,
+            "text": "Vous avez sans doute du mal avec la délégation et la séance plénière devrait vous aider à y voir plus clair."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Vous déléguez régulièrement mais vous pouvez sans doute encore faire des progrès dans cet outil de motivation de vos équipes et de gestion des priorités pour vous."
+          },
+          {
+            "maxvalue": 80,
+            "text": "Vous êtes un champion de la délégation ! Nous nous réjouissons de partager votre expérience lors de la séance plénière."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Delegation/Components/Answer.js::render",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "render() {\n  const questions = this.props.questions;\n  const isCompleted = questions.every(questions => questions.completed === true);\n  const score = questions.reduce((acc, question) => acc + parseInt(question.value), 0);\n  let message, result, printbutton;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{score}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text text-align-left\" completed={isCompleted}>\r\n                                    <p className=\"text-align-left\">Si votre score est égale ou inférieur à:</p>\r\n                                   {this.props.answers.map((ans, index) => <div className=\"p10\">\r\n                                   <p className=\"text-align-left p10\">{ans.maxvalue} : {ans.text}</p>\r\n                                   </div>)}\r\n                                    \r\n                                </Result>\r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                {this.state.message}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n               <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                {message}\r\n                </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Delegation/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  const questions = this.props.questions;\n  const isCompleted = questions.every(questions => questions.completed === true);\n  const score = questions.reduce((acc, question) => acc + parseInt(question.value), 0);\n  let message, result, printbutton;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{score}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text text-align-left\" completed={isCompleted}>\r\n                                    <p className=\"text-align-left\">Si votre score est égale ou inférieur à:</p>\r\n                                   {this.props.answers.map((ans, index) => <div className=\"p10\">\r\n                                   <p className=\"text-align-left p10\">{ans.maxvalue} : {ans.text}</p>\r\n                                   </div>)}\r\n                                    \r\n                                </Result>\r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                {this.state.message}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n               <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                {message}\r\n                </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Delegation/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Quelle est votre approche de la délégation\",\n      description: \"Identifier votre approche de la délégation\",\n      questions: [{\n        id: 1,\n        text: \"Tout peut se déléguer\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Il est de bonne guerre de déléguer en priorité les activités les moins motivantes\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 5,\n        text: \"La délégation suppose un climat de confiance entre le chef et le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Toute délégation implique un contrôle\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 7,\n        text: \"La délégation engendre souvent le laxisme et la dilution des responsabilités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Une délégation n'est jamais définitive\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Il faut parfois savoir imposer la délégation à des collaborateurs réticents\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Un collaborateur peut très bien refuser la délégation qu'on lui propose\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 11,\n        text: \"La délégation suppose un droit à l'erreur pour le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 12,\n        text: \"La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"La notion de contrôle est contraire à l'esprit de la démarche de délégation\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 16,\n        text: \"La délégation permet au responsable hiérarchique de mieux gérer son temps\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 18,\n        text: \"En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 20,\n        text: \"La délégation se pratique essentiellement en cas d'absence du responsable\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"--\",\n        text: \"Tout à fait FAUX\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Plutôt FAUX\",\n        value: 0\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Plutôt VRAI\",\n        value: 0\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Tout à fait VRAI\",\n        value: 0\n      }],\n      answers: [{\n        maxvalue: 30,\n        text: \"Vous avez sans doute du mal avec la délégation et la séance plénière devrait vous aider à y voir plus clair.\"\n      }, {\n        maxvalue: 60,\n        text: \"Vous déléguez régulièrement mais vous pouvez sans doute encore faire des progrès dans cet outil de motivation de vos équipes et de gestion des priorités pour vous.\"\n      }, {\n        maxvalue: 80,\n        text: \"Vous êtes un champion de la délégation ! Nous nous réjouissons de partager votre expérience lors de la séance plénière.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"positive\",\n        values: [1, 2, 3, 4]\n      }, {\n        id: 2,\n        text: \"negative\",\n        values: [4, 3, 2, 1]\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "source": "src/Components/Delegation/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const questions = this.props.questions;\n  const isCompleted = questions.every(questions => questions.completed === true);\n  const score = questions.reduce((acc, question) => acc + parseInt(question.value), 0);\n  let message, result, printbutton;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{score}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text text-align-left\" completed={isCompleted}>\r\n                                    <p className=\"text-align-left\">Si votre score est égale ou inférieur à:</p>\r\n                                   {this.props.answers.map((ans, index) => <div className=\"p10\">\r\n                                   <p className=\"text-align-left p10\">{ans.maxvalue} : {ans.text}</p>\r\n                                   </div>)}\r\n                                    \r\n                                </Result>\r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                {this.state.message}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n               <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                {message}\r\n                </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Delegation/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const questions = this.props.questions;\n  const isCompleted = questions.every(questions => questions.completed === true);\n  const score = questions.reduce((acc, question) => acc + parseInt(question.value), 0);\n  let message, result, printbutton;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{score}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text text-align-left\" completed={isCompleted}>\r\n                                    <p className=\"text-align-left\">Si votre score est égale ou inférieur à:</p>\r\n                                   {this.props.answers.map((ans, index) => <div className=\"p10\">\r\n                                   <p className=\"text-align-left p10\">{ans.maxvalue} : {ans.text}</p>\r\n                                   </div>)}\r\n                                    \r\n                                </Result>\r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                {this.state.message}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n               <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                {message}\r\n                </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Delegation/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  question.value = parseInt(e.target.value);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  console.log(\"value\", question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "source": "src/Components/Delegation/Components/Possibilites.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      const category = data.categories.find(cat => cat.id === question.categoryId);\n      if (category.values.length !== choices.length) console.log(\"Impossible d'attribuer des valeurs aux boutons. Le nombre de choix est différents du nombre de valeurs à attribuer.\");else {\n        for (let i = 0; i < choices.length; i++) {\n          choices[i].value = category.values[i];\n        }\n      }\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Delegation.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Delegation.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Quelle est votre approche de la délégation\",\n      description: \"Identifier votre approche de la délégation\",\n      questions: [{\n        id: 1,\n        text: \"Tout peut se déléguer\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Il est difficile de trouver quelqu'un à qui déléguer car la plupart des gens craignent les responsabilités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Déléguer, c'est céder une partie de son pouvoir et de ses responsabilités à un collaborateur\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Il est de bonne guerre de déléguer en priorité les activités les moins motivantes\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 5,\n        text: \"La délégation suppose un climat de confiance entre le chef et le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Toute délégation implique un contrôle\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 7,\n        text: \"La délégation engendre souvent le laxisme et la dilution des responsabilités\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Une délégation n'est jamais définitive\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Il faut parfois savoir imposer la délégation à des collaborateurs réticents\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Un collaborateur peut très bien refuser la délégation qu'on lui propose\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 11,\n        text: \"La délégation suppose un droit à l'erreur pour le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 12,\n        text: \"La délégation est le plus souvent inutile, car pourquoi faire faire par d'autres des choses qu'on ferait mieux ou plus vite soi-même?\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Le bénéficiaire d'une délégation auto-contrôle son activité et ses résultats\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"La notion de contrôle est contraire à l'esprit de la démarche de délégation\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Les modalités et la périodicité du contrôle sont déterminées et annoncées au départ lors de la mise en place d'une délégation\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 16,\n        text: \"La délégation permet au responsable hiérarchique de mieux gérer son temps\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Le responsable qui délègue trop risque de constater un jour... qu'il n'a plus grand chose à faire\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 18,\n        text: \"En cas d'imprévu grave dans le cadre d'une délégation c'est le collaborateur qui informe le responsable hiérarchique\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Dans la démarche de délégation, le responsable ne doit pas intervenir en dehors des procédures de contrôle prévues ou de celles demandées par le collaborateur\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 20,\n        text: \"La délégation se pratique essentiellement en cas d'absence du responsable\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"--\",\n        text: \"Tout à fait FAUX\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Plutôt FAUX\",\n        value: 0\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Plutôt VRAI\",\n        value: 0\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Tout à fait VRAI\",\n        value: 0\n      }],\n      answers: [{\n        maxvalue: 30,\n        text: \"Vous avez sans doute du mal avec la délégation et la séance plénière devrait vous aider à y voir plus clair.\"\n      }, {\n        maxvalue: 60,\n        text: \"Vous déléguez régulièrement mais vous pouvez sans doute encore faire des progrès dans cet outil de motivation de vos équipes et de gestion des priorités pour vous.\"\n      }, {\n        maxvalue: 80,\n        text: \"Vous êtes un champion de la délégation ! Nous nous réjouissons de partager votre expérience lors de la séance plénière.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"positive\",\n        values: [1, 2, 3, 4]\n      }, {\n        id: 2,\n        text: \"negative\",\n        values: [4, 3, 2, 1]\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  const questionnaire = this.state.questionnaire;\n  const questions = questionnaire.questions;\n  const Index = questions.findIndex(question => question.id === props.id);\n  questions[Index] = props;\n  questionnaire.questions = questions;\n  this.setState({\n    questionnaire: questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n                <Answer questions={this.state.questionnaire.questions} answers={this.state.questionnaire.answers} title={this.state.questionnaire.title} />\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const isCompleted = questions.every(questions => questions.completed === true);\n  const score = questions.reduce((acc, question) => acc + parseInt(question.value), 0);\n  let message, result, printbutton;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{score}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text text-align-left\" completed={isCompleted}>\r\n                                    <p className=\"text-align-left\">Si votre score est égale ou inférieur à:</p>\r\n                                   {this.props.answers.map((ans, index) => <div className=\"p10\">\r\n                                   <p className=\"text-align-left p10\">{ans.maxvalue} : {ans.text}</p>\r\n                                   </div>)}\r\n                                    \r\n                                </Result>\r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                {this.state.message}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n               <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                {message}\r\n                </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  question.value = parseInt(e.target.value);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  console.log(\"value\", question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Delegation/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      const category = data.categories.find(cat => cat.id === question.categoryId);\n      if (category.values.length !== choices.length) console.log(\"Impossible d'attribuer des valeurs aux boutons. Le nombre de choix est différents du nombre de valeurs à attribuer.\");else {\n        for (let i = 0; i < choices.length; i++) {\n          choices[i].value = category.values[i];\n        }\n      }\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

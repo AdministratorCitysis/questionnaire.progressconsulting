@@ -1,0 +1,1476 @@
+{
+  "routePath": "/personaEN",
+  "routeComponent": "Caracteristique",
+  "routeImportSource": "./Components/Caracteristique",
+  "extractionTimestamp": "2026-04-19T10:06:59.753Z",
+  "sourceFiles": [
+    "src/Components/Caracteristique.js",
+    "src/Components/Caractéristique/Components/Answer.js",
+    "src/Components/Caractéristique/Components/Caracteristiques.js",
+    "src/Components/Caractéristique/Components/Context.js",
+    "src/Components/Caractéristique/Components/Header.js",
+    "src/Components/Caractéristique/Components/Questionnaire.js",
+    "src/Components/Caractéristique/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "What is your profile?",
+      "description": " Which of the characteristics in each box, describe you best?",
+      "instruction": "Answer in an honest way, not what is socially desirable. Don't think about it too long. It has to be as intuitive as possible.",
+      "categories": [
+        {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        },
+        {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "value": 0,
+          "categoryId": 11,
+          "completed": false,
+          "choices": [
+            {
+              "id": 31,
+              "name": "Efficient",
+              "value": 2
+            },
+            {
+              "id": 32,
+              "name": "Dominant",
+              "value": 3
+            },
+            {
+              "id": 33,
+              "name": "Helpful",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 34,
+              "name": "Is able to stand up for him/herself",
+              "value": 3
+            },
+            {
+              "id": 35,
+              "name": "Calm",
+              "value": 2
+            },
+            {
+              "id": 36,
+              "name": "Satisfied /Content",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 37,
+              "name": "Quiet",
+              "value": 1
+            },
+            {
+              "id": 38,
+              "name": "Toughtful",
+              "value": 2
+            },
+            {
+              "id": 39,
+              "name": "Social",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 310,
+              "name": "Jovial",
+              "value": 3
+            },
+            {
+              "id": 311,
+              "name": "Friendly",
+              "value": 2
+            },
+            {
+              "id": 312,
+              "name": "Takes his/her responsability",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 313,
+              "name": "Attentive",
+              "value": 3
+            },
+            {
+              "id": 314,
+              "name": "Likes to negotiate",
+              "value": 2
+            },
+            {
+              "id": 315,
+              "name": "Takes his/her responsability",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 316,
+              "name": "Sensitive",
+              "value": 1
+            },
+            {
+              "id": 317,
+              "name": "Uncompromising",
+              "value": 3
+            },
+            {
+              "id": 318,
+              "name": "Wants to cooperate",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 319,
+              "name": "Stubborn",
+              "value": 1
+            },
+            {
+              "id": 320,
+              "name": "Cautious",
+              "value": 2
+            },
+            {
+              "id": 321,
+              "name": "Extraverted",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 322,
+              "name": "Enthusiastic",
+              "value": 3
+            },
+            {
+              "id": 323,
+              "name": "Reserved",
+              "value": 1
+            },
+            {
+              "id": 324,
+              "name": "Cautious",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 325,
+              "name": "Obstinate",
+              "value": 3
+            },
+            {
+              "id": 326,
+              "name": "Active",
+              "value": 2
+            },
+            {
+              "id": 327,
+              "name": "Very accurate",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 328,
+              "name": "Fighter mentality",
+              "value": 3
+            },
+            {
+              "id": 329,
+              "name": "Well balanced",
+              "value": 2
+            },
+            {
+              "id": 330,
+              "name": "Accommodating",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 331,
+              "name": "Cheerful",
+              "value": 3
+            },
+            {
+              "id": 332,
+              "name": "Wants to please others",
+              "value": 2
+            },
+            {
+              "id": 333,
+              "name": "Has willpower",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 334,
+              "name": "Sticks to what was agreed upon",
+              "value": 1
+            },
+            {
+              "id": 335,
+              "name": "Energetic",
+              "value": 3
+            },
+            {
+              "id": 336,
+              "name": "Diplomatic",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 213,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 337,
+              "name": "Argues easily",
+              "value": 3
+            },
+            {
+              "id": 338,
+              "name": "Careless",
+              "value": 2
+            },
+            {
+              "id": 339,
+              "name": "Adapts him/herself easily",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 214,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 340,
+              "name": "Accommodating",
+              "value": 2
+            },
+            {
+              "id": 341,
+              "name": "Obedient",
+              "value": 1
+            },
+            {
+              "id": 342,
+              "name": "Controlling",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 215,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 343,
+              "name": "Organized",
+              "value": 2
+            },
+            {
+              "id": 344,
+              "name": "Careful",
+              "value": 1
+            },
+            {
+              "id": 345,
+              "name": "Original",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 216,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 346,
+              "name": "Popular",
+              "value": 3
+            },
+            {
+              "id": 347,
+              "name": "Disciplined",
+              "value": 1
+            },
+            {
+              "id": 348,
+              "name": "Well-read",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "answers": [
+        [
+          {
+            "id": 1,
+            "text": "Yellow",
+            "color": "#EDE813",
+            "primary": "RECOGNITION, Being a reference",
+            "secondary": [
+              "Extrovert",
+              "Intuitive - global vision",
+              "Future oriented",
+              "Creative",
+              "Curious",
+              "Optimistic",
+              "Positive"
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Relationship",
+            "color": "#FFFFFF",
+            "primary": "Your result is undefined on the horizontal axis",
+            "secondary": [
+              "We can nevertheless deduce an attention towards the relational side.The priority is rather the human one, the people, the relation with the others."
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Green",
+            "color": "#009640",
+            "primary": "HARMONY, To be accepted",
+            "secondary": [
+              "User-friendly",
+              "Warm - Relationship oriented",
+              "Comfort",
+              "Empathy",
+              "Friendly - measured",
+              "Listening"
+            ]
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "text": "Extrovert",
+            "color": "#FFFFFF",
+            "primary": "Your result is undefined on the vertical axis",
+            "secondary": [
+              "We can nevertheless deduce an attention to the feelings, opinions, or recurring reasoning"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Indefinite",
+            "color": "#FFFFFF",
+            "primary": "Your result is undefined on the vertical and horizontal axis",
+            "secondary": [
+              "You can try again by replacing some answers on which you might have been hesitant"
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Introverted",
+            "color": "#FFFFFF",
+            "primary": "Your result is undefined on the vertical axis",
+            "secondary": [
+              "We can nevertheless deduce a less visible energy. Feelings, opinions are more internalized"
+            ]
+          }
+        ],
+        [
+          {
+            "id": 7,
+            "text": "Red",
+            "color": "#E30613",
+            "primary": "EFFICIENCY, Being able to decide",
+            "secondary": [
+              "Short",
+              "Concise",
+              "Direct",
+              "Organized",
+              "Result oriented - straight to the point",
+              "Confident",
+              "Concrete"
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Result",
+            "color": "#FFFFFF",
+            "primary": "Your result is undefined on the horizontal axis",
+            "secondary": [
+              "We can nevertheless deduce the attention paid to the tasks to be carried out, to the objectives and the results."
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Blue",
+            "color": "#045576",
+            "primary": "SAFETY, Be reassured",
+            "secondary": [
+              "reserved",
+              "Precise - thorough",
+              "Analytic",
+              "Operational",
+              "Factual - methodical",
+              "Patient"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "What is your profile?",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": null,
+            "raw": {
+              "id": 21,
+              "value": 0,
+              "categoryId": 11,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 31,
+                  "name": "Efficient",
+                  "value": 2
+                },
+                {
+                  "id": 32,
+                  "name": "Dominant",
+                  "value": 3
+                },
+                {
+                  "id": 33,
+                  "name": "Helpful",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 31,
+                "name": "Efficient",
+                "value": 2
+              },
+              {
+                "id": 32,
+                "name": "Dominant",
+                "value": 3
+              },
+              {
+                "id": 33,
+                "name": "Helpful",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": null,
+            "raw": {
+              "id": 22,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 34,
+                  "name": "Is able to stand up for him/herself",
+                  "value": 3
+                },
+                {
+                  "id": 35,
+                  "name": "Calm",
+                  "value": 2
+                },
+                {
+                  "id": 36,
+                  "name": "Satisfied /Content",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 34,
+                "name": "Is able to stand up for him/herself",
+                "value": 3
+              },
+              {
+                "id": 35,
+                "name": "Calm",
+                "value": 2
+              },
+              {
+                "id": 36,
+                "name": "Satisfied /Content",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": null,
+            "raw": {
+              "id": 23,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 37,
+                  "name": "Quiet",
+                  "value": 1
+                },
+                {
+                  "id": 38,
+                  "name": "Toughtful",
+                  "value": 2
+                },
+                {
+                  "id": 39,
+                  "name": "Social",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 37,
+                "name": "Quiet",
+                "value": 1
+              },
+              {
+                "id": 38,
+                "name": "Toughtful",
+                "value": 2
+              },
+              {
+                "id": 39,
+                "name": "Social",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": null,
+            "raw": {
+              "id": 24,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 310,
+                  "name": "Jovial",
+                  "value": 3
+                },
+                {
+                  "id": 311,
+                  "name": "Friendly",
+                  "value": 2
+                },
+                {
+                  "id": 312,
+                  "name": "Takes his/her responsability",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 310,
+                "name": "Jovial",
+                "value": 3
+              },
+              {
+                "id": 311,
+                "name": "Friendly",
+                "value": 2
+              },
+              {
+                "id": 312,
+                "name": "Takes his/her responsability",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": null,
+            "raw": {
+              "id": 25,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 313,
+                  "name": "Attentive",
+                  "value": 3
+                },
+                {
+                  "id": 314,
+                  "name": "Likes to negotiate",
+                  "value": 2
+                },
+                {
+                  "id": 315,
+                  "name": "Takes his/her responsability",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 313,
+                "name": "Attentive",
+                "value": 3
+              },
+              {
+                "id": 314,
+                "name": "Likes to negotiate",
+                "value": 2
+              },
+              {
+                "id": 315,
+                "name": "Takes his/her responsability",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": null,
+            "raw": {
+              "id": 26,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 316,
+                  "name": "Sensitive",
+                  "value": 1
+                },
+                {
+                  "id": 317,
+                  "name": "Uncompromising",
+                  "value": 3
+                },
+                {
+                  "id": 318,
+                  "name": "Wants to cooperate",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 316,
+                "name": "Sensitive",
+                "value": 1
+              },
+              {
+                "id": 317,
+                "name": "Uncompromising",
+                "value": 3
+              },
+              {
+                "id": 318,
+                "name": "Wants to cooperate",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": null,
+            "raw": {
+              "id": 27,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 319,
+                  "name": "Stubborn",
+                  "value": 1
+                },
+                {
+                  "id": 320,
+                  "name": "Cautious",
+                  "value": 2
+                },
+                {
+                  "id": 321,
+                  "name": "Extraverted",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 319,
+                "name": "Stubborn",
+                "value": 1
+              },
+              {
+                "id": 320,
+                "name": "Cautious",
+                "value": 2
+              },
+              {
+                "id": 321,
+                "name": "Extraverted",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": null,
+            "raw": {
+              "id": 28,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 322,
+                  "name": "Enthusiastic",
+                  "value": 3
+                },
+                {
+                  "id": 323,
+                  "name": "Reserved",
+                  "value": 1
+                },
+                {
+                  "id": 324,
+                  "name": "Cautious",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 322,
+                "name": "Enthusiastic",
+                "value": 3
+              },
+              {
+                "id": 323,
+                "name": "Reserved",
+                "value": 1
+              },
+              {
+                "id": 324,
+                "name": "Cautious",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": null,
+            "raw": {
+              "id": 29,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 325,
+                  "name": "Obstinate",
+                  "value": 3
+                },
+                {
+                  "id": 326,
+                  "name": "Active",
+                  "value": 2
+                },
+                {
+                  "id": 327,
+                  "name": "Very accurate",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 325,
+                "name": "Obstinate",
+                "value": 3
+              },
+              {
+                "id": 326,
+                "name": "Active",
+                "value": 2
+              },
+              {
+                "id": 327,
+                "name": "Very accurate",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "text": null,
+            "raw": {
+              "id": 210,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 328,
+                  "name": "Fighter mentality",
+                  "value": 3
+                },
+                {
+                  "id": 329,
+                  "name": "Well balanced",
+                  "value": 2
+                },
+                {
+                  "id": 330,
+                  "name": "Accommodating",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 328,
+                "name": "Fighter mentality",
+                "value": 3
+              },
+              {
+                "id": 329,
+                "name": "Well balanced",
+                "value": 2
+              },
+              {
+                "id": 330,
+                "name": "Accommodating",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "text": null,
+            "raw": {
+              "id": 211,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 331,
+                  "name": "Cheerful",
+                  "value": 3
+                },
+                {
+                  "id": 332,
+                  "name": "Wants to please others",
+                  "value": 2
+                },
+                {
+                  "id": 333,
+                  "name": "Has willpower",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 331,
+                "name": "Cheerful",
+                "value": 3
+              },
+              {
+                "id": 332,
+                "name": "Wants to please others",
+                "value": 2
+              },
+              {
+                "id": 333,
+                "name": "Has willpower",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "text": null,
+            "raw": {
+              "id": 212,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 334,
+                  "name": "Sticks to what was agreed upon",
+                  "value": 1
+                },
+                {
+                  "id": 335,
+                  "name": "Energetic",
+                  "value": 3
+                },
+                {
+                  "id": 336,
+                  "name": "Diplomatic",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 334,
+                "name": "Sticks to what was agreed upon",
+                "value": 1
+              },
+              {
+                "id": 335,
+                "name": "Energetic",
+                "value": 3
+              },
+              {
+                "id": 336,
+                "name": "Diplomatic",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "text": null,
+            "raw": {
+              "id": 213,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 337,
+                  "name": "Argues easily",
+                  "value": 3
+                },
+                {
+                  "id": 338,
+                  "name": "Careless",
+                  "value": 2
+                },
+                {
+                  "id": 339,
+                  "name": "Adapts him/herself easily",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 337,
+                "name": "Argues easily",
+                "value": 3
+              },
+              {
+                "id": 338,
+                "name": "Careless",
+                "value": 2
+              },
+              {
+                "id": 339,
+                "name": "Adapts him/herself easily",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "text": null,
+            "raw": {
+              "id": 214,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 340,
+                  "name": "Accommodating",
+                  "value": 2
+                },
+                {
+                  "id": 341,
+                  "name": "Obedient",
+                  "value": 1
+                },
+                {
+                  "id": 342,
+                  "name": "Controlling",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 340,
+                "name": "Accommodating",
+                "value": 2
+              },
+              {
+                "id": 341,
+                "name": "Obedient",
+                "value": 1
+              },
+              {
+                "id": 342,
+                "name": "Controlling",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "text": null,
+            "raw": {
+              "id": 215,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 343,
+                  "name": "Organized",
+                  "value": 2
+                },
+                {
+                  "id": 344,
+                  "name": "Careful",
+                  "value": 1
+                },
+                {
+                  "id": 345,
+                  "name": "Original",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 343,
+                "name": "Organized",
+                "value": 2
+              },
+              {
+                "id": 344,
+                "name": "Careful",
+                "value": 1
+              },
+              {
+                "id": 345,
+                "name": "Original",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 216,
+            "text": null,
+            "raw": {
+              "id": 216,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 346,
+                  "name": "Popular",
+                  "value": 3
+                },
+                {
+                  "id": 347,
+                  "name": "Disciplined",
+                  "value": 1
+                },
+                {
+                  "id": 348,
+                  "name": "Well-read",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 346,
+                "name": "Popular",
+                "value": 3
+              },
+              {
+                "id": 347,
+                "name": "Disciplined",
+                "value": 1
+              },
+              {
+                "id": 348,
+                "name": "Well-read",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 11,
+        "name": "H-scores",
+        "raw": {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": "V-scores",
+        "raw": {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 22,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 23,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 25,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 26,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 27,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 28,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 29,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 210,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 212,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 213,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 214,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 215,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 216,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Caractéristique/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Caractéristique/Components/Caracteristiques.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Caractéristique/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text className=\"svg-text\" transform=\"translate(384.5 89.5)\">Relational</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text className=\"svg-text\" transform=\"translate(407 560.5)\">Result</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text className=\"svg-text\" transform=\"translate(64.5 330)\">Extrovert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text className=\"svg-text\" transform=\"translate(704.5 330)\">Introverted</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>characteristics</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"flex-row wrap justify-content-center\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Caractéristique/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Caractéristique/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text className=\"svg-text\" transform=\"translate(384.5 89.5)\">Relational</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text className=\"svg-text\" transform=\"translate(407 560.5)\">Result</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text className=\"svg-text\" transform=\"translate(64.5 330)\">Extrovert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text className=\"svg-text\" transform=\"translate(704.5 330)\">Introverted</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>characteristics</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"flex-row wrap justify-content-center\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Caracteristique.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Caracteristique.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"What is your profile?\",\n      description: \" Which of the characteristics in each box, describe you best?\",\n      instruction: \"Answer in an honest way, not what is socially desirable. Don't think about it too long. It has to be as intuitive as possible.\",\n      categories: [{\n        id: 11,\n        name: \"H-scores\",\n        value: 0\n      }, {\n        id: 12,\n        name: \"V-scores\",\n        value: 0\n      }],\n      questions: [{\n        id: 21,\n        value: 0,\n        categoryId: 11,\n        completed: false,\n        choices: [{\n          id: 31,\n          name: \"Efficient\",\n          value: 2\n        }, {\n          id: 32,\n          name: \"Dominant\",\n          value: 3\n        }, {\n          id: 33,\n          name: \"Helpful\",\n          value: 1\n        }]\n      }, {\n        id: 22,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 34,\n          name: \"Is able to stand up for him/herself\",\n          value: 3\n        }, {\n          id: 35,\n          name: \"Calm\",\n          value: 2\n        }, {\n          id: 36,\n          name: \"Satisfied /Content\",\n          value: 1\n        }]\n      }, {\n        id: 23,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 37,\n          name: \"Quiet\",\n          value: 1\n        }, {\n          id: 38,\n          name: \"Toughtful\",\n          value: 2\n        }, {\n          id: 39,\n          name: \"Social\",\n          value: 3\n        }]\n      }, {\n        id: 24,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 310,\n          name: \"Jovial\",\n          value: 3\n        }, {\n          id: 311,\n          name: \"Friendly\",\n          value: 2\n        }, {\n          id: 312,\n          name: \"Takes his/her responsability\",\n          value: 1\n        }]\n      }, {\n        id: 25,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 313,\n          name: \"Attentive\",\n          value: 3\n        }, {\n          id: 314,\n          name: \"Likes to negotiate\",\n          value: 2\n        }, {\n          id: 315,\n          name: \"Takes his/her responsability\",\n          value: 1\n        }]\n      }, {\n        id: 26,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 316,\n          name: \"Sensitive\",\n          value: 1\n        }, {\n          id: 317,\n          name: \"Uncompromising\",\n          value: 3\n        }, {\n          id: 318,\n          name: \"Wants to cooperate\",\n          value: 2\n        }]\n      }, {\n        id: 27,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 319,\n          name: \"Stubborn\",\n          value: 1\n        }, {\n          id: 320,\n          name: \"Cautious\",\n          value: 2\n        }, {\n          id: 321,\n          name: \"Extraverted\",\n          value: 3\n        }]\n      }, {\n        id: 28,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 322,\n          name: \"Enthusiastic\",\n          value: 3\n        }, {\n          id: 323,\n          name: \"Reserved\",\n          value: 1\n        }, {\n          id: 324,\n          name: \"Cautious\",\n          value: 2\n        }]\n      }, {\n        id: 29,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 325,\n          name: \"Obstinate\",\n          value: 3\n        }, {\n          id: 326,\n          name: \"Active\",\n          value: 2\n        }, {\n          id: 327,\n          name: \"Very accurate\",\n          value: 1\n        }]\n      }, {\n        id: 210,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 328,\n          name: \"Fighter mentality\",\n          value: 3\n        }, {\n          id: 329,\n          name: \"Well balanced\",\n          value: 2\n        }, {\n          id: 330,\n          name: \"Accommodating\",\n          value: 1\n        }]\n      }, {\n        id: 211,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 331,\n          name: \"Cheerful\",\n          value: 3\n        }, {\n          id: 332,\n          name: \"Wants to please others\",\n          value: 2\n        }, {\n          id: 333,\n          name: \"Has willpower\",\n          value: 1\n        }]\n      }, {\n        id: 212,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 334,\n          name: \"Sticks to what was agreed upon\",\n          value: 1\n        }, {\n          id: 335,\n          name: \"Energetic\",\n          value: 3\n        }, {\n          id: 336,\n          name: \"Diplomatic\",\n          value: 2\n        }]\n      }, {\n        id: 213,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 337,\n          name: \"Argues easily\",\n          value: 3\n        }, {\n          id: 338,\n          name: \"Careless\",\n          value: 2\n        }, {\n          id: 339,\n          name: \"Adapts him/herself easily\",\n          value: 1\n        }]\n      }, {\n        id: 214,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 340,\n          name: \"Accommodating\",\n          value: 2\n        }, {\n          id: 341,\n          name: \"Obedient\",\n          value: 1\n        }, {\n          id: 342,\n          name: \"Controlling\",\n          value: 3\n        }]\n      }, {\n        id: 215,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 343,\n          name: \"Organized\",\n          value: 2\n        }, {\n          id: 344,\n          name: \"Careful\",\n          value: 1\n        }, {\n          id: 345,\n          name: \"Original\",\n          value: 3\n        }]\n      }, {\n        id: 216,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 346,\n          name: \"Popular\",\n          value: 3\n        }, {\n          id: 347,\n          name: \"Disciplined\",\n          value: 1\n        }, {\n          id: 348,\n          name: \"Well-read\",\n          value: 2\n        }]\n      }],\n      answers: [\n      //Y > 16\n      [\n      //X > 16 ==> Jaune\n      {\n        id: 1,\n        text: \"Yellow\",\n        color: '#EDE813',\n        primary: \"RECOGNITION, Being a reference\",\n        secondary: [\"Extrovert\", \"Intuitive - global vision\", \"Future oriented\", \"Creative\", \"Curious\", \"Optimistic\", \"Positive\"]\n      },\n      //X == 16 ==> Résultat\n      {\n        id: 2,\n        text: \"Relationship\",\n        color: \"#FFFFFF\",\n        primary: \"Your result is undefined on the horizontal axis\",\n        secondary: [\"We can nevertheless deduce an attention towards the relational side.The priority is rather the human one, the people, the relation with the others.\"]\n      },\n      //X > 16 ==> Vert\n      {\n        id: 3,\n        text: \"Green\",\n        color: '#009640',\n        primary: \"HARMONY, To be accepted\",\n        secondary: [\"User-friendly\", \"Warm - Relationship oriented\", \"Comfort\", \"Empathy\", \"Friendly - measured\", \"Listening\"]\n      }],\n      //Y == 16\n      [\n      //X > 16\n      {\n        id: 4,\n        text: \"Extrovert\",\n        color: \"#FFFFFF\",\n        primary: \"Your result is undefined on the vertical axis\",\n        secondary: [\"We can nevertheless deduce an attention to the feelings, opinions, or recurring reasoning\"]\n      },\n      //X == 16\n      {\n        id: 5,\n        text: \"Indefinite\",\n        color: \"#FFFFFF\",\n        primary: \"Your result is undefined on the vertical and horizontal axis\",\n        secondary: [\"You can try again by replacing some answers on which you might have been hesitant\"]\n      },\n      //X < 16\n      {\n        id: 6,\n        text: \"Introverted\",\n        color: \"#FFFFFF\",\n        primary: \"Your result is undefined on the vertical axis\",\n        secondary: [\"We can nevertheless deduce a less visible energy. Feelings, opinions are more internalized\"]\n      }],\n      //Y > 16\n      [\n      //X > 16\n      {\n        id: 7,\n        text: \"Red\",\n        color: '#E30613',\n        primary: \"EFFICIENCY, Being able to decide\",\n        secondary: [\"Short\", \"Concise\", \"Direct\", \"Organized\", \"Result oriented - straight to the point\", \"Confident\", \"Concrete\"]\n      },\n      //X == 16\n      {\n        id: 8,\n        text: \"Result\",\n        color: \"#FFFFFF\",\n        primary: \"Your result is undefined on the horizontal axis\",\n        secondary: [\"We can nevertheless deduce the attention paid to the tasks to be carried out, to the objectives and the results.\"]\n      },\n      //X < 16\n      {\n        id: 9,\n        text: \"Blue\",\n        color: '#045576',\n        primary: \"SAFETY, Be reassured\",\n        secondary: [\"reserved\", \"Precise - thorough\", \"Analytic\", \"Operational\", \"Factual - methodical\", \"Patient\"]\n      }]]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header />\r\n                <Questions questions={this.state.questionnaire.questions} handleclick={this.handleAddPoint} />\r\n                <Answer />\r\n            {/*<Graphic />*/}\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleclick = this.handleclick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questions.js",
+        "name": "handleclick",
+        "code": "handleclick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  return <Context.Consumer>\r\n                {value => <div className=\"boxes\">\r\n                   {questions.map((question, index) => <div key={index} className=\"box\">\r\n                            <Caracteristiques question={question} handleclick={this.handleclick} />\r\n                        </div>)}\r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Please complete all the questions\",\n    vectors: {\n      middle: 16,\n      minX: 24,\n      maxX: 9,\n      minY: 9,\n      maxY: 24\n    },\n    btn: {\n      checked: false,\n      text: \"Validate\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Hide the result\" : btn.text = \"Validate\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text className=\"svg-text\" transform=\"translate(384.5 89.5)\">Relational</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text className=\"svg-text\" transform=\"translate(407 560.5)\">Result</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text className=\"svg-text\" transform=\"translate(64.5 330)\">Extrovert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text className=\"svg-text\" transform=\"translate(704.5 330)\">Introverted</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>characteristics</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"flex-row wrap justify-content-center\">\r\n                        {result}\r\n                        <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                    </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Caracteristiques.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    value: 0\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Caracteristiques.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Caractéristique/Components/Caracteristiques.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  const caracteristiques = question.choices;\n  return <div className=\"checklist\">\r\n                {caracteristiques.map((caracteristique, index) => <div key={index} className=\"checklistItem\">\r\n                        <input type=\"radio\" id={caracteristique.id} name={question.id} value={caracteristique.value} onClick={this.handleClick} />\r\n                        <label className=\"checkbox-label\" htmlFor={caracteristique.id} />\r\n                        <p>{caracteristique.name}</p>\r\n                    </div>)}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

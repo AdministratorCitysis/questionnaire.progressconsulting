@@ -1,0 +1,1104 @@
+{
+  "routePath": "/lencioni",
+  "routeComponent": "Lencioni",
+  "routeImportSource": "./Components/Lencioni",
+  "extractionTimestamp": "2026-04-19T10:07:00.994Z",
+  "sourceFiles": [
+    "src/Components/Lencioni.js",
+    "src/Components/Lencioni/Components/Answer.js",
+    "src/Components/Lencioni/Components/Context.js",
+    "src/Components/Lencioni/Components/Header.js",
+    "src/Components/Lencioni/Components/Possibilites.js",
+    "src/Components/Lencioni/Components/Question.js",
+    "src/Components/Lencioni/Components/Questionnaire.js",
+    "src/Components/Lencioni/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Questionnaire Lencioni",
+      "description": "Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?",
+      "instruction": "Il est important d'évaluer les énoncés en toute honnêteté et sans tenter de prévoir l'incidence de vos réponses sur les résultats.",
+      "conclusion": "Peu importe vos résultats, il est important de garder à l'esprit le fait que le travail d'équipe exige des efforts constants, car sans eux, même la meilleure équipe peut glisser dans le dysfonctionnement.",
+      "completed": false,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème.",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs.",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique.",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe.",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe.",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement.",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe.",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution.",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs.",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter.",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action.",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs.",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres.",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "1",
+          "text": "Rarement",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "text": "Parfois",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "text": "Habituellement",
+          "value": 3
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 5,
+          "text": "Votre résultat est probablement une indication que la dysfonction doit être prise en compte."
+        },
+        {
+          "maxvalue": 7,
+          "text": "Votre résultat indique que la dysfonction pourrait représenter un problème."
+        },
+        {
+          "maxvalue": 9,
+          "text": "Votre résultat est une indication probable que la dysfonction n'est pas un problème pour votre équipe."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": [
+            "Manque de confiance"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": [
+            "Peur de la confrontation"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": [
+            "Absence d'engagement"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": [
+            "Évitement de la responsabilisation"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        },
+        {
+          "id": 5,
+          "text": [
+            "Inattention portée aux résultats"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Questionnaire Lencioni",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème.",
+            "raw": {
+              "id": 1,
+              "text": "Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème.",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs.",
+            "raw": {
+              "id": 2,
+              "text": "Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs.",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique.",
+            "raw": {
+              "id": 3,
+              "text": "Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe.",
+            "raw": {
+              "id": 4,
+              "text": "Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe.",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe.",
+            "raw": {
+              "id": 5,
+              "text": "Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe.",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+            "raw": {
+              "id": 6,
+              "text": "Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+            "raw": {
+              "id": 7,
+              "text": "Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement.",
+            "raw": {
+              "id": 8,
+              "text": "Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe.",
+            "raw": {
+              "id": 9,
+              "text": "Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe.",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution.",
+            "raw": {
+              "id": 10,
+              "text": "Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution.",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs.",
+            "raw": {
+              "id": 11,
+              "text": "Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs.",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter.",
+            "raw": {
+              "id": 12,
+              "text": "Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter.",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action.",
+            "raw": {
+              "id": 13,
+              "text": "Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs.",
+            "raw": {
+              "id": 14,
+              "text": "Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs.",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres.",
+            "raw": {
+              "id": 15,
+              "text": "Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres.",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Habituellement",
+                "value": 3
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Habituellement",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": [
+          "Manque de confiance"
+        ],
+        "raw": {
+          "id": 1,
+          "text": [
+            "Manque de confiance"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": [
+          "Peur de la confrontation"
+        ],
+        "raw": {
+          "id": 2,
+          "text": [
+            "Peur de la confrontation"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": [
+          "Absence d'engagement"
+        ],
+        "raw": {
+          "id": 3,
+          "text": [
+            "Absence d'engagement"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": [
+          "Évitement de la responsabilisation"
+        ],
+        "raw": {
+          "id": 4,
+          "text": [
+            "Évitement de la responsabilisation"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": [
+          "Inattention portée aux résultats"
+        ],
+        "raw": {
+          "id": 5,
+          "text": [
+            "Inattention portée aux résultats"
+          ],
+          "color": "#002F47",
+          "description": "",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème."
+      },
+      {
+        "questionId": 2,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs."
+      },
+      {
+        "questionId": 3,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique."
+      },
+      {
+        "questionId": 4,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe."
+      },
+      {
+        "questionId": 5,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe."
+      },
+      {
+        "questionId": 6,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs."
+      },
+      {
+        "questionId": 7,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs."
+      },
+      {
+        "questionId": 8,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement."
+      },
+      {
+        "questionId": 9,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe."
+      },
+      {
+        "questionId": 10,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution."
+      },
+      {
+        "questionId": 11,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs."
+      },
+      {
+        "questionId": 12,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter."
+      },
+      {
+        "questionId": 13,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action."
+      },
+      {
+        "questionId": 14,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs."
+      },
+      {
+        "questionId": 15,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres."
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Habituellement",
+            "value": 3
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 5,
+            "text": "Votre résultat est probablement une indication que la dysfonction doit être prise en compte."
+          },
+          {
+            "maxvalue": 7,
+            "text": "Votre résultat indique que la dysfonction pourrait représenter un problème."
+          },
+          {
+            "maxvalue": 9,
+            "text": "Votre résultat est une indication probable que la dysfonction n'est pas un problème pour votre équipe."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Lencioni/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Lencioni/Components/Possibilites.js::handleChange",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Lencioni/Components/Questionnaire.js::handleValue",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Lencioni/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Questionnaire Lencioni\",\n      description: \"Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?\",\n      instruction: \"Il est important d'évaluer les énoncés en toute honnêteté et sans tenter de prévoir l'incidence de vos réponses sur les résultats.\",\n      conclusion: \"Peu importe vos résultats, il est important de garder à l'esprit le fait que le travail d'équipe exige des efforts constants, car sans eux, même la meilleure équipe peut glisser dans le dysfonctionnement.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"1\",\n        text: \"Rarement\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Parfois\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Habituellement\",\n        value: 3\n      }],\n      answers: [{\n        maxvalue: 5,\n        text: \"Votre résultat est probablement une indication que la dysfonction doit être prise en compte.\"\n      }, {\n        maxvalue: 7,\n        text: \"Votre résultat indique que la dysfonction pourrait représenter un problème.\"\n      }, {\n        maxvalue: 9,\n        text: \"Votre résultat est une indication probable que la dysfonction n'est pas un problème pour votre équipe.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Manque de confiance\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Peur de la confrontation\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Absence d'engagement\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Évitement de la responsabilisation\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 5,\n        text: [\"Inattention portée aux résultats\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "source": "src/Components/Lencioni/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      const answers = data.answers;\n      const conclusion = data.conclusion;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        categories.forEach(cat => {\n          for (let i = 0; i < answers.length; i++) if (parseInt(cat.value) <= parseInt(answers[i].maxvalue)) {\n            cat.description = answers[i].text;\n            break;\n          }\n        });\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultat</div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 15} color={element.color}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((element, index) => <Fragment key={index}>\r\n                                            <h3>{element.text.join(' ')}</h3>\r\n                                            <p>{element.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                                <div className=\"answer\">\r\n                                    <p className=\"answer-text\">{conclusion}</p>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                                <ToPrint ref={this.printRef} title={data.title}>\r\n                                      {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                </div>\r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Lencioni/Components/Questionnaire.js::handleValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Lencioni/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      const answers = data.answers;\n      const conclusion = data.conclusion;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        categories.forEach(cat => {\n          for (let i = 0; i < answers.length; i++) if (parseInt(cat.value) <= parseInt(answers[i].maxvalue)) {\n            cat.description = answers[i].text;\n            break;\n          }\n        });\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultat</div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 15} color={element.color}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((element, index) => <Fragment key={index}>\r\n                                            <h3>{element.text.join(' ')}</h3>\r\n                                            <p>{element.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                                <div className=\"answer\">\r\n                                    <p className=\"answer-text\">{conclusion}</p>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                                <ToPrint ref={this.printRef} title={data.title}>\r\n                                      {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                </div>\r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Lencioni/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Lencioni.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Lencioni.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Questionnaire Lencioni\",\n      description: \"Dans quelle mesure chacune des affirmations suivantes vous correspond-elle ?\",\n      instruction: \"Il est important d'évaluer les énoncés en toute honnêteté et sans tenter de prévoir l'incidence de vos réponses sur les résultats.\",\n      conclusion: \"Peu importe vos résultats, il est important de garder à l'esprit le fait que le travail d'équipe exige des efforts constants, car sans eux, même la meilleure équipe peut glisser dans le dysfonctionnement.\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Les membres de l'équipe sont passionés et ouverts lorsqu'ils discutent d'un problème.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Les membres de l'équipe font remarquer à leurs pairs leurs points faibles ou des comportements improductifs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Les membres de l'équipe connaissent la teneur des tâches de leurs pairs et savent en quoi leur contribution est collectivement bénéfique.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Les membres de l'équipe s'excusent sincèrement et sans tarder auprès de leurs pairs lorsqu'ils disent ou font quelque chose d'inapproprié ou qui pourrait porter préjudice au groupe.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Les membres de l'équipe font volontairement des sacrifices (en ce qui a trait au budget, aux rivalités, et aux effectifs) dans leurs services ou domaines de compétence, et ce, dans l'intérêt du groupe.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Les membres de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Les réunions de l'équipe admettent ouvertement leurs points faibles et leurs erreurs.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Les membres de l'équipe quittent les réunions en sachant que leurs pairs se sont entièrement engagés envers les décisions qui ont été prises, même s'ils s'y opposaient initialement.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Le moral des troupes est directement proportionnel à l'atteinte des résultats de l'équipe.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Pendant les réunions de l'équipe, les problèmes les plus importants - et plus complexes - sont abordés dans le but d'y trouver une solution.\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Les membres de l'équipe sont profondément préoccupés par la perspective de décevoir leurs pairs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Les membres de l'équipe sont au courant de la vie personnelle de leurs pairs et se sentent à l'aise d'en discuter.\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Les membres de l'équipe mettent fin à leurs discussions en prenant des résolutions fermes et spécifiques et dressent des plans d'action.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Les membres de l'équipe remettent en question leurs approches et leurs plans respectifs.\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Les membres de l'équipe ne s'empressent pas de faire reconnaître leurs contributions personnelles, mais n'hésitent pas à souligner immédiatement celles des autres.\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"1\",\n        text: \"Rarement\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Parfois\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Habituellement\",\n        value: 3\n      }],\n      answers: [{\n        maxvalue: 5,\n        text: \"Votre résultat est probablement une indication que la dysfonction doit être prise en compte.\"\n      }, {\n        maxvalue: 7,\n        text: \"Votre résultat indique que la dysfonction pourrait représenter un problème.\"\n      }, {\n        maxvalue: 9,\n        text: \"Votre résultat est une indication probable que la dysfonction n'est pas un problème pour votre équipe.\"\n      }],\n      categories: [{\n        id: 1,\n        text: [\"Manque de confiance\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Peur de la confrontation\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Absence d'engagement\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Évitement de la responsabilisation\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }, {\n        id: 5,\n        text: [\"Inattention portée aux résultats\"],\n        color: \"#002F47\",\n        description: \"\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire}>\r\n                <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n               <Answer questions={this.state.questionnaire.questions} categories={this.state.questionnaire.categories} />\r\n               {/* <div className=\"asterix\">\r\n                <p>*{this.state.questionnaire.asterix}</p>\r\n                </div>*/}\r\n                </div>\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  const instruction = this.props.questionnaire.instruction;\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\">{instruction}</p>\r\n                </div>\r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      const answers = data.answers;\n      const conclusion = data.conclusion;\n\n      //Calcul du ou des plus gros score\n      /*const scores = categories.map( c => c.value)\r\n      const max = Math.max(...scores)\r\n      const answers = categories.filter(cat => cat.value === max ) */\n      //console.log(answers)\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        categories.forEach(cat => {\n          for (let i = 0; i < answers.length; i++) if (parseInt(cat.value) <= parseInt(answers[i].maxvalue)) {\n            cat.description = answers[i].text;\n            break;\n          }\n        });\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultat</div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <Stick height={element.value * 15} color={element.color}><p>{element.value}</p></Stick>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                            {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                            <StickValue color={element.color}>{element.text.map((element, index) => <p key={index}>{element}</p>)}</StickValue>\r\n                                                        </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                <div className=\"result-div-xl\">\r\n                                    <div className=\"result-title\">\r\n                                       <p>Feedback</p>\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                        {categories.map((element, index) => <Fragment key={index}>\r\n                                            <h3>{element.text.join(' ')}</h3>\r\n                                            <p>{element.description}</p>\r\n                                        </Fragment>)}\r\n                                    </div>\r\n                                </div>\r\n                                <div className=\"answer\">\r\n                                    <p className=\"answer-text\">{conclusion}</p>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                                <ToPrint ref={this.printRef} title={data.title}>\r\n                                      {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                            {printbutton}\r\n                                </div>\r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Lencioni/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

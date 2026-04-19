@@ -1,0 +1,2967 @@
+{
+  "routePath": "/gestion",
+  "routeComponent": "GestionTemps",
+  "routeImportSource": "./Components/GestionTemps",
+  "extractionTimestamp": "2026-04-19T10:06:59.295Z",
+  "sourceFiles": [
+    "src/Components/GestionTemps.js",
+    "src/Components/GestionTemps/Components/Answer.js",
+    "src/Components/GestionTemps/Components/Categorie.js",
+    "src/Components/GestionTemps/Components/Categories.js",
+    "src/Components/GestionTemps/Components/Header.js",
+    "src/Components/GestionTemps/Components/Possibilites.js",
+    "src/Components/GestionTemps/Components/Question.js",
+    "src/Components/GestionTemps/Components/Questionnaire.js",
+    "src/Components/GestionTemps/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Gestion du temps",
+      "answers": [
+        {
+          "id": 1,
+          "number": "--",
+          "text": "Tout à fait FAUX",
+          "value": -2
+        },
+        {
+          "id": 2,
+          "number": "-",
+          "text": "Plutôt FAUX",
+          "value": -1
+        },
+        {
+          "id": 3,
+          "number": "+",
+          "text": "Plutôt VRAI",
+          "value": {
+            "__unparsed": "+1"
+          }
+        },
+        {
+          "id": 4,
+          "number": "++",
+          "text": "Tout à fait VRAI",
+          "value": {
+            "__unparsed": "+2"
+          }
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 0,
+          "text": "Beaucoup de difficulté en matière de gestion de votre temps.\nA vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Gestion de votre temps moyen.\nVous devez progresser."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Vous gérez votre temps de façon active et positive. Bravo!\nSurtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": " ",
+          "description": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je n'oublie pas de décommander mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je consacre assez de temps à mes loisirs et à ma vie familiale",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'ai mes méthodes pour économiser du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'ai le temps de m'informer et de me former",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je connais mes désirs et mes motivations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je peux me concentrer sur les tâches importantes sans être interrompu",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je sais où passe mon temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je parle avec mes collègues de la façon dont chacun organise son temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je dors suffisament",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je tiens compte de mes rythmes personnels dans l'organisation de mon travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Je me fixe des objectifs personnels et professionnels à court et  à moyen terme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je casse de temps en temps mes habitudes et mes routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je veille à limiter le stress",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je termine toujours ce que j'avais prévu de faire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je m'accorde du temps pour moi, pour faire ce qu'il me plaît",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Je négocie certaines priorités avec mon patron",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "J'ai peu d'imprévu dans la journée",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je connais à tout moment chacune des tâches et activités que j'ai à réaliser",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je connais mes points faibles et j'en tiens compte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je sais ce qui me fait perdre du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais distinguer l'essentiel de l'accessoire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je me sens la plupart du temps en forme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je sais dire non et refuser certaines sollicitations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je sais à l'avance combien de temps me prend une activité",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "J'utilise un seul agenda pour mes activités professionnelles et personnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je ne règle jamais plusieurs affaires à la fois",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Il m'arrive rarement de travailler sous la pression et l'échéance",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "J'arrive toujours à l'heure à mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je ne suis pas toujours disponible",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je sais repousser ce qui n'est pas la priorité du moment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Je filtre toujours mes appels téléphoniques",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'ai suffisament de temps pour mes lectures professionnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "J'ai adapté mon système de classement à ma fonction",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "J'actualise régulièrement mes objectifs et mes méthodes de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "J'ai le temps d'informer et de former les autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": " ",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir",
+            "raw": {
+              "id": 1,
+              "text": "En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Je n'oublie pas de décommander mes rendez-vous",
+            "raw": {
+              "id": 2,
+              "text": "Je n'oublie pas de décommander mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements",
+            "raw": {
+              "id": 3,
+              "text": "L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Je consacre assez de temps à mes loisirs et à ma vie familiale",
+            "raw": {
+              "id": 4,
+              "text": "Je consacre assez de temps à mes loisirs et à ma vie familiale",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "J'ai mes méthodes pour économiser du temps",
+            "raw": {
+              "id": 5,
+              "text": "J'ai mes méthodes pour économiser du temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps",
+            "raw": {
+              "id": 6,
+              "text": "Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "J'ai le temps de m'informer et de me former",
+            "raw": {
+              "id": 7,
+              "text": "J'ai le temps de m'informer et de me former",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail",
+            "raw": {
+              "id": 8,
+              "text": "Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Je connais mes désirs et mes motivations",
+            "raw": {
+              "id": 9,
+              "text": "Je connais mes désirs et mes motivations",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Je peux me concentrer sur les tâches importantes sans être interrompu",
+            "raw": {
+              "id": 10,
+              "text": "Je peux me concentrer sur les tâches importantes sans être interrompu",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Je sais où passe mon temps",
+            "raw": {
+              "id": 11,
+              "text": "Je sais où passe mon temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités",
+            "raw": {
+              "id": 12,
+              "text": "Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Je parle avec mes collègues de la façon dont chacun organise son temps",
+            "raw": {
+              "id": 13,
+              "text": "Je parle avec mes collègues de la façon dont chacun organise son temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Je dors suffisament",
+            "raw": {
+              "id": 14,
+              "text": "Je dors suffisament",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Je tiens compte de mes rythmes personnels dans l'organisation de mon travail",
+            "raw": {
+              "id": 15,
+              "text": "Je tiens compte de mes rythmes personnels dans l'organisation de mon travail",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Je me fixe des objectifs personnels et professionnels à court et  à moyen terme",
+            "raw": {
+              "id": 16,
+              "text": "Je me fixe des objectifs personnels et professionnels à court et  à moyen terme",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Je casse de temps en temps mes habitudes et mes routines",
+            "raw": {
+              "id": 17,
+              "text": "Je casse de temps en temps mes habitudes et mes routines",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Je veille à limiter le stress",
+            "raw": {
+              "id": 18,
+              "text": "Je veille à limiter le stress",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Je termine toujours ce que j'avais prévu de faire",
+            "raw": {
+              "id": 19,
+              "text": "Je termine toujours ce que j'avais prévu de faire",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Je m'accorde du temps pour moi, pour faire ce qu'il me plaît",
+            "raw": {
+              "id": 20,
+              "text": "Je m'accorde du temps pour moi, pour faire ce qu'il me plaît",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Je négocie certaines priorités avec mon patron",
+            "raw": {
+              "id": 21,
+              "text": "Je négocie certaines priorités avec mon patron",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "J'ai peu d'imprévu dans la journée",
+            "raw": {
+              "id": 22,
+              "text": "J'ai peu d'imprévu dans la journée",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Je connais à tout moment chacune des tâches et activités que j'ai à réaliser",
+            "raw": {
+              "id": 23,
+              "text": "Je connais à tout moment chacune des tâches et activités que j'ai à réaliser",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Je connais mes points faibles et j'en tiens compte",
+            "raw": {
+              "id": 24,
+              "text": "Je connais mes points faibles et j'en tiens compte",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps",
+            "raw": {
+              "id": 25,
+              "text": "Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Je sais ce qui me fait perdre du temps",
+            "raw": {
+              "id": 26,
+              "text": "Je sais ce qui me fait perdre du temps",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Je sais distinguer l'essentiel de l'accessoire",
+            "raw": {
+              "id": 27,
+              "text": "Je sais distinguer l'essentiel de l'accessoire",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Je me sens la plupart du temps en forme",
+            "raw": {
+              "id": 28,
+              "text": "Je me sens la plupart du temps en forme",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Je sais dire non et refuser certaines sollicitations",
+            "raw": {
+              "id": 29,
+              "text": "Je sais dire non et refuser certaines sollicitations",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Je sais à l'avance combien de temps me prend une activité",
+            "raw": {
+              "id": 30,
+              "text": "Je sais à l'avance combien de temps me prend une activité",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action",
+            "raw": {
+              "id": 31,
+              "text": "Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "J'utilise un seul agenda pour mes activités professionnelles et personnelles",
+            "raw": {
+              "id": 32,
+              "text": "J'utilise un seul agenda pour mes activités professionnelles et personnelles",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Je ne règle jamais plusieurs affaires à la fois",
+            "raw": {
+              "id": 33,
+              "text": "Je ne règle jamais plusieurs affaires à la fois",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Il m'arrive rarement de travailler sous la pression et l'échéance",
+            "raw": {
+              "id": 34,
+              "text": "Il m'arrive rarement de travailler sous la pression et l'échéance",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer ",
+            "raw": {
+              "id": 35,
+              "text": "Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer ",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "J'arrive toujours à l'heure à mes rendez-vous",
+            "raw": {
+              "id": 36,
+              "text": "J'arrive toujours à l'heure à mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Je ne suis pas toujours disponible",
+            "raw": {
+              "id": 37,
+              "text": "Je ne suis pas toujours disponible",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Je sais repousser ce qui n'est pas la priorité du moment",
+            "raw": {
+              "id": 38,
+              "text": "Je sais repousser ce qui n'est pas la priorité du moment",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement",
+            "raw": {
+              "id": 39,
+              "text": "J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment",
+            "raw": {
+              "id": 40,
+              "text": "Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "Je filtre toujours mes appels téléphoniques",
+            "raw": {
+              "id": 41,
+              "text": "Je filtre toujours mes appels téléphoniques",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "J'ai suffisament de temps pour mes lectures professionnelles",
+            "raw": {
+              "id": 42,
+              "text": "J'ai suffisament de temps pour mes lectures professionnelles",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "J'ai adapté mon système de classement à ma fonction",
+            "raw": {
+              "id": 43,
+              "text": "J'ai adapté mon système de classement à ma fonction",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "J'actualise régulièrement mes objectifs et mes méthodes de travail",
+            "raw": {
+              "id": 44,
+              "text": "J'actualise régulièrement mes objectifs et mes méthodes de travail",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "J'ai le temps d'informer et de former les autres",
+            "raw": {
+              "id": 45,
+              "text": "J'ai le temps d'informer et de former les autres",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "--",
+                "text": "Tout à fait FAUX",
+                "value": -2
+              },
+              {
+                "id": 2,
+                "number": "-",
+                "text": "Plutôt FAUX",
+                "value": -1
+              },
+              {
+                "id": 3,
+                "number": "+",
+                "text": "Plutôt VRAI",
+                "value": {
+                  "__unparsed": "+1"
+                }
+              },
+              {
+                "id": 4,
+                "number": "++",
+                "text": "Tout à fait VRAI",
+                "value": {
+                  "__unparsed": "+2"
+                }
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "--",
+            "text": "Tout à fait FAUX",
+            "value": -2
+          },
+          {
+            "id": 2,
+            "number": "-",
+            "text": "Plutôt FAUX",
+            "value": -1
+          },
+          {
+            "id": 3,
+            "number": "+",
+            "text": "Plutôt VRAI",
+            "value": {
+              "__unparsed": "+1"
+            }
+          },
+          {
+            "id": 4,
+            "number": "++",
+            "text": "Tout à fait VRAI",
+            "value": {
+              "__unparsed": "+2"
+            }
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": " ",
+          "description": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je n'oublie pas de décommander mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je consacre assez de temps à mes loisirs et à ma vie familiale",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'ai mes méthodes pour économiser du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'ai le temps de m'informer et de me former",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je connais mes désirs et mes motivations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je peux me concentrer sur les tâches importantes sans être interrompu",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je sais où passe mon temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je parle avec mes collègues de la façon dont chacun organise son temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je dors suffisament",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je tiens compte de mes rythmes personnels dans l'organisation de mon travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Je me fixe des objectifs personnels et professionnels à court et  à moyen terme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je casse de temps en temps mes habitudes et mes routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je veille à limiter le stress",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je termine toujours ce que j'avais prévu de faire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je m'accorde du temps pour moi, pour faire ce qu'il me plaît",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Je négocie certaines priorités avec mon patron",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "J'ai peu d'imprévu dans la journée",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je connais à tout moment chacune des tâches et activités que j'ai à réaliser",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je connais mes points faibles et j'en tiens compte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je sais ce qui me fait perdre du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais distinguer l'essentiel de l'accessoire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je me sens la plupart du temps en forme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je sais dire non et refuser certaines sollicitations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je sais à l'avance combien de temps me prend une activité",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "J'utilise un seul agenda pour mes activités professionnelles et personnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je ne règle jamais plusieurs affaires à la fois",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Il m'arrive rarement de travailler sous la pression et l'échéance",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "J'arrive toujours à l'heure à mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je ne suis pas toujours disponible",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je sais repousser ce qui n'est pas la priorité du moment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Je filtre toujours mes appels téléphoniques",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'ai suffisament de temps pour mes lectures professionnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "J'ai adapté mon système de classement à ma fonction",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "J'actualise régulièrement mes objectifs et mes méthodes de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "J'ai le temps d'informer et de former les autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": " ",
+        "raw": {
+          "id": 1,
+          "name": " ",
+          "description": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je n'oublie pas de décommander mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je consacre assez de temps à mes loisirs et à ma vie familiale",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "J'ai mes méthodes pour économiser du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "J'ai le temps de m'informer et de me former",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Je connais mes désirs et mes motivations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je peux me concentrer sur les tâches importantes sans être interrompu",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "Je sais où passe mon temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je parle avec mes collègues de la façon dont chacun organise son temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je dors suffisament",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je tiens compte de mes rythmes personnels dans l'organisation de mon travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Je me fixe des objectifs personnels et professionnels à court et  à moyen terme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Je casse de temps en temps mes habitudes et mes routines",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je veille à limiter le stress",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je termine toujours ce que j'avais prévu de faire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je m'accorde du temps pour moi, pour faire ce qu'il me plaît",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 21,
+              "text": "Je négocie certaines priorités avec mon patron",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "J'ai peu d'imprévu dans la journée",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Je connais à tout moment chacune des tâches et activités que j'ai à réaliser",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je connais mes points faibles et j'en tiens compte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Je sais ce qui me fait perdre du temps",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais distinguer l'essentiel de l'accessoire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je me sens la plupart du temps en forme",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je sais dire non et refuser certaines sollicitations",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "Je sais à l'avance combien de temps me prend une activité",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 31,
+              "text": "Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "J'utilise un seul agenda pour mes activités professionnelles et personnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je ne règle jamais plusieurs affaires à la fois",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Il m'arrive rarement de travailler sous la pression et l'échéance",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "J'arrive toujours à l'heure à mes rendez-vous",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "Je ne suis pas toujours disponible",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Je sais repousser ce qui n'est pas la priorité du moment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 41,
+              "text": "Je filtre toujours mes appels téléphoniques",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 42,
+              "text": "J'ai suffisament de temps pour mes lectures professionnelles",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 43,
+              "text": "J'ai adapté mon système de classement à ma fonction",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 44,
+              "text": "J'actualise régulièrement mes objectifs et mes méthodes de travail",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 45,
+              "text": "J'ai le temps d'informer et de former les autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Beaucoup de difficulté en matière de gestion de votre temps.\nA vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Gestion de votre temps moyen.\nVous devez progresser."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Vous gérez votre temps de façon active et positive. Bravo!\nSurtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/GestionTemps/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/GestionTemps/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  const question = {\n    id: this.state.question.id,\n    value: value\n  };\n  this.props.setquestioncompleted(question);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/GestionTemps/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = question => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === question.id);\n  newquestions[questionIndex].completed = true;\n  newquestions[questionIndex].value = question.value;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n  //const answer = this.state.questionnaire.answers.find(element => element.value === parseInt(newquestions[questionIndex].value))\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/GestionTemps/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Gestion du temps\",\n      answers: [{\n        id: 1,\n        number: \"--\",\n        text: \"Tout à fait FAUX\",\n        value: -2\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Plutôt FAUX\",\n        value: -1\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Plutôt VRAI\",\n        value: +1\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Tout à fait VRAI\",\n        value: +2\n      }],\n      reponses: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps.\\nA vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen.\\nVous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo!\\nSurtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je n'oublie pas de décommander mes rendez-vous\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je consacre assez de temps à mes loisirs et à ma vie familiale\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"J'ai mes méthodes pour économiser du temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"J'ai le temps de m'informer et de me former\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Je connais mes désirs et mes motivations\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Je peux me concentrer sur les tâches importantes sans être interrompu\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Je sais où passe mon temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je parle avec mes collègues de la façon dont chacun organise son temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je dors suffisament\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je tiens compte de mes rythmes personnels dans l'organisation de mon travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Je me fixe des objectifs personnels et professionnels à court et  à moyen terme\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Je casse de temps en temps mes habitudes et mes routines\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je veille à limiter le stress\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je termine toujours ce que j'avais prévu de faire\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je m'accorde du temps pour moi, pour faire ce qu'il me plaît\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"Je négocie certaines priorités avec mon patron\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"J'ai peu d'imprévu dans la journée\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Je connais à tout moment chacune des tâches et activités que j'ai à réaliser\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je connais mes points faibles et j'en tiens compte\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Je sais ce qui me fait perdre du temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je sais distinguer l'essentiel de l'accessoire\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je me sens la plupart du temps en forme\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je sais dire non et refuser certaines sollicitations\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Je sais à l'avance combien de temps me prend une activité\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"J'utilise un seul agenda pour mes activités professionnelles et personnelles\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je ne règle jamais plusieurs affaires à la fois\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Il m'arrive rarement de travailler sous la pression et l'échéance\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer \",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"J'arrive toujours à l'heure à mes rendez-vous\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Je ne suis pas toujours disponible\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Je sais repousser ce qui n'est pas la priorité du moment\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"Je filtre toujours mes appels téléphoniques\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"J'ai suffisament de temps pour mes lectures professionnelles\",\n          value: '',\n          completed: false\n        }, {\n          id: 43,\n          text: \"J'ai adapté mon système de classement à ma fonction\",\n          value: '',\n          completed: false\n        }, {\n          id: 44,\n          text: \"J'actualise régulièrement mes objectifs et mes méthodes de travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 45,\n          text: \"J'ai le temps d'informer et de former les autres\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/GestionTemps/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/GestionTemps/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "source": "src/Components/GestionTemps/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/GestionTemps.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Gestion du temps\",\n      answers: [{\n        id: 1,\n        number: \"--\",\n        text: \"Tout à fait FAUX\",\n        value: -2\n      }, {\n        id: 2,\n        number: \"-\",\n        text: \"Plutôt FAUX\",\n        value: -1\n      }, {\n        id: 3,\n        number: \"+\",\n        text: \"Plutôt VRAI\",\n        value: +1\n      }, {\n        id: 4,\n        number: \"++\",\n        text: \"Tout à fait VRAI\",\n        value: +2\n      }],\n      reponses: [{\n        maxvalue: 0,\n        text: \"Beaucoup de difficulté en matière de gestion de votre temps.\\nA vous d'analyser ce qui est dû à votre environnement de travail et ce qui est de votre fait.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gestion de votre temps moyen.\\nVous devez progresser.\"\n      }, {\n        maxvalue: 90,\n        text: \"Vous gérez votre temps de façon active et positive. Bravo!\\nSurtout ne vous reposez pas sur vos lauriers, car dans ce domaine, rien n'est acquis et tout se dégrade très vite.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"En arrivant à mon poste de travail, je connais les 3 premières tâches à accomplir\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je n'oublie pas de décommander mes rendez-vous\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"L'analyse de la façon dont je gère mon temps m'a conduit à modifier certains de mes comportements\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je consacre assez de temps à mes loisirs et à ma vie familiale\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"J'ai mes méthodes pour économiser du temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Dans une réunion ou dans un entretien professionnel, je n'oublie pas la variable temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"J'ai le temps de m'informer et de me former\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je sais me déconnecter de mes soucis professionnels en dehors de mes heures de travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Je connais mes désirs et mes motivations\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Je peux me concentrer sur les tâches importantes sans être interrompu\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"Je sais où passe mon temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je réfléchis chaque jour quelques minutes à l'organisation de mes priorités\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je parle avec mes collègues de la façon dont chacun organise son temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je dors suffisament\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je tiens compte de mes rythmes personnels dans l'organisation de mon travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Je me fixe des objectifs personnels et professionnels à court et  à moyen terme\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Je casse de temps en temps mes habitudes et mes routines\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je veille à limiter le stress\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je termine toujours ce que j'avais prévu de faire\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je m'accorde du temps pour moi, pour faire ce qu'il me plaît\",\n          value: '',\n          completed: false\n        }, {\n          id: 21,\n          text: \"Je négocie certaines priorités avec mon patron\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"J'ai peu d'imprévu dans la journée\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Je connais à tout moment chacune des tâches et activités que j'ai à réaliser\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je connais mes points faibles et j'en tiens compte\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"Je connais les domaines d'activité où j'ai tendance à passer beaucoup de temps et ceux où j'ai tendance à passer peu de temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Je sais ce qui me fait perdre du temps\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je sais distinguer l'essentiel de l'accessoire\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je me sens la plupart du temps en forme\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je sais dire non et refuser certaines sollicitations\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"Je sais à l'avance combien de temps me prend une activité\",\n          value: '',\n          completed: false\n        }, {\n          id: 31,\n          text: \"Je pratique l'alternance entre mes diverses activités et entre la réflexion de l'action\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"J'utilise un seul agenda pour mes activités professionnelles et personnelles\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je ne règle jamais plusieurs affaires à la fois\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Il m'arrive rarement de travailler sous la pression et l'échéance\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"Quel que soit le type de rendez-vous ou réunion, je trouve toujours du temps pour le préparer \",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"J'arrive toujours à l'heure à mes rendez-vous\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"Je ne suis pas toujours disponible\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Je sais repousser ce qui n'est pas la priorité du moment\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"J'ai développé des méthodes pour réduire ou utiliser mes temps de transport et de déplacement\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je n'hésite pas à abréger un entretien ou une réunion qui se prolonge indûment\",\n          value: '',\n          completed: false\n        }, {\n          id: 41,\n          text: \"Je filtre toujours mes appels téléphoniques\",\n          value: '',\n          completed: false\n        }, {\n          id: 42,\n          text: \"J'ai suffisament de temps pour mes lectures professionnelles\",\n          value: '',\n          completed: false\n        }, {\n          id: 43,\n          text: \"J'ai adapté mon système de classement à ma fonction\",\n          value: '',\n          completed: false\n        }, {\n          id: 44,\n          text: \"J'actualise régulièrement mes objectifs et mes méthodes de travail\",\n          value: '',\n          completed: false\n        }, {\n          id: 45,\n          text: \"J'ai le temps d'informer et de former les autres\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === question.id);\n  newquestions[questionIndex].completed = true;\n  newquestions[questionIndex].value = question.value;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n  //const answer = this.state.questionnaire.answers.find(element => element.value === parseInt(newquestions[questionIndex].value))\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} questionnaire={data} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const descritption = this.props.categorie.description;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"categorie-description\">\r\n                <p>{descritption}</p>\r\n                </div>\r\n                <div className=\"questions\">\r\n                {this.state.title}\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    message = <Fragment>\r\n                                <div className=\"answer-value\">\r\n                                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de : </ResultText>\r\n                                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                                </div>\r\n                                <Result className=\"answer-text\" completed={isCompleted}>\r\n                                    {text.split('\\n').map(item => item + \" \")}\r\n                                </Result>\r\n                               \r\n                                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.questionnaire.titre}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n              {/* <AnswerToPrint  questionnaire={this.props.questionnaire}/>*/}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = question => {\n  this.props.setquestioncompleted(question);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  const question = {\n    id: this.state.question.id,\n    value: value\n  };\n  this.props.setquestioncompleted(question);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/GestionTemps/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

@@ -1,0 +1,1453 @@
+{
+  "routePath": "/ecouteactive",
+  "routeComponent": "EcouteActive",
+  "routeImportSource": "./Components/EcouteActive",
+  "extractionTimestamp": "2026-04-19T10:07:00.943Z",
+  "sourceFiles": [
+    "src/Components/EcouteActive.js",
+    "src/Components/EcouteActive/Components/Answer.js",
+    "src/Components/EcouteActive/Components/Categorie.js",
+    "src/Components/EcouteActive/Components/Categories.js",
+    "src/Components/EcouteActive/Components/Header.js",
+    "src/Components/EcouteActive/Components/Possibilites.js",
+    "src/Components/EcouteActive/Components/Question.js",
+    "src/Components/EcouteActive/Components/Questionnaire.js",
+    "src/Components/EcouteActive/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Écoute active",
+      "answers": [
+        {
+          "id": 1,
+          "number": "1",
+          "text": "La plupart du temps",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "text": "Souvent",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "text": "Parfois",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "text": "Rarement",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "text": "Presque jamais",
+          "value": 5
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 90,
+          "text": "Plus le chiffre de votre résultat est élevé (au-delà de 30) et plus vous avez développé votre capacité à écouter vraiment les autres. Cela signifie que vos échanges avec les autres sont plus constructifs, que vos relations sont riches et que vous minimisez les malentendus."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": " ",
+          "description": "A quel point votre écoute est-elle active, profonde et empathique?",
+          "instruction": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Les autres se sont déjà plaint que je ne les écoutais pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Il m'arrive de terminer les phrases des autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "J'interromps lorsque j'ai quelque chose à ajouter à la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": " ",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.",
+            "raw": {
+              "id": 1,
+              "text": "Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)",
+            "raw": {
+              "id": 2,
+              "text": "Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Les autres se sont déjà plaint que je ne les écoutais pas.",
+            "raw": {
+              "id": 3,
+              "text": "Les autres se sont déjà plaint que je ne les écoutais pas.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.",
+            "raw": {
+              "id": 4,
+              "text": "Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.",
+            "raw": {
+              "id": 5,
+              "text": "Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.",
+            "raw": {
+              "id": 6,
+              "text": "Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.",
+            "raw": {
+              "id": 7,
+              "text": "Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.",
+            "raw": {
+              "id": 8,
+              "text": "Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Il m'arrive de terminer les phrases des autres.",
+            "raw": {
+              "id": 9,
+              "text": "Il m'arrive de terminer les phrases des autres.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.",
+            "raw": {
+              "id": 10,
+              "text": "Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).",
+            "raw": {
+              "id": 11,
+              "text": "J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.",
+            "raw": {
+              "id": 12,
+              "text": "Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "J'interromps lorsque j'ai quelque chose à ajouter à la conversation.",
+            "raw": {
+              "id": 13,
+              "text": "J'interromps lorsque j'ai quelque chose à ajouter à la conversation.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.",
+            "raw": {
+              "id": 14,
+              "text": "Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.",
+            "raw": {
+              "id": 15,
+              "text": "Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).",
+            "raw": {
+              "id": 16,
+              "text": "J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.",
+            "raw": {
+              "id": 17,
+              "text": "Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.",
+            "raw": {
+              "id": 18,
+              "text": "Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "La plupart du temps",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Souvent",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Parfois",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Rarement",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "Presque jamais",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "La plupart du temps",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Souvent",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Parfois",
+            "value": 3
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Rarement",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "Presque jamais",
+            "value": 5
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": " ",
+          "description": "A quel point votre écoute est-elle active, profonde et empathique?",
+          "instruction": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Les autres se sont déjà plaint que je ne les écoutais pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Il m'arrive de terminer les phrases des autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "J'interromps lorsque j'ai quelque chose à ajouter à la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": " ",
+        "raw": {
+          "id": 1,
+          "name": " ",
+          "description": "A quel point votre écoute est-elle active, profonde et empathique?",
+          "instruction": "Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Les autres se sont déjà plaint que je ne les écoutais pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Il m'arrive de terminer les phrases des autres.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 11,
+              "text": "J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "J'interromps lorsque j'ai quelque chose à ajouter à la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 90,
+            "text": "Plus le chiffre de votre résultat est élevé (au-delà de 30) et plus vous avez développé votre capacité à écouter vraiment les autres. Cela signifie que vos échanges avec les autres sont plus constructifs, que vos relations sont riches et que vous minimisez les malentendus."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/EcouteActive/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Écoute active\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"La plupart du temps\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Souvent\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Parfois\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Rarement\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Presque jamais\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 90,\n        text: \"Plus le chiffre de votre résultat est élevé (au-delà de 30) et plus vous avez développé votre capacité à écouter vraiment les autres. Cela signifie que vos échanges avec les autres sont plus constructifs, que vos relations sont riches et que vous minimisez les malentendus.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"A quel point votre écoute est-elle active, profonde et empathique?\",\n        instruction: \"Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Les autres se sont déjà plaint que je ne les écoutais pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Il m'arrive de terminer les phrases des autres.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"J'interromps lorsque j'ai quelque chose à ajouter à la conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::SetCategorieValue",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let result, printbutton;\n  let message;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de :<span>&nbsp;</span></ResultText> \r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text}\r\n                </Result>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n            <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                  {message}\r\n                </Result>\r\n            </ToPrint>\r\n            {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::SetQuestionCompleted",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Questionnaire.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/EcouteActive/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let result, printbutton;\n  let message;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de :<span>&nbsp;</span></ResultText> \r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text}\r\n                </Result>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n            <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                  {message}\r\n                </Result>\r\n            </ToPrint>\r\n            {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/EcouteActive.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Écoute active\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"La plupart du temps\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Souvent\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Parfois\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Rarement\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"Presque jamais\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 90,\n        text: \"Plus le chiffre de votre résultat est élevé (au-delà de 30) et plus vous avez développé votre capacité à écouter vraiment les autres. Cela signifie que vos échanges avec les autres sont plus constructifs, que vos relations sont riches et que vous minimisez les malentendus.\"\n      }],\n      categories: [{\n        id: 1,\n        name: \" \",\n        description: \"A quel point votre écoute est-elle active, profonde et empathique?\",\n        instruction: \"Répondez sincèrement, spontanément pour vous-même. Choisissez l'option correspondant le mieux à votre sentiment face à chaque affirmation proposée\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"Il n'est pas facile de me souvenir de ce dont les autres m'ont parlé après une conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je sais faire autre chose pendant qu'une personne me parle (cuisiner, travailler à l'ordinateur, écouter de la musique, etc.)\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Les autres se sont déjà plaint que je ne les écoutais pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je trouve qu'il vaut mieux écouter et peu poser de questions sur le sujet dont les autres me parlent.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Je cherche des moyens de faire bifurquer la conversation lorsque le sujet ne m'intéresse pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je montre des signes d'impatience lorsque les autres  “tournent autour du pot”.\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Je me fatigue rapidement de la conversation lorsque je ne la maîtrise pas.\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Je pense à des sujets qui n'ont pas de rapport avec la conversation pendant que l'autre me parle.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Il m'arrive de terminer les phrases des autres.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"Je préfère porter attention à ce que la personne dit plutôt qu'à son langage non verbal.\",\n          value: '',\n          completed: false\n        }, {\n          id: 11,\n          text: \"J'exprime indirectement ma désapprobation lorsque je ne suis pas d'accord avec ce que les autres me disent (froncer les sourcils par exemple).\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Je réfléchis à ce que je vais dire à l'autre pendant que l'autre est en train de parler.\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"J'interromps lorsque j'ai quelque chose à ajouter à la conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Si je reçois un appel téléphonique, je m'excuse et j'interromps la conversation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Lorsqu'une personne me partage les difficultés qu'elle vit, j'essaie de lui partager mes conseils.\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"J'ai de la difficulté à me concentrer sur ce qu'une autre personne me dit lorsqu'elle ne parle pas bien (grammaire, choix des mots, etc.).\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Lorsque j'échange avec une personne dans une salle remplie de gens, j'ai de la difficulté à ne pas porter attention aux autres conversations.\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"Je préfère être spontané dans mes réponses, plutôt que de prendre le temps d'y réfléchir plus avant.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questionnaire.js",
+        "name": "render",
+        "code": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} title={data.titre} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const descritption = this.props.categorie.description;\n  const instruction = this.props.categorie.instruction;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"categorie-description\">\r\n                <p>{descritption}</p>\r\n                </div>\r\n                <div className=\"messageBox\">\r\n                    <p className=\"message-info\">{instruction}</p>\r\n                </div>\r\n                <div className=\"questions\">\r\n                {this.state.title}\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  //const isCompleted = true\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let result, printbutton;\n  let message;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Votre résultat est de :<span>&nbsp;</span></ResultText> \r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text}\r\n                </Result>\r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                                    {text}\r\n                            </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n            <ToPrint ref={this.printRef} title={this.props.title}>\r\n                <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                  {message}\r\n                </Result>\r\n            </ToPrint>\r\n            {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/EcouteActive/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

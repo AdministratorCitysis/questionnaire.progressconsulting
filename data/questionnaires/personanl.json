@@ -1,0 +1,1454 @@
+{
+  "routePath": "/personaNL",
+  "routeComponent": "PersonaNL",
+  "routeImportSource": "./Components/personaNL",
+  "extractionTimestamp": "2026-04-19T10:07:00.040Z",
+  "sourceFiles": [
+    "src/Components/PersonaNL/Components/Answer.js",
+    "src/Components/PersonaNL/Components/Caracteristiques.js",
+    "src/Components/PersonaNL/Components/Context.js",
+    "src/Components/PersonaNL/Components/Header.js",
+    "src/Components/PersonaNL/Components/Questionnaire.js",
+    "src/Components/PersonaNL/Components/Questions.js",
+    "src/Components/ToPrint.js",
+    "src/Components/personaNL.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "PERSONA PROFIEL",
+      "description": "Welk woord in elk van de volgende groepen van drie karaktertrekken, beschrijft u het best?",
+      "instruction": "Antwoord op een eerlijke manier, niet volgens wat sociaal wenselijk is.  Denk ook niet te lang na over de antwoorden, zodat het vanuit de ‘buik’ komt.",
+      "categories": [
+        {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        },
+        {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "value": 0,
+          "categoryId": 11,
+          "completed": false,
+          "choices": [
+            {
+              "id": 31,
+              "name": "Efficiënt",
+              "value": 2
+            },
+            {
+              "id": 32,
+              "name": "Dominant",
+              "value": 3
+            },
+            {
+              "id": 33,
+              "name": "Hulpvaardig",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 34,
+              "name": "In staat om zich te doen gelden",
+              "value": 3
+            },
+            {
+              "id": 35,
+              "name": "Rustig",
+              "value": 2
+            },
+            {
+              "id": 36,
+              "name": "tevreden",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 37,
+              "name": "Zwijgzaam",
+              "value": 1
+            },
+            {
+              "id": 38,
+              "name": "Denkt graag eerst goed na",
+              "value": 2
+            },
+            {
+              "id": 39,
+              "name": "Sociaal",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 310,
+              "name": "Joviaal",
+              "value": 3
+            },
+            {
+              "id": 311,
+              "name": "Vriendelijk",
+              "value": 2
+            },
+            {
+              "id": 312,
+              "name": "Neemt zijn/haar verantwoordelijkheid",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 313,
+              "name": "Attent",
+              "value": 3
+            },
+            {
+              "id": 314,
+              "name": "Onderhandelt graag",
+              "value": 2
+            },
+            {
+              "id": 315,
+              "name": "Neemt initiatief",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 316,
+              "name": "Gevoelig",
+              "value": 1
+            },
+            {
+              "id": 317,
+              "name": "Onbuigzaam",
+              "value": 3
+            },
+            {
+              "id": 318,
+              "name": "Bereid tot medewerking",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 319,
+              "name": "Koppig",
+              "value": 1
+            },
+            {
+              "id": 320,
+              "name": "Behoedzaam",
+              "value": 2
+            },
+            {
+              "id": 321,
+              "name": "Extravert",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 322,
+              "name": "Enthousiast",
+              "value": 3
+            },
+            {
+              "id": 323,
+              "name": "Terughoudend",
+              "value": 1
+            },
+            {
+              "id": 324,
+              "name": "Bedachtzaam",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 325,
+              "name": "Eigenzinnig",
+              "value": 3
+            },
+            {
+              "id": 326,
+              "name": "Actief",
+              "value": 2
+            },
+            {
+              "id": 327,
+              "name": "Zeer nauwkeurig",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 328,
+              "name": "Strijdlustig",
+              "value": 3
+            },
+            {
+              "id": 329,
+              "name": "Evenwichtig",
+              "value": 2
+            },
+            {
+              "id": 330,
+              "name": "Inschikkelijk",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 331,
+              "name": "Vrolijk",
+              "value": 3
+            },
+            {
+              "id": 332,
+              "name": "Wil anderen behagen",
+              "value": 2
+            },
+            {
+              "id": 333,
+              "name": "Wilskrachtig",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 334,
+              "name": "Houdt zich aan wat overeengekomen werd",
+              "value": 1
+            },
+            {
+              "id": 335,
+              "name": "Energiek",
+              "value": 3
+            },
+            {
+              "id": 336,
+              "name": "Diplomatisch",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 213,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 337,
+              "name": "Gaat gemakkelijk in discussie",
+              "value": 3
+            },
+            {
+              "id": 338,
+              "name": "Nonchalant",
+              "value": 2
+            },
+            {
+              "id": 339,
+              "name": "Past zich gemakkelijk aan",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 214,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 340,
+              "name": "Redelijk meegaand",
+              "value": 2
+            },
+            {
+              "id": 341,
+              "name": "Volgzaam - Doet wat men hem/haar vraagt",
+              "value": 1
+            },
+            {
+              "id": 342,
+              "name": "Sturend",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 215,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 343,
+              "name": "Georganiseerd",
+              "value": 2
+            },
+            {
+              "id": 344,
+              "name": "Precies",
+              "value": 1
+            },
+            {
+              "id": 345,
+              "name": "Origineel",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 216,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 346,
+              "name": "Populair",
+              "value": 3
+            },
+            {
+              "id": 347,
+              "name": "Gedisciplineerd",
+              "value": 1
+            },
+            {
+              "id": 348,
+              "name": "Belezen",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "answers": [
+        [
+          {
+            "id": 1,
+            "text": "Geel",
+            "color": "#EDE813",
+            "primary": "ERKENNING , een referentie zijn",
+            "secondary": [
+              "Je bent extravert en mensgericht. Je bent enthousiast en je bent gepassioneerd door nieuwe dingen. Je werkt graag samen met anderen en geeft je motivatie aan hen door. Je onderhoudt je netwerk. Je leeft door andermans ogen, je houdt van complimentjes en zorgt voor je uiterlijk. Je hebt de neiging om je taken niet af te maken zodra er een spannend nieuw onderwerp aan de horizon verschijnt."
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Relatie",
+            "color": "#FFFFFF",
+            "primary": "Jouw resultaat is niet vastgelegd op de horizontale as",
+            "secondary": [
+              "Toch kan men hieruit eerder een focus op de relationele kant afleiden. De prioriteit is eerder de mens, de groep, de relatie met anderen."
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Groen",
+            "color": "#009640",
+            "primary": "HARMONIE, om aanvaard te zijn",
+            "secondary": [
+              "Je bent in de eerste plaats op mensen en relaties gericht, en eerder introvert. Je spreekt zacht en warm. Je houdt helemaal niet van conflict of directe kritiek die je kan kwetsen. Je gedraagt je rustig en gematigd. Je kunt echter heftig reageren ondanks dat je de neiging hebt om je emoties te verinnerlijken en in te dammen."
+            ]
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "text": "Extravert",
+            "color": "#FFFFFF",
+            "primary": "Jouw resultaat is niet vastgelegd op de verticale as",
+            "secondary": [
+              "Toch kan men hieruit eerder een focus op terugkerende gevoelens, meningen of redeneringen afleiden"
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Onbepaald",
+            "color": "#FFFFFF",
+            "primary": "Jouw resultaat is niet vastgelegd op de verticale, noch de horizontale as",
+            "secondary": [
+              "Je kunt het opnieuw proberen door een aantal van de antwoorden waarover je misschien geaarzeld hebt, te vervangen."
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Introvert",
+            "color": "#FFFFFF",
+            "primary": "Jouw resultaat is niet vastgelegd op de verticale as",
+            "secondary": [
+              "Toch kan men hieruit een minder zichtbare energie afleiden. Gevoelens, meningen en opinies worden eerder verinnerlijkt."
+            ]
+          }
+        ],
+        [
+          {
+            "id": 7,
+            "text": "Rood",
+            "color": "#E30613",
+            "primary": "DOELTREFFENDHEID, kunnen beslissen",
+            "secondary": [
+              "Je bent actie- en resultaatgericht, en vrij extravert. Je hebt een totaalvisie en doet niet aan detailkwesties. Je wordt gemotiveerd door uitdagingen en komt direct ter zake. Je praat snel en luid. Je bent niet bang om fouten te maken, je neemt snel beslissingen, zelfs met heel weinig kaarten in de hand en hebt geen moeite om eventuele fouten te herkennen."
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Resultaat",
+            "color": "#FFFFFF",
+            "primary": "Jouw resultaat is niet vastgelegd op de horizontale as",
+            "secondary": [
+              "Toch kan men hieruit een focus op taken die moeten afgewerkt worden afleiden, op doelstellingen en op resultaten"
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Blauw",
+            "color": "#045576",
+            "primary": "VEILIGHEID, gerustgesteld worden",
+            "secondary": [
+              "Je bent introvert, taakgericht. Je bent gewetensvol en werkt graag in een rustige omgeving. Je bent een rustig persoon, met oog voor gebreken en tegenstrijdigheden. Je hebt structuur en precisie nodig. Je haat het om fouten te maken. Het feit dat die mogelijkheid erin zit, is al genoeg om je te verlammen. Je moet alle kaarten in je hand hebben om te beslissen, op een methodische manier. Je respecteert de regels en procedures omdat ze betrouwbaarheid garanderen."
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "PERSONA PROFIEL",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": null,
+            "raw": {
+              "id": 21,
+              "value": 0,
+              "categoryId": 11,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 31,
+                  "name": "Efficiënt",
+                  "value": 2
+                },
+                {
+                  "id": 32,
+                  "name": "Dominant",
+                  "value": 3
+                },
+                {
+                  "id": 33,
+                  "name": "Hulpvaardig",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 31,
+                "name": "Efficiënt",
+                "value": 2
+              },
+              {
+                "id": 32,
+                "name": "Dominant",
+                "value": 3
+              },
+              {
+                "id": 33,
+                "name": "Hulpvaardig",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": null,
+            "raw": {
+              "id": 22,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 34,
+                  "name": "In staat om zich te doen gelden",
+                  "value": 3
+                },
+                {
+                  "id": 35,
+                  "name": "Rustig",
+                  "value": 2
+                },
+                {
+                  "id": 36,
+                  "name": "tevreden",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 34,
+                "name": "In staat om zich te doen gelden",
+                "value": 3
+              },
+              {
+                "id": 35,
+                "name": "Rustig",
+                "value": 2
+              },
+              {
+                "id": 36,
+                "name": "tevreden",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": null,
+            "raw": {
+              "id": 23,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 37,
+                  "name": "Zwijgzaam",
+                  "value": 1
+                },
+                {
+                  "id": 38,
+                  "name": "Denkt graag eerst goed na",
+                  "value": 2
+                },
+                {
+                  "id": 39,
+                  "name": "Sociaal",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 37,
+                "name": "Zwijgzaam",
+                "value": 1
+              },
+              {
+                "id": 38,
+                "name": "Denkt graag eerst goed na",
+                "value": 2
+              },
+              {
+                "id": 39,
+                "name": "Sociaal",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": null,
+            "raw": {
+              "id": 24,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 310,
+                  "name": "Joviaal",
+                  "value": 3
+                },
+                {
+                  "id": 311,
+                  "name": "Vriendelijk",
+                  "value": 2
+                },
+                {
+                  "id": 312,
+                  "name": "Neemt zijn/haar verantwoordelijkheid",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 310,
+                "name": "Joviaal",
+                "value": 3
+              },
+              {
+                "id": 311,
+                "name": "Vriendelijk",
+                "value": 2
+              },
+              {
+                "id": 312,
+                "name": "Neemt zijn/haar verantwoordelijkheid",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": null,
+            "raw": {
+              "id": 25,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 313,
+                  "name": "Attent",
+                  "value": 3
+                },
+                {
+                  "id": 314,
+                  "name": "Onderhandelt graag",
+                  "value": 2
+                },
+                {
+                  "id": 315,
+                  "name": "Neemt initiatief",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 313,
+                "name": "Attent",
+                "value": 3
+              },
+              {
+                "id": 314,
+                "name": "Onderhandelt graag",
+                "value": 2
+              },
+              {
+                "id": 315,
+                "name": "Neemt initiatief",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": null,
+            "raw": {
+              "id": 26,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 316,
+                  "name": "Gevoelig",
+                  "value": 1
+                },
+                {
+                  "id": 317,
+                  "name": "Onbuigzaam",
+                  "value": 3
+                },
+                {
+                  "id": 318,
+                  "name": "Bereid tot medewerking",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 316,
+                "name": "Gevoelig",
+                "value": 1
+              },
+              {
+                "id": 317,
+                "name": "Onbuigzaam",
+                "value": 3
+              },
+              {
+                "id": 318,
+                "name": "Bereid tot medewerking",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": null,
+            "raw": {
+              "id": 27,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 319,
+                  "name": "Koppig",
+                  "value": 1
+                },
+                {
+                  "id": 320,
+                  "name": "Behoedzaam",
+                  "value": 2
+                },
+                {
+                  "id": 321,
+                  "name": "Extravert",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 319,
+                "name": "Koppig",
+                "value": 1
+              },
+              {
+                "id": 320,
+                "name": "Behoedzaam",
+                "value": 2
+              },
+              {
+                "id": 321,
+                "name": "Extravert",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": null,
+            "raw": {
+              "id": 28,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 322,
+                  "name": "Enthousiast",
+                  "value": 3
+                },
+                {
+                  "id": 323,
+                  "name": "Terughoudend",
+                  "value": 1
+                },
+                {
+                  "id": 324,
+                  "name": "Bedachtzaam",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 322,
+                "name": "Enthousiast",
+                "value": 3
+              },
+              {
+                "id": 323,
+                "name": "Terughoudend",
+                "value": 1
+              },
+              {
+                "id": 324,
+                "name": "Bedachtzaam",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": null,
+            "raw": {
+              "id": 29,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 325,
+                  "name": "Eigenzinnig",
+                  "value": 3
+                },
+                {
+                  "id": 326,
+                  "name": "Actief",
+                  "value": 2
+                },
+                {
+                  "id": 327,
+                  "name": "Zeer nauwkeurig",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 325,
+                "name": "Eigenzinnig",
+                "value": 3
+              },
+              {
+                "id": 326,
+                "name": "Actief",
+                "value": 2
+              },
+              {
+                "id": 327,
+                "name": "Zeer nauwkeurig",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "text": null,
+            "raw": {
+              "id": 210,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 328,
+                  "name": "Strijdlustig",
+                  "value": 3
+                },
+                {
+                  "id": 329,
+                  "name": "Evenwichtig",
+                  "value": 2
+                },
+                {
+                  "id": 330,
+                  "name": "Inschikkelijk",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 328,
+                "name": "Strijdlustig",
+                "value": 3
+              },
+              {
+                "id": 329,
+                "name": "Evenwichtig",
+                "value": 2
+              },
+              {
+                "id": 330,
+                "name": "Inschikkelijk",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "text": null,
+            "raw": {
+              "id": 211,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 331,
+                  "name": "Vrolijk",
+                  "value": 3
+                },
+                {
+                  "id": 332,
+                  "name": "Wil anderen behagen",
+                  "value": 2
+                },
+                {
+                  "id": 333,
+                  "name": "Wilskrachtig",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 331,
+                "name": "Vrolijk",
+                "value": 3
+              },
+              {
+                "id": 332,
+                "name": "Wil anderen behagen",
+                "value": 2
+              },
+              {
+                "id": 333,
+                "name": "Wilskrachtig",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "text": null,
+            "raw": {
+              "id": 212,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 334,
+                  "name": "Houdt zich aan wat overeengekomen werd",
+                  "value": 1
+                },
+                {
+                  "id": 335,
+                  "name": "Energiek",
+                  "value": 3
+                },
+                {
+                  "id": 336,
+                  "name": "Diplomatisch",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 334,
+                "name": "Houdt zich aan wat overeengekomen werd",
+                "value": 1
+              },
+              {
+                "id": 335,
+                "name": "Energiek",
+                "value": 3
+              },
+              {
+                "id": 336,
+                "name": "Diplomatisch",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "text": null,
+            "raw": {
+              "id": 213,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 337,
+                  "name": "Gaat gemakkelijk in discussie",
+                  "value": 3
+                },
+                {
+                  "id": 338,
+                  "name": "Nonchalant",
+                  "value": 2
+                },
+                {
+                  "id": 339,
+                  "name": "Past zich gemakkelijk aan",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 337,
+                "name": "Gaat gemakkelijk in discussie",
+                "value": 3
+              },
+              {
+                "id": 338,
+                "name": "Nonchalant",
+                "value": 2
+              },
+              {
+                "id": 339,
+                "name": "Past zich gemakkelijk aan",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "text": null,
+            "raw": {
+              "id": 214,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 340,
+                  "name": "Redelijk meegaand",
+                  "value": 2
+                },
+                {
+                  "id": 341,
+                  "name": "Volgzaam - Doet wat men hem/haar vraagt",
+                  "value": 1
+                },
+                {
+                  "id": 342,
+                  "name": "Sturend",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 340,
+                "name": "Redelijk meegaand",
+                "value": 2
+              },
+              {
+                "id": 341,
+                "name": "Volgzaam - Doet wat men hem/haar vraagt",
+                "value": 1
+              },
+              {
+                "id": 342,
+                "name": "Sturend",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "text": null,
+            "raw": {
+              "id": 215,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 343,
+                  "name": "Georganiseerd",
+                  "value": 2
+                },
+                {
+                  "id": 344,
+                  "name": "Precies",
+                  "value": 1
+                },
+                {
+                  "id": 345,
+                  "name": "Origineel",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 343,
+                "name": "Georganiseerd",
+                "value": 2
+              },
+              {
+                "id": 344,
+                "name": "Precies",
+                "value": 1
+              },
+              {
+                "id": 345,
+                "name": "Origineel",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 216,
+            "text": null,
+            "raw": {
+              "id": 216,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 346,
+                  "name": "Populair",
+                  "value": 3
+                },
+                {
+                  "id": 347,
+                  "name": "Gedisciplineerd",
+                  "value": 1
+                },
+                {
+                  "id": 348,
+                  "name": "Belezen",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 346,
+                "name": "Populair",
+                "value": 3
+              },
+              {
+                "id": 347,
+                "name": "Gedisciplineerd",
+                "value": 1
+              },
+              {
+                "id": 348,
+                "name": "Belezen",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 11,
+        "name": "H-scores",
+        "raw": {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": "V-scores",
+        "raw": {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 22,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 23,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 25,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 26,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 27,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 28,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 29,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 210,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 212,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 213,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 214,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 215,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 216,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/PersonaNL/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/PersonaNL/Components/Caracteristiques.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/PersonaNL/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 89.5)\">Relationeel</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 560.5)\">Resultaat</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extravert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introvert</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Jouw kenmerken</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/PersonaNL/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/PersonaNL/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 89.5)\">Relationeel</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 560.5)\">Resultaat</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extravert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introvert</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Jouw kenmerken</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/personaNL.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/personaNL.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"PERSONA PROFIEL\",\n      description: \"Welk woord in elk van de volgende groepen van drie karaktertrekken, beschrijft u het best?\",\n      instruction: \"Antwoord op een eerlijke manier, niet volgens wat sociaal wenselijk is.  Denk ook niet te lang na over de antwoorden, zodat het vanuit de ‘buik’ komt.\",\n      categories: [{\n        id: 11,\n        name: \"H-scores\",\n        value: 0\n      }, {\n        id: 12,\n        name: \"V-scores\",\n        value: 0\n      }],\n      questions: [{\n        id: 21,\n        value: 0,\n        categoryId: 11,\n        completed: false,\n        choices: [{\n          id: 31,\n          name: \"Efficiënt\",\n          value: 2\n        }, {\n          id: 32,\n          name: \"Dominant\",\n          value: 3\n        }, {\n          id: 33,\n          name: \"Hulpvaardig\",\n          value: 1\n        }]\n      }, {\n        id: 22,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 34,\n          name: \"In staat om zich te doen gelden\",\n          value: 3\n        }, {\n          id: 35,\n          name: \"Rustig\",\n          value: 2\n        }, {\n          id: 36,\n          name: \"tevreden\",\n          value: 1\n        }]\n      }, {\n        id: 23,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 37,\n          name: \"Zwijgzaam\",\n          value: 1\n        }, {\n          id: 38,\n          name: \"Denkt graag eerst goed na\",\n          value: 2\n        }, {\n          id: 39,\n          name: \"Sociaal\",\n          value: 3\n        }]\n      }, {\n        id: 24,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 310,\n          name: \"Joviaal\",\n          value: 3\n        }, {\n          id: 311,\n          name: \"Vriendelijk\",\n          value: 2\n        }, {\n          id: 312,\n          name: \"Neemt zijn/haar verantwoordelijkheid\",\n          value: 1\n        }]\n      }, {\n        id: 25,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 313,\n          name: \"Attent\",\n          value: 3\n        }, {\n          id: 314,\n          name: \"Onderhandelt graag\",\n          value: 2\n        }, {\n          id: 315,\n          name: \"Neemt initiatief\",\n          value: 1\n        }]\n      }, {\n        id: 26,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 316,\n          name: \"Gevoelig\",\n          value: 1\n        }, {\n          id: 317,\n          name: \"Onbuigzaam\",\n          value: 3\n        }, {\n          id: 318,\n          name: \"Bereid tot medewerking\",\n          value: 2\n        }]\n      }, {\n        id: 27,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 319,\n          name: \"Koppig\",\n          value: 1\n        }, {\n          id: 320,\n          name: \"Behoedzaam\",\n          value: 2\n        }, {\n          id: 321,\n          name: \"Extravert\",\n          value: 3\n        }]\n      }, {\n        id: 28,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 322,\n          name: \"Enthousiast\",\n          value: 3\n        }, {\n          id: 323,\n          name: \"Terughoudend\",\n          value: 1\n        }, {\n          id: 324,\n          name: \"Bedachtzaam\",\n          value: 2\n        }]\n      }, {\n        id: 29,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 325,\n          name: \"Eigenzinnig\",\n          value: 3\n        }, {\n          id: 326,\n          name: \"Actief\",\n          value: 2\n        }, {\n          id: 327,\n          name: \"Zeer nauwkeurig\",\n          value: 1\n        }]\n      }, {\n        id: 210,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 328,\n          name: \"Strijdlustig\",\n          value: 3\n        }, {\n          id: 329,\n          name: \"Evenwichtig\",\n          value: 2\n        }, {\n          id: 330,\n          name: \"Inschikkelijk\",\n          value: 1\n        }]\n      }, {\n        id: 211,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 331,\n          name: \"Vrolijk\",\n          value: 3\n        }, {\n          id: 332,\n          name: \"Wil anderen behagen\",\n          value: 2\n        }, {\n          id: 333,\n          name: \"Wilskrachtig\",\n          value: 1\n        }]\n      }, {\n        id: 212,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 334,\n          name: \"Houdt zich aan wat overeengekomen werd\",\n          value: 1\n        }, {\n          id: 335,\n          name: \"Energiek\",\n          value: 3\n        }, {\n          id: 336,\n          name: \"Diplomatisch\",\n          value: 2\n        }]\n      }, {\n        id: 213,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 337,\n          name: \"Gaat gemakkelijk in discussie\",\n          value: 3\n        }, {\n          id: 338,\n          name: \"Nonchalant\",\n          value: 2\n        }, {\n          id: 339,\n          name: \"Past zich gemakkelijk aan\",\n          value: 1\n        }]\n      }, {\n        id: 214,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 340,\n          name: \"Redelijk meegaand\",\n          value: 2\n        }, {\n          id: 341,\n          name: \"Volgzaam - Doet wat men hem/haar vraagt\",\n          value: 1\n        }, {\n          id: 342,\n          name: \"Sturend\",\n          value: 3\n        }]\n      }, {\n        id: 215,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 343,\n          name: \"Georganiseerd\",\n          value: 2\n        }, {\n          id: 344,\n          name: \"Precies\",\n          value: 1\n        }, {\n          id: 345,\n          name: \"Origineel\",\n          value: 3\n        }]\n      }, {\n        id: 216,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 346,\n          name: \"Populair\",\n          value: 3\n        }, {\n          id: 347,\n          name: \"Gedisciplineerd\",\n          value: 1\n        }, {\n          id: 348,\n          name: \"Belezen\",\n          value: 2\n        }]\n      }],\n      answers: [\n      //Y > 16\n      [\n      //X > 16 ==> Jaune\n      {\n        id: 1,\n        text: \"Geel\",\n        color: '#EDE813',\n        primary: \"ERKENNING , een referentie zijn\",\n        secondary: [\"Je bent extravert en mensgericht. Je bent enthousiast en je bent gepassioneerd door nieuwe dingen. Je werkt graag samen met anderen en geeft je motivatie aan hen door. Je onderhoudt je netwerk. Je leeft door andermans ogen, je houdt van complimentjes en zorgt voor je uiterlijk. Je hebt de neiging om je taken niet af te maken zodra er een spannend nieuw onderwerp aan de horizon verschijnt.\"]\n      },\n      //X == 16 ==> Résultat\n      {\n        id: 2,\n        text: \"Relatie\",\n        color: \"#FFFFFF\",\n        primary: \"Jouw resultaat is niet vastgelegd op de horizontale as\",\n        secondary: [\"Toch kan men hieruit eerder een focus op de relationele kant afleiden. De prioriteit is eerder de mens, de groep, de relatie met anderen.\"]\n      },\n      //X > 16 ==> Vert\n      {\n        id: 3,\n        text: \"Groen\",\n        color: '#009640',\n        primary: \"HARMONIE, om aanvaard te zijn\",\n        secondary: [\"Je bent in de eerste plaats op mensen en relaties gericht, en eerder introvert. Je spreekt zacht en warm. Je houdt helemaal niet van conflict of directe kritiek die je kan kwetsen. Je gedraagt je rustig en gematigd. Je kunt echter heftig reageren ondanks dat je de neiging hebt om je emoties te verinnerlijken en in te dammen.\"]\n      }],\n      //Y == 16\n      [\n      //X > 16\n      {\n        id: 4,\n        text: \"Extravert\",\n        color: \"#FFFFFF\",\n        primary: \"Jouw resultaat is niet vastgelegd op de verticale as\",\n        secondary: [\"Toch kan men hieruit eerder een focus op terugkerende gevoelens, meningen of redeneringen afleiden\"]\n      },\n      //X == 16\n      {\n        id: 5,\n        text: \"Onbepaald\",\n        color: \"#FFFFFF\",\n        primary: \"Jouw resultaat is niet vastgelegd op de verticale, noch de horizontale as\",\n        secondary: [\"Je kunt het opnieuw proberen door een aantal van de antwoorden waarover je misschien geaarzeld hebt, te vervangen.\"]\n      },\n      //X < 16\n      {\n        id: 6,\n        text: \"Introvert\",\n        color: \"#FFFFFF\",\n        primary: \"Jouw resultaat is niet vastgelegd op de verticale as\",\n        secondary: [\"Toch kan men hieruit een minder zichtbare energie afleiden. Gevoelens, meningen en opinies worden eerder verinnerlijkt.\"]\n      }],\n      //Y > 16\n      [\n      //X > 16\n      {\n        id: 7,\n        text: \"Rood\",\n        color: '#E30613',\n        primary: \"DOELTREFFENDHEID, kunnen beslissen\",\n        secondary: [\"Je bent actie- en resultaatgericht, en vrij extravert. Je hebt een totaalvisie en doet niet aan detailkwesties. Je wordt gemotiveerd door uitdagingen en komt direct ter zake. Je praat snel en luid. Je bent niet bang om fouten te maken, je neemt snel beslissingen, zelfs met heel weinig kaarten in de hand en hebt geen moeite om eventuele fouten te herkennen.\"]\n      },\n      //X == 16\n      {\n        id: 8,\n        text: \"Resultaat\",\n        color: \"#FFFFFF\",\n        primary: \"Jouw resultaat is niet vastgelegd op de horizontale as\",\n        secondary: [\"Toch kan men hieruit een focus op taken die moeten afgewerkt worden afleiden, op doelstellingen en op resultaten\"]\n      },\n      //X < 16\n      {\n        id: 9,\n        text: \"Blauw\",\n        color: '#045576',\n        primary: \"VEILIGHEID, gerustgesteld worden\",\n        secondary: [\"Je bent introvert, taakgericht. Je bent gewetensvol en werkt graag in een rustige omgeving. Je bent een rustig persoon, met oog voor gebreken en tegenstrijdigheden. Je hebt structuur en precisie nodig. Je haat het om fouten te maken. Het feit dat die mogelijkheid erin zit, is al genoeg om je te verlammen. Je moet alle kaarten in je hand hebben om te beslissen, op een methodische manier. Je respecteert de regels en procedures omdat ze betrouwbaarheid garanderen.\"]\n      }]]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header />\r\n                <Questions questions={this.state.questionnaire.questions} handleclick={this.handleAddPoint} />\r\n                <Answer />\r\n            {/*<Graphic />*/}\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleclick = this.handleclick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questions.js",
+        "name": "handleclick",
+        "code": "handleclick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  return <Context.Consumer>\r\n                {value => <div className=\"boxes\">\r\n                   {questions.map((question, index) => <div key={index} className=\"box\">\r\n                            <Caracteristiques question={question} handleclick={this.handleclick} />\r\n                        </div>)}\r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    vectors: {\n      middle: 16,\n      minX: 24,\n      maxX: 9,\n      minY: 9,\n      maxY: 24\n    },\n    btn: {\n      checked: false,\n      text: \"Valideren\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Het resultaat verbergen\" : btn.text = \"Valideren\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Bewaren</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        const vectorsY = \"109.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        const pointY = parseInt(vectorsY) + (24.5 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n        scoreY > 16 ? yIndex = 0 : scoreY === 16 ? yIndex = 1 : yIndex = 2;\n        scoreX > 16 ? xIndex = 0 : scoreX === 16 ? xIndex = 1 : xIndex = 2;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 89.5)\">Relationeel</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 560.5)\">Resultaat</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extravert</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introvert</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Jouw kenmerken</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Caracteristiques.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    value: 0\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Caracteristiques.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/PersonaNL/Components/Caracteristiques.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  const caracteristiques = question.choices;\n  return <div className=\"checklist\">\r\n                {caracteristiques.map((caracteristique, index) => <div key={index} className=\"checklistItem\">\r\n                        <input type=\"radio\" id={caracteristique.id} name={question.id} value={caracteristique.value} onClick={this.handleClick} />\r\n                        <label className=\"checkbox-label\" htmlFor={caracteristique.id} />\r\n                        <p>{caracteristique.name}</p>\r\n                    </div>)}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

@@ -1,0 +1,1002 @@
+{
+  "routePath": "/skillsoft",
+  "routeComponent": "Skillsoft",
+  "routeImportSource": "./Components/Skillsoft",
+  "extractionTimestamp": "2026-04-19T10:07:01.034Z",
+  "sourceFiles": [
+    "src/Components/Skillsoft.js",
+    "src/Components/Skillsoft/Components/Answer.js",
+    "src/Components/Skillsoft/Components/Categorie.js",
+    "src/Components/Skillsoft/Components/Categories.js",
+    "src/Components/Skillsoft/Components/Header.js",
+    "src/Components/Skillsoft/Components/Possibilites.js",
+    "src/Components/Skillsoft/Components/Question.js",
+    "src/Components/Skillsoft/Components/Questionnaire.js",
+    "src/Components/Skillsoft/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Cultural Intelligence Self-assessment",
+      "answers": [
+        {
+          "id": 1,
+          "number": "1",
+          "text": "Never",
+          "value": 1
+        },
+        {
+          "id": 2,
+          "number": "2",
+          "text": "Once in a while",
+          "value": 2
+        },
+        {
+          "id": 3,
+          "number": "3",
+          "text": "Often",
+          "value": 3
+        },
+        {
+          "id": 4,
+          "number": "4",
+          "text": "Most of the time",
+          "value": 4
+        },
+        {
+          "id": 5,
+          "number": "5",
+          "text": "All the time",
+          "value": 5
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 15,
+          "text": "Very low : You need to start taking deliberate steps to develop your cultural intelligence."
+        },
+        {
+          "maxvalue": 25,
+          "text": "Low : You've started considering how to 'be' in a global world, but you should consider paying more conscious attention to developing your cultural intelligence."
+        },
+        {
+          "maxvalue": 35,
+          "text": "Average : You're making progress, but more attention is needed for success in the global marketplace."
+        },
+        {
+          "maxvalue": 45,
+          "text": "Above average : You're well on your way to having the cultural intelligence needed to become an effective global leader."
+        },
+        {
+          "maxvalue": 50,
+          "text": "Cultural genius : Your colleagues would probably benefit greatly from your approach. Be sure to share what you do and know with them!"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "Use this self-assessment to get an idea of your level of cultural intelligence.",
+          "title": "How often do the following statements apply to you?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I put effort into finding out the differences and similarities between cultures around the world and my own culture.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I feel comfortable talking with people from different cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I am aware that cultural differences may cause different understandings of the same goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I am mindful of the influence of culture on me and on those from other cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I adapt my behavior according to the cultural situation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I leverage the underlying motives of the people I lead to achieve team goals. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I factor in the perspectives of people from other cultures when interacting with them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I build trust through reasoning or in a social manner, depending on the culture I am interacting with.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I feel that I interact effectively with people who are culturally different from me.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": "category-1",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "I put effort into finding out the differences and similarities between cultures around the world and my own culture.",
+            "raw": {
+              "id": 1,
+              "text": "I put effort into finding out the differences and similarities between cultures around the world and my own culture.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "I feel comfortable talking with people from different cultures.",
+            "raw": {
+              "id": 2,
+              "text": "I feel comfortable talking with people from different cultures.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "I am aware that cultural differences may cause different understandings of the same goals.",
+            "raw": {
+              "id": 3,
+              "text": "I am aware that cultural differences may cause different understandings of the same goals.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "I am mindful of the influence of culture on me and on those from other cultures.",
+            "raw": {
+              "id": 4,
+              "text": "I am mindful of the influence of culture on me and on those from other cultures.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "I adapt my behavior according to the cultural situation.",
+            "raw": {
+              "id": 5,
+              "text": "I adapt my behavior according to the cultural situation.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "I leverage the underlying motives of the people I lead to achieve team goals. ",
+            "raw": {
+              "id": 6,
+              "text": "I leverage the underlying motives of the people I lead to achieve team goals. ",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "I factor in the perspectives of people from other cultures when interacting with them.",
+            "raw": {
+              "id": 7,
+              "text": "I factor in the perspectives of people from other cultures when interacting with them.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.",
+            "raw": {
+              "id": 8,
+              "text": "If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "I build trust through reasoning or in a social manner, depending on the culture I am interacting with.",
+            "raw": {
+              "id": 9,
+              "text": "I build trust through reasoning or in a social manner, depending on the culture I am interacting with.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "I feel that I interact effectively with people who are culturally different from me.",
+            "raw": {
+              "id": 10,
+              "text": "I feel that I interact effectively with people who are culturally different from me.",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "1",
+                "text": "Never",
+                "value": 1
+              },
+              {
+                "id": 2,
+                "number": "2",
+                "text": "Once in a while",
+                "value": 2
+              },
+              {
+                "id": 3,
+                "number": "3",
+                "text": "Often",
+                "value": 3
+              },
+              {
+                "id": 4,
+                "number": "4",
+                "text": "Most of the time",
+                "value": 4
+              },
+              {
+                "id": 5,
+                "number": "5",
+                "text": "All the time",
+                "value": 5
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "Never",
+            "value": 1
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "Once in a while",
+            "value": 2
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "Often",
+            "value": 3
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "Most of the time",
+            "value": 4
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "All the time",
+            "value": 5
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": "",
+          "description": "Use this self-assessment to get an idea of your level of cultural intelligence.",
+          "title": "How often do the following statements apply to you?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I put effort into finding out the differences and similarities between cultures around the world and my own culture.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I feel comfortable talking with people from different cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I am aware that cultural differences may cause different understandings of the same goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I am mindful of the influence of culture on me and on those from other cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I adapt my behavior according to the cultural situation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I leverage the underlying motives of the people I lead to achieve team goals. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I factor in the perspectives of people from other cultures when interacting with them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I build trust through reasoning or in a social manner, depending on the culture I am interacting with.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I feel that I interact effectively with people who are culturally different from me.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": null,
+        "raw": {
+          "id": 1,
+          "name": "",
+          "description": "Use this self-assessment to get an idea of your level of cultural intelligence.",
+          "title": "How often do the following statements apply to you?",
+          "completed": false,
+          "value": "",
+          "questions": [
+            {
+              "id": 1,
+              "text": "I put effort into finding out the differences and similarities between cultures around the world and my own culture.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "I feel comfortable talking with people from different cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "I am aware that cultural differences may cause different understandings of the same goals.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "I am mindful of the influence of culture on me and on those from other cultures.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "I adapt my behavior according to the cultural situation.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "I leverage the underlying motives of the people I lead to achieve team goals. ",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "I factor in the perspectives of people from other cultures when interacting with them.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "I build trust through reasoning or in a social manner, depending on the culture I am interacting with.",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "I feel that I interact effectively with people who are culturally different from me.",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 15,
+            "text": "Very low : You need to start taking deliberate steps to develop your cultural intelligence."
+          },
+          {
+            "maxvalue": 25,
+            "text": "Low : You've started considering how to 'be' in a global world, but you should consider paying more conscious attention to developing your cultural intelligence."
+          },
+          {
+            "maxvalue": 35,
+            "text": "Average : You're making progress, but more attention is needed for success in the global marketplace."
+          },
+          {
+            "maxvalue": 45,
+            "text": "Above average : You're well on your way to having the cultural intelligence needed to become an effective global leader."
+          },
+          {
+            "maxvalue": 50,
+            "text": "Cultural genius : Your colleagues would probably benefit greatly from your approach. Be sure to share what you do and know with them!"
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Skillsoft/Components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Cultural Intelligence Self-assessment\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Never\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Once in a while\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Often\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Most of the time\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"All the time\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"Very low : You need to start taking deliberate steps to develop your cultural intelligence.\"\n      }, {\n        maxvalue: 25,\n        text: \"Low : You've started considering how to 'be' in a global world, but you should consider paying more conscious attention to developing your cultural intelligence.\"\n      }, {\n        maxvalue: 35,\n        text: \"Average : You're making progress, but more attention is needed for success in the global marketplace.\"\n      }, {\n        maxvalue: 45,\n        text: \"Above average : You're well on your way to having the cultural intelligence needed to become an effective global leader.\"\n      }, {\n        maxvalue: 50,\n        text: \"Cultural genius : Your colleagues would probably benefit greatly from your approach. Be sure to share what you do and know with them!\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"Use this self-assessment to get an idea of your level of cultural intelligence.\",\n        title: \"How often do the following statements apply to you?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"I put effort into finding out the differences and similarities between cultures around the world and my own culture.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"I feel comfortable talking with people from different cultures.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"I am aware that cultural differences may cause different understandings of the same goals.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"I am mindful of the influence of culture on me and on those from other cultures.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"I adapt my behavior according to the cultural situation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"I leverage the underlying motives of the people I lead to achieve team goals. \",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"I factor in the perspectives of people from other cultures when interacting with them.\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"I build trust through reasoning or in a social manner, depending on the culture I am interacting with.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"I feel that I interact effectively with people who are culturally different from me.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::SetCategorieValue",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Answer.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Your result is : </ResultText>\r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text.split('\\n').map(item => item + \" \")}\r\n                </Result>\r\n               \r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::SetQuestionCompleted",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Questionnaire.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Skillsoft/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Your result is : </ResultText>\r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text.split('\\n').map(item => item + \" \")}\r\n                </Result>\r\n               \r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Skillsoft.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      titre: \"Cultural Intelligence Self-assessment\",\n      answers: [{\n        id: 1,\n        number: \"1\",\n        text: \"Never\",\n        value: 1\n      }, {\n        id: 2,\n        number: \"2\",\n        text: \"Once in a while\",\n        value: 2\n      }, {\n        id: 3,\n        number: \"3\",\n        text: \"Often\",\n        value: 3\n      }, {\n        id: 4,\n        number: \"4\",\n        text: \"Most of the time\",\n        value: 4\n      }, {\n        id: 5,\n        number: \"5\",\n        text: \"All the time\",\n        value: 5\n      }],\n      reponses: [{\n        maxvalue: 15,\n        text: \"Very low : You need to start taking deliberate steps to develop your cultural intelligence.\"\n      }, {\n        maxvalue: 25,\n        text: \"Low : You've started considering how to 'be' in a global world, but you should consider paying more conscious attention to developing your cultural intelligence.\"\n      }, {\n        maxvalue: 35,\n        text: \"Average : You're making progress, but more attention is needed for success in the global marketplace.\"\n      }, {\n        maxvalue: 45,\n        text: \"Above average : You're well on your way to having the cultural intelligence needed to become an effective global leader.\"\n      }, {\n        maxvalue: 50,\n        text: \"Cultural genius : Your colleagues would probably benefit greatly from your approach. Be sure to share what you do and know with them!\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"\",\n        description: \"Use this self-assessment to get an idea of your level of cultural intelligence.\",\n        title: \"How often do the following statements apply to you?\",\n        completed: false,\n        value: '',\n        questions: [{\n          id: 1,\n          text: \"I put effort into finding out the differences and similarities between cultures around the world and my own culture.\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"I feel comfortable talking with people from different cultures.\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"I am aware that cultural differences may cause different understandings of the same goals.\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"I am mindful of the influence of culture on me and on those from other cultures.\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"I adapt my behavior according to the cultural situation.\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"I leverage the underlying motives of the people I lead to achieve team goals. \",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"I factor in the perspectives of people from other cultures when interacting with them.\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"If I can't fully accomodate everyone's cultural motivations, I try to adapt in smaller ways.\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"I build trust through reasoning or in a social manner, depending on the culture I am interacting with.\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"I feel that I interact effectively with people who are culturally different from me.\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  let newcategorie = this.state.questionnaire.categories[0];\n  let newquestions = newcategorie.questions;\n  const questionIndex = newquestions.findIndex(element => element.id === id);\n  newquestions[questionIndex].completed = true;\n  newcategorie.questions = newquestions;\n  newcategorie.completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories[0] = newcategorie;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n\n  /*    this.setState(state => \r\n          state.questionnaire.categories.map(cat =>{\r\n              cat.questions.map(question =>{\r\n                  if(question.id === id)\r\n                      {\r\n                          question.completed = true\r\n                          \r\n                      }\r\n                      \r\n                  }) \r\n              return cat.completed = cat.questions.every(question => question.completed === true)\r\n          })\r\n          \r\n      )*/\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return true;\n  }));\n};\n\n/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questionnaire.js",
+        "name": "render",
+        "code": "/*SetCategorieMessage = (data) => {\r\n    const reponses = this.state.questionnaire.reponses\r\n    this.setState(state =>\r\n        state.questionnaire.categories.map(\r\n            cat => {\r\n                if(cat.id === data.id)\r\n                {if(cat.completed)\r\n                    {\r\n                        console.log(\"je rentre dans le if completed\")\r\n                        for(let i=0;i<reponses.length;i++)\r\n                            {   console.log(\"valeur categorie: \",cat.value)\r\n                                console.log(\"valeur reponses: \",reponses[i].maxvalue)\r\n                               if(parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\r\n                                    return data.message = (\"Score: \" + cat.value + \" - \" + reponses[i].text)\r\n                                }  \r\n                                \r\n                            }\r\n                    }}\r\n                    return true\r\n                }\r\n        ))\r\n    \r\n}*/\n\nrender() {\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n               <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"\",\n    answers: []\n  };\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Header.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    title: this.props.questionnaire.titre,\n    answers: this.props.questionnaire.answers\n  });\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.answers.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Fragment key={index}>\r\n                        <Categorie categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                        <Answer categorie={cat} answers={data.reponses} title={data.titre} />\r\n                    </Fragment>)}\r\n                \r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categorie.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: setTitle(this.props.categorie.name)\n  };\n  this.GetCategorieValue = this.GetCategorieValue.bind(this);\n  this.SetQuestionCompleted = this.SetQuestionCompleted.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const descritption = this.props.categorie.description;\n  const questions = this.props.categorie.questions;\n\n  //console.log(\"categorie\", this.props.categorie)\n\n  return <div className=\"categorie\">\r\n                <div className=\"categorie-description\">\r\n                <p>{descritption}</p>\r\n                </div>\r\n                <div className=\"questions\">\r\n                    <div className=\"questions-description\">\r\n                        <p>{this.props.categorie.title}</p>\r\n                    </div>\r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Please complete all the questions to know your score\",\n    btn: {\n      checked: false,\n      text: \"Validate\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Hide result\" : btn.text = \"Validate\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  const isCompleted = this.props.categorie.completed;\n  const rep = this.props.answers;\n  const cat = this.props.categorie;\n  let message, result, printbutton;\n  let text = this.state.message;\n  if (isCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Save</p></div>} content={() => this.printRef.current} />;\n    for (let i = 0; i < rep.length; i++) {\n      if (parseInt(cat.value) <= parseInt(rep[i].maxvalue)) {\n        text = rep[i].text;\n        break;\n      }\n    }\n    message = <Fragment>\r\n                <div className=\"answer-value\">\r\n                    <ResultText className=\"answer-value-text\" completed={isCompleted}>Your result is : </ResultText>\r\n                    <ResultText className=\"answer-value-value\" completed={isCompleted}>{cat.value}</ResultText>\r\n                </div>\r\n                <Result className=\"answer-text\" completed={isCompleted}>\r\n                    {text.split('\\n').map(item => item + \" \")}\r\n                </Result>\r\n               \r\n                </Fragment>;\n  } else {\n    message = <Result className=\"answer-text\">\r\n                {text}\r\n        </Result>;\n  }\n  if (this.state.btn.checked) {\n    result = <Fragment>\r\n                <ToPrint ref={this.printRef} title={this.props.title}>\r\n                    <Result className=\"answer\" completed={isCompleted} shown={this.state.btn.checked}>\r\n                      {message}\r\n                    </Result>\r\n                </ToPrint>\r\n                {printbutton}\r\n            </Fragment>;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                {result}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Skillsoft/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n            <td className=\"question-text\">{this.state.question.text}</td>\r\n            <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

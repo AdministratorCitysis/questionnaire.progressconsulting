@@ -1,0 +1,271 @@
+Compiled successfully!
+
+You can now view questionnaire.progressconsulting in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://192.168.50.181:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\react-dev-utils\ModuleScopePlugin.js:32
+          request.descriptionFileRoot.indexOf('/node_modules/') !== -1 ||
+                                      ^
+
+TypeError: Cannot read properties of undefined (reading 'indexOf')
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\react-dev-utils\ModuleScopePlugin.js:32:39
+    at Hook.eval [as callAsync] (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:52:1)
+    at Resolver.doResolve (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\Resolver.js:715:16)
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\TryNextPlugin.js:32:14
+    at _next0 (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:113:1)
+    at eval (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:135:1)
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:40:47
+    at Hook.eval [as callAsync] (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:127:1)
+    at Resolver.doResolve (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\Resolver.js:715:16)
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\ConditionalPlugin.js:42:14
+    at Hook.eval [as callAsync] (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:22:1)
+    at Resolver.doResolve (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\Resolver.js:715:16)
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\NextPlugin.js:30:14
+    at _next0 (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:8:1)
+    at eval (eval at create (C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:30:1)
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:64:16
+    at C:\Users\P70515\Projets\questionnaire.progressconsulting\node_modules\enhanced-resolve\lib\DescriptionFileUtils.js:152:14
+Failed to compile.
+
+Error: Cannot find module 'util-deprecate'
+Require stack:
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\utils.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\postcss-import-parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\index.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\cjs.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\loadLoader.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\LoaderRunner.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack\lib\NormalModule.js    
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack-manifest-plugin\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\config\webpack.config.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\scripts\start.js 
+WARNING in [eslint] 
+src\Components\Creativite\Components\Answer.js
+  Line 50:7:  'StickValueMobile' is assigned a value but never used  no-unused-vars
+
+ERROR in ./node_modules/font-awesome/css/font-awesome.min.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./node_modules/font-awesome/css/font-awesome.min.css)
+Module build failed (from ./node_modules/css-loader/dist/cjs.js):
+Error: Cannot find module 'util-deprecate'
+Require stack:
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\utils.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\postcss-import-parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\index.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\cjs.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\loadLoader.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\LoaderRunner.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack\lib\NormalModule.js    
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack-manifest-plugin\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\config\webpack.config.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\scripts\start.js 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js:13:42)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js:5:38)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js:5:41)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/css-loader/dist/cjs.js):
+Error: Cannot find module 'util-deprecate'
+Require stack:
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\utils.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\postcss-import-parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\index.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\cjs.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\loadLoader.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\LoaderRunner.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack\lib\NormalModule.js    
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack-manifest-plugin\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\config\webpack.config.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\scripts\start.js 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js:13:42)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js:5:38)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js:5:41)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+ERROR in ./src/index.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css)
+Module build failed (from ./node_modules/css-loader/dist/cjs.js):
+Error: Cannot find module 'util-deprecate'
+Require stack:
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\utils.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\postcss-import-parser.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\plugins\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\index.js       
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\css-loader\dist\cjs.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\loadLoader.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\loader-runner\lib\LoaderRunner.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack\lib\NormalModule.js    
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\webpack-manifest-plugin\dist\index.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\config\webpack.config.js
+- C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\react-scripts\scripts\start.js 
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\selectors\attribute.js:16:17)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\parser.js:13:42)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\processor.js:5:38)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\node_modules\postcss-selector-parser\dist\index.js:5:41)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.require (node:internal/modules/cjs/loader:1504:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\P70515\Projets\questionnaire.progressconsulting\frontend\node_modules\postcss-modules-local-by-default\src\index.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+webpack compiled with 3 errors and 1 warning

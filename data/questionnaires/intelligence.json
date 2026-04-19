@@ -1,0 +1,2973 @@
+{
+  "routePath": "/intelligence",
+  "routeComponent": "Intelligence",
+  "routeImportSource": "./Components/Intelligence",
+  "extractionTimestamp": "2026-04-19T10:06:59.671Z",
+  "sourceFiles": [
+    "src/Components/Intelligence.js",
+    "src/Components/Intelligence/components/Answer.js",
+    "src/Components/Intelligence/components/Categorie.js",
+    "src/Components/Intelligence/components/Categories.js",
+    "src/Components/Intelligence/components/Header.js",
+    "src/Components/Intelligence/components/Possibilites.js",
+    "src/Components/Intelligence/components/Question.js",
+    "src/Components/Intelligence/components/Questionnaire.js",
+    "src/Components/Intelligence/components/Questions.js",
+    "src/Components/Intelligence/components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "titre": "Intelligence émotionnelle",
+      "answers": [
+        {
+          "id": 1,
+          "number": 1,
+          "text": "Jamais",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": 2,
+          "text": "Rarement",
+          "value": 1
+        },
+        {
+          "id": 3,
+          "number": 3,
+          "text": "Parfois",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "number": 4,
+          "text": "Souvent",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "number": 5,
+          "text": "Toujours",
+          "value": 4
+        }
+      ],
+      "reponses": [
+        {
+          "maxvalue": 24,
+          "text": "Aire de développement: nécessite votre attention"
+        },
+        {
+          "maxvalue": 35,
+          "text": "Fonctionnement efficace : mérite d'être renforcé"
+        },
+        {
+          "maxvalue": 40,
+          "text": "Véritable compétence: à utiliser comme un levier pour développer votre air de développement"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "Conscience de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Mes émotions impactent les gens autour de moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve facile de mettre des mots sur mes émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je suis facilement affecté par des évènements externes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je reconnais quand je vais me mettre en colère",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je m'ouvre facilement aux autres de mes sentiments sincères",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Il peut arriver que je me parle pour modifier mes états émotifs",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Même si je suis énervé, je reste conscient de ce qui se passe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'arrive à séparer mes pensées de mes sentiments si je les examine",
+              "value": "",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Maîtrise de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Je prends la resposabilités de mes réactions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Il est aisé pour moi de me définir des objectifs et de m'y tenir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je me décrirais comme une personne équilibrée émotionnellement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je suis quelqu'un de patient",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je sais accepter les commentaires critiques sans me sentir fâché",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Même dans les moments stressants, je maintiens mon sang froid",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je contrôle les envies de choses qui pourraient faire baisser mon bien-être",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je dirige mon énergie vers des activités créatives",
+              "value": "",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Conscience sociale",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 21,
+              "text": "Je considère l'impact de mes actions sur les autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Si l'état d'esprit d'une personne change, je le sens immédiatement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je suis capable d'annoncer de mauvaises nouvelles aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "En règle générale, je comprends ce que les autres ressentent",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Mes amis me confient des choses intimes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je comprends que les plans d'autres personnes peuvent changer, je m'adapte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "J'ai une vision positive des autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Gestion des relations",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 31,
+              "text": "Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je fournis des conseils et du soutien aux autres, au besoin",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je partage facilement des sentiments intimes aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Je suis un bon motivateur d'équipe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "On dit de moi que je suis une personne joyeuse et amusante",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je me fais facilement de nouveaux amis",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Aider les autres me fait plaisir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'aime qu'on sache qu'on peut compter sur moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je suis capable de calmer quelqu'un qui est bouleversé",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "category-1",
+        "title": "Conscience de soi",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire",
+            "raw": {
+              "id": 1,
+              "text": "Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions",
+            "raw": {
+              "id": 2,
+              "text": "Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Mes émotions impactent les gens autour de moi",
+            "raw": {
+              "id": 3,
+              "text": "Mes émotions impactent les gens autour de moi",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Je trouve facile de mettre des mots sur mes émotions",
+            "raw": {
+              "id": 4,
+              "text": "Je trouve facile de mettre des mots sur mes émotions",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Je suis facilement affecté par des évènements externes",
+            "raw": {
+              "id": 5,
+              "text": "Je suis facilement affecté par des évènements externes",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Je reconnais quand je vais me mettre en colère",
+            "raw": {
+              "id": 6,
+              "text": "Je reconnais quand je vais me mettre en colère",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Je m'ouvre facilement aux autres de mes sentiments sincères",
+            "raw": {
+              "id": 7,
+              "text": "Je m'ouvre facilement aux autres de mes sentiments sincères",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Il peut arriver que je me parle pour modifier mes états émotifs",
+            "raw": {
+              "id": 8,
+              "text": "Il peut arriver que je me parle pour modifier mes états émotifs",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Même si je suis énervé, je reste conscient de ce qui se passe",
+            "raw": {
+              "id": 9,
+              "text": "Même si je suis énervé, je reste conscient de ce qui se passe",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "J'arrive à séparer mes pensées de mes sentiments si je les examine",
+            "raw": {
+              "id": 10,
+              "text": "J'arrive à séparer mes pensées de mes sentiments si je les examine",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": 1,
+            "text": "Jamais",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": 2,
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": 3,
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": 4,
+            "text": "Souvent",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": 5,
+            "text": "Toujours",
+            "value": 4
+          }
+        ],
+        "rawCategory": {
+          "id": 1,
+          "name": "Conscience de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Mes émotions impactent les gens autour de moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve facile de mettre des mots sur mes émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je suis facilement affecté par des évènements externes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je reconnais quand je vais me mettre en colère",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je m'ouvre facilement aux autres de mes sentiments sincères",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Il peut arriver que je me parle pour modifier mes états émotifs",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Même si je suis énervé, je reste conscient de ce qui se passe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'arrive à séparer mes pensées de mes sentiments si je les examine",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "category-2",
+        "title": "Maîtrise de soi",
+        "order": 2,
+        "questions": [
+          {
+            "id": 11,
+            "text": "Je prends la resposabilités de mes réactions",
+            "raw": {
+              "id": 11,
+              "text": "Je prends la resposabilités de mes réactions",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Il est aisé pour moi de me définir des objectifs et de m'y tenir",
+            "raw": {
+              "id": 12,
+              "text": "Il est aisé pour moi de me définir des objectifs et de m'y tenir",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Je me décrirais comme une personne équilibrée émotionnellement",
+            "raw": {
+              "id": 13,
+              "text": "Je me décrirais comme une personne équilibrée émotionnellement",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Je suis quelqu'un de patient",
+            "raw": {
+              "id": 14,
+              "text": "Je suis quelqu'un de patient",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Je sais accepter les commentaires critiques sans me sentir fâché",
+            "raw": {
+              "id": 15,
+              "text": "Je sais accepter les commentaires critiques sans me sentir fâché",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Même dans les moments stressants, je maintiens mon sang froid",
+            "raw": {
+              "id": 16,
+              "text": "Même dans les moments stressants, je maintiens mon sang froid",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter",
+            "raw": {
+              "id": 17,
+              "text": "Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace",
+            "raw": {
+              "id": 18,
+              "text": "J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Je contrôle les envies de choses qui pourraient faire baisser mon bien-être",
+            "raw": {
+              "id": 19,
+              "text": "Je contrôle les envies de choses qui pourraient faire baisser mon bien-être",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Je dirige mon énergie vers des activités créatives",
+            "raw": {
+              "id": 20,
+              "text": "Je dirige mon énergie vers des activités créatives",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": 1,
+            "text": "Jamais",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": 2,
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": 3,
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": 4,
+            "text": "Souvent",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": 5,
+            "text": "Toujours",
+            "value": 4
+          }
+        ],
+        "rawCategory": {
+          "id": 2,
+          "name": "Maîtrise de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Je prends la resposabilités de mes réactions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Il est aisé pour moi de me définir des objectifs et de m'y tenir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je me décrirais comme une personne équilibrée émotionnellement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je suis quelqu'un de patient",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je sais accepter les commentaires critiques sans me sentir fâché",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Même dans les moments stressants, je maintiens mon sang froid",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je contrôle les envies de choses qui pourraient faire baisser mon bien-être",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je dirige mon énergie vers des activités créatives",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "category-3",
+        "title": "Conscience sociale",
+        "order": 3,
+        "questions": [
+          {
+            "id": 21,
+            "text": "Je considère l'impact de mes actions sur les autres",
+            "raw": {
+              "id": 21,
+              "text": "Je considère l'impact de mes actions sur les autres",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver",
+            "raw": {
+              "id": 22,
+              "text": "Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Si l'état d'esprit d'une personne change, je le sens immédiatement",
+            "raw": {
+              "id": 23,
+              "text": "Si l'état d'esprit d'une personne change, je le sens immédiatement",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Je suis capable d'annoncer de mauvaises nouvelles aux autres",
+            "raw": {
+              "id": 24,
+              "text": "Je suis capable d'annoncer de mauvaises nouvelles aux autres",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "En règle générale, je comprends ce que les autres ressentent",
+            "raw": {
+              "id": 25,
+              "text": "En règle générale, je comprends ce que les autres ressentent",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Mes amis me confient des choses intimes",
+            "raw": {
+              "id": 26,
+              "text": "Mes amis me confient des choses intimes",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer",
+            "raw": {
+              "id": 27,
+              "text": "Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire",
+            "raw": {
+              "id": 28,
+              "text": "Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Je comprends que les plans d'autres personnes peuvent changer, je m'adapte",
+            "raw": {
+              "id": 29,
+              "text": "Je comprends que les plans d'autres personnes peuvent changer, je m'adapte",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "J'ai une vision positive des autres",
+            "raw": {
+              "id": 30,
+              "text": "J'ai une vision positive des autres",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": 1,
+            "text": "Jamais",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": 2,
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": 3,
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": 4,
+            "text": "Souvent",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": 5,
+            "text": "Toujours",
+            "value": 4
+          }
+        ],
+        "rawCategory": {
+          "id": 3,
+          "name": "Conscience sociale",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 21,
+              "text": "Je considère l'impact de mes actions sur les autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Si l'état d'esprit d'une personne change, je le sens immédiatement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je suis capable d'annoncer de mauvaises nouvelles aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "En règle générale, je comprends ce que les autres ressentent",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Mes amis me confient des choses intimes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je comprends que les plans d'autres personnes peuvent changer, je m'adapte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "J'ai une vision positive des autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "category-4",
+        "title": "Gestion des relations",
+        "order": 4,
+        "questions": [
+          {
+            "id": 31,
+            "text": "Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes",
+            "raw": {
+              "id": 31,
+              "text": "Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Je fournis des conseils et du soutien aux autres, au besoin",
+            "raw": {
+              "id": 32,
+              "text": "Je fournis des conseils et du soutien aux autres, au besoin",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Je partage facilement des sentiments intimes aux autres",
+            "raw": {
+              "id": 33,
+              "text": "Je partage facilement des sentiments intimes aux autres",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Je suis un bon motivateur d'équipe",
+            "raw": {
+              "id": 34,
+              "text": "Je suis un bon motivateur d'équipe",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "On dit de moi que je suis une personne joyeuse et amusante",
+            "raw": {
+              "id": 35,
+              "text": "On dit de moi que je suis une personne joyeuse et amusante",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Je me fais facilement de nouveaux amis",
+            "raw": {
+              "id": 36,
+              "text": "Je me fais facilement de nouveaux amis",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)",
+            "raw": {
+              "id": 37,
+              "text": "J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Aider les autres me fait plaisir",
+            "raw": {
+              "id": 38,
+              "text": "Aider les autres me fait plaisir",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "J'aime qu'on sache qu'on peut compter sur moi",
+            "raw": {
+              "id": 39,
+              "text": "J'aime qu'on sache qu'on peut compter sur moi",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Je suis capable de calmer quelqu'un qui est bouleversé",
+            "raw": {
+              "id": 40,
+              "text": "Je suis capable de calmer quelqu'un qui est bouleversé",
+              "value": "",
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": 1,
+                "text": "Jamais",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": 2,
+                "text": "Rarement",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": 3,
+                "text": "Parfois",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": 4,
+                "text": "Souvent",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": 5,
+                "text": "Toujours",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": 1,
+            "text": "Jamais",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": 2,
+            "text": "Rarement",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": 3,
+            "text": "Parfois",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": 4,
+            "text": "Souvent",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": 5,
+            "text": "Toujours",
+            "value": 4
+          }
+        ],
+        "rawCategory": {
+          "id": 4,
+          "name": "Gestion des relations",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 31,
+              "text": "Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je fournis des conseils et du soutien aux autres, au besoin",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je partage facilement des sentiments intimes aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Je suis un bon motivateur d'équipe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "On dit de moi que je suis une personne joyeuse et amusante",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je me fais facilement de nouveaux amis",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Aider les autres me fait plaisir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'aime qu'on sache qu'on peut compter sur moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je suis capable de calmer quelqu'un qui est bouleversé",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": "Conscience de soi",
+        "raw": {
+          "id": 1,
+          "name": "Conscience de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 1,
+              "text": "Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "text": "Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "text": "Mes émotions impactent les gens autour de moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "text": "Je trouve facile de mettre des mots sur mes émotions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "text": "Je suis facilement affecté par des évènements externes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "text": "Je reconnais quand je vais me mettre en colère",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "text": "Je m'ouvre facilement aux autres de mes sentiments sincères",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "text": "Il peut arriver que je me parle pour modifier mes états émotifs",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 9,
+              "text": "Même si je suis énervé, je reste conscient de ce qui se passe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 10,
+              "text": "J'arrive à séparer mes pensées de mes sentiments si je les examine",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Maîtrise de soi",
+        "raw": {
+          "id": 2,
+          "name": "Maîtrise de soi",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 11,
+              "text": "Je prends la resposabilités de mes réactions",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 12,
+              "text": "Il est aisé pour moi de me définir des objectifs et de m'y tenir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 13,
+              "text": "Je me décrirais comme une personne équilibrée émotionnellement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 14,
+              "text": "Je suis quelqu'un de patient",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 15,
+              "text": "Je sais accepter les commentaires critiques sans me sentir fâché",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 16,
+              "text": "Même dans les moments stressants, je maintiens mon sang froid",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 17,
+              "text": "Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 18,
+              "text": "J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 19,
+              "text": "Je contrôle les envies de choses qui pourraient faire baisser mon bien-être",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 20,
+              "text": "Je dirige mon énergie vers des activités créatives",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Conscience sociale",
+        "raw": {
+          "id": 3,
+          "name": "Conscience sociale",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 21,
+              "text": "Je considère l'impact de mes actions sur les autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 22,
+              "text": "Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 23,
+              "text": "Si l'état d'esprit d'une personne change, je le sens immédiatement",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 24,
+              "text": "Je suis capable d'annoncer de mauvaises nouvelles aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 25,
+              "text": "En règle générale, je comprends ce que les autres ressentent",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 26,
+              "text": "Mes amis me confient des choses intimes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 27,
+              "text": "Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 28,
+              "text": "Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 29,
+              "text": "Je comprends que les plans d'autres personnes peuvent changer, je m'adapte",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 30,
+              "text": "J'ai une vision positive des autres",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Gestion des relations",
+        "raw": {
+          "id": 4,
+          "name": "Gestion des relations",
+          "completed": false,
+          "value": "",
+          "message": "Veuillez compléter l'ensemble des questions pour connaître votre score",
+          "questions": [
+            {
+              "id": 31,
+              "text": "Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 32,
+              "text": "Je fournis des conseils et du soutien aux autres, au besoin",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 33,
+              "text": "Je partage facilement des sentiments intimes aux autres",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 34,
+              "text": "Je suis un bon motivateur d'équipe",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 35,
+              "text": "On dit de moi que je suis une personne joyeuse et amusante",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 36,
+              "text": "Je me fais facilement de nouveaux amis",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 37,
+              "text": "J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 38,
+              "text": "Aider les autres me fait plaisir",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 39,
+              "text": "J'aime qu'on sache qu'on peut compter sur moi",
+              "value": "",
+              "completed": false
+            },
+            {
+              "id": 40,
+              "text": "Je suis capable de calmer quelqu'un qui est bouleversé",
+              "value": "",
+              "completed": false
+            }
+          ]
+        }
+      }
+    ],
+    "questionToGroupMapping": [],
+    "responseValueRules": [],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.reponses[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 24,
+            "text": "Aire de développement: nécessite votre attention"
+          },
+          {
+            "maxvalue": 35,
+            "text": "Fonctionnement efficace : mérite d'être renforcé"
+          },
+          {
+            "maxvalue": 40,
+            "text": "Véritable compétence: à utiliser comme un levier pour développer votre air de développement"
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Intelligence/components/Questions.js::GetAnswerValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Question.js::handleGetValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::SetQuestionCompleted",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "SetQuestionCompleted = data => {\n  let newcategories = this.state.questionnaire.categories;\n  let catIndex = newcategories.findIndex(element => element.id === data.catId);\n  let newquestions = newcategories[catIndex].questions;\n  const questionIndex = newquestions.findIndex(element => element.id === data.questionId);\n  newquestions[questionIndex].completed = true;\n  newcategories[catIndex].questions = newquestions;\n  newcategories[catIndex].completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories = newcategories;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  const AllCompleted = this.state.questionnaire.categories.every(element => element.completed === true);\n  let printbutton;\n  if (AllCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  }\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                <ToPrint questionnaire={this.state.questionnaire} ref={this.printRef}></ToPrint>\r\n                {printbutton}\r\n            </div>;\n}"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    questionnaire: {\n      titre: \"Intelligence émotionnelle\",\n      answers: [{\n        id: 1,\n        number: 1,\n        text: \"Jamais\",\n        value: 0\n      }, {\n        id: 2,\n        number: 2,\n        text: \"Rarement\",\n        value: 1\n      }, {\n        id: 3,\n        number: 3,\n        text: \"Parfois\",\n        value: 2\n      }, {\n        id: 4,\n        number: 4,\n        text: \"Souvent\",\n        value: 3\n      }, {\n        id: 5,\n        number: 5,\n        text: \"Toujours\",\n        value: 4\n      }],\n      reponses: [{\n        maxvalue: 24,\n        text: \"Aire de développement: nécessite votre attention\"\n      }, {\n        maxvalue: 35,\n        text: \"Fonctionnement efficace : mérite d'être renforcé\"\n      }, {\n        maxvalue: 40,\n        text: \"Véritable compétence: à utiliser comme un levier pour développer votre air de développement\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"Conscience de soi\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Mes émotions impactent les gens autour de moi\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je trouve facile de mettre des mots sur mes émotions\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Je suis facilement affecté par des évènements externes\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je reconnais quand je vais me mettre en colère\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Je m'ouvre facilement aux autres de mes sentiments sincères\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Il peut arriver que je me parle pour modifier mes états émotifs\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Même si je suis énervé, je reste conscient de ce qui se passe\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"J'arrive à séparer mes pensées de mes sentiments si je les examine\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 2,\n        name: \"Maîtrise de soi\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 11,\n          text: \"Je prends la resposabilités de mes réactions\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Il est aisé pour moi de me définir des objectifs et de m'y tenir\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je me décrirais comme une personne équilibrée émotionnellement\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je suis quelqu'un de patient\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je sais accepter les commentaires critiques sans me sentir fâché\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Même dans les moments stressants, je maintiens mon sang froid\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je contrôle les envies de choses qui pourraient faire baisser mon bien-être\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je dirige mon énergie vers des activités créatives\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 3,\n        name: \"Conscience sociale\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 21,\n          text: \"Je considère l'impact de mes actions sur les autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Si l'état d'esprit d'une personne change, je le sens immédiatement\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je suis capable d'annoncer de mauvaises nouvelles aux autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"En règle générale, je comprends ce que les autres ressentent\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Mes amis me confient des choses intimes\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je comprends que les plans d'autres personnes peuvent changer, je m'adapte\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"J'ai une vision positive des autres\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 4,\n        name: \"Gestion des relations\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 31,\n          text: \"Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Je fournis des conseils et du soutien aux autres, au besoin\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je partage facilement des sentiments intimes aux autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Je suis un bon motivateur d'équipe\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"On dit de moi que je suis une personne joyeuse et amusante\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Je me fais facilement de nouveaux amis\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Aider les autres me fait plaisir\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"J'aime qu'on sache qu'on peut compter sur moi\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je suis capable de calmer quelqu'un qui est bouleversé\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::SetCategorieMessage",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "SetCategorieMessage = data => {\n  const reponses = this.state.questionnaire.reponses;\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      if (cat.completed) {\n        console.log(\"je rentre dans le if completed\");\n        for (let i = 0; i < reponses.length; i++) {\n          console.log(\"valeur categorie: \", cat.value);\n          console.log(\"valeur reponses: \", reponses[i].maxvalue);\n          if (parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\n            return data.message = \"Score: \" + cat.value + \" - \" + reponses[i].text;\n          }\n        }\n      }\n    }\n    return true;\n  }));\n};"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::SetCategorieValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return this.SetCategorieMessage(cat);\n  }));\n};"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::SetCategorieMessage",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "SetCategorieMessage = data => {\n  const reponses = this.state.questionnaire.reponses;\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      if (cat.completed) {\n        console.log(\"je rentre dans le if completed\");\n        for (let i = 0; i < reponses.length; i++) {\n          console.log(\"valeur categorie: \", cat.value);\n          console.log(\"valeur reponses: \", reponses[i].maxvalue);\n          if (parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\n            return data.message = \"Score: \" + cat.value + \" - \" + reponses[i].text;\n          }\n        }\n      }\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Questionnaire.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  const AllCompleted = this.state.questionnaire.categories.every(element => element.completed === true);\n  let printbutton;\n  if (AllCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  }\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                <ToPrint questionnaire={this.state.questionnaire} ref={this.printRef}></ToPrint>\r\n                {printbutton}\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Intelligence/components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  let result;\n  let message = <div className=\"answer\">\r\n                                <p className=\"answer-text\">{this.props.categorie.message}</p>\r\n                            </div>;\n  if (this.state.btn.checked) {\n    result = message;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Intelligence.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Intelligence.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    questionnaire: {\n      titre: \"Intelligence émotionnelle\",\n      answers: [{\n        id: 1,\n        number: 1,\n        text: \"Jamais\",\n        value: 0\n      }, {\n        id: 2,\n        number: 2,\n        text: \"Rarement\",\n        value: 1\n      }, {\n        id: 3,\n        number: 3,\n        text: \"Parfois\",\n        value: 2\n      }, {\n        id: 4,\n        number: 4,\n        text: \"Souvent\",\n        value: 3\n      }, {\n        id: 5,\n        number: 5,\n        text: \"Toujours\",\n        value: 4\n      }],\n      reponses: [{\n        maxvalue: 24,\n        text: \"Aire de développement: nécessite votre attention\"\n      }, {\n        maxvalue: 35,\n        text: \"Fonctionnement efficace : mérite d'être renforcé\"\n      }, {\n        maxvalue: 40,\n        text: \"Véritable compétence: à utiliser comme un levier pour développer votre air de développement\"\n      }],\n      categories: [{\n        id: 1,\n        name: \"Conscience de soi\",\n        completed: false,\n        value: '',\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 1,\n          text: \"Mes émotions sont claires pour moi en règle générale, j'arrive à mettre des mots dessus et à les décrire\",\n          value: '',\n          completed: false\n        }, {\n          id: 2,\n          text: \"Je suis en mesure de relever des changements physiologiques lorsque je ressens des émotions\",\n          value: '',\n          completed: false\n        }, {\n          id: 3,\n          text: \"Mes émotions impactent les gens autour de moi\",\n          value: '',\n          completed: false\n        }, {\n          id: 4,\n          text: \"Je trouve facile de mettre des mots sur mes émotions\",\n          value: '',\n          completed: false\n        }, {\n          id: 5,\n          text: \"Je suis facilement affecté par des évènements externes\",\n          value: '',\n          completed: false\n        }, {\n          id: 6,\n          text: \"Je reconnais quand je vais me mettre en colère\",\n          value: '',\n          completed: false\n        }, {\n          id: 7,\n          text: \"Je m'ouvre facilement aux autres de mes sentiments sincères\",\n          value: '',\n          completed: false\n        }, {\n          id: 8,\n          text: \"Il peut arriver que je me parle pour modifier mes états émotifs\",\n          value: '',\n          completed: false\n        }, {\n          id: 9,\n          text: \"Même si je suis énervé, je reste conscient de ce qui se passe\",\n          value: '',\n          completed: false\n        }, {\n          id: 10,\n          text: \"J'arrive à séparer mes pensées de mes sentiments si je les examine\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 2,\n        name: \"Maîtrise de soi\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 11,\n          text: \"Je prends la resposabilités de mes réactions\",\n          value: '',\n          completed: false\n        }, {\n          id: 12,\n          text: \"Il est aisé pour moi de me définir des objectifs et de m'y tenir\",\n          value: '',\n          completed: false\n        }, {\n          id: 13,\n          text: \"Je me décrirais comme une personne équilibrée émotionnellement\",\n          value: '',\n          completed: false\n        }, {\n          id: 14,\n          text: \"Je suis quelqu'un de patient\",\n          value: '',\n          completed: false\n        }, {\n          id: 15,\n          text: \"Je sais accepter les commentaires critiques sans me sentir fâché\",\n          value: '',\n          completed: false\n        }, {\n          id: 16,\n          text: \"Même dans les moments stressants, je maintiens mon sang froid\",\n          value: '',\n          completed: false\n        }, {\n          id: 17,\n          text: \"Si je ne suis pas impacté directement par un problème, je ne le laisse pas m'affecter\",\n          value: '',\n          completed: false\n        }, {\n          id: 18,\n          text: \"J'arrive à me freiner lorsque je ressens de la colère pour quelqu'un, je reste efficace\",\n          value: '',\n          completed: false\n        }, {\n          id: 19,\n          text: \"Je contrôle les envies de choses qui pourraient faire baisser mon bien-être\",\n          value: '',\n          completed: false\n        }, {\n          id: 20,\n          text: \"Je dirige mon énergie vers des activités créatives\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 3,\n        name: \"Conscience sociale\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 21,\n          text: \"Je considère l'impact de mes actions sur les autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 22,\n          text: \"Je peux rapidement voir si les personnes autour de moi sont en train de s'énerver\",\n          value: '',\n          completed: false\n        }, {\n          id: 23,\n          text: \"Si l'état d'esprit d'une personne change, je le sens immédiatement\",\n          value: '',\n          completed: false\n        }, {\n          id: 24,\n          text: \"Je suis capable d'annoncer de mauvaises nouvelles aux autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 25,\n          text: \"En règle générale, je comprends ce que les autres ressentent\",\n          value: '',\n          completed: false\n        }, {\n          id: 26,\n          text: \"Mes amis me confient des choses intimes\",\n          value: '',\n          completed: false\n        }, {\n          id: 27,\n          text: \"Je sais difficilement me contrôler lorsque je vois quelqu'un pleurer\",\n          value: '',\n          completed: false\n        }, {\n          id: 28,\n          text: \"Je sais faire la différence entre les moments où il faut parler... et ceux où il faut se taire\",\n          value: '',\n          completed: false\n        }, {\n          id: 29,\n          text: \"Je comprends que les plans d'autres personnes peuvent changer, je m'adapte\",\n          value: '',\n          completed: false\n        }, {\n          id: 30,\n          text: \"J'ai une vision positive des autres\",\n          value: '',\n          completed: false\n        }]\n      }, {\n        id: 4,\n        name: \"Gestion des relations\",\n        completed: false,\n        value: \"\",\n        message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n        questions: [{\n          id: 31,\n          text: \"Je me retrouve à agir comme médiateur dans des tensions entre d'autres personnes\",\n          value: '',\n          completed: false\n        }, {\n          id: 32,\n          text: \"Je fournis des conseils et du soutien aux autres, au besoin\",\n          value: '',\n          completed: false\n        }, {\n          id: 33,\n          text: \"Je partage facilement des sentiments intimes aux autres\",\n          value: '',\n          completed: false\n        }, {\n          id: 34,\n          text: \"Je suis un bon motivateur d'équipe\",\n          value: '',\n          completed: false\n        }, {\n          id: 35,\n          text: \"On dit de moi que je suis une personne joyeuse et amusante\",\n          value: '',\n          completed: false\n        }, {\n          id: 36,\n          text: \"Je me fais facilement de nouveaux amis\",\n          value: '',\n          completed: false\n        }, {\n          id: 37,\n          text: \"J'exprime clairement les pensées d'un groupe. (Je suis capable de synthèse)\",\n          value: '',\n          completed: false\n        }, {\n          id: 38,\n          text: \"Aider les autres me fait plaisir\",\n          value: '',\n          completed: false\n        }, {\n          id: 39,\n          text: \"J'aime qu'on sache qu'on peut compter sur moi\",\n          value: '',\n          completed: false\n        }, {\n          id: 40,\n          text: \"Je suis capable de calmer quelqu'un qui est bouleversé\",\n          value: '',\n          completed: false\n        }]\n      }]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questionnaire.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = data => {\n  let newcategories = this.state.questionnaire.categories;\n  let catIndex = newcategories.findIndex(element => element.id === data.catId);\n  let newquestions = newcategories[catIndex].questions;\n  const questionIndex = newquestions.findIndex(element => element.id === data.questionId);\n  newquestions[questionIndex].completed = true;\n  newcategories[catIndex].questions = newquestions;\n  newcategories[catIndex].completed = newquestions.every(question => question.completed === true);\n  let newquestionnaire = this.state.questionnaire;\n  newquestionnaire.categories = newcategories;\n  this.setState({\n    questionnaire: newquestionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questionnaire.js",
+        "name": "SetCategorieValue",
+        "code": "SetCategorieValue = data => {\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      cat.value = parseInt(data.value);\n    }\n    return this.SetCategorieMessage(cat);\n  }));\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questionnaire.js",
+        "name": "SetCategorieMessage",
+        "code": "SetCategorieMessage = data => {\n  const reponses = this.state.questionnaire.reponses;\n  this.setState(state => state.questionnaire.categories.map(cat => {\n    if (cat.id === data.id) {\n      if (cat.completed) {\n        console.log(\"je rentre dans le if completed\");\n        for (let i = 0; i < reponses.length; i++) {\n          console.log(\"valeur categorie: \", cat.value);\n          console.log(\"valeur reponses: \", reponses[i].maxvalue);\n          if (parseInt(cat.value) <= parseInt(reponses[i].maxvalue)) {\n            return data.message = \"Score: \" + cat.value + \" - \" + reponses[i].text;\n          }\n        }\n      }\n    }\n    return true;\n  }));\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  const AllCompleted = this.state.questionnaire.categories.every(element => element.completed === true);\n  let printbutton;\n  if (AllCompleted) {\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  }\n  return <div className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Categories data={this.state.questionnaire} setcategorievalue={this.SetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />\r\n                <ToPrint questionnaire={this.state.questionnaire} ref={this.printRef}></ToPrint>\r\n                {printbutton}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categories.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categories.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = data => {\n  this.props.setcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categories.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const categories = this.props.data.categories;\n  return <div className=\"categories\">\r\n                {categories.map((cat, index) => <Categorie key={index} categorie={cat} data={data} getcategorievalue={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} />)}\r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.questionnaire.titre}</p>\r\n                </div>\r\n                {this.props.questionnaire.categories.map((categorie, index) => <div key={index} className=\"p10\">\r\n                    <div className=\"derkblue fs30 bold w100 text-middle\">\r\n                        {categorie.name}\r\n                    </div>\r\n                    <div className=\"answer-div\">\r\n                    <div className=\"answer\">\r\n                                <p className=\"answer-text\">{categorie.message}</p>\r\n                            </div>\r\n                    </div>\r\n                </div>)}\r\n                </div>\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categorie.js",
+        "name": "GetCategorieValue",
+        "code": "GetCategorieValue = value => {\n  let data = {\n    value,\n    id: this.props.categorie.id\n  };\n  this.props.getcategorievalue(data);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categorie.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  let data = {\n    catId: this.props.categorie.id,\n    questionId: id\n  };\n  this.props.setquestioncompleted(data);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Categorie.js",
+        "name": "render",
+        "code": "render() {\n  const data = this.props.data;\n  const titre = this.props.categorie.name;\n  const questions = this.props.categorie.questions;\n  return <div className=\"categorie\">\r\n                <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                <p>{titre}</p>\r\n                </div>   \r\n                <Questions questions={questions} data={data} setmessage={this.GetCategorieValue} setquestioncompleted={this.SetQuestionCompleted} /> \r\n                </div>\r\n                <Answer categorie={this.props.categorie} answers={data.answers} />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questions.js",
+        "name": "GetAnswerValue",
+        "code": "GetAnswerValue = value => {\n  let cnt = parseInt(this.state.counter);\n  cnt += parseInt(value);\n  this.setState({\n    counter: cnt\n  });\n  this.props.setmessage(cnt);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questions.js",
+        "name": "SetQuestionCompleted",
+        "code": "SetQuestionCompleted = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const data = this.props.data;\n  return <table className=\"questions-table\">\r\n                    <tbody>\r\n        {questions.map((question, index) => <Question key={index} question={question} data={data} getanswervalue={this.GetAnswerValue} setquestioncompleted={this.SetQuestionCompleted} />)}     \r\n                    </tbody>\r\n                </table>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  let result;\n  let message = <div className=\"answer\">\r\n                                <p className=\"answer-text\">{this.props.categorie.message}</p>\r\n                            </div>;\n  if (this.state.btn.checked) {\n    result = message;\n  } else result = null;\n  return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n}"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Question.js",
+        "name": "handleGetValue",
+        "code": "handleGetValue = value => {\n  let counter = 0;\n  counter -= parseInt(this.state.prevpts);\n  counter += parseInt(value);\n  this.setState({\n    prevpts: value\n  });\n  this.getId(this.state.question.id);\n  this.props.getanswervalue(counter);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  this.props.setquestioncompleted(id);\n};"
+      },
+      {
+        "file": "src/Components/Intelligence/components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.state.question.id} </td>\r\n            <td className=\"question-text\">{this.state.question.text}</td>\r\n            <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" data={this.props.data} handlegetvalue={this.handleGetValue} handletext={this.handleText} question={this.state.question} />          \r\n        </tr>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

@@ -1,0 +1,1861 @@
+{
+  "routePath": "/beslissings",
+  "routeComponent": "Beslissings",
+  "routeImportSource": "./Components/Beslissings",
+  "extractionTimestamp": "2026-04-19T10:07:01.189Z",
+  "sourceFiles": [
+    "src/Components/Beslissings.js",
+    "src/Components/Beslissings/Components/Answer.js",
+    "src/Components/Beslissings/Components/Context.js",
+    "src/Components/Beslissings/Components/Header.js",
+    "src/Components/Beslissings/Components/Possibilites.js",
+    "src/Components/Beslissings/Components/Question.js",
+    "src/Components/Beslissings/Components/Questionnaire.js",
+    "src/Components/Beslissings/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Beslissingsvragenlijst",
+      "description": "Laat zien hoe vaak elk van de volgende zaken voor u van toepassing zijn, door het nummer dat u denkt dat bij u past, aan te duiden ",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Hou je van beslissingen nemen?",
+          "value": 0,
+          "categoryId": 1,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Vertrouw je op je buikgevoel bij het nemen van beslissingen?",
+          "value": 0,
+          "categoryId": 2,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Overleg je graag met anderen vooraleer je beslist?",
+          "value": 0,
+          "categoryId": 3,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Blijf je bij je beslissingen, wat er ook gebeurt?",
+          "value": 0,
+          "categoryId": 2,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Wanneer je 1 optie vindt die het maar net doet, laat je het dan bij die ene optie?",
+          "value": 0,
+          "categoryId": 4,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Blijf je rustig als je heel snel beslissingen moet nemen?",
+          "value": 0,
+          "categoryId": 1,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "Heb je het gevoel dat je de dingen onder controle hebt?",
+          "value": 0,
+          "categoryId": 1,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Hoe vaak wordt jouw beslissing bepaald door jouw idealen, ongeacht de praktische moeilijkheden?",
+          "value": 0,
+          "categoryId": 5,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Neem je beslissingen zonder rekening te houden met alle mogelijke implicaties?",
+          "value": 0,
+          "categoryId": 6,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Verander je van gedachten over dingen?",
+          "value": 0,
+          "categoryId": 7,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Neem je de veilige optie als die er is?",
+          "value": 0,
+          "categoryId": 7,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Vermijd je liever beslissingen te nemen als je dat kan?",
+          "value": 0,
+          "categoryId": 1,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Plan je goed vooruit?",
+          "value": 0,
+          "categoryId": 6,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Als je beslissingen neemt, geef je dan eerst de voorkeur aan de ene optie en switch je uiteindelijk naar de andere?",
+          "value": 0,
+          "categoryId": 7,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Blijf je zoeken naar beter, zelfs als je een handelswijze hebt gevonden die zo goed als OK is?",
+          "value": 0,
+          "categoryId": 4,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "Vind je het moeilijk om helder te denken als je in alle haast iets moet beslissen?",
+          "value": 0,
+          "categoryId": 1,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "Ga je door met je eigen ideeën, zelfs als anderen daar anders over denken?",
+          "value": 0,
+          "categoryId": 3,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "Vermijd je advies in te winnen over een beslissing?",
+          "value": 0,
+          "categoryId": 3,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Werk je alle ‘voor’ en ‘tegen’s uit vooraleer je een beslissing neemt?",
+          "value": 0,
+          "categoryId": 6,
+          "reverted": false,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "Hoe vaak zijn in jouw besluitvormingsproces praktische zaken belangrijker dan principes?",
+          "value": 0,
+          "categoryId": 5,
+          "reverted": true,
+          "completed": false
+        },
+        {
+          "id": 21,
+          "text": "Is jouw besluitvorming een weloverwogen logisch proces?",
+          "value": 0,
+          "categoryId": 6,
+          "reverted": false,
+          "completed": false
+        }
+      ],
+      "choices": {
+        "values": [
+          1.666666666666667,
+          3.333333333333333,
+          5,
+          6.666666666666667,
+          8.333333333333332,
+          10
+        ],
+        "list": [
+          {
+            "id": 1,
+            "number": "1",
+            "text": "zeer zelden of nooit"
+          },
+          {
+            "id": 2,
+            "number": "2",
+            "text": "zelden"
+          },
+          {
+            "id": 3,
+            "number": "3",
+            "text": "niet zo vaak"
+          },
+          {
+            "id": 4,
+            "number": "4",
+            "text": "redelijk vaak"
+          },
+          {
+            "id": 5,
+            "number": "5",
+            "text": "vaak"
+          },
+          {
+            "id": 6,
+            "number": "6",
+            "text": "zeer vaak of altijd"
+          }
+        ]
+      },
+      "answers": [],
+      "categories": [
+        {
+          "id": 1,
+          "text": [
+            "Controle"
+          ],
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": [
+            "Instinctiviteit"
+          ],
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": [
+            "Sociale weerstand"
+          ],
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": [
+            "Optimaliseren"
+          ],
+          "value": 0
+        },
+        {
+          "id": 5,
+          "text": [
+            "Principeel"
+          ],
+          "value": 0
+        },
+        {
+          "id": 6,
+          "text": [
+            "Gedegenheid"
+          ],
+          "value": 0
+        },
+        {
+          "id": 7,
+          "text": [
+            "Twijfelen"
+          ],
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Beslissingsvragenlijst",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Hou je van beslissingen nemen?",
+            "raw": {
+              "id": 1,
+              "text": "Hou je van beslissingen nemen?",
+              "value": 0,
+              "categoryId": 1,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 2,
+            "text": "Vertrouw je op je buikgevoel bij het nemen van beslissingen?",
+            "raw": {
+              "id": 2,
+              "text": "Vertrouw je op je buikgevoel bij het nemen van beslissingen?",
+              "value": 0,
+              "categoryId": 2,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 3,
+            "text": "Overleg je graag met anderen vooraleer je beslist?",
+            "raw": {
+              "id": 3,
+              "text": "Overleg je graag met anderen vooraleer je beslist?",
+              "value": 0,
+              "categoryId": 3,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 4,
+            "text": "Blijf je bij je beslissingen, wat er ook gebeurt?",
+            "raw": {
+              "id": 4,
+              "text": "Blijf je bij je beslissingen, wat er ook gebeurt?",
+              "value": 0,
+              "categoryId": 2,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 5,
+            "text": "Wanneer je 1 optie vindt die het maar net doet, laat je het dan bij die ene optie?",
+            "raw": {
+              "id": 5,
+              "text": "Wanneer je 1 optie vindt die het maar net doet, laat je het dan bij die ene optie?",
+              "value": 0,
+              "categoryId": 4,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 6,
+            "text": "Blijf je rustig als je heel snel beslissingen moet nemen?",
+            "raw": {
+              "id": 6,
+              "text": "Blijf je rustig als je heel snel beslissingen moet nemen?",
+              "value": 0,
+              "categoryId": 1,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 7,
+            "text": "Heb je het gevoel dat je de dingen onder controle hebt?",
+            "raw": {
+              "id": 7,
+              "text": "Heb je het gevoel dat je de dingen onder controle hebt?",
+              "value": 0,
+              "categoryId": 1,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 8,
+            "text": "Hoe vaak wordt jouw beslissing bepaald door jouw idealen, ongeacht de praktische moeilijkheden?",
+            "raw": {
+              "id": 8,
+              "text": "Hoe vaak wordt jouw beslissing bepaald door jouw idealen, ongeacht de praktische moeilijkheden?",
+              "value": 0,
+              "categoryId": 5,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 9,
+            "text": "Neem je beslissingen zonder rekening te houden met alle mogelijke implicaties?",
+            "raw": {
+              "id": 9,
+              "text": "Neem je beslissingen zonder rekening te houden met alle mogelijke implicaties?",
+              "value": 0,
+              "categoryId": 6,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 10,
+            "text": "Verander je van gedachten over dingen?",
+            "raw": {
+              "id": 10,
+              "text": "Verander je van gedachten over dingen?",
+              "value": 0,
+              "categoryId": 7,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 11,
+            "text": "Neem je de veilige optie als die er is?",
+            "raw": {
+              "id": 11,
+              "text": "Neem je de veilige optie als die er is?",
+              "value": 0,
+              "categoryId": 7,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 12,
+            "text": "Vermijd je liever beslissingen te nemen als je dat kan?",
+            "raw": {
+              "id": 12,
+              "text": "Vermijd je liever beslissingen te nemen als je dat kan?",
+              "value": 0,
+              "categoryId": 1,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 13,
+            "text": "Plan je goed vooruit?",
+            "raw": {
+              "id": 13,
+              "text": "Plan je goed vooruit?",
+              "value": 0,
+              "categoryId": 6,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 14,
+            "text": "Als je beslissingen neemt, geef je dan eerst de voorkeur aan de ene optie en switch je uiteindelijk naar de andere?",
+            "raw": {
+              "id": 14,
+              "text": "Als je beslissingen neemt, geef je dan eerst de voorkeur aan de ene optie en switch je uiteindelijk naar de andere?",
+              "value": 0,
+              "categoryId": 7,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 15,
+            "text": "Blijf je zoeken naar beter, zelfs als je een handelswijze hebt gevonden die zo goed als OK is?",
+            "raw": {
+              "id": 15,
+              "text": "Blijf je zoeken naar beter, zelfs als je een handelswijze hebt gevonden die zo goed als OK is?",
+              "value": 0,
+              "categoryId": 4,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 16,
+            "text": "Vind je het moeilijk om helder te denken als je in alle haast iets moet beslissen?",
+            "raw": {
+              "id": 16,
+              "text": "Vind je het moeilijk om helder te denken als je in alle haast iets moet beslissen?",
+              "value": 0,
+              "categoryId": 1,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 17,
+            "text": "Ga je door met je eigen ideeën, zelfs als anderen daar anders over denken?",
+            "raw": {
+              "id": 17,
+              "text": "Ga je door met je eigen ideeën, zelfs als anderen daar anders over denken?",
+              "value": 0,
+              "categoryId": 3,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 18,
+            "text": "Vermijd je advies in te winnen over een beslissing?",
+            "raw": {
+              "id": 18,
+              "text": "Vermijd je advies in te winnen over een beslissing?",
+              "value": 0,
+              "categoryId": 3,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 19,
+            "text": "Werk je alle ‘voor’ en ‘tegen’s uit vooraleer je een beslissing neemt?",
+            "raw": {
+              "id": 19,
+              "text": "Werk je alle ‘voor’ en ‘tegen’s uit vooraleer je een beslissing neemt?",
+              "value": 0,
+              "categoryId": 6,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 20,
+            "text": "Hoe vaak zijn in jouw besluitvormingsproces praktische zaken belangrijker dan principes?",
+            "raw": {
+              "id": 20,
+              "text": "Hoe vaak zijn in jouw besluitvormingsproces praktische zaken belangrijker dan principes?",
+              "value": 0,
+              "categoryId": 5,
+              "reverted": true,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          },
+          {
+            "id": 21,
+            "text": "Is jouw besluitvorming een weloverwogen logisch proces?",
+            "raw": {
+              "id": 21,
+              "text": "Is jouw besluitvorming een weloverwogen logisch proces?",
+              "value": 0,
+              "categoryId": 6,
+              "reverted": false,
+              "completed": false
+            },
+            "options": {
+              "values": [
+                1.666666666666667,
+                3.333333333333333,
+                5,
+                6.666666666666667,
+                8.333333333333332,
+                10
+              ],
+              "list": [
+                {
+                  "id": 1,
+                  "number": "1",
+                  "text": "zeer zelden of nooit"
+                },
+                {
+                  "id": 2,
+                  "number": "2",
+                  "text": "zelden"
+                },
+                {
+                  "id": 3,
+                  "number": "3",
+                  "text": "niet zo vaak"
+                },
+                {
+                  "id": 4,
+                  "number": "4",
+                  "text": "redelijk vaak"
+                },
+                {
+                  "id": 5,
+                  "number": "5",
+                  "text": "vaak"
+                },
+                {
+                  "id": 6,
+                  "number": "6",
+                  "text": "zeer vaak of altijd"
+                }
+              ]
+            }
+          }
+        ],
+        "responseOptions": {
+          "values": [
+            1.666666666666667,
+            3.333333333333333,
+            5,
+            6.666666666666667,
+            8.333333333333332,
+            10
+          ],
+          "list": [
+            {
+              "id": 1,
+              "number": "1",
+              "text": "zeer zelden of nooit"
+            },
+            {
+              "id": 2,
+              "number": "2",
+              "text": "zelden"
+            },
+            {
+              "id": 3,
+              "number": "3",
+              "text": "niet zo vaak"
+            },
+            {
+              "id": 4,
+              "number": "4",
+              "text": "redelijk vaak"
+            },
+            {
+              "id": 5,
+              "number": "5",
+              "text": "vaak"
+            },
+            {
+              "id": 6,
+              "number": "6",
+              "text": "zeer vaak of altijd"
+            }
+          ]
+        }
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": [
+          "Controle"
+        ],
+        "raw": {
+          "id": 1,
+          "text": [
+            "Controle"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": [
+          "Instinctiviteit"
+        ],
+        "raw": {
+          "id": 2,
+          "text": [
+            "Instinctiviteit"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": [
+          "Sociale weerstand"
+        ],
+        "raw": {
+          "id": 3,
+          "text": [
+            "Sociale weerstand"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": [
+          "Optimaliseren"
+        ],
+        "raw": {
+          "id": 4,
+          "text": [
+            "Optimaliseren"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": [
+          "Principeel"
+        ],
+        "raw": {
+          "id": 5,
+          "text": [
+            "Principeel"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 6,
+        "name": [
+          "Gedegenheid"
+        ],
+        "raw": {
+          "id": 6,
+          "text": [
+            "Gedegenheid"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 7,
+        "name": [
+          "Twijfelen"
+        ],
+        "raw": {
+          "id": 7,
+          "text": [
+            "Twijfelen"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Hou je van beslissingen nemen?"
+      },
+      {
+        "questionId": 2,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Vertrouw je op je buikgevoel bij het nemen van beslissingen?"
+      },
+      {
+        "questionId": 3,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Overleg je graag met anderen vooraleer je beslist?"
+      },
+      {
+        "questionId": 4,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Blijf je bij je beslissingen, wat er ook gebeurt?"
+      },
+      {
+        "questionId": 5,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Wanneer je 1 optie vindt die het maar net doet, laat je het dan bij die ene optie?"
+      },
+      {
+        "questionId": 6,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Blijf je rustig als je heel snel beslissingen moet nemen?"
+      },
+      {
+        "questionId": 7,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Heb je het gevoel dat je de dingen onder controle hebt?"
+      },
+      {
+        "questionId": 8,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Hoe vaak wordt jouw beslissing bepaald door jouw idealen, ongeacht de praktische moeilijkheden?"
+      },
+      {
+        "questionId": 9,
+        "groupId": 6,
+        "source": "question.categoryId",
+        "questionText": "Neem je beslissingen zonder rekening te houden met alle mogelijke implicaties?"
+      },
+      {
+        "questionId": 10,
+        "groupId": 7,
+        "source": "question.categoryId",
+        "questionText": "Verander je van gedachten over dingen?"
+      },
+      {
+        "questionId": 11,
+        "groupId": 7,
+        "source": "question.categoryId",
+        "questionText": "Neem je de veilige optie als die er is?"
+      },
+      {
+        "questionId": 12,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vermijd je liever beslissingen te nemen als je dat kan?"
+      },
+      {
+        "questionId": 13,
+        "groupId": 6,
+        "source": "question.categoryId",
+        "questionText": "Plan je goed vooruit?"
+      },
+      {
+        "questionId": 14,
+        "groupId": 7,
+        "source": "question.categoryId",
+        "questionText": "Als je beslissingen neemt, geef je dan eerst de voorkeur aan de ene optie en switch je uiteindelijk naar de andere?"
+      },
+      {
+        "questionId": 15,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Blijf je zoeken naar beter, zelfs als je een handelswijze hebt gevonden die zo goed als OK is?"
+      },
+      {
+        "questionId": 16,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Vind je het moeilijk om helder te denken als je in alle haast iets moet beslissen?"
+      },
+      {
+        "questionId": 17,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ga je door met je eigen ideeën, zelfs als anderen daar anders over denken?"
+      },
+      {
+        "questionId": 18,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Vermijd je advies in te winnen over een beslissing?"
+      },
+      {
+        "questionId": 19,
+        "groupId": 6,
+        "source": "question.categoryId",
+        "questionText": "Werk je alle ‘voor’ en ‘tegen’s uit vooraleer je een beslissing neemt?"
+      },
+      {
+        "questionId": 20,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Hoe vaak zijn in jouw besluitvormingsproces praktische zaken belangrijker dan principes?"
+      },
+      {
+        "questionId": 21,
+        "groupId": 6,
+        "source": "question.categoryId",
+        "questionText": "Is jouw besluitvorming een weloverwogen logisch proces?"
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Beslissings/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const Index = questions.findIndex(question => question.id === props.id);\n  questions[Index] = props;\n  questionnaire.questions = questions;\n  //Calcul categories values\n  let categories = questionnaire.categories;\n  categories.map(cat => cat.value = (questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n    value: acc.value + cur.value\n  })).value / questions.filter(question => question.categoryId === cat.id).length).toFixed(2));\n  questionnaire.categories = categories;\n  this.setState({\n    questionnaire: questionnaire\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Beslissings/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n      if (isCompleted) {\n        const categories = data.categories;\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Opslaan</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten</div>\r\n                                        <div className=\"result-data\">\r\n                                        <div className=\"histogram\">\r\n                                                    <table className=\"horizontal-histogram\">\r\n                                                        <tbody>\r\n                                                            {categories.map((category, index) => {\n                      /*return <ResultStick key={index} count={70/categories.length}>  \r\n                          <Stick height={element.value*30} color=\"#002F47\"onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                          {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                      </ResultStick>*/\n                      return <HorizontalCell key={index} value={category.value} onMouseOver={() => this.handleOver(category)}>\r\n                                                                        <td className=\"index-td\">{index + 1}</td>\r\n                                                            <HorizontalStick value={category.value} scale={10} color=\"#002F47\"><p>{category.value}</p></HorizontalStick>\r\n                                                                </HorizontalCell>;\n                    })}\r\n                                                            <HorizontalCell>\r\n                                                            <td className=\"index-td\"></td>\r\n                                                            <HorizontalScale>\r\n                                                                <p>0</p>\r\n                                                                <p>10</p>\r\n                                                            </HorizontalScale>\r\n                                                            </HorizontalCell>\r\n                                                        </tbody>\r\n                                                    </table>\r\n                                                    <Legend>\r\n                                                        {categories.map((category, index) => {\n                    return <div key={index} className=\"flex-row nowrap p10\">\r\n                                                                    <p className=\"fs20 lightblue p-l-r-5\">{index + 1}</p>\r\n                                                                  {category.text.map((text, index2) => {\n                        return <p key={index2} className=\"fs20 darkblue\">{text}</p>;\n                      })}\r\n                                                                </div>;\n                  })}\r\n                                                    </Legend>\r\n                                                </div>\r\n                                                 <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Beslissings/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n      if (isCompleted) {\n        const categories = data.categories;\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Opslaan</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten</div>\r\n                                        <div className=\"result-data\">\r\n                                        <div className=\"histogram\">\r\n                                                    <table className=\"horizontal-histogram\">\r\n                                                        <tbody>\r\n                                                            {categories.map((category, index) => {\n                      /*return <ResultStick key={index} count={70/categories.length}>  \r\n                          <Stick height={element.value*30} color=\"#002F47\"onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                          {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                      </ResultStick>*/\n                      return <HorizontalCell key={index} value={category.value} onMouseOver={() => this.handleOver(category)}>\r\n                                                                        <td className=\"index-td\">{index + 1}</td>\r\n                                                            <HorizontalStick value={category.value} scale={10} color=\"#002F47\"><p>{category.value}</p></HorizontalStick>\r\n                                                                </HorizontalCell>;\n                    })}\r\n                                                            <HorizontalCell>\r\n                                                            <td className=\"index-td\"></td>\r\n                                                            <HorizontalScale>\r\n                                                                <p>0</p>\r\n                                                                <p>10</p>\r\n                                                            </HorizontalScale>\r\n                                                            </HorizontalCell>\r\n                                                        </tbody>\r\n                                                    </table>\r\n                                                    <Legend>\r\n                                                        {categories.map((category, index) => {\n                    return <div key={index} className=\"flex-row nowrap p10\">\r\n                                                                    <p className=\"fs20 lightblue p-l-r-5\">{index + 1}</p>\r\n                                                                  {category.text.map((text, index2) => {\n                        return <p key={index2} className=\"fs20 darkblue\">{text}</p>;\n                      })}\r\n                                                                </div>;\n                  })}\r\n                                                    </Legend>\r\n                                                </div>\r\n                                                 <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Beslissings/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  if (question.reverted === true) {\n    const values = this.props.choices.values.slice().reverse();\n    question.value = values[parseInt(this.props.choices.list.findIndex(item => item.id === parseInt(e.target.value)))];\n  } else {\n    const values = this.props.choices.values.slice();\n    question.value = values[parseInt(this.props.choices.list.findIndex(item => item.id === parseInt(e.target.value)))];\n  }\n  question.completed = true;\n  this.props.handlevalue(question);\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Beslissings.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Beslissings.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Beslissingsvragenlijst\",\n      description: \"Laat zien hoe vaak elk van de volgende zaken voor u van toepassing zijn, door het nummer dat u denkt dat bij u past, aan te duiden \",\n      questions: [{\n        id: 1,\n        text: \"Hou je van beslissingen nemen?\",\n        value: 0,\n        categoryId: 1,\n        reverted: false,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Vertrouw je op je buikgevoel bij het nemen van beslissingen?\",\n        value: 0,\n        categoryId: 2,\n        reverted: false,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Overleg je graag met anderen vooraleer je beslist?\",\n        value: 0,\n        categoryId: 3,\n        reverted: true,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Blijf je bij je beslissingen, wat er ook gebeurt?\",\n        value: 0,\n        categoryId: 2,\n        reverted: false,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Wanneer je 1 optie vindt die het maar net doet, laat je het dan bij die ene optie?\",\n        value: 0,\n        categoryId: 4,\n        reverted: true,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Blijf je rustig als je heel snel beslissingen moet nemen?\",\n        value: 0,\n        categoryId: 1,\n        reverted: false,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Heb je het gevoel dat je de dingen onder controle hebt?\",\n        value: 0,\n        categoryId: 1,\n        reverted: false,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Hoe vaak wordt jouw beslissing bepaald door jouw idealen, ongeacht de praktische moeilijkheden?\",\n        value: 0,\n        categoryId: 5,\n        reverted: false,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Neem je beslissingen zonder rekening te houden met alle mogelijke implicaties?\",\n        value: 0,\n        categoryId: 6,\n        reverted: true,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Verander je van gedachten over dingen?\",\n        value: 0,\n        categoryId: 7,\n        reverted: false,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Neem je de veilige optie als die er is?\",\n        value: 0,\n        categoryId: 7,\n        reverted: false,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Vermijd je liever beslissingen te nemen als je dat kan?\",\n        value: 0,\n        categoryId: 1,\n        reverted: true,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Plan je goed vooruit?\",\n        value: 0,\n        categoryId: 6,\n        reverted: false,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Als je beslissingen neemt, geef je dan eerst de voorkeur aan de ene optie en switch je uiteindelijk naar de andere?\",\n        value: 0,\n        categoryId: 7,\n        reverted: false,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Blijf je zoeken naar beter, zelfs als je een handelswijze hebt gevonden die zo goed als OK is?\",\n        value: 0,\n        categoryId: 4,\n        reverted: false,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Vind je het moeilijk om helder te denken als je in alle haast iets moet beslissen?\",\n        value: 0,\n        categoryId: 1,\n        reverted: true,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Ga je door met je eigen ideeën, zelfs als anderen daar anders over denken?\",\n        value: 0,\n        categoryId: 3,\n        reverted: false,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Vermijd je advies in te winnen over een beslissing?\",\n        value: 0,\n        categoryId: 3,\n        reverted: false,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Werk je alle ‘voor’ en ‘tegen’s uit vooraleer je een beslissing neemt?\",\n        value: 0,\n        categoryId: 6,\n        reverted: false,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Hoe vaak zijn in jouw besluitvormingsproces praktische zaken belangrijker dan principes?\",\n        value: 0,\n        categoryId: 5,\n        reverted: true,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Is jouw besluitvorming een weloverwogen logisch proces?\",\n        value: 0,\n        categoryId: 6,\n        reverted: false,\n        completed: false\n      }],\n      choices: {\n        values: [1.666666666666667, 3.333333333333333, 5, 6.666666666666667, 8.333333333333333, 10],\n        list: [{\n          id: 1,\n          number: \"1\",\n          text: \"zeer zelden of nooit\"\n        }, {\n          id: 2,\n          number: \"2\",\n          text: \"zelden\"\n        }, {\n          id: 3,\n          number: \"3\",\n          text: \"niet zo vaak\"\n        }, {\n          id: 4,\n          number: \"4\",\n          text: \"redelijk vaak\"\n        }, {\n          id: 5,\n          number: \"5\",\n          text: \"vaak\"\n        }, {\n          id: 6,\n          number: \"6\",\n          text: \"zeer vaak of altijd\"\n        }]\n      },\n      answers: [],\n      categories: [{\n        id: 1,\n        text: [\"Controle\"],\n        value: 0\n      }, {\n        id: 2,\n        text: [\"Instinctiviteit\"],\n        value: 0\n      }, {\n        id: 3,\n        text: [\"Sociale weerstand\"],\n        value: 0\n      }, {\n        id: 4,\n        text: [\"Optimaliseren\"],\n        value: 0\n      }, {\n        id: 5,\n        text: [\"Principeel\"],\n        value: 0\n      }, {\n        id: 6,\n        text: [\"Gedegenheid\"],\n        value: 0\n      }, {\n        id: 7,\n        text: [\"Twijfelen\"],\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const Index = questions.findIndex(question => question.id === props.id);\n  questions[Index] = props;\n  questionnaire.questions = questions;\n  //Calcul categories values\n  let categories = questionnaire.categories;\n  categories.map(cat => cat.value = (questions.filter(question => question.categoryId === cat.id).reduce((acc, cur) => ({\n    value: acc.value + cur.value\n  })).value / questions.filter(question => question.categoryId === cat.id).length).toFixed(2));\n  questionnaire.categories = categories;\n  this.setState({\n    questionnaire: questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n                <Answer questions={this.state.questionnaire.questions} answers={this.state.questionnaire.answers} title={this.state.questionnaire.title} />\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices.list\n  };\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Bevestigen\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: \"#002F47\"\n  });\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Verberg het resultaat\" : btn.text = \"Besvestigen\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n\n      let message, result, printbutton;\n      if (isCompleted) {\n        const categories = data.categories;\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Opslaan</p></div>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten</div>\r\n                                        <div className=\"result-data\">\r\n                                        <div className=\"histogram\">\r\n                                                    <table className=\"horizontal-histogram\">\r\n                                                        <tbody>\r\n                                                            {categories.map((category, index) => {\n                      /*return <ResultStick key={index} count={70/categories.length}>  \r\n                          <Stick height={element.value*30} color=\"#002F47\"onMouseOver={()=> this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                          {element.text.map((text,index) => {return  <StickValue key={index} color=\"#002F47\">{text}</StickValue>})}\r\n                      </ResultStick>*/\n                      return <HorizontalCell key={index} value={category.value} onMouseOver={() => this.handleOver(category)}>\r\n                                                                        <td className=\"index-td\">{index + 1}</td>\r\n                                                            <HorizontalStick value={category.value} scale={10} color=\"#002F47\"><p>{category.value}</p></HorizontalStick>\r\n                                                                </HorizontalCell>;\n                    })}\r\n                                                            <HorizontalCell>\r\n                                                            <td className=\"index-td\"></td>\r\n                                                            <HorizontalScale>\r\n                                                                <p>0</p>\r\n                                                                <p>10</p>\r\n                                                            </HorizontalScale>\r\n                                                            </HorizontalCell>\r\n                                                        </tbody>\r\n                                                    </table>\r\n                                                    <Legend>\r\n                                                        {categories.map((category, index) => {\n                    return <div key={index} className=\"flex-row nowrap p10\">\r\n                                                                    <p className=\"fs20 lightblue p-l-r-5\">{index + 1}</p>\r\n                                                                  {category.text.map((text, index2) => {\n                        return <p key={index2} className=\"fs20 darkblue\">{text}</p>;\n                      })}\r\n                                                                </div>;\n                  })}\r\n                                                    </Legend>\r\n                                                </div>\r\n                                                 <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            {printbutton}\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                {data => {\n      return <tr className=\"question\">   \r\n            <td className=\"question-number\">{question.id}</td>\r\n                <td className=\"question-text\">{question.text}</td>\r\n                <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={question} choices={data.choices} />\r\n        </tr>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question\n  };\n}"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  if (question.reverted === true) {\n    const values = this.props.choices.values.slice().reverse();\n    question.value = values[parseInt(this.props.choices.list.findIndex(item => item.id === parseInt(e.target.value)))];\n  } else {\n    const values = this.props.choices.values.slice();\n    question.value = values[parseInt(this.props.choices.list.findIndex(item => item.id === parseInt(e.target.value)))];\n  }\n  question.completed = true;\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/Beslissings/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices.list;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.id} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

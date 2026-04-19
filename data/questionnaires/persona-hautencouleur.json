@@ -1,0 +1,1587 @@
+{
+  "routePath": "/persona/hautencouleur",
+  "routeComponent": "PersonaFRHautEnCouleur",
+  "routeImportSource": "./Components/PersonaFRhautencouleur",
+  "extractionTimestamp": "2026-04-19T10:07:01.446Z",
+  "sourceFiles": [
+    "src/Components/PersonaFRhautencouleur.js",
+    "src/Components/PersonaFRhautencouleur/Components/Answer.js",
+    "src/Components/PersonaFRhautencouleur/Components/Caracteristiques.js",
+    "src/Components/PersonaFRhautencouleur/Components/Context.js",
+    "src/Components/PersonaFRhautencouleur/Components/Header.js",
+    "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js",
+    "src/Components/PersonaFRhautencouleur/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Profil PERSONA",
+      "description": "Parmi ces trios de traits de caractère ci-dessous, choisissez celui qui vous ressemble le plus.",
+      "instruction": "Répondez de manière honnête et non de ce qui est socialement souhaitable. N'y pensez pas trop longtemps. Il doit être aussi intuitif que possible.",
+      "categories": [
+        {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        },
+        {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "value": 0,
+          "categoryId": 11,
+          "completed": false,
+          "choices": [
+            {
+              "id": 31,
+              "name": "Efficace",
+              "value": 2
+            },
+            {
+              "id": 32,
+              "name": "Dominateur",
+              "value": 3
+            },
+            {
+              "id": 33,
+              "name": "Serviable",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 34,
+              "name": "Capable de s’affirmer",
+              "value": 3
+            },
+            {
+              "id": 35,
+              "name": "Calme",
+              "value": 2
+            },
+            {
+              "id": 36,
+              "name": "Content",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 37,
+              "name": "Silencieux",
+              "value": 1
+            },
+            {
+              "id": 38,
+              "name": "Réfléchi",
+              "value": 2
+            },
+            {
+              "id": 39,
+              "name": "Sociable",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 310,
+              "name": "Jovial",
+              "value": 3
+            },
+            {
+              "id": 311,
+              "name": "Amical",
+              "value": 2
+            },
+            {
+              "id": 312,
+              "name": "Prend ses responsabilités",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 313,
+              "name": "Attentif",
+              "value": 3
+            },
+            {
+              "id": 314,
+              "name": "Négocie volontiers",
+              "value": 2
+            },
+            {
+              "id": 315,
+              "name": "Prend des initiatives",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 316,
+              "name": "Réceptif",
+              "value": 1
+            },
+            {
+              "id": 317,
+              "name": "Inflexible",
+              "value": 3
+            },
+            {
+              "id": 318,
+              "name": "Coopératif",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 319,
+              "name": "Têtu",
+              "value": 1
+            },
+            {
+              "id": 320,
+              "name": "Circonspect",
+              "value": 2
+            },
+            {
+              "id": 321,
+              "name": "Extraverti",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 322,
+              "name": "Enthousiaste",
+              "value": 3
+            },
+            {
+              "id": 323,
+              "name": "Réservé",
+              "value": 1
+            },
+            {
+              "id": 324,
+              "name": "Mesuré",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 325,
+              "name": "Obstiné",
+              "value": 3
+            },
+            {
+              "id": 326,
+              "name": "Actif",
+              "value": 2
+            },
+            {
+              "id": 327,
+              "name": "Rigoureux",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 210,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 328,
+              "name": "Battant",
+              "value": 3
+            },
+            {
+              "id": 329,
+              "name": "Equilibré",
+              "value": 2
+            },
+            {
+              "id": 330,
+              "name": "Conciliant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 331,
+              "name": "Joyeux",
+              "value": 3
+            },
+            {
+              "id": 332,
+              "name": "Soucieux des autres",
+              "value": 2
+            },
+            {
+              "id": 333,
+              "name": "Volontaire",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 334,
+              "name": "S’en tient à ce qui est convenu",
+              "value": 1
+            },
+            {
+              "id": 335,
+              "name": "Vif",
+              "value": 3
+            },
+            {
+              "id": 336,
+              "name": "Diplomate",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "id": 213,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 337,
+              "name": "Argumente facilement",
+              "value": 3
+            },
+            {
+              "id": 338,
+              "name": "Nonchalant",
+              "value": 2
+            },
+            {
+              "id": 339,
+              "name": "S’adapte facilement",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 214,
+          "categoryId": 11,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 340,
+              "name": "Accommodant",
+              "value": 2
+            },
+            {
+              "id": 341,
+              "name": "Obéissant – docile",
+              "value": 1
+            },
+            {
+              "id": 342,
+              "name": "Directif",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 215,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 343,
+              "name": "Organisé",
+              "value": 2
+            },
+            {
+              "id": 344,
+              "name": "Précis",
+              "value": 1
+            },
+            {
+              "id": 345,
+              "name": "Original",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "id": 216,
+          "categoryId": 12,
+          "value": 0,
+          "completed": false,
+          "choices": [
+            {
+              "id": 346,
+              "name": "Populaire",
+              "value": 3
+            },
+            {
+              "id": 347,
+              "name": "Discipliné",
+              "value": 1
+            },
+            {
+              "id": 348,
+              "name": "Cultivé",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "answers": [
+        [
+          {
+            "id": 11,
+            "text": "Jaune et Rouge",
+            "color": "#EDE813",
+            "primary": "Votre couleur dominante est le jaune et votre couleur secondaire probablement le rouge",
+            "secondary": [
+              "Vous êtes extraverti et orienté résultat.",
+              " Vous aimez l’action, la rapidité, le contact…",
+              "Vous êtes exigeant et attendez des résultats rapides…",
+              "Prendre la parole en public pour donner votre avis n’est pas un problème.",
+              "L’argumentation, voire la confrontation des idées est un mode de fonctionnement naturel…",
+              "Pour vous convaincre, il faut des arguments concrets et vous parler droit au but…",
+              "Votre valeur ajoutée principale : faire avancer les choses…"
+            ]
+          },
+          {
+            "id": 1,
+            "text": "Jaune",
+            "color": "#EDE813",
+            "primary": "Votre couleur dominante est le jaune",
+            "secondary": [
+              "Vous êtes extraverti et orienté vers les personnes.",
+              "Vous montrez de l'enthousiasme et vous passionnez très vite pour les nouveautés.",
+              "Vous aimez travailler avec les autres et leur transmettre votre motivation.",
+              "Vous entretenez votre réseau. Vous vivez à travers le regard des autres, vous aimez les compliments et soignez votre apparence.",
+              "Vous avez tendance à ne pas finir vos tâches dès qu'un nouveau sujet passionnant se profile à l'horizon."
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Jaune et Vert",
+            "color": "#EDE813",
+            "primary": "Votre couleur dominante est le jaune et votre couleur secondaire est probablement le vert.",
+            "secondary": [
+              "Vous êtes à l’aise dans les situations sociales.",
+              "Rentrer en contact, échanger, partager vos émotions avec les autres n’est pas un problème.",
+              "Empathique, dynamique, vous mettez l’ambiance et créez la relation en accordant de l’importance à vos interlocuteurs.",
+              "Positif, vous donnez du feedback encourageant aux autres.",
+              "Votre valeur ajoutée principale : développer l’esprit d’équipe et créer un climat relationnel positif.",
+              "Vous êtes aussi très attentif à la forme de votre communication."
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Relation",
+            "color": "#FFFFFF",
+            "primary": "Votre résultat n'est pas défini sur l'axe horizontal",
+            "secondary": [
+              "On peut néanmoins en déduire une attention vers le côté relationnel.",
+              "La priorité est plutôt l'humain, les personnes, la relation aux autres."
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Vert et Jaune",
+            "color": "#009640",
+            "primary": "Votre couleur dominante est le vert et votre couleur secondaire probablement le jaune.",
+            "secondary": [
+              "Votre premier besoin est l’harmonie et développer des relations profondes avec les autres.",
+              "Néanmoins, vous êtes plutôt à l’aise en public et vous trouvez facilement votre place dans les dynamiques collectives.",
+              "Prendre la parole en réunion, notamment pour échanger sur les aspects relationnels, l’humain et les valeurs est important pour vous.",
+              "Vous aimez partager vos idées et votre réseau personnel est fait de personnes que vous appréciez particulièrement.",
+              "Par contre vous savez vous mettre en retrait et écouter quand le groupe s’exprime.",
+              "Une de vos difficultés majeures est de vous affirmer directement."
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Vert",
+            "color": "#009640",
+            "primary": "Votre couleur dominante est le vert",
+            "secondary": [
+              "Vous êtes orienté vers les personnes et les relations, et plutôt introverti.",
+              "Vous parlez doucement et chaleureusement.",
+              "Vous ne supportez pas les conflits, ni les critiques directes, qui peuvent vous blesser.",
+              "Vous agissez de façon calme et modérée.",
+              "Vous pouvez toutefois réagir violemment car vous avez tendance à intérioriser et à contenir vos émotions."
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Vert et Bleu",
+            "color": "#009640",
+            "primary": "Votre couleur dominante est le vert et votre couleur secondaire probablement le bleu.",
+            "secondary": [
+              "Calme, à l’écoute, empathique, votre style discret mais attentionné vous vaut d’être une « ressource » ou un confident pour les autres.",
+              "Serviable et introverti, vous apportez des solutions de fond en respectant/intégrant les avis des autres.",
+              "Vous posez des questions et observez les situations.",
+              "Votre discrétion est souvent appréciée.",
+              "Votre principale valeur ajoutée : l’aide que vous apportez aux autres, associée à une fiabilité certaine.",
+              "Vous aimez prendre le temps de la réflexion avant de décider et vous vous basez sur l’avis des autres mais aussi sur des éléments factuels de décision."
+            ]
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "text": "Extraverti",
+            "color": "#FFFFFF",
+            "primary": "Votre résultat n'est pas défini sur l'axe vertical",
+            "secondary": [
+              "On peut néanmoins en déduire une attention aux sentiments, opinions ou raisonnements récurrents."
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Indéfini",
+            "color": "#FFFFFF",
+            "primary": "Votre résultat n'est pas défini sur l'axe vertical et horizontal",
+            "secondary": [
+              "Vous pouvez réessayer en remplaçant certaines réponses sur lesquelles vous avez peut-être hésité."
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Introverti",
+            "color": "#FFFFFF",
+            "primary": "Votre résultat n'est pas défini sur l'axe vertical",
+            "secondary": [
+              "On peut néanmoins en déduire une énergie moins visible.",
+              "Les sentiments, les opinions sont plus intériorisées."
+            ]
+          }
+        ],
+        [
+          {
+            "id": 18,
+            "text": "Rouge et Jaune",
+            "color": "#E30613",
+            "primary": "Votre couleur dominante est le rouge et votre couleur secondaire probablement le jaune",
+            "secondary": [
+              "Vous êtes orienté Résultat et vous êtes attentifs à embarquer les autres parties prenantes vers cet objectif.",
+              "L’efficacité est votre premier moteur.",
+              "Habituellement orienté tâches et faits concrets, vous n’avez pas de difficultés pour créer votre réseau, partager dans la bonne humeur vos idées et vous ouvrir aux autres.",
+              "Le projet qui se traduit rapidement en éléments visibles est votre moteur.",
+              "Et votre mantra est : « agissons ! »"
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Rouge",
+            "color": "#E30613",
+            "primary": "Votre couleur dominante est le rouge",
+            "secondary": [
+              "Vous êtes orienté vers l'action et les résultats, et plutôt extraverti.",
+              "Vous possédez une vision d'ensemble et ne vous embarrassez pas des détails.",
+              "Vous êtes motivé par les challenges et allez droit au but.",
+              "Vous parlez vite et fort.",
+              "Vous n'avez pas peur de vous tromper, vous prenez vos décisions rapidement, même avec très peu de cartes en main et n’avez aucun souci à reconnaître vos éventuelles erreurs."
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Rouge et Bleu",
+            "color": "#E30613",
+            "primary": "Votre couleur dominante est le rouge et votre couleur secondaire probablement le bleu. ",
+            "secondary": [
+              "Votre premier moteur est l’efficacité.",
+              "Vous œuvrez avec une forme de discrétion à atteindre les résultats escomptés.",
+              "Vous aimez plutôt travailler en solitaire, et vous faites remarquer calmement les problèmes de terrain.",
+              "On apprécie chez vous votre sang-froid et votre efficience naturelle.",
+              "Votre fiabilité est un autre de vos atouts.",
+              "Vous êtes celui ou celle qui organisez les projets et les planifiez.",
+              "On se tourne souvent vers vous pour cela car c’est un rôle que vous aimez occuper."
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Résultat",
+            "color": "#FFFFFF",
+            "primary": "Votre résultat n'est pas défini sur l'axe horizontal",
+            "secondary": [
+              "On peut néanmoins en déduire l'attention portée aux tâches à réaliser, aux objectifs et aux résultats."
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Bleu et Rouge",
+            "color": "#045576",
+            "primary": "Votre couleur dominante est le bleu et votre couleur secondaire probablement le rouge.",
+            "secondary": [
+              "Vous êtes calme, factuel et rationnel.",
+              "Vous intervenez régulièrement pour mettre en évidence les dysfonctionnements autour de vous.",
+              "Vous observez la réalité et y jetez un coup d’œil analytique et rationnel.",
+              "Votre valeur ajoutée principale : la mise en évidence de certains risques que les autres ne voient pas.",
+              "Vous pouvez parfois être très « carré » dans vos approches et avoir du mal à changer de point de vue.",
+              "Votre approche décisionnelle est définitivement basée sur une approche concrète et factuelle."
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Bleu",
+            "color": "#045576",
+            "primary": "Votre couleur dominante est le bleu",
+            "secondary": [
+              "Vous êtes introverti, orienté vers les tâches.",
+              "Vous êtes consciencieux et aimez travailler au calme.",
+              "Vous êtes une personne posée, attentive aux failles et incohérences.",
+              "Vous avez besoin de structure et de précision.",
+              "Vous détestez vous tromper, et cette simple éventualité suffit à vous paralyser.",
+              "Vous avez besoin d'avoir toutes les cartes en main pour décider, de façon méthodique.",
+              "Vous respectez les règles et les procédures car elles sont garantes de fiabilité."
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Bleu et Vert",
+            "color": "#045576",
+            "primary": "Votre couleur dominante est le bleu et votre couleur secondaire probablement le vert.",
+            "secondary": [
+              "Vous êtes plutôt discret et pouvez parfois sembler peu sûr de vous.",
+              "Vous aimez la rigueur et la fiabilité.",
+              "Même si vous préférez travailler seul, vous avez développé autour de vous un réseau de personnes avec lesquelles vous entretenez des relations d’une certaine profondeur.",
+              "Vous êtes attentif aux autres et pouvez, si le degré d’intimité est là, exprimer facilement ce que vous ressentez.",
+              "Vous aimez les personnes qui ont de l’expertise et c’est avec elles que vous gérez vos projets !",
+              "Introvertis, vous prenez du temps pour vous positionner."
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Profil PERSONA",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": null,
+            "raw": {
+              "id": 21,
+              "value": 0,
+              "categoryId": 11,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 31,
+                  "name": "Efficace",
+                  "value": 2
+                },
+                {
+                  "id": 32,
+                  "name": "Dominateur",
+                  "value": 3
+                },
+                {
+                  "id": 33,
+                  "name": "Serviable",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 31,
+                "name": "Efficace",
+                "value": 2
+              },
+              {
+                "id": 32,
+                "name": "Dominateur",
+                "value": 3
+              },
+              {
+                "id": 33,
+                "name": "Serviable",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": null,
+            "raw": {
+              "id": 22,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 34,
+                  "name": "Capable de s’affirmer",
+                  "value": 3
+                },
+                {
+                  "id": 35,
+                  "name": "Calme",
+                  "value": 2
+                },
+                {
+                  "id": 36,
+                  "name": "Content",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 34,
+                "name": "Capable de s’affirmer",
+                "value": 3
+              },
+              {
+                "id": 35,
+                "name": "Calme",
+                "value": 2
+              },
+              {
+                "id": 36,
+                "name": "Content",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": null,
+            "raw": {
+              "id": 23,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 37,
+                  "name": "Silencieux",
+                  "value": 1
+                },
+                {
+                  "id": 38,
+                  "name": "Réfléchi",
+                  "value": 2
+                },
+                {
+                  "id": 39,
+                  "name": "Sociable",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 37,
+                "name": "Silencieux",
+                "value": 1
+              },
+              {
+                "id": 38,
+                "name": "Réfléchi",
+                "value": 2
+              },
+              {
+                "id": 39,
+                "name": "Sociable",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": null,
+            "raw": {
+              "id": 24,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 310,
+                  "name": "Jovial",
+                  "value": 3
+                },
+                {
+                  "id": 311,
+                  "name": "Amical",
+                  "value": 2
+                },
+                {
+                  "id": 312,
+                  "name": "Prend ses responsabilités",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 310,
+                "name": "Jovial",
+                "value": 3
+              },
+              {
+                "id": 311,
+                "name": "Amical",
+                "value": 2
+              },
+              {
+                "id": 312,
+                "name": "Prend ses responsabilités",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": null,
+            "raw": {
+              "id": 25,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 313,
+                  "name": "Attentif",
+                  "value": 3
+                },
+                {
+                  "id": 314,
+                  "name": "Négocie volontiers",
+                  "value": 2
+                },
+                {
+                  "id": 315,
+                  "name": "Prend des initiatives",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 313,
+                "name": "Attentif",
+                "value": 3
+              },
+              {
+                "id": 314,
+                "name": "Négocie volontiers",
+                "value": 2
+              },
+              {
+                "id": 315,
+                "name": "Prend des initiatives",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": null,
+            "raw": {
+              "id": 26,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 316,
+                  "name": "Réceptif",
+                  "value": 1
+                },
+                {
+                  "id": 317,
+                  "name": "Inflexible",
+                  "value": 3
+                },
+                {
+                  "id": 318,
+                  "name": "Coopératif",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 316,
+                "name": "Réceptif",
+                "value": 1
+              },
+              {
+                "id": 317,
+                "name": "Inflexible",
+                "value": 3
+              },
+              {
+                "id": 318,
+                "name": "Coopératif",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": null,
+            "raw": {
+              "id": 27,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 319,
+                  "name": "Têtu",
+                  "value": 1
+                },
+                {
+                  "id": 320,
+                  "name": "Circonspect",
+                  "value": 2
+                },
+                {
+                  "id": 321,
+                  "name": "Extraverti",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 319,
+                "name": "Têtu",
+                "value": 1
+              },
+              {
+                "id": 320,
+                "name": "Circonspect",
+                "value": 2
+              },
+              {
+                "id": 321,
+                "name": "Extraverti",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": null,
+            "raw": {
+              "id": 28,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 322,
+                  "name": "Enthousiaste",
+                  "value": 3
+                },
+                {
+                  "id": 323,
+                  "name": "Réservé",
+                  "value": 1
+                },
+                {
+                  "id": 324,
+                  "name": "Mesuré",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 322,
+                "name": "Enthousiaste",
+                "value": 3
+              },
+              {
+                "id": 323,
+                "name": "Réservé",
+                "value": 1
+              },
+              {
+                "id": 324,
+                "name": "Mesuré",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": null,
+            "raw": {
+              "id": 29,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 325,
+                  "name": "Obstiné",
+                  "value": 3
+                },
+                {
+                  "id": 326,
+                  "name": "Actif",
+                  "value": 2
+                },
+                {
+                  "id": 327,
+                  "name": "Rigoureux",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 325,
+                "name": "Obstiné",
+                "value": 3
+              },
+              {
+                "id": 326,
+                "name": "Actif",
+                "value": 2
+              },
+              {
+                "id": 327,
+                "name": "Rigoureux",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "text": null,
+            "raw": {
+              "id": 210,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 328,
+                  "name": "Battant",
+                  "value": 3
+                },
+                {
+                  "id": 329,
+                  "name": "Equilibré",
+                  "value": 2
+                },
+                {
+                  "id": 330,
+                  "name": "Conciliant",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 328,
+                "name": "Battant",
+                "value": 3
+              },
+              {
+                "id": 329,
+                "name": "Equilibré",
+                "value": 2
+              },
+              {
+                "id": 330,
+                "name": "Conciliant",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "text": null,
+            "raw": {
+              "id": 211,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 331,
+                  "name": "Joyeux",
+                  "value": 3
+                },
+                {
+                  "id": 332,
+                  "name": "Soucieux des autres",
+                  "value": 2
+                },
+                {
+                  "id": 333,
+                  "name": "Volontaire",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 331,
+                "name": "Joyeux",
+                "value": 3
+              },
+              {
+                "id": 332,
+                "name": "Soucieux des autres",
+                "value": 2
+              },
+              {
+                "id": 333,
+                "name": "Volontaire",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "text": null,
+            "raw": {
+              "id": 212,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 334,
+                  "name": "S’en tient à ce qui est convenu",
+                  "value": 1
+                },
+                {
+                  "id": 335,
+                  "name": "Vif",
+                  "value": 3
+                },
+                {
+                  "id": 336,
+                  "name": "Diplomate",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 334,
+                "name": "S’en tient à ce qui est convenu",
+                "value": 1
+              },
+              {
+                "id": 335,
+                "name": "Vif",
+                "value": 3
+              },
+              {
+                "id": 336,
+                "name": "Diplomate",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "text": null,
+            "raw": {
+              "id": 213,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 337,
+                  "name": "Argumente facilement",
+                  "value": 3
+                },
+                {
+                  "id": 338,
+                  "name": "Nonchalant",
+                  "value": 2
+                },
+                {
+                  "id": 339,
+                  "name": "S’adapte facilement",
+                  "value": 1
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 337,
+                "name": "Argumente facilement",
+                "value": 3
+              },
+              {
+                "id": 338,
+                "name": "Nonchalant",
+                "value": 2
+              },
+              {
+                "id": 339,
+                "name": "S’adapte facilement",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "text": null,
+            "raw": {
+              "id": 214,
+              "categoryId": 11,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 340,
+                  "name": "Accommodant",
+                  "value": 2
+                },
+                {
+                  "id": 341,
+                  "name": "Obéissant – docile",
+                  "value": 1
+                },
+                {
+                  "id": 342,
+                  "name": "Directif",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 340,
+                "name": "Accommodant",
+                "value": 2
+              },
+              {
+                "id": 341,
+                "name": "Obéissant – docile",
+                "value": 1
+              },
+              {
+                "id": 342,
+                "name": "Directif",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "text": null,
+            "raw": {
+              "id": 215,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 343,
+                  "name": "Organisé",
+                  "value": 2
+                },
+                {
+                  "id": 344,
+                  "name": "Précis",
+                  "value": 1
+                },
+                {
+                  "id": 345,
+                  "name": "Original",
+                  "value": 3
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 343,
+                "name": "Organisé",
+                "value": 2
+              },
+              {
+                "id": 344,
+                "name": "Précis",
+                "value": 1
+              },
+              {
+                "id": 345,
+                "name": "Original",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "id": 216,
+            "text": null,
+            "raw": {
+              "id": 216,
+              "categoryId": 12,
+              "value": 0,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 346,
+                  "name": "Populaire",
+                  "value": 3
+                },
+                {
+                  "id": 347,
+                  "name": "Discipliné",
+                  "value": 1
+                },
+                {
+                  "id": 348,
+                  "name": "Cultivé",
+                  "value": 2
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 346,
+                "name": "Populaire",
+                "value": 3
+              },
+              {
+                "id": 347,
+                "name": "Discipliné",
+                "value": 1
+              },
+              {
+                "id": 348,
+                "name": "Cultivé",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 11,
+        "name": "H-scores",
+        "raw": {
+          "id": 11,
+          "name": "H-scores",
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": "V-scores",
+        "raw": {
+          "id": 12,
+          "name": "V-scores",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 22,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 23,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 25,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 26,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 27,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 28,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 29,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 210,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 212,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 213,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 214,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 215,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      },
+      {
+        "questionId": 216,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": null
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/PersonaFRhautencouleur/Components/Caracteristiques.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/PersonaFRhautencouleur/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        /* Inversion de l'axe y. vectorsY prend la valeur max : 109.5 + 421 */\n        /*const vectorsY = \"109.5\"*/\n        const vectorsY = \"530.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        /* Inversion du calcul du pointY sachant que le vectorY vaut déjà le max. On soustrait au lieu d'incrémenter */\n        const pointY = parseInt(vectorsY) - (24.3 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n\n        /*------------------*/\n        /* EQUATION DE BASE */\n        /*------------------*/\n        //scoreY > 16 ? (yIndex = 0) : (scoreY === 16 ? (yIndex = 1): (yIndex =2))\n        /*scoreX > 16 ? (xIndex = 0) : (scoreX === 16 ? (xIndex = 1): (xIndex =2))*/\n\n        /*---------------------------------*/\n        /* EQUATION AMELIOREE  LE 17/10/21 */\n        /*---------------------------------*/\n        //INDEX TEMPORAIRE DE POSTION DE L AXE Y & X  /* 17/10/21 */\n        let POSX_I;\n        let POSY_I;\n        scoreX > 16 ? POSX_I = 0 : scoreX === 16 ? POSX_I = 1 : POSX_I = 2;\n        scoreY > 16 ? POSY_I = 0 : scoreY === 16 ? POSY_I = 1 : POSY_I = 2;\n        yIndex = POSY_I;\n        //DEFINITION DES INDEX DE TABLEAUX\n        POSY_I === 0 ? POSX_I === 0 ? scoreY < scoreX ? xIndex = 0 //JAUNE-ROUGE\n        : scoreY === scoreX ? xIndex = 1 //JAUNE\n        : xIndex = 2 //JAUNE-VERT\n        : POSX_I === 1 ? xIndex = 3 //RELATION\n        : scoreY > 32 - scoreX ? xIndex = 4 //VERT-JAUNE\n        : scoreY === 32 - scoreX ? xIndex = 5 //VERT        \n        : xIndex = 6 //VERT-BLEU\n        : POSY_I === 1 ? POSX_I === 0 ? xIndex = 0 //EXTRAVERTI\n        : POSX_I === 1 ? xIndex = 1 //INDEFINI\n        : xIndex = 2 //INTROVERTI     \n        : POSX_I === 0 ? scoreY > 32 - scoreX ? xIndex = 0 //ROUGE-JAUNE  \n        : scoreY === 32 - scoreX ? xIndex = 1 //ROUGE\n        : xIndex = 2 //ROUGE-BLEU\n        : POSX_I === 1 ? xIndex = 3 //RESULTAT\n        : scoreY < scoreX ? xIndex = 4 //BLEU-ROUGE\n        : scoreY === scoreX ? xIndex = 5 //BLEU\n        : xIndex = 6 //BLEU-VERT\n        ;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 89.5)\">Résultat</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 560.5)\">Relationnel</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extraverti</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introverti</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Vos caractéristiques</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/PersonaFRhautencouleur/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        /* Inversion de l'axe y. vectorsY prend la valeur max : 109.5 + 421 */\n        /*const vectorsY = \"109.5\"*/\n        const vectorsY = \"530.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        /* Inversion du calcul du pointY sachant que le vectorY vaut déjà le max. On soustrait au lieu d'incrémenter */\n        const pointY = parseInt(vectorsY) - (24.3 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n\n        /*------------------*/\n        /* EQUATION DE BASE */\n        /*------------------*/\n        //scoreY > 16 ? (yIndex = 0) : (scoreY === 16 ? (yIndex = 1): (yIndex =2))\n        /*scoreX > 16 ? (xIndex = 0) : (scoreX === 16 ? (xIndex = 1): (xIndex =2))*/\n\n        /*---------------------------------*/\n        /* EQUATION AMELIOREE  LE 17/10/21 */\n        /*---------------------------------*/\n        //INDEX TEMPORAIRE DE POSTION DE L AXE Y & X  /* 17/10/21 */\n        let POSX_I;\n        let POSY_I;\n        scoreX > 16 ? POSX_I = 0 : scoreX === 16 ? POSX_I = 1 : POSX_I = 2;\n        scoreY > 16 ? POSY_I = 0 : scoreY === 16 ? POSY_I = 1 : POSY_I = 2;\n        yIndex = POSY_I;\n        //DEFINITION DES INDEX DE TABLEAUX\n        POSY_I === 0 ? POSX_I === 0 ? scoreY < scoreX ? xIndex = 0 //JAUNE-ROUGE\n        : scoreY === scoreX ? xIndex = 1 //JAUNE\n        : xIndex = 2 //JAUNE-VERT\n        : POSX_I === 1 ? xIndex = 3 //RELATION\n        : scoreY > 32 - scoreX ? xIndex = 4 //VERT-JAUNE\n        : scoreY === 32 - scoreX ? xIndex = 5 //VERT        \n        : xIndex = 6 //VERT-BLEU\n        : POSY_I === 1 ? POSX_I === 0 ? xIndex = 0 //EXTRAVERTI\n        : POSX_I === 1 ? xIndex = 1 //INDEFINI\n        : xIndex = 2 //INTROVERTI     \n        : POSX_I === 0 ? scoreY > 32 - scoreX ? xIndex = 0 //ROUGE-JAUNE  \n        : scoreY === 32 - scoreX ? xIndex = 1 //ROUGE\n        : xIndex = 2 //ROUGE-BLEU\n        : POSX_I === 1 ? xIndex = 3 //RESULTAT\n        : scoreY < scoreX ? xIndex = 4 //BLEU-ROUGE\n        : scoreY === scoreX ? xIndex = 5 //BLEU\n        : xIndex = 6 //BLEU-VERT\n        ;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 89.5)\">Résultat</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 560.5)\">Relationnel</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extraverti</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introverti</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Vos caractéristiques</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/PersonaFRhautencouleur.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Profil PERSONA\",\n      description: \"Parmi ces trios de traits de caractère ci-dessous, choisissez celui qui vous ressemble le plus.\",\n      instruction: \"Répondez de manière honnête et non de ce qui est socialement souhaitable. N'y pensez pas trop longtemps. Il doit être aussi intuitif que possible.\",\n      categories: [{\n        id: 11,\n        name: \"H-scores\",\n        value: 0\n      }, {\n        id: 12,\n        name: \"V-scores\",\n        value: 0\n      }],\n      questions: [{\n        id: 21,\n        value: 0,\n        categoryId: 11,\n        completed: false,\n        choices: [{\n          id: 31,\n          name: \"Efficace\",\n          value: 2\n        }, {\n          id: 32,\n          name: \"Dominateur\",\n          value: 3\n        }, {\n          id: 33,\n          name: \"Serviable\",\n          value: 1\n        }]\n      }, {\n        id: 22,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 34,\n          name: \"Capable de s’affirmer\",\n          value: 3\n        }, {\n          id: 35,\n          name: \"Calme\",\n          value: 2\n        }, {\n          id: 36,\n          name: \"Content\",\n          value: 1\n        }]\n      }, {\n        id: 23,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 37,\n          name: \"Silencieux\",\n          value: 1\n        }, {\n          id: 38,\n          name: \"Réfléchi\",\n          value: 2\n        }, {\n          id: 39,\n          name: \"Sociable\",\n          value: 3\n        }]\n      }, {\n        id: 24,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 310,\n          name: \"Jovial\",\n          value: 3\n        }, {\n          id: 311,\n          name: \"Amical\",\n          value: 2\n        }, {\n          id: 312,\n          name: \"Prend ses responsabilités\",\n          value: 1\n        }]\n      }, {\n        id: 25,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 313,\n          name: \"Attentif\",\n          value: 3\n        }, {\n          id: 314,\n          name: \"Négocie volontiers\",\n          value: 2\n        }, {\n          id: 315,\n          name: \"Prend des initiatives\",\n          value: 1\n        }]\n      }, {\n        id: 26,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 316,\n          name: \"Réceptif\",\n          value: 1\n        }, {\n          id: 317,\n          name: \"Inflexible\",\n          value: 3\n        }, {\n          id: 318,\n          name: \"Coopératif\",\n          value: 2\n        }]\n      }, {\n        id: 27,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 319,\n          name: \"Têtu\",\n          value: 1\n        }, {\n          id: 320,\n          name: \"Circonspect\",\n          value: 2\n        }, {\n          id: 321,\n          name: \"Extraverti\",\n          value: 3\n        }]\n      }, {\n        id: 28,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 322,\n          name: \"Enthousiaste\",\n          value: 3\n        }, {\n          id: 323,\n          name: \"Réservé\",\n          value: 1\n        }, {\n          id: 324,\n          name: \"Mesuré\",\n          value: 2\n        }]\n      }, {\n        id: 29,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 325,\n          name: \"Obstiné\",\n          value: 3\n        }, {\n          id: 326,\n          name: \"Actif\",\n          value: 2\n        }, {\n          id: 327,\n          name: \"Rigoureux\",\n          value: 1\n        }]\n      }, {\n        id: 210,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 328,\n          name: \"Battant\",\n          value: 3\n        }, {\n          id: 329,\n          name: \"Equilibré\",\n          value: 2\n        }, {\n          id: 330,\n          name: \"Conciliant\",\n          value: 1\n        }]\n      }, {\n        id: 211,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 331,\n          name: \"Joyeux\",\n          value: 3\n        }, {\n          id: 332,\n          name: \"Soucieux des autres\",\n          value: 2\n        }, {\n          id: 333,\n          name: \"Volontaire\",\n          value: 1\n        }]\n      }, {\n        id: 212,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 334,\n          name: \"S’en tient à ce qui est convenu\",\n          value: 1\n        }, {\n          id: 335,\n          name: \"Vif\",\n          value: 3\n        }, {\n          id: 336,\n          name: \"Diplomate\",\n          value: 2\n        }]\n      }, {\n        id: 213,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 337,\n          name: \"Argumente facilement\",\n          value: 3\n        }, {\n          id: 338,\n          name: \"Nonchalant\",\n          value: 2\n        }, {\n          id: 339,\n          name: \"S’adapte facilement\",\n          value: 1\n        }]\n      }, {\n        id: 214,\n        categoryId: 11,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 340,\n          name: \"Accommodant\",\n          value: 2\n        }, {\n          id: 341,\n          name: \"Obéissant – docile\",\n          value: 1\n        }, {\n          id: 342,\n          name: \"Directif\",\n          value: 3\n        }]\n      }, {\n        id: 215,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 343,\n          name: \"Organisé\",\n          value: 2\n        }, {\n          id: 344,\n          name: \"Précis\",\n          value: 1\n        }, {\n          id: 345,\n          name: \"Original\",\n          value: 3\n        }]\n      }, {\n        id: 216,\n        categoryId: 12,\n        value: 0,\n        completed: false,\n        choices: [{\n          id: 346,\n          name: \"Populaire\",\n          value: 3\n        }, {\n          id: 347,\n          name: \"Discipliné\",\n          value: 1\n        }, {\n          id: 348,\n          name: \"Cultivé\",\n          value: 2\n        }]\n      }],\n      answers: [\n      //Y > 16\n      [\n      //X > 16 & Y < X       ==> Jaune & Rouge\n      {\n        id: 11,\n        text: \"Jaune et Rouge\",\n        color: '#EDE813',\n        primary: \"Votre couleur dominante est le jaune et votre couleur secondaire probablement le rouge\",\n        secondary: [\"Vous êtes extraverti et orienté résultat.\", \" Vous aimez l’action, la rapidité, le contact…\", \"Vous êtes exigeant et attendez des résultats rapides…\", \"Prendre la parole en public pour donner votre avis n’est pas un problème.\", \"L’argumentation, voire la confrontation des idées est un mode de fonctionnement naturel…\", \"Pour vous convaincre, il faut des arguments concrets et vous parler droit au but…\", \"Votre valeur ajoutée principale : faire avancer les choses…\"]\n      },\n      //X < 16 & X == Y      ==> Jaune\n      {\n        id: 1,\n        text: \"Jaune\",\n        color: '#EDE813',\n        primary: \"Votre couleur dominante est le jaune\",\n        secondary: [\"Vous êtes extraverti et orienté vers les personnes.\", \"Vous montrez de l'enthousiasme et vous passionnez très vite pour les nouveautés.\", \"Vous aimez travailler avec les autres et leur transmettre votre motivation.\", \"Vous entretenez votre réseau. Vous vivez à travers le regard des autres, vous aimez les compliments et soignez votre apparence.\", \"Vous avez tendance à ne pas finir vos tâches dès qu'un nouveau sujet passionnant se profile à l'horizon.\"]\n      },\n      //X < 16 & Y > X       ==> Jaune & Vert\n      {\n        id: 12,\n        text: \"Jaune et Vert\",\n        color: '#EDE813',\n        primary: \"Votre couleur dominante est le jaune et votre couleur secondaire est probablement le vert.\",\n        secondary: [\"Vous êtes à l’aise dans les situations sociales.\", \"Rentrer en contact, échanger, partager vos émotions avec les autres n’est pas un problème.\", \"Empathique, dynamique, vous mettez l’ambiance et créez la relation en accordant de l’importance à vos interlocuteurs.\", \"Positif, vous donnez du feedback encourageant aux autres.\", \"Votre valeur ajoutée principale : développer l’esprit d’équipe et créer un climat relationnel positif.\", \"Vous êtes aussi très attentif à la forme de votre communication.\"]\n      },\n      //X == 16              ==> Relation\n      {\n        id: 2,\n        text: \"Relation\",\n        color: \"#FFFFFF\",\n        primary: \"Votre résultat n'est pas défini sur l'axe horizontal\",\n        secondary: [\"On peut néanmoins en déduire une attention vers le côté relationnel.\", \"La priorité est plutôt l'humain, les personnes, la relation aux autres.\"]\n      },\n      //X < 16 & Y > 32-X    ==> Vert & Jaune\n      {\n        id: 13,\n        text: \"Vert et Jaune\",\n        color: '#009640',\n        primary: \"Votre couleur dominante est le vert et votre couleur secondaire probablement le jaune.\",\n        secondary: [\"Votre premier besoin est l’harmonie et développer des relations profondes avec les autres.\", \"Néanmoins, vous êtes plutôt à l’aise en public et vous trouvez facilement votre place dans les dynamiques collectives.\", \"Prendre la parole en réunion, notamment pour échanger sur les aspects relationnels, l’humain et les valeurs est important pour vous.\", \"Vous aimez partager vos idées et votre réseau personnel est fait de personnes que vous appréciez particulièrement.\", \"Par contre vous savez vous mettre en retrait et écouter quand le groupe s’exprime.\", \"Une de vos difficultés majeures est de vous affirmer directement.\"]\n      },\n      //X < 16 & Y == X      ==> Vert\n      {\n        id: 3,\n        text: \"Vert\",\n        color: '#009640',\n        primary: \"Votre couleur dominante est le vert\",\n        secondary: [\"Vous êtes orienté vers les personnes et les relations, et plutôt introverti.\", \"Vous parlez doucement et chaleureusement.\", \"Vous ne supportez pas les conflits, ni les critiques directes, qui peuvent vous blesser.\", \"Vous agissez de façon calme et modérée.\", \"Vous pouvez toutefois réagir violemment car vous avez tendance à intérioriser et à contenir vos émotions.\"]\n      },\n      //X < 16 & Y < 32-X    ==> Vert & Bleu\n      {\n        id: 14,\n        text: \"Vert et Bleu\",\n        color: '#009640',\n        primary: \"Votre couleur dominante est le vert et votre couleur secondaire probablement le bleu.\",\n        secondary: [\"Calme, à l’écoute, empathique, votre style discret mais attentionné vous vaut d’être une « ressource » ou un confident pour les autres.\", \"Serviable et introverti, vous apportez des solutions de fond en respectant/intégrant les avis des autres.\", \"Vous posez des questions et observez les situations.\", \"Votre discrétion est souvent appréciée.\", \"Votre principale valeur ajoutée : l’aide que vous apportez aux autres, associée à une fiabilité certaine.\", \"Vous aimez prendre le temps de la réflexion avant de décider et vous vous basez sur l’avis des autres mais aussi sur des éléments factuels de décision.\"]\n      }],\n      //Y == 16\n      [\n      //X > 16               ==> Extraverti\n      {\n        id: 4,\n        text: \"Extraverti\",\n        color: \"#FFFFFF\",\n        primary: \"Votre résultat n'est pas défini sur l'axe vertical\",\n        secondary: [\"On peut néanmoins en déduire une attention aux sentiments, opinions ou raisonnements récurrents.\"]\n      },\n      //X == 16              ==> Indéfini\n      {\n        id: 5,\n        text: \"Indéfini\",\n        color: \"#FFFFFF\",\n        primary: \"Votre résultat n'est pas défini sur l'axe vertical et horizontal\",\n        secondary: [\"Vous pouvez réessayer en remplaçant certaines réponses sur lesquelles vous avez peut-être hésité.\"]\n      },\n      //X < 16               ==> Introverti\n      {\n        id: 6,\n        text: \"Introverti\",\n        color: \"#FFFFFF\",\n        primary: \"Votre résultat n'est pas défini sur l'axe vertical\",\n        secondary: [\"On peut néanmoins en déduire une énergie moins visible.\", \"Les sentiments, les opinions sont plus intériorisées.\"]\n      }],\n      //Y < 16\n      [\n      //X > 16 & Y > 32-x     ==> Rouge & Jaune\n      {\n        id: 18,\n        text: \"Rouge et Jaune\",\n        color: '#E30613',\n        primary: \"Votre couleur dominante est le rouge et votre couleur secondaire probablement le jaune\",\n        secondary: [\"Vous êtes orienté Résultat et vous êtes attentifs à embarquer les autres parties prenantes vers cet objectif.\", \"L’efficacité est votre premier moteur.\", \"Habituellement orienté tâches et faits concrets, vous n’avez pas de difficultés pour créer votre réseau, partager dans la bonne humeur vos idées et vous ouvrir aux autres.\", \"Le projet qui se traduit rapidement en éléments visibles est votre moteur.\", \"Et votre mantra est : « agissons ! »\"]\n      },\n      //X > 16 & Y == 32-X    ==> Rouge\n      {\n        id: 7,\n        text: \"Rouge\",\n        color: '#E30613',\n        primary: \"Votre couleur dominante est le rouge\",\n        secondary: [\"Vous êtes orienté vers l'action et les résultats, et plutôt extraverti.\", \"Vous possédez une vision d'ensemble et ne vous embarrassez pas des détails.\", \"Vous êtes motivé par les challenges et allez droit au but.\", \"Vous parlez vite et fort.\", \"Vous n'avez pas peur de vous tromper, vous prenez vos décisions rapidement, même avec très peu de cartes en main et n’avez aucun souci à reconnaître vos éventuelles erreurs.\"]\n      },\n      //X > 16 & Y < 32-X     ==> Rouge & Bleu\n      {\n        id: 17,\n        text: \"Rouge et Bleu\",\n        color: '#E30613',\n        primary: \"Votre couleur dominante est le rouge et votre couleur secondaire probablement le bleu. \",\n        secondary: [\"Votre premier moteur est l’efficacité.\", \"Vous œuvrez avec une forme de discrétion à atteindre les résultats escomptés.\", \"Vous aimez plutôt travailler en solitaire, et vous faites remarquer calmement les problèmes de terrain.\", \"On apprécie chez vous votre sang-froid et votre efficience naturelle.\", \"Votre fiabilité est un autre de vos atouts.\", \"Vous êtes celui ou celle qui organisez les projets et les planifiez.\", \"On se tourne souvent vers vous pour cela car c’est un rôle que vous aimez occuper.\"]\n      },\n      //X == 16               ==> Résultat\n      {\n        id: 8,\n        text: \"Résultat\",\n        color: \"#FFFFFF\",\n        primary: \"Votre résultat n'est pas défini sur l'axe horizontal\",\n        secondary: [\"On peut néanmoins en déduire l'attention portée aux tâches à réaliser, aux objectifs et aux résultats.\"]\n      },\n      //X < 16 & Y < X        ==> Bleu & Rouge\n      {\n        id: 16,\n        text: \"Bleu et Rouge\",\n        color: '#045576',\n        primary: \"Votre couleur dominante est le bleu et votre couleur secondaire probablement le rouge.\",\n        secondary: [\"Vous êtes calme, factuel et rationnel.\", \"Vous intervenez régulièrement pour mettre en évidence les dysfonctionnements autour de vous.\", \"Vous observez la réalité et y jetez un coup d’œil analytique et rationnel.\", \"Votre valeur ajoutée principale : la mise en évidence de certains risques que les autres ne voient pas.\", \"Vous pouvez parfois être très « carré » dans vos approches et avoir du mal à changer de point de vue.\", \"Votre approche décisionnelle est définitivement basée sur une approche concrète et factuelle.\"]\n      },\n      //X < 16 & Y == X       ==> Bleu\n      {\n        id: 9,\n        text: \"Bleu\",\n        color: '#045576',\n        primary: \"Votre couleur dominante est le bleu\",\n        secondary: [\"Vous êtes introverti, orienté vers les tâches.\", \"Vous êtes consciencieux et aimez travailler au calme.\", \"Vous êtes une personne posée, attentive aux failles et incohérences.\", \"Vous avez besoin de structure et de précision.\", \"Vous détestez vous tromper, et cette simple éventualité suffit à vous paralyser.\", \"Vous avez besoin d'avoir toutes les cartes en main pour décider, de façon méthodique.\", \"Vous respectez les règles et les procédures car elles sont garantes de fiabilité.\"]\n      },\n      //X < 16 & Y > X        ==> Bleu & Vert\n      {\n        id: 15,\n        text: \"Bleu et Vert\",\n        color: '#045576',\n        primary: \"Votre couleur dominante est le bleu et votre couleur secondaire probablement le vert.\",\n        secondary: [\"Vous êtes plutôt discret et pouvez parfois sembler peu sûr de vous.\", \"Vous aimez la rigueur et la fiabilité.\", \"Même si vous préférez travailler seul, vous avez développé autour de vous un réseau de personnes avec lesquelles vous entretenez des relations d’une certaine profondeur.\", \"Vous êtes attentif aux autres et pouvez, si le degré d’intimité est là, exprimer facilement ce que vous ressentez.\", \"Vous aimez les personnes qui ont de l’expertise et c’est avec elles que vous gérez vos projets !\", \"Introvertis, vous prenez du temps pour vous positionner.\"]\n      }]]\n    }\n  };\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  //console.log(\"data\",data)\n  let questions = this.state.questionnaire.questions;\n  let categories = this.state.questionnaire.categories;\n  const qIndex = questions.findIndex(element => element.id === data.questionId);\n  //console.log(\"qIndex\",qIndex)\n  if (qIndex >= 0) {\n    const cIndex = categories.findIndex(element => element.id === questions[qIndex].categoryId);\n    questions[qIndex].value = data.value;\n    questions[qIndex].completed = true;\n    categories[cIndex].value += parseInt(data.value);\n    //console.log(\"cIndex\",cIndex)\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header />\r\n                <Questions questions={this.state.questionnaire.questions} handleclick={this.handleAddPoint} />\r\n                <Answer />\r\n            {/*<Graphic />*/}\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleclick = this.handleclick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questions.js",
+        "name": "handleclick",
+        "code": "handleclick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  return <Context.Consumer>\r\n                {value => <div className=\"boxes\">\r\n                   {questions.map((question, index) => <div key={index} className=\"box\">\r\n                            <Caracteristiques question={question} handleclick={this.handleclick} />\r\n                        </div>)}\r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez répondre à toutes les questions\",\n    vectors: {\n      middle: 16,\n      minX: 24,\n      maxX: 9,\n      minY: 9,\n      maxY: 24\n    },\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      const answers = data.answers;\n      const isCompleted = data.questions.every(question => question.completed === true);\n      //const isCompleted = true\n      const scoreX = data.categories[0].value;\n      const scoreY = data.categories[1].value;\n      console.log(\"scoreX\", scoreX);\n      console.log(\"scoreY\", scoreY);\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n        //SCALE AND POSITIONS\n        const vectorsX = \"206.5\";\n        /* Inversion de l'axe y. vectorsY prend la valeur max : 109.5 + 421 */\n        /*const vectorsY = \"109.5\"*/\n        const vectorsY = \"530.5\";\n        const distanceX = \"478\";\n        const distanceY = \"421\";\n        const scaleX = parseInt(distanceX) / 17;\n        const scaleY = parseInt(distanceY) / 16.5;\n\n        //SETGRAPHIC\n        const pointX = parseInt(vectorsX) + (24.5 - parseInt(scoreX)) * parseInt(scaleX);\n        /* Inversion du calcul du pointY sachant que le vectorY vaut déjà le max. On soustrait au lieu d'incrémenter */\n        const pointY = parseInt(vectorsY) - (24.3 - parseInt(scoreY)) * parseInt(scaleY);\n\n        //SET ANSWER\n        let xIndex;\n        let yIndex;\n\n        /*------------------*/\n        /* EQUATION DE BASE */\n        /*------------------*/\n        //scoreY > 16 ? (yIndex = 0) : (scoreY === 16 ? (yIndex = 1): (yIndex =2))\n        /*scoreX > 16 ? (xIndex = 0) : (scoreX === 16 ? (xIndex = 1): (xIndex =2))*/\n\n        /*---------------------------------*/\n        /* EQUATION AMELIOREE  LE 17/10/21 */\n        /*---------------------------------*/\n        //INDEX TEMPORAIRE DE POSTION DE L AXE Y & X  /* 17/10/21 */\n        let POSX_I;\n        let POSY_I;\n        scoreX > 16 ? POSX_I = 0 : scoreX === 16 ? POSX_I = 1 : POSX_I = 2;\n        scoreY > 16 ? POSY_I = 0 : scoreY === 16 ? POSY_I = 1 : POSY_I = 2;\n        yIndex = POSY_I;\n        //DEFINITION DES INDEX DE TABLEAUX\n        POSY_I === 0 ? POSX_I === 0 ? scoreY < scoreX ? xIndex = 0 //JAUNE-ROUGE\n        : scoreY === scoreX ? xIndex = 1 //JAUNE\n        : xIndex = 2 //JAUNE-VERT\n        : POSX_I === 1 ? xIndex = 3 //RELATION\n        : scoreY > 32 - scoreX ? xIndex = 4 //VERT-JAUNE\n        : scoreY === 32 - scoreX ? xIndex = 5 //VERT        \n        : xIndex = 6 //VERT-BLEU\n        : POSY_I === 1 ? POSX_I === 0 ? xIndex = 0 //EXTRAVERTI\n        : POSX_I === 1 ? xIndex = 1 //INDEFINI\n        : xIndex = 2 //INTROVERTI     \n        : POSX_I === 0 ? scoreY > 32 - scoreX ? xIndex = 0 //ROUGE-JAUNE  \n        : scoreY === 32 - scoreX ? xIndex = 1 //ROUGE\n        : xIndex = 2 //ROUGE-BLEU\n        : POSX_I === 1 ? xIndex = 3 //RESULTAT\n        : scoreY < scoreX ? xIndex = 4 //BLEU-ROUGE\n        : scoreY === scoreX ? xIndex = 5 //BLEU\n        : xIndex = 6 //BLEU-VERT\n        ;\n        const answer = answers[yIndex][xIndex];\n\n        //SET MESSAGEBOX\n        message = <div className=\"result\">\r\n                            <div className=\"graphic-container\">\r\n                            <svg viewBox=\"0 0 890 640\">\r\n                            <defs>\r\n                                {/*</defs><filter id=\"dropshadow\" x=\"-40%\" y=\"-40%\" width=\"180%\" height=\"180%\" filterUnits=\"userSpaceOnUse\">*/}\r\n                                <filter id=\"dropshadow\" x=\"0%\" y=\"0%\" width=\"100%\" height=\"100%\" filterUnits=\"userSpaceOnUse\">\r\n                                <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"1\" /> \r\n                                <feOffset dx=\"5\" dy=\"5\" result=\"offsetblur\" /> \r\n                                <feOffset dx=\"-5\" dy=\"-5\" result=\"offsetblur\" />\r\n                                <feMerge> \r\n                                    <feMergeNode />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                    <feMergeNode in=\"SourceGraphic\" />\r\n                                </feMerge>\r\n                                </filter>\r\n                            </defs>\r\n                                        <g id=\"Relational\">\r\n                                            <text class=\"svg-text\" transform=\"translate(395 89.5)\">Résultat</text>\r\n                                        </g>\r\n                                        <g id=\"Result\">\r\n                                            <text class=\"svg-text\" transform=\"translate(377 560.5)\">Relationnel</text>\r\n                                        </g>\r\n                                        <g id=\"Extrovert\">\r\n                                            <text class=\"svg-text\" transform=\"translate(64.5 330)\">Extraverti</text>\r\n                                        </g>\r\n                                        <g id=\"Introverted\">\r\n                                            <text class=\"svg-text\" transform=\"translate(704.5 330)\">Introverti</text>\r\n                                        </g>\r\n                                        <path className=\"svg-vectors\" transform=\"translate(206.5 109.5),scale(0.75)\" d=\"M633.12,279.48l-22.06-10.22a4.08,4.08,0,0,0-1.69-.37,4,4,0,0,0-4,4v6.72H321.22V30.4h6.1A4,4,0,0,0,331,24.73L320.69,2.33a4,4,0,0,0-7.27,0l-10.27,22.4a4,4,0,0,0,3.64,5.67h7.43V279.61H30.06v-6.72a4.07,4.07,0,0,0-.37-1.68,4,4,0,0,0-5.31-1.95L2.32,279.48a4,4,0,0,0,0,7.26L24.38,297a3.93,3.93,0,0,0,1.68.38,4,4,0,0,0,4-4v-6.73H314.22V529.4h-7.43a4.14,4.14,0,0,0-1.67.36,4,4,0,0,0-2,5.31l10.27,22.4a4,4,0,0,0,7.27,0L331,535.07a4,4,0,0,0-3.63-5.67h-6.1V286.61H605.37v6.73a3.93,3.93,0,0,0,.38,1.68,4,4,0,0,0,5.31,1.94l22.06-10.22a4,4,0,0,0,0-7.26Z\" />\r\n                                        <circle id=\"Ellipse_58-2\" data-name=\"Ellipse 58-2\" cx={parseInt(pointX)} cy={parseInt(pointY)} r=\"15\" filter=\"url(#dropshadow)\" fill={answer.color} />\r\n                            </svg>\r\n                                \r\n                            </div>\r\n                            <div className=\"result-div\">\r\n                                <div className=\"result-title\">\r\n                                    <p>Vos caractéristiques</p>\r\n                                </div>\r\n                                <div className=\"result-points\">\r\n                                    <h3>{answer.primary}</h3>\r\n                                    {answer.secondary.map((text, index) => <p key={index}>{text}</p>)}\r\n                                </div>\r\n                                    </div> \r\n                        </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                        <div className=\"answer-text\">\r\n                                            {this.state.message}\r\n                                        </div>\r\n                            </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <div className=\"w100\"> <ToPrint ref={this.printRef} title={data.title}> {message} </ToPrint> {printbutton}</div>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                           {result}\r\n                           <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                       </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Caracteristiques.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    value: 0\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Caracteristiques.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let newvalue = 0;\n  newvalue -= parseInt(this.state.value);\n  newvalue += parseInt(e.target.value);\n  let data = {\n    caracteristiqueId: e.target.id,\n    questionId: this.props.question.id,\n    value: newvalue,\n    categoryId: this.props.question.categoryId\n  };\n  // console.log(\"handleClick\", data)\n\n  this.props.handleclick(data);\n  this.setState({\n    value: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/PersonaFRhautencouleur/Components/Caracteristiques.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  const caracteristiques = question.choices;\n  return <div className=\"checklist\">\r\n                {caracteristiques.map((caracteristique, index) => <div key={index} className=\"checklistItem\">\r\n                        <input type=\"radio\" id={caracteristique.id} name={question.id} value={caracteristique.value} onClick={this.handleClick} />\r\n                        <label className=\"checkbox-label\" htmlFor={caracteristique.id} />\r\n                        <p>{caracteristique.name}</p>\r\n                    </div>)}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

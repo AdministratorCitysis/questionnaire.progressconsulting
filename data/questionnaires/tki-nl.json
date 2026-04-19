@@ -1,0 +1,1918 @@
+{
+  "routePath": "/tki/nl",
+  "routeComponent": "TKI_NM",
+  "routeImportSource": "./Components/TKI_NL",
+  "extractionTimestamp": "2026-04-19T10:07:00.533Z",
+  "sourceFiles": [
+    "src/Components/TKI_NL.js",
+    "src/Components/TKI_NL/Components/Answer.js",
+    "src/Components/TKI_NL/Components/Context.js",
+    "src/Components/TKI_NL/Components/Header.js",
+    "src/Components/TKI_NL/Components/Question.js",
+    "src/Components/TKI_NL/Components/Questionnaire.js",
+    "src/Components/TKI_NL/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "TKI Conflictbeheersing",
+    "instruction": "In veel gevallen zijn de verklaringen niet echt kenmerkend voor uw gedrag, dus kies de reactie die u het meest waarschijnlijk zou hebben.",
+    "description": "Stel je voor dat je je in situaties bevindt waarin je aspiraties en verlangens verschillen van die van iemand anders.\nHoe reageert u meestal?\nControleer voor elk tweetal de verklaring die uw eigen houding in dergelijke situaties het beste beschrijft.",
+    "completed": false,
+    "categories": [
+      {
+        "id": 11,
+        "text": [
+          "Wedijveren"
+        ],
+        "value": 0
+      },
+      {
+        "id": 12,
+        "text": [
+          "Samenwerken"
+        ],
+        "value": 0
+      },
+      {
+        "id": 13,
+        "text": [
+          "Compromis"
+        ],
+        "value": 0
+      },
+      {
+        "id": 14,
+        "text": [
+          "Uit de weg gaan"
+        ],
+        "value": 0
+      },
+      {
+        "id": 15,
+        "text": [
+          "Toegeven"
+        ],
+        "value": 0
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "completed": false,
+        "choices": [
+          {
+            "id": 31,
+            "name": "Ik laat het soms aan anderen over om het probleem op te lossen",
+            "categoryId": 14
+          },
+          {
+            "id": 32,
+            "name": "In plaats van onze meningsverschillen te bespreken, probeer ik de punten waar we het over eens zijn te benadrukken...",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "completed": false,
+        "choices": [
+          {
+            "id": 33,
+            "name": "Ik probeer een compromis te vinden",
+            "categoryId": 13
+          },
+          {
+            "id": 34,
+            "name": "Ik probeer al onze zorgen aan te pakken, de zijne en de mijne...",
+            "categoryId": 12
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "completed": false,
+        "choices": [
+          {
+            "id": 35,
+            "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+            "categoryId": 11
+          },
+          {
+            "id": 36,
+            "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "completed": false,
+        "choices": [
+          {
+            "id": 37,
+            "name": "Ik probeer een compromis te vinden",
+            "categoryId": 13
+          },
+          {
+            "id": 38,
+            "name": "Soms offer ik mijn eigen verlangens op tegenover die van de andere...",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "completed": false,
+        "choices": [
+          {
+            "id": 39,
+            "name": "Ik zoek systematisch de hulp van de ander om een oplossing te vinden...",
+            "categoryId": 12
+          },
+          {
+            "id": 310,
+            "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden...",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "completed": false,
+        "choices": [
+          {
+            "id": 311,
+            "name": "Ik probeer te voorkomen dat ik problemen veroorzaak...",
+            "categoryId": 14
+          },
+          {
+            "id": 312,
+            "name": "Ik probeer mijn punt door te duwen",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "completed": false,
+        "choices": [
+          {
+            "id": 313,
+            "name": "Ik probeer het probleem te verdringen om mezelf een afkoelingsperiode te geven...",
+            "categoryId": 14
+          },
+          {
+            "id": 314,
+            "name": "Ik geef op sommige punten toe in ruil voor andere concessies",
+            "categoryId": 13
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "completed": false,
+        "choices": [
+          {
+            "id": 315,
+            "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+            "categoryId": 11
+          },
+          {
+            "id": 316,
+            "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen...",
+            "categoryId": 12
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "completed": false,
+        "choices": [
+          {
+            "id": 317,
+            "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen...",
+            "categoryId": 14
+          },
+          {
+            "id": 318,
+            "name": "Ik werk hard om mijn doel te bereiken",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "completed": false,
+        "choices": [
+          {
+            "id": 319,
+            "name": "Ik streef mijn doelen vastberaden na",
+            "categoryId": 11
+          },
+          {
+            "id": 320,
+            "name": "Ik probeer een compromis te vinden",
+            "categoryId": 13
+          }
+        ]
+      },
+      {
+        "id": 211,
+        "completed": false,
+        "choices": [
+          {
+            "id": 321,
+            "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+            "categoryId": 12
+          },
+          {
+            "id": 322,
+            "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "completed": false,
+        "choices": [
+          {
+            "id": 323,
+            "name": "Ik vermijd soms controversiële standpunten",
+            "categoryId": 13
+          },
+          {
+            "id": 324,
+            "name": "Ik zal concessies doen als de andere dat doet",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 213,
+        "completed": false,
+        "choices": [
+          {
+            "id": 325,
+            "name": "Ik stel een middenweg voor",
+            "categoryId": 13
+          },
+          {
+            "id": 326,
+            "name": "Ik sta erop om mijn ideeën duidelijk te maken",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "completed": false,
+        "choices": [
+          {
+            "id": 327,
+            "name": "Ik deel mijn ideeën met de andere en ik vraag naar de zijne/hare",
+            "categoryId": 12
+          },
+          {
+            "id": 328,
+            "name": "Ik probeer hem/haar de logica en de voordelen van mijn positie te laten zien",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 215,
+        "completed": false,
+        "choices": [
+          {
+            "id": 329,
+            "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+            "categoryId": 15
+          },
+          {
+            "id": 330,
+            "name": "Ik probeer te doen wat ik kan om spanning te vermijden",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 216,
+        "completed": false,
+        "choices": [
+          {
+            "id": 331,
+            "name": "Ik probeer de andere niet te kwetsen",
+            "categoryId": 15
+          },
+          {
+            "id": 332,
+            "name": "Ik probeer de andere persoon te overtuigen van de verdiensten van mijn positie",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "completed": false,
+        "choices": [
+          {
+            "id": 333,
+            "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+            "categoryId": 11
+          },
+          {
+            "id": 334,
+            "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "completed": false,
+        "choices": [
+          {
+            "id": 335,
+            "name": "Ik kan de andere zijn standpunt laten houden, als dat hem plezier doet",
+            "categoryId": 15
+          },
+          {
+            "id": 336,
+            "name": "Ik zal concessies doen als de andere dat ook doet",
+            "categoryId": 13
+          }
+        ]
+      },
+      {
+        "id": 219,
+        "completed": false,
+        "choices": [
+          {
+            "id": 337,
+            "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+            "categoryId": 12
+          },
+          {
+            "id": 338,
+            "name": "Ik probeer het probleem te ontlopen om mezelf een afkoelingsperiode te geven",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 220,
+        "completed": false,
+        "choices": [
+          {
+            "id": 339,
+            "name": "Ik zoek een onmiddellijke oplossing voor onze geschillen",
+            "categoryId": 12
+          },
+          {
+            "id": 340,
+            "name": "Ik probeer een balans te vinden en wat te geven en te nemen",
+            "categoryId": 13
+          }
+        ]
+      },
+      {
+        "id": 221,
+        "completed": false,
+        "choices": [
+          {
+            "id": 341,
+            "name": "Bij het naderen van de onderhandelingen probeer ik rekening te houden met de aspiraties van de andere partij.",
+            "categoryId": 15
+          },
+          {
+            "id": 342,
+            "name": "Ik neig nog meestal naar een eenvoudige discussie over het probleem",
+            "categoryId": 12
+          }
+        ]
+      },
+      {
+        "id": 222,
+        "completed": false,
+        "choices": [
+          {
+            "id": 343,
+            "name": "Ik probeer een middenweg te vinden tussen de zijne en de mijne...",
+            "categoryId": 13
+          },
+          {
+            "id": 344,
+            "name": "Ik laat mijn wensen uitkomen",
+            "categoryId": 11
+          }
+        ]
+      },
+      {
+        "id": 223,
+        "completed": false,
+        "choices": [
+          {
+            "id": 345,
+            "name": "Ik probeer vaak al onze aspiraties te bevredigen...",
+            "categoryId": 12
+          },
+          {
+            "id": 346,
+            "name": "Ik laat mijn wensen uitkomen",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 224,
+        "completed": false,
+        "choices": [
+          {
+            "id": 347,
+            "name": "Als de andere persoon de dingen heel erg ter harte neemt, probeer ik aan hun verlangens tegemoet te komen",
+            "categoryId": 15
+          },
+          {
+            "id": 348,
+            "name": "Ik probeer hem/haar tot een compromis te laten komen",
+            "categoryId": 13
+          }
+        ]
+      },
+      {
+        "id": 225,
+        "completed": false,
+        "choices": [
+          {
+            "id": 349,
+            "name": "Ik probeer om hem/haar de logica en de voordelen van mijn standpunt aan te tonen",
+            "categoryId": 11
+          },
+          {
+            "id": 350,
+            "name": "Bij het aangaan van de onderhandelingen, probeer ik rekening te houden met de aspiraties van de andere partij",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 226,
+        "completed": false,
+        "choices": [
+          {
+            "id": 351,
+            "name": "Ik stel een middenweg voor",
+            "categoryId": 13
+          },
+          {
+            "id": 352,
+            "name": "Ik probeer bijna altijd al aan al onze aspiraties te voldoen",
+            "categoryId": 12
+          }
+        ]
+      },
+      {
+        "id": 227,
+        "completed": false,
+        "choices": [
+          {
+            "id": 353,
+            "name": "Ik vermijd soms controversiële standpunten",
+            "categoryId": 14
+          },
+          {
+            "id": 354,
+            "name": "Als het de andere gelukkig maakt, kan ik hem zijn posities laten behouden",
+            "categoryId": 15
+          }
+        ]
+      },
+      {
+        "id": 228,
+        "completed": false,
+        "choices": [
+          {
+            "id": 355,
+            "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+            "categoryId": 11
+          },
+          {
+            "id": 356,
+            "name": "Ik zoek meestal elkaars hulp om een oplossing te vinden",
+            "categoryId": 12
+          }
+        ]
+      },
+      {
+        "id": 229,
+        "completed": false,
+        "choices": [
+          {
+            "id": 357,
+            "name": "Ik stel een middenweg voor",
+            "categoryId": 13
+          },
+          {
+            "id": 358,
+            "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen",
+            "categoryId": 14
+          }
+        ]
+      },
+      {
+        "id": 230,
+        "completed": false,
+        "choices": [
+          {
+            "id": 359,
+            "name": "Ik probeer de andere niet te kwetsen",
+            "categoryId": 15
+          },
+          {
+            "id": 360,
+            "name": "Ik deel mijn visie op het probleem altijd met de andere persoon zodat we het kunnen oplossen",
+            "categoryId": 12
+          }
+        ]
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "TKI Conflictbeheersing",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": null,
+            "raw": {
+              "id": 21,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 31,
+                  "name": "Ik laat het soms aan anderen over om het probleem op te lossen",
+                  "categoryId": 14
+                },
+                {
+                  "id": 32,
+                  "name": "In plaats van onze meningsverschillen te bespreken, probeer ik de punten waar we het over eens zijn te benadrukken...",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 31,
+                "name": "Ik laat het soms aan anderen over om het probleem op te lossen",
+                "categoryId": 14
+              },
+              {
+                "id": 32,
+                "name": "In plaats van onze meningsverschillen te bespreken, probeer ik de punten waar we het over eens zijn te benadrukken...",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": null,
+            "raw": {
+              "id": 22,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 33,
+                  "name": "Ik probeer een compromis te vinden",
+                  "categoryId": 13
+                },
+                {
+                  "id": 34,
+                  "name": "Ik probeer al onze zorgen aan te pakken, de zijne en de mijne...",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 33,
+                "name": "Ik probeer een compromis te vinden",
+                "categoryId": 13
+              },
+              {
+                "id": 34,
+                "name": "Ik probeer al onze zorgen aan te pakken, de zijne en de mijne...",
+                "categoryId": 12
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": null,
+            "raw": {
+              "id": 23,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 35,
+                  "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                  "categoryId": 11
+                },
+                {
+                  "id": 36,
+                  "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 35,
+                "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                "categoryId": 11
+              },
+              {
+                "id": 36,
+                "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": null,
+            "raw": {
+              "id": 24,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 37,
+                  "name": "Ik probeer een compromis te vinden",
+                  "categoryId": 13
+                },
+                {
+                  "id": 38,
+                  "name": "Soms offer ik mijn eigen verlangens op tegenover die van de andere...",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 37,
+                "name": "Ik probeer een compromis te vinden",
+                "categoryId": 13
+              },
+              {
+                "id": 38,
+                "name": "Soms offer ik mijn eigen verlangens op tegenover die van de andere...",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": null,
+            "raw": {
+              "id": 25,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 39,
+                  "name": "Ik zoek systematisch de hulp van de ander om een oplossing te vinden...",
+                  "categoryId": 12
+                },
+                {
+                  "id": 310,
+                  "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden...",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 39,
+                "name": "Ik zoek systematisch de hulp van de ander om een oplossing te vinden...",
+                "categoryId": 12
+              },
+              {
+                "id": 310,
+                "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden...",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": null,
+            "raw": {
+              "id": 26,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 311,
+                  "name": "Ik probeer te voorkomen dat ik problemen veroorzaak...",
+                  "categoryId": 14
+                },
+                {
+                  "id": 312,
+                  "name": "Ik probeer mijn punt door te duwen",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 311,
+                "name": "Ik probeer te voorkomen dat ik problemen veroorzaak...",
+                "categoryId": 14
+              },
+              {
+                "id": 312,
+                "name": "Ik probeer mijn punt door te duwen",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": null,
+            "raw": {
+              "id": 27,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 313,
+                  "name": "Ik probeer het probleem te verdringen om mezelf een afkoelingsperiode te geven...",
+                  "categoryId": 14
+                },
+                {
+                  "id": 314,
+                  "name": "Ik geef op sommige punten toe in ruil voor andere concessies",
+                  "categoryId": 13
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 313,
+                "name": "Ik probeer het probleem te verdringen om mezelf een afkoelingsperiode te geven...",
+                "categoryId": 14
+              },
+              {
+                "id": 314,
+                "name": "Ik geef op sommige punten toe in ruil voor andere concessies",
+                "categoryId": 13
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": null,
+            "raw": {
+              "id": 28,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 315,
+                  "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                  "categoryId": 11
+                },
+                {
+                  "id": 316,
+                  "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen...",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 315,
+                "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                "categoryId": 11
+              },
+              {
+                "id": 316,
+                "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen...",
+                "categoryId": 12
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": null,
+            "raw": {
+              "id": 29,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 317,
+                  "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen...",
+                  "categoryId": 14
+                },
+                {
+                  "id": 318,
+                  "name": "Ik werk hard om mijn doel te bereiken",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 317,
+                "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen...",
+                "categoryId": 14
+              },
+              {
+                "id": 318,
+                "name": "Ik werk hard om mijn doel te bereiken",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 210,
+            "text": null,
+            "raw": {
+              "id": 210,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 319,
+                  "name": "Ik streef mijn doelen vastberaden na",
+                  "categoryId": 11
+                },
+                {
+                  "id": 320,
+                  "name": "Ik probeer een compromis te vinden",
+                  "categoryId": 13
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 319,
+                "name": "Ik streef mijn doelen vastberaden na",
+                "categoryId": 11
+              },
+              {
+                "id": 320,
+                "name": "Ik probeer een compromis te vinden",
+                "categoryId": 13
+              }
+            ]
+          },
+          {
+            "id": 211,
+            "text": null,
+            "raw": {
+              "id": 211,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 321,
+                  "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+                  "categoryId": 12
+                },
+                {
+                  "id": 322,
+                  "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 321,
+                "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+                "categoryId": 12
+              },
+              {
+                "id": 322,
+                "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 212,
+            "text": null,
+            "raw": {
+              "id": 212,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 323,
+                  "name": "Ik vermijd soms controversiële standpunten",
+                  "categoryId": 13
+                },
+                {
+                  "id": 324,
+                  "name": "Ik zal concessies doen als de andere dat doet",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 323,
+                "name": "Ik vermijd soms controversiële standpunten",
+                "categoryId": 13
+              },
+              {
+                "id": 324,
+                "name": "Ik zal concessies doen als de andere dat doet",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 213,
+            "text": null,
+            "raw": {
+              "id": 213,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 325,
+                  "name": "Ik stel een middenweg voor",
+                  "categoryId": 13
+                },
+                {
+                  "id": 326,
+                  "name": "Ik sta erop om mijn ideeën duidelijk te maken",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 325,
+                "name": "Ik stel een middenweg voor",
+                "categoryId": 13
+              },
+              {
+                "id": 326,
+                "name": "Ik sta erop om mijn ideeën duidelijk te maken",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 214,
+            "text": null,
+            "raw": {
+              "id": 214,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 327,
+                  "name": "Ik deel mijn ideeën met de andere en ik vraag naar de zijne/hare",
+                  "categoryId": 12
+                },
+                {
+                  "id": 328,
+                  "name": "Ik probeer hem/haar de logica en de voordelen van mijn positie te laten zien",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 327,
+                "name": "Ik deel mijn ideeën met de andere en ik vraag naar de zijne/hare",
+                "categoryId": 12
+              },
+              {
+                "id": 328,
+                "name": "Ik probeer hem/haar de logica en de voordelen van mijn positie te laten zien",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 215,
+            "text": null,
+            "raw": {
+              "id": 215,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 329,
+                  "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                  "categoryId": 15
+                },
+                {
+                  "id": 330,
+                  "name": "Ik probeer te doen wat ik kan om spanning te vermijden",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 329,
+                "name": "Ik probeer de ander gerust te stellen en onze relatie te behouden",
+                "categoryId": 15
+              },
+              {
+                "id": 330,
+                "name": "Ik probeer te doen wat ik kan om spanning te vermijden",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 216,
+            "text": null,
+            "raw": {
+              "id": 216,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 331,
+                  "name": "Ik probeer de andere niet te kwetsen",
+                  "categoryId": 15
+                },
+                {
+                  "id": 332,
+                  "name": "Ik probeer de andere persoon te overtuigen van de verdiensten van mijn positie",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 331,
+                "name": "Ik probeer de andere niet te kwetsen",
+                "categoryId": 15
+              },
+              {
+                "id": 332,
+                "name": "Ik probeer de andere persoon te overtuigen van de verdiensten van mijn positie",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 217,
+            "text": null,
+            "raw": {
+              "id": 217,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 333,
+                  "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                  "categoryId": 11
+                },
+                {
+                  "id": 334,
+                  "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 333,
+                "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                "categoryId": 11
+              },
+              {
+                "id": 334,
+                "name": "Ik probeer te doen wat ik kan om onnodige spanning te vermijden",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 218,
+            "text": null,
+            "raw": {
+              "id": 218,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 335,
+                  "name": "Ik kan de andere zijn standpunt laten houden, als dat hem plezier doet",
+                  "categoryId": 15
+                },
+                {
+                  "id": 336,
+                  "name": "Ik zal concessies doen als de andere dat ook doet",
+                  "categoryId": 13
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 335,
+                "name": "Ik kan de andere zijn standpunt laten houden, als dat hem plezier doet",
+                "categoryId": 15
+              },
+              {
+                "id": 336,
+                "name": "Ik zal concessies doen als de andere dat ook doet",
+                "categoryId": 13
+              }
+            ]
+          },
+          {
+            "id": 219,
+            "text": null,
+            "raw": {
+              "id": 219,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 337,
+                  "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+                  "categoryId": 12
+                },
+                {
+                  "id": 338,
+                  "name": "Ik probeer het probleem te ontlopen om mezelf een afkoelingsperiode te geven",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 337,
+                "name": "Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen",
+                "categoryId": 12
+              },
+              {
+                "id": 338,
+                "name": "Ik probeer het probleem te ontlopen om mezelf een afkoelingsperiode te geven",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 220,
+            "text": null,
+            "raw": {
+              "id": 220,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 339,
+                  "name": "Ik zoek een onmiddellijke oplossing voor onze geschillen",
+                  "categoryId": 12
+                },
+                {
+                  "id": 340,
+                  "name": "Ik probeer een balans te vinden en wat te geven en te nemen",
+                  "categoryId": 13
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 339,
+                "name": "Ik zoek een onmiddellijke oplossing voor onze geschillen",
+                "categoryId": 12
+              },
+              {
+                "id": 340,
+                "name": "Ik probeer een balans te vinden en wat te geven en te nemen",
+                "categoryId": 13
+              }
+            ]
+          },
+          {
+            "id": 221,
+            "text": null,
+            "raw": {
+              "id": 221,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 341,
+                  "name": "Bij het naderen van de onderhandelingen probeer ik rekening te houden met de aspiraties van de andere partij.",
+                  "categoryId": 15
+                },
+                {
+                  "id": 342,
+                  "name": "Ik neig nog meestal naar een eenvoudige discussie over het probleem",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 341,
+                "name": "Bij het naderen van de onderhandelingen probeer ik rekening te houden met de aspiraties van de andere partij.",
+                "categoryId": 15
+              },
+              {
+                "id": 342,
+                "name": "Ik neig nog meestal naar een eenvoudige discussie over het probleem",
+                "categoryId": 12
+              }
+            ]
+          },
+          {
+            "id": 222,
+            "text": null,
+            "raw": {
+              "id": 222,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 343,
+                  "name": "Ik probeer een middenweg te vinden tussen de zijne en de mijne...",
+                  "categoryId": 13
+                },
+                {
+                  "id": 344,
+                  "name": "Ik laat mijn wensen uitkomen",
+                  "categoryId": 11
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 343,
+                "name": "Ik probeer een middenweg te vinden tussen de zijne en de mijne...",
+                "categoryId": 13
+              },
+              {
+                "id": 344,
+                "name": "Ik laat mijn wensen uitkomen",
+                "categoryId": 11
+              }
+            ]
+          },
+          {
+            "id": 223,
+            "text": null,
+            "raw": {
+              "id": 223,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 345,
+                  "name": "Ik probeer vaak al onze aspiraties te bevredigen...",
+                  "categoryId": 12
+                },
+                {
+                  "id": 346,
+                  "name": "Ik laat mijn wensen uitkomen",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 345,
+                "name": "Ik probeer vaak al onze aspiraties te bevredigen...",
+                "categoryId": 12
+              },
+              {
+                "id": 346,
+                "name": "Ik laat mijn wensen uitkomen",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 224,
+            "text": null,
+            "raw": {
+              "id": 224,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 347,
+                  "name": "Als de andere persoon de dingen heel erg ter harte neemt, probeer ik aan hun verlangens tegemoet te komen",
+                  "categoryId": 15
+                },
+                {
+                  "id": 348,
+                  "name": "Ik probeer hem/haar tot een compromis te laten komen",
+                  "categoryId": 13
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 347,
+                "name": "Als de andere persoon de dingen heel erg ter harte neemt, probeer ik aan hun verlangens tegemoet te komen",
+                "categoryId": 15
+              },
+              {
+                "id": 348,
+                "name": "Ik probeer hem/haar tot een compromis te laten komen",
+                "categoryId": 13
+              }
+            ]
+          },
+          {
+            "id": 225,
+            "text": null,
+            "raw": {
+              "id": 225,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 349,
+                  "name": "Ik probeer om hem/haar de logica en de voordelen van mijn standpunt aan te tonen",
+                  "categoryId": 11
+                },
+                {
+                  "id": 350,
+                  "name": "Bij het aangaan van de onderhandelingen, probeer ik rekening te houden met de aspiraties van de andere partij",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 349,
+                "name": "Ik probeer om hem/haar de logica en de voordelen van mijn standpunt aan te tonen",
+                "categoryId": 11
+              },
+              {
+                "id": 350,
+                "name": "Bij het aangaan van de onderhandelingen, probeer ik rekening te houden met de aspiraties van de andere partij",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 226,
+            "text": null,
+            "raw": {
+              "id": 226,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 351,
+                  "name": "Ik stel een middenweg voor",
+                  "categoryId": 13
+                },
+                {
+                  "id": 352,
+                  "name": "Ik probeer bijna altijd al aan al onze aspiraties te voldoen",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 351,
+                "name": "Ik stel een middenweg voor",
+                "categoryId": 13
+              },
+              {
+                "id": 352,
+                "name": "Ik probeer bijna altijd al aan al onze aspiraties te voldoen",
+                "categoryId": 12
+              }
+            ]
+          },
+          {
+            "id": 227,
+            "text": null,
+            "raw": {
+              "id": 227,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 353,
+                  "name": "Ik vermijd soms controversiële standpunten",
+                  "categoryId": 14
+                },
+                {
+                  "id": 354,
+                  "name": "Als het de andere gelukkig maakt, kan ik hem zijn posities laten behouden",
+                  "categoryId": 15
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 353,
+                "name": "Ik vermijd soms controversiële standpunten",
+                "categoryId": 14
+              },
+              {
+                "id": 354,
+                "name": "Als het de andere gelukkig maakt, kan ik hem zijn posities laten behouden",
+                "categoryId": 15
+              }
+            ]
+          },
+          {
+            "id": 228,
+            "text": null,
+            "raw": {
+              "id": 228,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 355,
+                  "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                  "categoryId": 11
+                },
+                {
+                  "id": 356,
+                  "name": "Ik zoek meestal elkaars hulp om een oplossing te vinden",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 355,
+                "name": "Ik streef mijn doelen over het algemeen vastberaden na",
+                "categoryId": 11
+              },
+              {
+                "id": 356,
+                "name": "Ik zoek meestal elkaars hulp om een oplossing te vinden",
+                "categoryId": 12
+              }
+            ]
+          },
+          {
+            "id": 229,
+            "text": null,
+            "raw": {
+              "id": 229,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 357,
+                  "name": "Ik stel een middenweg voor",
+                  "categoryId": 13
+                },
+                {
+                  "id": 358,
+                  "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen",
+                  "categoryId": 14
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 357,
+                "name": "Ik stel een middenweg voor",
+                "categoryId": 13
+              },
+              {
+                "id": 358,
+                "name": "Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen",
+                "categoryId": 14
+              }
+            ]
+          },
+          {
+            "id": 230,
+            "text": null,
+            "raw": {
+              "id": 230,
+              "completed": false,
+              "choices": [
+                {
+                  "id": 359,
+                  "name": "Ik probeer de andere niet te kwetsen",
+                  "categoryId": 15
+                },
+                {
+                  "id": 360,
+                  "name": "Ik deel mijn visie op het probleem altijd met de andere persoon zodat we het kunnen oplossen",
+                  "categoryId": 12
+                }
+              ]
+            },
+            "options": [
+              {
+                "id": 359,
+                "name": "Ik probeer de andere niet te kwetsen",
+                "categoryId": 15
+              },
+              {
+                "id": 360,
+                "name": "Ik deel mijn visie op het probleem altijd met de andere persoon zodat we het kunnen oplossen",
+                "categoryId": 12
+              }
+            ]
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 11,
+        "name": [
+          "Wedijveren"
+        ],
+        "raw": {
+          "id": 11,
+          "text": [
+            "Wedijveren"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": [
+          "Samenwerken"
+        ],
+        "raw": {
+          "id": 12,
+          "text": [
+            "Samenwerken"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": [
+          "Compromis"
+        ],
+        "raw": {
+          "id": 13,
+          "text": [
+            "Compromis"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": [
+          "Uit de weg gaan"
+        ],
+        "raw": {
+          "id": 14,
+          "text": [
+            "Uit de weg gaan"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 15,
+        "name": [
+          "Toegeven"
+        ],
+        "raw": {
+          "id": 15,
+          "text": [
+            "Toegeven"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 22,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 23,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 24,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 25,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 26,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 27,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 28,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 29,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 210,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 211,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 212,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 213,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 214,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 215,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 216,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 217,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 218,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 219,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 220,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 221,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 222,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 223,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 224,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 225,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 226,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 227,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 228,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 229,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 230,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": null,
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/TKI_NL/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/TKI_NL/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 15} color=\"#002F47\"><p>{element.value}</p></Stick>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment> \r\n                                    <ToPrint ref={this.printRef} title={data.title}>\r\n                                        {message}\r\n                                    </ToPrint>\r\n                                    <div className=\"download-button\">\r\n                                        {printbutton}\r\n                                    </div>\r\n                                </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/TKI_NL/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/TKI_NL/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 15} color=\"#002F47\"><p>{element.value}</p></Stick>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment> \r\n                                    <ToPrint ref={this.printRef} title={data.title}>\r\n                                        {message}\r\n                                    </ToPrint>\r\n                                    <div className=\"download-button\">\r\n                                        {printbutton}\r\n                                    </div>\r\n                                </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/TKI_NL.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"TKI Conflictbeheersing\",\n    instruction: \"In veel gevallen zijn de verklaringen niet echt kenmerkend voor uw gedrag, dus kies de reactie die u het meest waarschijnlijk zou hebben.\",\n    description: \"Stel je voor dat je je in situaties bevindt waarin je aspiraties en verlangens verschillen van die van iemand anders.\\nHoe reageert u meestal?\\nControleer voor elk tweetal de verklaring die uw eigen houding in dergelijke situaties het beste beschrijft.\",\n    completed: false,\n    categories: [{\n      id: 11,\n      text: [\"Wedijveren\"],\n      value: 0\n    }, {\n      id: 12,\n      text: [\"Samenwerken\"],\n      value: 0\n    }, {\n      id: 13,\n      text: [\"Compromis\"],\n      value: 0\n    }, {\n      id: 14,\n      text: [\"Uit de weg gaan\"],\n      value: 0\n    }, {\n      id: 15,\n      text: [\"Toegeven\"],\n      value: 0\n    }],\n    questions: [{\n      id: 21,\n      completed: false,\n      choices: [{\n        id: 31,\n        name: \"Ik laat het soms aan anderen over om het probleem op te lossen\",\n        categoryId: 14\n      }, {\n        id: 32,\n        name: \"In plaats van onze meningsverschillen te bespreken, probeer ik de punten waar we het over eens zijn te benadrukken...\",\n        categoryId: 15\n      }]\n    }, {\n      id: 22,\n      completed: false,\n      choices: [{\n        id: 33,\n        name: \"Ik probeer een compromis te vinden\",\n        categoryId: 13\n      }, {\n        id: 34,\n        name: \"Ik probeer al onze zorgen aan te pakken, de zijne en de mijne...\",\n        categoryId: 12\n      }]\n    }, {\n      id: 23,\n      completed: false,\n      choices: [{\n        id: 35,\n        name: \"Ik streef mijn doelen over het algemeen vastberaden na\",\n        categoryId: 11\n      }, {\n        id: 36,\n        name: \"Ik probeer de ander gerust te stellen en onze relatie te behouden\",\n        categoryId: 15\n      }]\n    }, {\n      id: 24,\n      completed: false,\n      choices: [{\n        id: 37,\n        name: \"Ik probeer een compromis te vinden\",\n        categoryId: 13\n      }, {\n        id: 38,\n        name: \"Soms offer ik mijn eigen verlangens op tegenover die van de andere...\",\n        categoryId: 15\n      }]\n    }, {\n      id: 25,\n      completed: false,\n      choices: [{\n        id: 39,\n        name: \"Ik zoek systematisch de hulp van de ander om een oplossing te vinden...\",\n        categoryId: 12\n      }, {\n        id: 310,\n        name: \"Ik probeer te doen wat ik kan om onnodige spanning te vermijden...\",\n        categoryId: 14\n      }]\n    }, {\n      id: 26,\n      completed: false,\n      choices: [{\n        id: 311,\n        name: \"Ik probeer te voorkomen dat ik problemen veroorzaak...\",\n        categoryId: 14\n      }, {\n        id: 312,\n        name: \"Ik probeer mijn punt door te duwen\",\n        categoryId: 11\n      }]\n    }, {\n      id: 27,\n      completed: false,\n      choices: [{\n        id: 313,\n        name: \"Ik probeer het probleem te verdringen om mezelf een afkoelingsperiode te geven...\",\n        categoryId: 14\n      }, {\n        id: 314,\n        name: \"Ik geef op sommige punten toe in ruil voor andere concessies\",\n        categoryId: 13\n      }]\n    }, {\n      id: 28,\n      completed: false,\n      choices: [{\n        id: 315,\n        name: \"Ik streef mijn doelen over het algemeen vastberaden na\",\n        categoryId: 11\n      }, {\n        id: 316,\n        name: \"Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen...\",\n        categoryId: 12\n      }]\n    }, {\n      id: 29,\n      completed: false,\n      choices: [{\n        id: 317,\n        name: \"Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen...\",\n        categoryId: 14\n      }, {\n        id: 318,\n        name: \"Ik werk hard om mijn doel te bereiken\",\n        categoryId: 11\n      }]\n    }, {\n      id: 210,\n      completed: false,\n      choices: [{\n        id: 319,\n        name: \"Ik streef mijn doelen vastberaden na\",\n        categoryId: 11\n      }, {\n        id: 320,\n        name: \"Ik probeer een compromis te vinden\",\n        categoryId: 13\n      }]\n    }, {\n      id: 211,\n      completed: false,\n      choices: [{\n        id: 321,\n        name: \"Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen\",\n        categoryId: 12\n      }, {\n        id: 322,\n        name: \"Ik probeer de ander gerust te stellen en onze relatie te behouden\",\n        categoryId: 15\n      }]\n    }, {\n      id: 212,\n      completed: false,\n      choices: [{\n        id: 323,\n        name: \"Ik vermijd soms controversiële standpunten\",\n        categoryId: 13\n      }, {\n        id: 324,\n        name: \"Ik zal concessies doen als de andere dat doet\",\n        categoryId: 14\n      }]\n    }, {\n      id: 213,\n      completed: false,\n      choices: [{\n        id: 325,\n        name: \"Ik stel een middenweg voor\",\n        categoryId: 13\n      }, {\n        id: 326,\n        name: \"Ik sta erop om mijn ideeën duidelijk te maken\",\n        categoryId: 11\n      }]\n    }, {\n      id: 214,\n      completed: false,\n      choices: [{\n        id: 327,\n        name: \"Ik deel mijn ideeën met de andere en ik vraag naar de zijne/hare\",\n        categoryId: 12\n      }, {\n        id: 328,\n        name: \"Ik probeer hem/haar de logica en de voordelen van mijn positie te laten zien\",\n        categoryId: 11\n      }]\n    }, {\n      id: 215,\n      completed: false,\n      choices: [{\n        id: 329,\n        name: \"Ik probeer de ander gerust te stellen en onze relatie te behouden\",\n        categoryId: 15\n      }, {\n        id: 330,\n        name: \"Ik probeer te doen wat ik kan om spanning te vermijden\",\n        categoryId: 14\n      }]\n    }, {\n      id: 216,\n      completed: false,\n      choices: [{\n        id: 331,\n        name: \"Ik probeer de andere niet te kwetsen\",\n        categoryId: 15\n      }, {\n        id: 332,\n        name: \"Ik probeer de andere persoon te overtuigen van de verdiensten van mijn positie\",\n        categoryId: 11\n      }]\n    }, {\n      id: 217,\n      completed: false,\n      choices: [{\n        id: 333,\n        name: \"Ik streef mijn doelen over het algemeen vastberaden na\",\n        categoryId: 11\n      }, {\n        id: 334,\n        name: \"Ik probeer te doen wat ik kan om onnodige spanning te vermijden\",\n        categoryId: 14\n      }]\n    }, {\n      id: 218,\n      completed: false,\n      choices: [{\n        id: 335,\n        name: \"Ik kan de andere zijn standpunt laten houden, als dat hem plezier doet\",\n        categoryId: 15\n      }, {\n        id: 336,\n        name: \"Ik zal concessies doen als de andere dat ook doet\",\n        categoryId: 13\n      }]\n    }, {\n      id: 219,\n      completed: false,\n      choices: [{\n        id: 337,\n        name: \"Ik probeer onmiddellijk alle vragen te stellen die zich kunnen voordoen\",\n        categoryId: 12\n      }, {\n        id: 338,\n        name: \"Ik probeer het probleem te ontlopen om mezelf een afkoelingsperiode te geven\",\n        categoryId: 14\n      }]\n    }, {\n      id: 220,\n      completed: false,\n      choices: [{\n        id: 339,\n        name: \"Ik zoek een onmiddellijke oplossing voor onze geschillen\",\n        categoryId: 12\n      }, {\n        id: 340,\n        name: \"Ik probeer een balans te vinden en wat te geven en te nemen\",\n        categoryId: 13\n      }]\n    }, {\n      id: 221,\n      completed: false,\n      choices: [{\n        id: 341,\n        name: \"Bij het naderen van de onderhandelingen probeer ik rekening te houden met de aspiraties van de andere partij.\",\n        categoryId: 15\n      }, {\n        id: 342,\n        name: \"Ik neig nog meestal naar een eenvoudige discussie over het probleem\",\n        categoryId: 12\n      }]\n    }, {\n      id: 222,\n      completed: false,\n      choices: [{\n        id: 343,\n        name: \"Ik probeer een middenweg te vinden tussen de zijne en de mijne...\",\n        categoryId: 13\n      }, {\n        id: 344,\n        name: \"Ik laat mijn wensen uitkomen\",\n        categoryId: 11\n      }]\n    }, {\n      id: 223,\n      completed: false,\n      choices: [{\n        id: 345,\n        name: \"Ik probeer vaak al onze aspiraties te bevredigen...\",\n        categoryId: 12\n      }, {\n        id: 346,\n        name: \"Ik laat mijn wensen uitkomen\",\n        categoryId: 14\n      }]\n    }, {\n      id: 224,\n      completed: false,\n      choices: [{\n        id: 347,\n        name: \"Als de andere persoon de dingen heel erg ter harte neemt, probeer ik aan hun verlangens tegemoet te komen\",\n        categoryId: 15\n      }, {\n        id: 348,\n        name: \"Ik probeer hem/haar tot een compromis te laten komen\",\n        categoryId: 13\n      }]\n    }, {\n      id: 225,\n      completed: false,\n      choices: [{\n        id: 349,\n        name: \"Ik probeer om hem/haar de logica en de voordelen van mijn standpunt aan te tonen\",\n        categoryId: 11\n      }, {\n        id: 350,\n        name: \"Bij het aangaan van de onderhandelingen, probeer ik rekening te houden met de aspiraties van de andere partij\",\n        categoryId: 15\n      }]\n    }, {\n      id: 226,\n      completed: false,\n      choices: [{\n        id: 351,\n        name: \"Ik stel een middenweg voor\",\n        categoryId: 13\n      }, {\n        id: 352,\n        name: \"Ik probeer bijna altijd al aan al onze aspiraties te voldoen\",\n        categoryId: 12\n      }]\n    }, {\n      id: 227,\n      completed: false,\n      choices: [{\n        id: 353,\n        name: \"Ik vermijd soms controversiële standpunten\",\n        categoryId: 14\n      }, {\n        id: 354,\n        name: \"Als het de andere gelukkig maakt, kan ik hem zijn posities laten behouden\",\n        categoryId: 15\n      }]\n    }, {\n      id: 228,\n      completed: false,\n      choices: [{\n        id: 355,\n        name: \"Ik streef mijn doelen over het algemeen vastberaden na\",\n        categoryId: 11\n      }, {\n        id: 356,\n        name: \"Ik zoek meestal elkaars hulp om een oplossing te vinden\",\n        categoryId: 12\n      }]\n    }, {\n      id: 229,\n      completed: false,\n      choices: [{\n        id: 357,\n        name: \"Ik stel een middenweg voor\",\n        categoryId: 13\n      }, {\n        id: 358,\n        name: \"Ik vind het niet altijd de moeite waard om me zorgen te maken over de verschillen\",\n        categoryId: 14\n      }]\n    }, {\n      id: 230,\n      completed: false,\n      choices: [{\n        id: 359,\n        name: \"Ik probeer de andere niet te kwetsen\",\n        categoryId: 15\n      }, {\n        id: 360,\n        name: \"Ik deel mijn visie op het probleem altijd met de andere persoon zodat we het kunnen oplossen\",\n        categoryId: 12\n      }]\n    }]\n  };\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {questionId , categoryId, oldCategoryId }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  categories.map(element => console.log(\"categoryID\", element.id));\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.questionId));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex >= 0) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.categoryId));\n    console.log(\"cIndex\", cIndex);\n    categories[cIndex].value += 1;\n    const oldcIndex = categories.findIndex(element => element.id === parseInt(data.oldCategoryId));\n    if (oldcIndex >= 0) categories[oldcIndex].value -= 1;\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n                <div className=\"survey\">\r\n                    <Header />\r\n                    <Questions handleclick={this.handleAddPoint} />\r\n                    <Answer questions={this.state.questions} categories={this.state.categories} />\r\n                </div>\r\n        </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{data.title}</p>\r\n            </div>  \r\n             <div className=\"description-text\">\r\n                {data.description.split(\"\\n\").map((text, index) => <p key={index}>{text}</p>)} \r\n                </div> \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\"> {data.instruction} </p>    \r\n                </div>  \r\n        </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {value => <div className=\"boxes\">\r\n                   {value.questions.map((question, index) => <div key={index} className=\"box-50\">\r\n                            <Question question={question} handleclick={this.handleClick} />\r\n                        </div>)}\r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    btn: {\n      checked: false,\n      text: \"Bevestigen\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Verberg het resultaat\" : btn.text = \"Besvestigen\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <Stick height={element.value * 15} color=\"#002F47\"><p>{element.value}</p></Stick>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment> \r\n                                    <ToPrint ref={this.printRef} title={data.title}>\r\n                                        {message}\r\n                                    </ToPrint>\r\n                                    <div className=\"download-button\">\r\n                                        {printbutton}\r\n                                    </div>\r\n                                </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    oldCategoryId: -1\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Question.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  const data = {\n    questionId: e.target.name,\n    categoryId: e.target.value,\n    oldCategoryId: this.state.oldCategoryId\n  };\n  console.log(\"handleClick Caracteristiques - categoryId\", e.target.value);\n  this.props.handleclick(data);\n  this.setState({\n    oldCategoryId: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/TKI_NL/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  const choices = question.choices;\n  return <div className=\"checklist\">\r\n                {choices.map((choice, index) => <div key={index} className=\"checklistItem-50\">\r\n                        <input className=\"checkbox-radio\" type=\"radio\" id={choice.id} name={question.id} value={choice.categoryId} onClick={this.handleClick} />\r\n                        <label className=\"checkbox-label-xl\" htmlFor={choice.id} />\r\n                        <p>{choice.name}</p>\r\n                    </div>)}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

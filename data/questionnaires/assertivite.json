@@ -1,0 +1,1646 @@
+{
+  "routePath": "/assertivite",
+  "routeComponent": "Assertivite",
+  "routeImportSource": "./Components/Assertivite",
+  "extractionTimestamp": "2026-04-19T10:07:00.692Z",
+  "sourceFiles": [
+    "src/Components/Assertivite.js",
+    "src/Components/Assertivite/Components/Answer.js",
+    "src/Components/Assertivite/Components/Context.js",
+    "src/Components/Assertivite/Components/Header.js",
+    "src/Components/Assertivite/Components/Question.js",
+    "src/Components/Assertivite/Components/Questionnaire.js",
+    "src/Components/Assertivite/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "Assertivité",
+    "instruction": "Répondez à l'ensemble des affirmations pour connaître votre résultat.",
+    "description": [
+      "Répondez spontanément en choisissant l'affirmation qui vous correspond le mieux.",
+      "Vrai = si vous pensez ou agissez de cette façon la plupart du temps.",
+      "Faux = Si vous faite ou pensez rarement ce qui est écrit."
+    ],
+    "categories": [
+      {
+        "id": 11,
+        "text": [
+          "Attitude de soumission"
+        ],
+        "value": 0
+      },
+      {
+        "id": 12,
+        "text": [
+          "Attitude agressive"
+        ],
+        "value": 0
+      },
+      {
+        "id": 13,
+        "text": [
+          "Attitude manipulatrice"
+        ],
+        "value": 0
+      },
+      {
+        "id": 14,
+        "text": [
+          "Atttude assertive"
+        ],
+        "value": 0
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "completed": false,
+        "text": "Je dis souvent oui, alors que je voudrais dire non",
+        "categoryId": 11
+      },
+      {
+        "id": 22,
+        "completed": false,
+        "text": "Je défends mes intérêts tout en acceptant que les autres défendent leurs intérêts",
+        "categoryId": 14
+      },
+      {
+        "id": 23,
+        "completed": false,
+        "text": "Je préfère dissimuler ce que je pense ou ressens, si je ne connais pas bien mon interlocuteur",
+        "categoryId": 13
+      },
+      {
+        "id": 24,
+        "completed": false,
+        "text": "Les autres disent de moi que j'ai des tendances autoritaires",
+        "categoryId": 12
+      },
+      {
+        "id": 25,
+        "completed": false,
+        "text": "Je pense qu'il est plus facile d'agir par personne interposée que directement",
+        "categoryId": 13
+      },
+      {
+        "id": 26,
+        "completed": false,
+        "text": "Je suis direct! Je dis aux gens ce que je pense et je ne crains pas de les critiquer négativement",
+        "categoryId": 12
+      },
+      {
+        "id": 27,
+        "completed": false,
+        "text": "J'accepte de m'occuper de certaines tâches qui manifestement ne relèvent pas de mes fonctions",
+        "categoryId": 11
+      },
+      {
+        "id": 28,
+        "completed": false,
+        "text": "Je ne crains pas de donner mon opinion, même en face d'interlocuteurs hostiles",
+        "categoryId": 14
+      },
+      {
+        "id": 29,
+        "completed": false,
+        "text": "Au cours des négociations \"tendues\", je préfère me tenir en retrait pour écouter et utiliser ainsi les points faibles des autres",
+        "categoryId": 13
+      },
+      {
+        "id": 210,
+        "completed": false,
+        "text": "On me reproche parfois d'avoir l'esprit de contradiction",
+        "categoryId": 12
+      },
+      {
+        "id": 211,
+        "completed": false,
+        "text": "J'ai du mal à écouter les autres quand je dois faire passer une de mes convictions",
+        "categoryId": 12
+      },
+      {
+        "id": 212,
+        "completed": false,
+        "text": "Je peux persuader facilement les gens pour les faire adhérer à mon opinion, même si ce n'est pas dans leur intérêt",
+        "categoryId": 13
+      },
+      {
+        "id": 213,
+        "completed": false,
+        "text": "Flatter l'orgueil des autres et les caresser dans le sens du poil est un bon moyen d'obtenir ce que l'on veut",
+        "categoryId": 13
+      },
+      {
+        "id": 214,
+        "completed": false,
+        "text": "J'entretiens avec les autres des rapports fondés sur la confiance",
+        "categoryId": 14
+      },
+      {
+        "id": 215,
+        "completed": false,
+        "text": "Je préfère ne pas demander de l'aide à un collègue. Je ne tiens pas à passer pour un incompétent",
+        "categoryId": 11
+      },
+      {
+        "id": 216,
+        "completed": false,
+        "text": "Je me sens bloqué dès que je dois réaliser une action inhabituelle. J'ai tendance à être timide",
+        "categoryId": 11
+      },
+      {
+        "id": 217,
+        "completed": false,
+        "text": "Je m'énerve et j'explose sur des détails après avoir accumulé des frustrations sans réagir",
+        "categoryId": 11
+      },
+      {
+        "id": 218,
+        "completed": false,
+        "text": "Je suis à l'aise dans les contacts 'face à face'",
+        "categoryId": 14
+      },
+      {
+        "id": 219,
+        "completed": false,
+        "text": "Je joue assez souvent la comédie pour arriver à mes fins",
+        "categoryId": 13
+      },
+      {
+        "id": 220,
+        "completed": false,
+        "text": "Je suis bavard et je coupe la parole aux autres sans m'en rendre compte à temps",
+        "categoryId": 12
+      },
+      {
+        "id": 221,
+        "completed": false,
+        "text": "J'ai de l'ambition et je suis prêt à tout pour gérer ma carrière",
+        "categoryId": 12
+      },
+      {
+        "id": 222,
+        "completed": false,
+        "text": "Je sais généralement à qui je dois m'adresser et quand : c'est important pour réussir",
+        "categoryId": 13
+      },
+      {
+        "id": 223,
+        "completed": false,
+        "text": "En cas de désaccord, je recherche les compromis réalistes qui rencontrent les intérêts mutuels",
+        "categoryId": 14
+      },
+      {
+        "id": 224,
+        "completed": false,
+        "text": "Je préfère jouer \"cartes sur table\"",
+        "categoryId": 14
+      },
+      {
+        "id": 225,
+        "completed": false,
+        "text": "J'ai tendance à remettre à plus tard ce que je dois faire",
+        "categoryId": 11
+      },
+      {
+        "id": 226,
+        "completed": false,
+        "text": "Je laisse souvent des points dans l'ombre pour éviter des conflits",
+        "categoryId": 11
+      },
+      {
+        "id": 227,
+        "completed": false,
+        "text": "En général, je me présente tel que je suis, sans dissimuler mes sentiments",
+        "categoryId": 14
+      },
+      {
+        "id": 228,
+        "completed": false,
+        "text": "Il en faut beaucoup pour m'intimider",
+        "categoryId": 12
+      },
+      {
+        "id": 229,
+        "completed": false,
+        "text": "Pour prendre du pouvoir, il faut faire peur aux autres",
+        "categoryId": 12
+      },
+      {
+        "id": 230,
+        "completed": false,
+        "text": "Je sais reprendre ma revanche à l'occasion quand je me suis 'fait avoir'",
+        "categoryId": 12
+      },
+      {
+        "id": 231,
+        "completed": false,
+        "text": "Une manière efficace pour déstabiliser quelqu'un est de lui reprocher qu'il agit contre ses propres principes",
+        "categoryId": 13
+      },
+      {
+        "id": 232,
+        "completed": false,
+        "text": "'La fin justifie les moyens', j'agis en conséquence ",
+        "categoryId": 13
+      },
+      {
+        "id": 233,
+        "completed": false,
+        "text": "Je suis capable d'être moi même, tout en continuant d'être accepté socialement",
+        "categoryId": 14
+      },
+      {
+        "id": 234,
+        "completed": false,
+        "text": "Quand je ne suis pas d'accord, je l'exprime avec calme et je me fais entendre",
+        "categoryId": 14
+      },
+      {
+        "id": 235,
+        "completed": false,
+        "text": "J'ai le souci de ne pas importuner les autres",
+        "categoryId": 11
+      },
+      {
+        "id": 236,
+        "completed": false,
+        "text": "J'ai du mal à prendre parti à choisir",
+        "categoryId": 11
+      },
+      {
+        "id": 237,
+        "completed": false,
+        "text": "Je n'aime pas être la seule personne de mon avis dans un groupe, dans ce cas je préfère me taire",
+        "categoryId": 11
+      },
+      {
+        "id": 238,
+        "completed": false,
+        "text": "Je n'ai pas peur de parler en public",
+        "categoryId": 14
+      },
+      {
+        "id": 239,
+        "completed": false,
+        "text": "La vie n'est qu'un rapport de force et une lutte continuelle",
+        "categoryId": 12
+      },
+      {
+        "id": 240,
+        "completed": false,
+        "text": "Je n'ai pas peur de relever les défis dangereux et risqués",
+        "categoryId": 12
+      },
+      {
+        "id": 241,
+        "completed": false,
+        "text": "Créer des conflits est parfois plus efficace que réduire les tensions",
+        "categoryId": 13
+      },
+      {
+        "id": 242,
+        "completed": false,
+        "text": "On me trouve généralement habile et malin dans les relations avec les autres",
+        "categoryId": 13
+      },
+      {
+        "id": 243,
+        "completed": false,
+        "text": "Je sais écouter et je ne coupe pas la parole",
+        "categoryId": 14
+      },
+      {
+        "id": 244,
+        "completed": false,
+        "text": "Je mène jusqu'au bout ce que j'ai décidé de faire",
+        "categoryId": 14
+      },
+      {
+        "id": 245,
+        "completed": false,
+        "text": "Je n'ai pas peur d'exprimer mes sentiments",
+        "categoryId": 14
+      },
+      {
+        "id": 246,
+        "completed": false,
+        "text": "Il ne faut pas dévoiler trop vite ses intentions",
+        "categoryId": 13
+      },
+      {
+        "id": 247,
+        "completed": false,
+        "text": "Je sais comment profiter du système: je suis très débrouillard",
+        "categoryId": 13
+      },
+      {
+        "id": 248,
+        "completed": false,
+        "text": "J'ai du mal à maitriser mon temps de parole",
+        "categoryId": 12
+      },
+      {
+        "id": 249,
+        "completed": false,
+        "text": "Je sais manier l'ironie mordante",
+        "categoryId": 12
+      },
+      {
+        "id": 250,
+        "completed": false,
+        "text": "Je suis serviable et facile à vivre; les autres ont tendance à m'exploiter",
+        "categoryId": 11
+      },
+      {
+        "id": 251,
+        "completed": false,
+        "text": "J'aime mieux observer que participer",
+        "categoryId": 11
+      },
+      {
+        "id": 252,
+        "completed": false,
+        "text": "Je préfère être dans les coulisses qu'au premier rang",
+        "categoryId": 11
+      },
+      {
+        "id": 253,
+        "completed": false,
+        "text": "Je pense que la manipulation est à terme une pratique inefficace",
+        "categoryId": 14
+      },
+      {
+        "id": 254,
+        "completed": false,
+        "text": "Mentir est parfois nécessaire pour arriver à ses fins",
+        "categoryId": 13
+      },
+      {
+        "id": 255,
+        "completed": false,
+        "text": "Mes paroles choquent souvent les gens",
+        "categoryId": 12
+      },
+      {
+        "id": 256,
+        "completed": false,
+        "text": "Je préfère être loup plutôt qu'agneau",
+        "categoryId": 12
+      },
+      {
+        "id": 257,
+        "completed": false,
+        "text": "Manipuler les autres est le seul moyen pour obtenir ce que l'on veut",
+        "categoryId": 13
+      },
+      {
+        "id": 258,
+        "completed": false,
+        "text": "Je sais protester avec efficacité, sans agressivité excessive",
+        "categoryId": 14
+      },
+      {
+        "id": 259,
+        "completed": false,
+        "text": "Je laisse souvent un travail en cours sans le terminer",
+        "categoryId": 11
+      },
+      {
+        "id": 260,
+        "completed": false,
+        "text": "Je n'aime pas me faire mal voir",
+        "categoryId": 11
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "uncertain",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Assertivité",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": "Je dis souvent oui, alors que je voudrais dire non",
+            "raw": {
+              "id": 21,
+              "completed": false,
+              "text": "Je dis souvent oui, alors que je voudrais dire non",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 22,
+            "text": "Je défends mes intérêts tout en acceptant que les autres défendent leurs intérêts",
+            "raw": {
+              "id": 22,
+              "completed": false,
+              "text": "Je défends mes intérêts tout en acceptant que les autres défendent leurs intérêts",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 23,
+            "text": "Je préfère dissimuler ce que je pense ou ressens, si je ne connais pas bien mon interlocuteur",
+            "raw": {
+              "id": 23,
+              "completed": false,
+              "text": "Je préfère dissimuler ce que je pense ou ressens, si je ne connais pas bien mon interlocuteur",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 24,
+            "text": "Les autres disent de moi que j'ai des tendances autoritaires",
+            "raw": {
+              "id": 24,
+              "completed": false,
+              "text": "Les autres disent de moi que j'ai des tendances autoritaires",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 25,
+            "text": "Je pense qu'il est plus facile d'agir par personne interposée que directement",
+            "raw": {
+              "id": 25,
+              "completed": false,
+              "text": "Je pense qu'il est plus facile d'agir par personne interposée que directement",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 26,
+            "text": "Je suis direct! Je dis aux gens ce que je pense et je ne crains pas de les critiquer négativement",
+            "raw": {
+              "id": 26,
+              "completed": false,
+              "text": "Je suis direct! Je dis aux gens ce que je pense et je ne crains pas de les critiquer négativement",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 27,
+            "text": "J'accepte de m'occuper de certaines tâches qui manifestement ne relèvent pas de mes fonctions",
+            "raw": {
+              "id": 27,
+              "completed": false,
+              "text": "J'accepte de m'occuper de certaines tâches qui manifestement ne relèvent pas de mes fonctions",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 28,
+            "text": "Je ne crains pas de donner mon opinion, même en face d'interlocuteurs hostiles",
+            "raw": {
+              "id": 28,
+              "completed": false,
+              "text": "Je ne crains pas de donner mon opinion, même en face d'interlocuteurs hostiles",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 29,
+            "text": "Au cours des négociations \"tendues\", je préfère me tenir en retrait pour écouter et utiliser ainsi les points faibles des autres",
+            "raw": {
+              "id": 29,
+              "completed": false,
+              "text": "Au cours des négociations \"tendues\", je préfère me tenir en retrait pour écouter et utiliser ainsi les points faibles des autres",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 210,
+            "text": "On me reproche parfois d'avoir l'esprit de contradiction",
+            "raw": {
+              "id": 210,
+              "completed": false,
+              "text": "On me reproche parfois d'avoir l'esprit de contradiction",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 211,
+            "text": "J'ai du mal à écouter les autres quand je dois faire passer une de mes convictions",
+            "raw": {
+              "id": 211,
+              "completed": false,
+              "text": "J'ai du mal à écouter les autres quand je dois faire passer une de mes convictions",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 212,
+            "text": "Je peux persuader facilement les gens pour les faire adhérer à mon opinion, même si ce n'est pas dans leur intérêt",
+            "raw": {
+              "id": 212,
+              "completed": false,
+              "text": "Je peux persuader facilement les gens pour les faire adhérer à mon opinion, même si ce n'est pas dans leur intérêt",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 213,
+            "text": "Flatter l'orgueil des autres et les caresser dans le sens du poil est un bon moyen d'obtenir ce que l'on veut",
+            "raw": {
+              "id": 213,
+              "completed": false,
+              "text": "Flatter l'orgueil des autres et les caresser dans le sens du poil est un bon moyen d'obtenir ce que l'on veut",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 214,
+            "text": "J'entretiens avec les autres des rapports fondés sur la confiance",
+            "raw": {
+              "id": 214,
+              "completed": false,
+              "text": "J'entretiens avec les autres des rapports fondés sur la confiance",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 215,
+            "text": "Je préfère ne pas demander de l'aide à un collègue. Je ne tiens pas à passer pour un incompétent",
+            "raw": {
+              "id": 215,
+              "completed": false,
+              "text": "Je préfère ne pas demander de l'aide à un collègue. Je ne tiens pas à passer pour un incompétent",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 216,
+            "text": "Je me sens bloqué dès que je dois réaliser une action inhabituelle. J'ai tendance à être timide",
+            "raw": {
+              "id": 216,
+              "completed": false,
+              "text": "Je me sens bloqué dès que je dois réaliser une action inhabituelle. J'ai tendance à être timide",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 217,
+            "text": "Je m'énerve et j'explose sur des détails après avoir accumulé des frustrations sans réagir",
+            "raw": {
+              "id": 217,
+              "completed": false,
+              "text": "Je m'énerve et j'explose sur des détails après avoir accumulé des frustrations sans réagir",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 218,
+            "text": "Je suis à l'aise dans les contacts 'face à face'",
+            "raw": {
+              "id": 218,
+              "completed": false,
+              "text": "Je suis à l'aise dans les contacts 'face à face'",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 219,
+            "text": "Je joue assez souvent la comédie pour arriver à mes fins",
+            "raw": {
+              "id": 219,
+              "completed": false,
+              "text": "Je joue assez souvent la comédie pour arriver à mes fins",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 220,
+            "text": "Je suis bavard et je coupe la parole aux autres sans m'en rendre compte à temps",
+            "raw": {
+              "id": 220,
+              "completed": false,
+              "text": "Je suis bavard et je coupe la parole aux autres sans m'en rendre compte à temps",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 221,
+            "text": "J'ai de l'ambition et je suis prêt à tout pour gérer ma carrière",
+            "raw": {
+              "id": 221,
+              "completed": false,
+              "text": "J'ai de l'ambition et je suis prêt à tout pour gérer ma carrière",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 222,
+            "text": "Je sais généralement à qui je dois m'adresser et quand : c'est important pour réussir",
+            "raw": {
+              "id": 222,
+              "completed": false,
+              "text": "Je sais généralement à qui je dois m'adresser et quand : c'est important pour réussir",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 223,
+            "text": "En cas de désaccord, je recherche les compromis réalistes qui rencontrent les intérêts mutuels",
+            "raw": {
+              "id": 223,
+              "completed": false,
+              "text": "En cas de désaccord, je recherche les compromis réalistes qui rencontrent les intérêts mutuels",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 224,
+            "text": "Je préfère jouer \"cartes sur table\"",
+            "raw": {
+              "id": 224,
+              "completed": false,
+              "text": "Je préfère jouer \"cartes sur table\"",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 225,
+            "text": "J'ai tendance à remettre à plus tard ce que je dois faire",
+            "raw": {
+              "id": 225,
+              "completed": false,
+              "text": "J'ai tendance à remettre à plus tard ce que je dois faire",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 226,
+            "text": "Je laisse souvent des points dans l'ombre pour éviter des conflits",
+            "raw": {
+              "id": 226,
+              "completed": false,
+              "text": "Je laisse souvent des points dans l'ombre pour éviter des conflits",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 227,
+            "text": "En général, je me présente tel que je suis, sans dissimuler mes sentiments",
+            "raw": {
+              "id": 227,
+              "completed": false,
+              "text": "En général, je me présente tel que je suis, sans dissimuler mes sentiments",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 228,
+            "text": "Il en faut beaucoup pour m'intimider",
+            "raw": {
+              "id": 228,
+              "completed": false,
+              "text": "Il en faut beaucoup pour m'intimider",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 229,
+            "text": "Pour prendre du pouvoir, il faut faire peur aux autres",
+            "raw": {
+              "id": 229,
+              "completed": false,
+              "text": "Pour prendre du pouvoir, il faut faire peur aux autres",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 230,
+            "text": "Je sais reprendre ma revanche à l'occasion quand je me suis 'fait avoir'",
+            "raw": {
+              "id": 230,
+              "completed": false,
+              "text": "Je sais reprendre ma revanche à l'occasion quand je me suis 'fait avoir'",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 231,
+            "text": "Une manière efficace pour déstabiliser quelqu'un est de lui reprocher qu'il agit contre ses propres principes",
+            "raw": {
+              "id": 231,
+              "completed": false,
+              "text": "Une manière efficace pour déstabiliser quelqu'un est de lui reprocher qu'il agit contre ses propres principes",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 232,
+            "text": "'La fin justifie les moyens', j'agis en conséquence ",
+            "raw": {
+              "id": 232,
+              "completed": false,
+              "text": "'La fin justifie les moyens', j'agis en conséquence ",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 233,
+            "text": "Je suis capable d'être moi même, tout en continuant d'être accepté socialement",
+            "raw": {
+              "id": 233,
+              "completed": false,
+              "text": "Je suis capable d'être moi même, tout en continuant d'être accepté socialement",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 234,
+            "text": "Quand je ne suis pas d'accord, je l'exprime avec calme et je me fais entendre",
+            "raw": {
+              "id": 234,
+              "completed": false,
+              "text": "Quand je ne suis pas d'accord, je l'exprime avec calme et je me fais entendre",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 235,
+            "text": "J'ai le souci de ne pas importuner les autres",
+            "raw": {
+              "id": 235,
+              "completed": false,
+              "text": "J'ai le souci de ne pas importuner les autres",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 236,
+            "text": "J'ai du mal à prendre parti à choisir",
+            "raw": {
+              "id": 236,
+              "completed": false,
+              "text": "J'ai du mal à prendre parti à choisir",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 237,
+            "text": "Je n'aime pas être la seule personne de mon avis dans un groupe, dans ce cas je préfère me taire",
+            "raw": {
+              "id": 237,
+              "completed": false,
+              "text": "Je n'aime pas être la seule personne de mon avis dans un groupe, dans ce cas je préfère me taire",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 238,
+            "text": "Je n'ai pas peur de parler en public",
+            "raw": {
+              "id": 238,
+              "completed": false,
+              "text": "Je n'ai pas peur de parler en public",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 239,
+            "text": "La vie n'est qu'un rapport de force et une lutte continuelle",
+            "raw": {
+              "id": 239,
+              "completed": false,
+              "text": "La vie n'est qu'un rapport de force et une lutte continuelle",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 240,
+            "text": "Je n'ai pas peur de relever les défis dangereux et risqués",
+            "raw": {
+              "id": 240,
+              "completed": false,
+              "text": "Je n'ai pas peur de relever les défis dangereux et risqués",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 241,
+            "text": "Créer des conflits est parfois plus efficace que réduire les tensions",
+            "raw": {
+              "id": 241,
+              "completed": false,
+              "text": "Créer des conflits est parfois plus efficace que réduire les tensions",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 242,
+            "text": "On me trouve généralement habile et malin dans les relations avec les autres",
+            "raw": {
+              "id": 242,
+              "completed": false,
+              "text": "On me trouve généralement habile et malin dans les relations avec les autres",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 243,
+            "text": "Je sais écouter et je ne coupe pas la parole",
+            "raw": {
+              "id": 243,
+              "completed": false,
+              "text": "Je sais écouter et je ne coupe pas la parole",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 244,
+            "text": "Je mène jusqu'au bout ce que j'ai décidé de faire",
+            "raw": {
+              "id": 244,
+              "completed": false,
+              "text": "Je mène jusqu'au bout ce que j'ai décidé de faire",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 245,
+            "text": "Je n'ai pas peur d'exprimer mes sentiments",
+            "raw": {
+              "id": 245,
+              "completed": false,
+              "text": "Je n'ai pas peur d'exprimer mes sentiments",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 246,
+            "text": "Il ne faut pas dévoiler trop vite ses intentions",
+            "raw": {
+              "id": 246,
+              "completed": false,
+              "text": "Il ne faut pas dévoiler trop vite ses intentions",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 247,
+            "text": "Je sais comment profiter du système: je suis très débrouillard",
+            "raw": {
+              "id": 247,
+              "completed": false,
+              "text": "Je sais comment profiter du système: je suis très débrouillard",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 248,
+            "text": "J'ai du mal à maitriser mon temps de parole",
+            "raw": {
+              "id": 248,
+              "completed": false,
+              "text": "J'ai du mal à maitriser mon temps de parole",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 249,
+            "text": "Je sais manier l'ironie mordante",
+            "raw": {
+              "id": 249,
+              "completed": false,
+              "text": "Je sais manier l'ironie mordante",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 250,
+            "text": "Je suis serviable et facile à vivre; les autres ont tendance à m'exploiter",
+            "raw": {
+              "id": 250,
+              "completed": false,
+              "text": "Je suis serviable et facile à vivre; les autres ont tendance à m'exploiter",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 251,
+            "text": "J'aime mieux observer que participer",
+            "raw": {
+              "id": 251,
+              "completed": false,
+              "text": "J'aime mieux observer que participer",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 252,
+            "text": "Je préfère être dans les coulisses qu'au premier rang",
+            "raw": {
+              "id": 252,
+              "completed": false,
+              "text": "Je préfère être dans les coulisses qu'au premier rang",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 253,
+            "text": "Je pense que la manipulation est à terme une pratique inefficace",
+            "raw": {
+              "id": 253,
+              "completed": false,
+              "text": "Je pense que la manipulation est à terme une pratique inefficace",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 254,
+            "text": "Mentir est parfois nécessaire pour arriver à ses fins",
+            "raw": {
+              "id": 254,
+              "completed": false,
+              "text": "Mentir est parfois nécessaire pour arriver à ses fins",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 255,
+            "text": "Mes paroles choquent souvent les gens",
+            "raw": {
+              "id": 255,
+              "completed": false,
+              "text": "Mes paroles choquent souvent les gens",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 256,
+            "text": "Je préfère être loup plutôt qu'agneau",
+            "raw": {
+              "id": 256,
+              "completed": false,
+              "text": "Je préfère être loup plutôt qu'agneau",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 257,
+            "text": "Manipuler les autres est le seul moyen pour obtenir ce que l'on veut",
+            "raw": {
+              "id": 257,
+              "completed": false,
+              "text": "Manipuler les autres est le seul moyen pour obtenir ce que l'on veut",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 258,
+            "text": "Je sais protester avec efficacité, sans agressivité excessive",
+            "raw": {
+              "id": 258,
+              "completed": false,
+              "text": "Je sais protester avec efficacité, sans agressivité excessive",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 259,
+            "text": "Je laisse souvent un travail en cours sans le terminer",
+            "raw": {
+              "id": 259,
+              "completed": false,
+              "text": "Je laisse souvent un travail en cours sans le terminer",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 260,
+            "text": "Je n'aime pas me faire mal voir",
+            "raw": {
+              "id": 260,
+              "completed": false,
+              "text": "Je n'aime pas me faire mal voir",
+              "categoryId": 11
+            },
+            "options": []
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "uncertain",
+    "groups": [
+      {
+        "id": 11,
+        "name": [
+          "Attitude de soumission"
+        ],
+        "raw": {
+          "id": 11,
+          "text": [
+            "Attitude de soumission"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": [
+          "Attitude agressive"
+        ],
+        "raw": {
+          "id": 12,
+          "text": [
+            "Attitude agressive"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": [
+          "Attitude manipulatrice"
+        ],
+        "raw": {
+          "id": 13,
+          "text": [
+            "Attitude manipulatrice"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": [
+          "Atttude assertive"
+        ],
+        "raw": {
+          "id": 14,
+          "text": [
+            "Atttude assertive"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je dis souvent oui, alors que je voudrais dire non"
+      },
+      {
+        "questionId": 22,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je défends mes intérêts tout en acceptant que les autres défendent leurs intérêts"
+      },
+      {
+        "questionId": 23,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je préfère dissimuler ce que je pense ou ressens, si je ne connais pas bien mon interlocuteur"
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Les autres disent de moi que j'ai des tendances autoritaires"
+      },
+      {
+        "questionId": 25,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je pense qu'il est plus facile d'agir par personne interposée que directement"
+      },
+      {
+        "questionId": 26,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je suis direct! Je dis aux gens ce que je pense et je ne crains pas de les critiquer négativement"
+      },
+      {
+        "questionId": 27,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "J'accepte de m'occuper de certaines tâches qui manifestement ne relèvent pas de mes fonctions"
+      },
+      {
+        "questionId": 28,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je ne crains pas de donner mon opinion, même en face d'interlocuteurs hostiles"
+      },
+      {
+        "questionId": 29,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Au cours des négociations \"tendues\", je préfère me tenir en retrait pour écouter et utiliser ainsi les points faibles des autres"
+      },
+      {
+        "questionId": 210,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "On me reproche parfois d'avoir l'esprit de contradiction"
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "J'ai du mal à écouter les autres quand je dois faire passer une de mes convictions"
+      },
+      {
+        "questionId": 212,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je peux persuader facilement les gens pour les faire adhérer à mon opinion, même si ce n'est pas dans leur intérêt"
+      },
+      {
+        "questionId": 213,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Flatter l'orgueil des autres et les caresser dans le sens du poil est un bon moyen d'obtenir ce que l'on veut"
+      },
+      {
+        "questionId": 214,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "J'entretiens avec les autres des rapports fondés sur la confiance"
+      },
+      {
+        "questionId": 215,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je préfère ne pas demander de l'aide à un collègue. Je ne tiens pas à passer pour un incompétent"
+      },
+      {
+        "questionId": 216,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je me sens bloqué dès que je dois réaliser une action inhabituelle. J'ai tendance à être timide"
+      },
+      {
+        "questionId": 217,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je m'énerve et j'explose sur des détails après avoir accumulé des frustrations sans réagir"
+      },
+      {
+        "questionId": 218,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je suis à l'aise dans les contacts 'face à face'"
+      },
+      {
+        "questionId": 219,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je joue assez souvent la comédie pour arriver à mes fins"
+      },
+      {
+        "questionId": 220,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je suis bavard et je coupe la parole aux autres sans m'en rendre compte à temps"
+      },
+      {
+        "questionId": 221,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "J'ai de l'ambition et je suis prêt à tout pour gérer ma carrière"
+      },
+      {
+        "questionId": 222,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je sais généralement à qui je dois m'adresser et quand : c'est important pour réussir"
+      },
+      {
+        "questionId": 223,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "En cas de désaccord, je recherche les compromis réalistes qui rencontrent les intérêts mutuels"
+      },
+      {
+        "questionId": 224,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je préfère jouer \"cartes sur table\""
+      },
+      {
+        "questionId": 225,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "J'ai tendance à remettre à plus tard ce que je dois faire"
+      },
+      {
+        "questionId": 226,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je laisse souvent des points dans l'ombre pour éviter des conflits"
+      },
+      {
+        "questionId": 227,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "En général, je me présente tel que je suis, sans dissimuler mes sentiments"
+      },
+      {
+        "questionId": 228,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Il en faut beaucoup pour m'intimider"
+      },
+      {
+        "questionId": 229,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Pour prendre du pouvoir, il faut faire peur aux autres"
+      },
+      {
+        "questionId": 230,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je sais reprendre ma revanche à l'occasion quand je me suis 'fait avoir'"
+      },
+      {
+        "questionId": 231,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Une manière efficace pour déstabiliser quelqu'un est de lui reprocher qu'il agit contre ses propres principes"
+      },
+      {
+        "questionId": 232,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "'La fin justifie les moyens', j'agis en conséquence "
+      },
+      {
+        "questionId": 233,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je suis capable d'être moi même, tout en continuant d'être accepté socialement"
+      },
+      {
+        "questionId": 234,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Quand je ne suis pas d'accord, je l'exprime avec calme et je me fais entendre"
+      },
+      {
+        "questionId": 235,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "J'ai le souci de ne pas importuner les autres"
+      },
+      {
+        "questionId": 236,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "J'ai du mal à prendre parti à choisir"
+      },
+      {
+        "questionId": 237,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je n'aime pas être la seule personne de mon avis dans un groupe, dans ce cas je préfère me taire"
+      },
+      {
+        "questionId": 238,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je n'ai pas peur de parler en public"
+      },
+      {
+        "questionId": 239,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "La vie n'est qu'un rapport de force et une lutte continuelle"
+      },
+      {
+        "questionId": 240,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je n'ai pas peur de relever les défis dangereux et risqués"
+      },
+      {
+        "questionId": 241,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Créer des conflits est parfois plus efficace que réduire les tensions"
+      },
+      {
+        "questionId": 242,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "On me trouve généralement habile et malin dans les relations avec les autres"
+      },
+      {
+        "questionId": 243,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je sais écouter et je ne coupe pas la parole"
+      },
+      {
+        "questionId": 244,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je mène jusqu'au bout ce que j'ai décidé de faire"
+      },
+      {
+        "questionId": 245,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je n'ai pas peur d'exprimer mes sentiments"
+      },
+      {
+        "questionId": 246,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Il ne faut pas dévoiler trop vite ses intentions"
+      },
+      {
+        "questionId": 247,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Je sais comment profiter du système: je suis très débrouillard"
+      },
+      {
+        "questionId": 248,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "J'ai du mal à maitriser mon temps de parole"
+      },
+      {
+        "questionId": 249,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je sais manier l'ironie mordante"
+      },
+      {
+        "questionId": 250,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je suis serviable et facile à vivre; les autres ont tendance à m'exploiter"
+      },
+      {
+        "questionId": 251,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "J'aime mieux observer que participer"
+      },
+      {
+        "questionId": 252,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je préfère être dans les coulisses qu'au premier rang"
+      },
+      {
+        "questionId": 253,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je pense que la manipulation est à terme une pratique inefficace"
+      },
+      {
+        "questionId": 254,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Mentir est parfois nécessaire pour arriver à ses fins"
+      },
+      {
+        "questionId": 255,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Mes paroles choquent souvent les gens"
+      },
+      {
+        "questionId": 256,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Je préfère être loup plutôt qu'agneau"
+      },
+      {
+        "questionId": 257,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Manipuler les autres est le seul moyen pour obtenir ce que l'on veut"
+      },
+      {
+        "questionId": 258,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Je sais protester avec efficacité, sans agressivité excessive"
+      },
+      {
+        "questionId": 259,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je laisse souvent un travail en cours sans le terminer"
+      },
+      {
+        "questionId": 260,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Je n'aime pas me faire mal voir"
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Assertivite/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertivite/Components/Question.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Assertivite/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Assertivite/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertivite/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Assertivite/Components/Question.js::handleClick",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Assertivite.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Assertivite.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"Assertivité\",\n    instruction: \"Répondez à l'ensemble des affirmations pour connaître votre résultat.\",\n    description: [\"Répondez spontanément en choisissant l'affirmation qui vous correspond le mieux.\", \"Vrai = si vous pensez ou agissez de cette façon la plupart du temps.\", \"Faux = Si vous faite ou pensez rarement ce qui est écrit.\"],\n    categories: [{\n      id: 11,\n      text: [\"Attitude de soumission\"],\n      value: 0\n    }, {\n      id: 12,\n      text: [\"Attitude agressive\"],\n      value: 0\n    }, {\n      id: 13,\n      text: [\"Attitude manipulatrice\"],\n      value: 0\n    }, {\n      id: 14,\n      text: [\"Atttude assertive\"],\n      value: 0\n    }],\n    questions: [{\n      id: 21,\n      completed: false,\n      text: \"Je dis souvent oui, alors que je voudrais dire non\",\n      categoryId: 11\n    }, {\n      id: 22,\n      completed: false,\n      text: \"Je défends mes intérêts tout en acceptant que les autres défendent leurs intérêts\",\n      categoryId: 14\n    }, {\n      id: 23,\n      completed: false,\n      text: \"Je préfère dissimuler ce que je pense ou ressens, si je ne connais pas bien mon interlocuteur\",\n      categoryId: 13\n    }, {\n      id: 24,\n      completed: false,\n      text: \"Les autres disent de moi que j'ai des tendances autoritaires\",\n      categoryId: 12\n    }, {\n      id: 25,\n      completed: false,\n      text: \"Je pense qu'il est plus facile d'agir par personne interposée que directement\",\n      categoryId: 13\n    }, {\n      id: 26,\n      completed: false,\n      text: \"Je suis direct! Je dis aux gens ce que je pense et je ne crains pas de les critiquer négativement\",\n      categoryId: 12\n    }, {\n      id: 27,\n      completed: false,\n      text: \"J'accepte de m'occuper de certaines tâches qui manifestement ne relèvent pas de mes fonctions\",\n      categoryId: 11\n    }, {\n      id: 28,\n      completed: false,\n      text: \"Je ne crains pas de donner mon opinion, même en face d'interlocuteurs hostiles\",\n      categoryId: 14\n    }, {\n      id: 29,\n      completed: false,\n      text: 'Au cours des négociations \"tendues\", je préfère me tenir en retrait pour écouter et utiliser ainsi les points faibles des autres',\n      categoryId: 13\n    }, {\n      id: 210,\n      completed: false,\n      text: \"On me reproche parfois d'avoir l'esprit de contradiction\",\n      categoryId: 12\n    }, {\n      id: 211,\n      completed: false,\n      text: \"J'ai du mal à écouter les autres quand je dois faire passer une de mes convictions\",\n      categoryId: 12\n    }, {\n      id: 212,\n      completed: false,\n      text: \"Je peux persuader facilement les gens pour les faire adhérer à mon opinion, même si ce n'est pas dans leur intérêt\",\n      categoryId: 13\n    }, {\n      id: 213,\n      completed: false,\n      text: \"Flatter l'orgueil des autres et les caresser dans le sens du poil est un bon moyen d'obtenir ce que l'on veut\",\n      categoryId: 13\n    }, {\n      id: 214,\n      completed: false,\n      text: \"J'entretiens avec les autres des rapports fondés sur la confiance\",\n      categoryId: 14\n    }, {\n      id: 215,\n      completed: false,\n      text: \"Je préfère ne pas demander de l'aide à un collègue. Je ne tiens pas à passer pour un incompétent\",\n      categoryId: 11\n    }, {\n      id: 216,\n      completed: false,\n      text: \"Je me sens bloqué dès que je dois réaliser une action inhabituelle. J'ai tendance à être timide\",\n      categoryId: 11\n    }, {\n      id: 217,\n      completed: false,\n      text: \"Je m'énerve et j'explose sur des détails après avoir accumulé des frustrations sans réagir\",\n      categoryId: 11\n    }, {\n      id: 218,\n      completed: false,\n      text: \"Je suis à l'aise dans les contacts 'face à face'\",\n      categoryId: 14\n    }, {\n      id: 219,\n      completed: false,\n      text: \"Je joue assez souvent la comédie pour arriver à mes fins\",\n      categoryId: 13\n    }, {\n      id: 220,\n      completed: false,\n      text: \"Je suis bavard et je coupe la parole aux autres sans m'en rendre compte à temps\",\n      categoryId: 12\n    }, {\n      id: 221,\n      completed: false,\n      text: \"J'ai de l'ambition et je suis prêt à tout pour gérer ma carrière\",\n      categoryId: 12\n    }, {\n      id: 222,\n      completed: false,\n      text: \"Je sais généralement à qui je dois m'adresser et quand : c'est important pour réussir\",\n      categoryId: 13\n    }, {\n      id: 223,\n      completed: false,\n      text: \"En cas de désaccord, je recherche les compromis réalistes qui rencontrent les intérêts mutuels\",\n      categoryId: 14\n    }, {\n      id: 224,\n      completed: false,\n      text: 'Je préfère jouer \"cartes sur table\"',\n      categoryId: 14\n    }, {\n      id: 225,\n      completed: false,\n      text: \"J'ai tendance à remettre à plus tard ce que je dois faire\",\n      categoryId: 11\n    }, {\n      id: 226,\n      completed: false,\n      text: \"Je laisse souvent des points dans l'ombre pour éviter des conflits\",\n      categoryId: 11\n    }, {\n      id: 227,\n      completed: false,\n      text: \"En général, je me présente tel que je suis, sans dissimuler mes sentiments\",\n      categoryId: 14\n    }, {\n      id: 228,\n      completed: false,\n      text: \"Il en faut beaucoup pour m'intimider\",\n      categoryId: 12\n    }, {\n      id: 229,\n      completed: false,\n      text: \"Pour prendre du pouvoir, il faut faire peur aux autres\",\n      categoryId: 12\n    }, {\n      id: 230,\n      completed: false,\n      text: \"Je sais reprendre ma revanche à l'occasion quand je me suis 'fait avoir'\",\n      categoryId: 12\n    }, {\n      id: 231,\n      completed: false,\n      text: \"Une manière efficace pour déstabiliser quelqu'un est de lui reprocher qu'il agit contre ses propres principes\",\n      categoryId: 13\n    }, {\n      id: 232,\n      completed: false,\n      text: \"'La fin justifie les moyens', j'agis en conséquence \",\n      categoryId: 13\n    }, {\n      id: 233,\n      completed: false,\n      text: \"Je suis capable d'être moi même, tout en continuant d'être accepté socialement\",\n      categoryId: 14\n    }, {\n      id: 234,\n      completed: false,\n      text: \"Quand je ne suis pas d'accord, je l'exprime avec calme et je me fais entendre\",\n      categoryId: 14\n    }, {\n      id: 235,\n      completed: false,\n      text: \"J'ai le souci de ne pas importuner les autres\",\n      categoryId: 11\n    }, {\n      id: 236,\n      completed: false,\n      text: \"J'ai du mal à prendre parti à choisir\",\n      categoryId: 11\n    }, {\n      id: 237,\n      completed: false,\n      text: \"Je n'aime pas être la seule personne de mon avis dans un groupe, dans ce cas je préfère me taire\",\n      categoryId: 11\n    }, {\n      id: 238,\n      completed: false,\n      text: \"Je n'ai pas peur de parler en public\",\n      categoryId: 14\n    }, {\n      id: 239,\n      completed: false,\n      text: \"La vie n'est qu'un rapport de force et une lutte continuelle\",\n      categoryId: 12\n    }, {\n      id: 240,\n      completed: false,\n      text: \"Je n'ai pas peur de relever les défis dangereux et risqués\",\n      categoryId: 12\n    }, {\n      id: 241,\n      completed: false,\n      text: \"Créer des conflits est parfois plus efficace que réduire les tensions\",\n      categoryId: 13\n    }, {\n      id: 242,\n      completed: false,\n      text: \"On me trouve généralement habile et malin dans les relations avec les autres\",\n      categoryId: 13\n    }, {\n      id: 243,\n      completed: false,\n      text: \"Je sais écouter et je ne coupe pas la parole\",\n      categoryId: 14\n    }, {\n      id: 244,\n      completed: false,\n      text: \"Je mène jusqu'au bout ce que j'ai décidé de faire\",\n      categoryId: 14\n    }, {\n      id: 245,\n      completed: false,\n      text: \"Je n'ai pas peur d'exprimer mes sentiments\",\n      categoryId: 14\n    }, {\n      id: 246,\n      completed: false,\n      text: \"Il ne faut pas dévoiler trop vite ses intentions\",\n      categoryId: 13\n    }, {\n      id: 247,\n      completed: false,\n      text: \"Je sais comment profiter du système: je suis très débrouillard\",\n      categoryId: 13\n    }, {\n      id: 248,\n      completed: false,\n      text: \"J'ai du mal à maitriser mon temps de parole\",\n      categoryId: 12\n    }, {\n      id: 249,\n      completed: false,\n      text: \"Je sais manier l'ironie mordante\",\n      categoryId: 12\n    }, {\n      id: 250,\n      completed: false,\n      text: \"Je suis serviable et facile à vivre; les autres ont tendance à m'exploiter\",\n      categoryId: 11\n    }, {\n      id: 251,\n      completed: false,\n      text: \"J'aime mieux observer que participer\",\n      categoryId: 11\n    }, {\n      id: 252,\n      completed: false,\n      text: \"Je préfère être dans les coulisses qu'au premier rang\",\n      categoryId: 11\n    }, {\n      id: 253,\n      completed: false,\n      text: \"Je pense que la manipulation est à terme une pratique inefficace\",\n      categoryId: 14\n    }, {\n      id: 254,\n      completed: false,\n      text: \"Mentir est parfois nécessaire pour arriver à ses fins\",\n      categoryId: 13\n    }, {\n      id: 255,\n      completed: false,\n      text: \"Mes paroles choquent souvent les gens\",\n      categoryId: 12\n    }, {\n      id: 256,\n      completed: false,\n      text: \"Je préfère être loup plutôt qu'agneau\",\n      categoryId: 12\n    }, {\n      id: 257,\n      completed: false,\n      text: \"Manipuler les autres est le seul moyen pour obtenir ce que l'on veut\",\n      categoryId: 13\n    }, {\n      id: 258,\n      completed: false,\n      text: \"Je sais protester avec efficacité, sans agressivité excessive\",\n      categoryId: 14\n    }, {\n      id: 259,\n      completed: false,\n      text: \"Je laisse souvent un travail en cours sans le terminer\",\n      categoryId: 11\n    }, {\n      id: 260,\n      completed: false,\n      text: \"Je n'aime pas me faire mal voir\",\n      categoryId: 11\n    }]\n  };\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n                <div className=\"survey\">\r\n                    <Header questionnaire={this.state} />\r\n                    <Questions handleclick={this.handleAddPoint} />\r\n                    <Answer questions={this.state.questions} categories={this.state.categories} />\r\n\r\n                </div>\r\n        </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{data.title}</p>\r\n            </div>  \r\n             <div className=\"description-text\">\r\n                {data.description.map((text, index) => <p key={index}>{text}</p>)} \r\n                </div> \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\"> {data.instruction} </p>    \r\n                </div>  \r\n        </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {value => <div className=\"questions\">\r\n                   <table className=\"questions-table\">\r\n                        <tbody>\r\n                            {value.questions.map((question, index) => <Question key={index} index={index} question={question} handleclick={this.handleClick} />)}\r\n                        </tbody>\r\n                   </table>\r\n                  \r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Veuillez compléter l'ensemble des questions pour connaître votre score\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: \"#002F47\"\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Sauvegarder</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Résultats\r\n                                    </div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    oldValue: 0,\n    boxesColor: \"#2AA1A9\",\n    Truecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    },\n    Falsecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Question.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      },
+      {
+        "file": "src/Components/Assertivite/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  //const choices = question.choices\n\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n            <td className=\"question-text\">{question.text}</td>\r\n            <Possibilites>\r\n                <BoolInput type=\"radio\" id={question.id + \"true\"} name={question.id} value=\"1\" onClick={this.handleClick} />\r\n                <BoolInput type=\"radio\" id={question.id + \"false\"} name={question.id} value=\"0\" onClick={this.handleClick} />\r\n                <BoolCheckboxes color={this.state.boxesColor}>\r\n                    <TrueDiv colors={this.state.Truecolors} />\r\n                    <FalseDiv colors={this.state.Falsecolors} /> \r\n                    <TrueLabel colors={this.state.Truecolors} htmlFor={question.id + \"true\"}>Vrai</TrueLabel>\r\n                    <FalseLabel colors={this.state.Falsecolors} htmlFor={question.id + \"false\"}>Faux</FalseLabel>\r\n                </BoolCheckboxes>\r\n            </Possibilites>\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

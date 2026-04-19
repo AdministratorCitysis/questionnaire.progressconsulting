@@ -1,0 +1,1186 @@
+{
+  "routePath": "/assertiviteit",
+  "routeComponent": "Assertiviteit",
+  "routeImportSource": "./Components/Assertiviteit",
+  "extractionTimestamp": "2026-04-19T10:07:00.740Z",
+  "sourceFiles": [
+    "src/Components/Assertiviteit.js",
+    "src/Components/Assertiviteit/Components/Answer.js",
+    "src/Components/Assertiviteit/Components/Context.js",
+    "src/Components/Assertiviteit/Components/Header.js",
+    "src/Components/Assertiviteit/Components/Question.js",
+    "src/Components/Assertiviteit/Components/Questionnaire.js",
+    "src/Components/Assertiviteit/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "title": "Assertiviteit",
+    "instruction": "Beantwoord alle uitspraken om uw resultaat te kennen.",
+    "description": [
+      "Je antwoordt spontaan door te klikken op Juist of Onjuist bij de uitspraken.",
+      "Eerder Juist indien je meestal op die manier handelt.",
+      "Eerder onjuist indien je slechts zelden op deze manier handelt."
+    ],
+    "categories": [
+      {
+        "id": 11,
+        "text": [
+          "Sub-assertieve houding / onderdanig"
+        ],
+        "value": 0
+      },
+      {
+        "id": 12,
+        "text": [
+          "Aanvallende houding / agressief"
+        ],
+        "value": 0
+      },
+      {
+        "id": 13,
+        "text": [
+          "Manipulatieve houding"
+        ],
+        "value": 0
+      },
+      {
+        "id": 14,
+        "text": [
+          "Assertieve houding"
+        ],
+        "value": 0
+      }
+    ],
+    "questions": [
+      {
+        "id": 21,
+        "completed": false,
+        "text": "Ik zeg vaak ja als ik eigenlijk nee wil zeggen.",
+        "categoryId": 11
+      },
+      {
+        "id": 22,
+        "completed": false,
+        "text": "Ik verdedig mijn rechten zonder deze van anderen over het hoofd te zien.",
+        "categoryId": 14
+      },
+      {
+        "id": 23,
+        "completed": false,
+        "text": "Ik verberg liever wat ik denk als ik de groep niet ken.",
+        "categoryId": 13
+      },
+      {
+        "id": 24,
+        "completed": false,
+        "text": "Ik ben nogal autoritair en beslist.",
+        "categoryId": 12
+      },
+      {
+        "id": 25,
+        "completed": false,
+        "text": "Ik werk liever met tussenpersonen dan rechtstreeks.",
+        "categoryId": 13
+      },
+      {
+        "id": 26,
+        "completed": false,
+        "text": "Ik deins er niet voor terug kritiek te uiten en de mensen te zeggen wat ik denk.",
+        "categoryId": 12
+      },
+      {
+        "id": 27,
+        "completed": false,
+        "text": "Ik durf niet weigeren wat men mij vraagt.",
+        "categoryId": 11
+      },
+      {
+        "id": 28,
+        "completed": false,
+        "text": "Ik ben niet bang om mijn opinie te geven ten opzichte van \"vijandige\"gesprekspartners.",
+        "categoryId": 14
+      },
+      {
+        "id": 29,
+        "completed": false,
+        "text": "Bij een heftige discussie verkies ik mij op de achtergrond te houden en toe te kijken hoe het verloopt.",
+        "categoryId": 13
+      },
+      {
+        "id": 210,
+        "completed": false,
+        "text": "Ik ben vaak \"tegendraads\".",
+        "categoryId": 12
+      },
+      {
+        "id": 211,
+        "completed": false,
+        "text": "Het valt mij moeilijk om naar anderen te luisteren.",
+        "categoryId": 12
+      },
+      {
+        "id": 212,
+        "completed": false,
+        "text": "Bij een bijeenkomst met vrienden regel ik het zo dat ik vooraf over \"roddels\"beschik.",
+        "categoryId": 13
+      },
+      {
+        "id": 213,
+        "completed": false,
+        "text": "Ik schenk anderen vertrouwen en domineer ze niet.",
+        "categoryId": 14
+      },
+      {
+        "id": 214,
+        "completed": false,
+        "text": "Ik ben schuchter en ik ben geblokkeerd als men mij aanspreekt.",
+        "categoryId": 11
+      },
+      {
+        "id": 215,
+        "completed": false,
+        "text": "Ik ben erg spraakzaam en ik onderbreek anderen zonder het zelf te beseffen.",
+        "categoryId": 12
+      },
+      {
+        "id": 216,
+        "completed": false,
+        "text": "Als men het niet met me eens is, zoek ik een realistisch compromis op basis van wederzijdse overeenstemmingen.",
+        "categoryId": 14
+      },
+      {
+        "id": 217,
+        "completed": false,
+        "text": "Ik verkies om met open kaarten te spelen.",
+        "categoryId": 14
+      },
+      {
+        "id": 218,
+        "completed": false,
+        "text": "Ik heb de neiging om beslissingen te nemen.",
+        "categoryId": 11
+      },
+      {
+        "id": 219,
+        "completed": false,
+        "text": "Ik volg een raadgeving op.",
+        "categoryId": 11
+      },
+      {
+        "id": 220,
+        "completed": false,
+        "text": "Over het algemeen laat ik zien hoe ik ben zonder mijn gevoelens te verbergen.",
+        "categoryId": 14
+      },
+      {
+        "id": 221,
+        "completed": false,
+        "text": "Ik word zelden van mijn stuk gebracht.",
+        "categoryId": 12
+      },
+      {
+        "id": 222,
+        "completed": false,
+        "text": "Ik trek profijt uit de ruzies van  anderen.",
+        "categoryId": 13
+      },
+      {
+        "id": 223,
+        "completed": false,
+        "text": "Ik ben in staat mezelf te zijn  en tevens aanvaard te blijven.",
+        "categoryId": 14
+      },
+      {
+        "id": 224,
+        "completed": false,
+        "text": "Als ik niet akkoord ga, durf ik het te zeggen, men luistert naar mij.",
+        "categoryId": 14
+      },
+      {
+        "id": 225,
+        "completed": false,
+        "text": "Ik draag er zorg voor anderen niet lastig te vallen.",
+        "categoryId": 11
+      },
+      {
+        "id": 226,
+        "completed": false,
+        "text": "Ik kan moeilijk een standpunt innemen en kiezen.",
+        "categoryId": 11
+      },
+      {
+        "id": 227,
+        "completed": false,
+        "text": "Ik hou er niet van alleen te staan met mijn opinie.",
+        "categoryId": 11
+      },
+      {
+        "id": 228,
+        "completed": false,
+        "text": "Ik ben niet bang om risicovolle uitdagingen aan te gaan.",
+        "categoryId": 12
+      },
+      {
+        "id": 229,
+        "completed": false,
+        "text": "Conflicten uitlokken is efficiënter dan spanningen verminderen.",
+        "categoryId": 13
+      },
+      {
+        "id": 230,
+        "completed": false,
+        "text": "Ik ben open om anderen zelfvertrouwen te geven.",
+        "categoryId": 13
+      },
+      {
+        "id": 231,
+        "completed": false,
+        "text": "Ik kan luisteren en onderbreek anderen niet.",
+        "categoryId": 14
+      },
+      {
+        "id": 232,
+        "completed": false,
+        "text": "Ik ben niet bang om te verwoorden wat ik voel.",
+        "categoryId": 14
+      },
+      {
+        "id": 233,
+        "completed": false,
+        "text": "Ik kan mensen bij mijn ideeën betrekken en ze er tevens toe overhalen.",
+        "categoryId": 13
+      },
+      {
+        "id": 234,
+        "completed": false,
+        "text": "Ik heb het moeilijk om mijn spreektijd te beperken.",
+        "categoryId": 12
+      },
+      {
+        "id": 235,
+        "completed": false,
+        "text": "Ik kan, als het moet, ironisch zijn.",
+        "categoryId": 12
+      },
+      {
+        "id": 236,
+        "completed": false,
+        "text": "Ik verkies observeren boven deelnemen.",
+        "categoryId": 11
+      },
+      {
+        "id": 237,
+        "completed": false,
+        "text": "Ik hou me vaak op de achtergrond.",
+        "categoryId": 11
+      },
+      {
+        "id": 238,
+        "completed": false,
+        "text": "Ik maak mijn bedoelingen niet te snel bekend.",
+        "categoryId": 13
+      },
+      {
+        "id": 239,
+        "completed": false,
+        "text": "Ik schok mensen door wat ik zeg.",
+        "categoryId": 12
+      },
+      {
+        "id": 240,
+        "completed": false,
+        "text": "Ik speel met de anderen om te bekomen wat ik wil.",
+        "categoryId": 13
+      }
+    ]
+  },
+  "structure": {
+    "responseTypeInference": "uncertain",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Assertiviteit",
+        "order": 1,
+        "questions": [
+          {
+            "id": 21,
+            "text": "Ik zeg vaak ja als ik eigenlijk nee wil zeggen.",
+            "raw": {
+              "id": 21,
+              "completed": false,
+              "text": "Ik zeg vaak ja als ik eigenlijk nee wil zeggen.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 22,
+            "text": "Ik verdedig mijn rechten zonder deze van anderen over het hoofd te zien.",
+            "raw": {
+              "id": 22,
+              "completed": false,
+              "text": "Ik verdedig mijn rechten zonder deze van anderen over het hoofd te zien.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 23,
+            "text": "Ik verberg liever wat ik denk als ik de groep niet ken.",
+            "raw": {
+              "id": 23,
+              "completed": false,
+              "text": "Ik verberg liever wat ik denk als ik de groep niet ken.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 24,
+            "text": "Ik ben nogal autoritair en beslist.",
+            "raw": {
+              "id": 24,
+              "completed": false,
+              "text": "Ik ben nogal autoritair en beslist.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 25,
+            "text": "Ik werk liever met tussenpersonen dan rechtstreeks.",
+            "raw": {
+              "id": 25,
+              "completed": false,
+              "text": "Ik werk liever met tussenpersonen dan rechtstreeks.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 26,
+            "text": "Ik deins er niet voor terug kritiek te uiten en de mensen te zeggen wat ik denk.",
+            "raw": {
+              "id": 26,
+              "completed": false,
+              "text": "Ik deins er niet voor terug kritiek te uiten en de mensen te zeggen wat ik denk.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 27,
+            "text": "Ik durf niet weigeren wat men mij vraagt.",
+            "raw": {
+              "id": 27,
+              "completed": false,
+              "text": "Ik durf niet weigeren wat men mij vraagt.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 28,
+            "text": "Ik ben niet bang om mijn opinie te geven ten opzichte van \"vijandige\"gesprekspartners.",
+            "raw": {
+              "id": 28,
+              "completed": false,
+              "text": "Ik ben niet bang om mijn opinie te geven ten opzichte van \"vijandige\"gesprekspartners.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 29,
+            "text": "Bij een heftige discussie verkies ik mij op de achtergrond te houden en toe te kijken hoe het verloopt.",
+            "raw": {
+              "id": 29,
+              "completed": false,
+              "text": "Bij een heftige discussie verkies ik mij op de achtergrond te houden en toe te kijken hoe het verloopt.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 210,
+            "text": "Ik ben vaak \"tegendraads\".",
+            "raw": {
+              "id": 210,
+              "completed": false,
+              "text": "Ik ben vaak \"tegendraads\".",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 211,
+            "text": "Het valt mij moeilijk om naar anderen te luisteren.",
+            "raw": {
+              "id": 211,
+              "completed": false,
+              "text": "Het valt mij moeilijk om naar anderen te luisteren.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 212,
+            "text": "Bij een bijeenkomst met vrienden regel ik het zo dat ik vooraf over \"roddels\"beschik.",
+            "raw": {
+              "id": 212,
+              "completed": false,
+              "text": "Bij een bijeenkomst met vrienden regel ik het zo dat ik vooraf over \"roddels\"beschik.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 213,
+            "text": "Ik schenk anderen vertrouwen en domineer ze niet.",
+            "raw": {
+              "id": 213,
+              "completed": false,
+              "text": "Ik schenk anderen vertrouwen en domineer ze niet.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 214,
+            "text": "Ik ben schuchter en ik ben geblokkeerd als men mij aanspreekt.",
+            "raw": {
+              "id": 214,
+              "completed": false,
+              "text": "Ik ben schuchter en ik ben geblokkeerd als men mij aanspreekt.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 215,
+            "text": "Ik ben erg spraakzaam en ik onderbreek anderen zonder het zelf te beseffen.",
+            "raw": {
+              "id": 215,
+              "completed": false,
+              "text": "Ik ben erg spraakzaam en ik onderbreek anderen zonder het zelf te beseffen.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 216,
+            "text": "Als men het niet met me eens is, zoek ik een realistisch compromis op basis van wederzijdse overeenstemmingen.",
+            "raw": {
+              "id": 216,
+              "completed": false,
+              "text": "Als men het niet met me eens is, zoek ik een realistisch compromis op basis van wederzijdse overeenstemmingen.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 217,
+            "text": "Ik verkies om met open kaarten te spelen.",
+            "raw": {
+              "id": 217,
+              "completed": false,
+              "text": "Ik verkies om met open kaarten te spelen.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 218,
+            "text": "Ik heb de neiging om beslissingen te nemen.",
+            "raw": {
+              "id": 218,
+              "completed": false,
+              "text": "Ik heb de neiging om beslissingen te nemen.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 219,
+            "text": "Ik volg een raadgeving op.",
+            "raw": {
+              "id": 219,
+              "completed": false,
+              "text": "Ik volg een raadgeving op.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 220,
+            "text": "Over het algemeen laat ik zien hoe ik ben zonder mijn gevoelens te verbergen.",
+            "raw": {
+              "id": 220,
+              "completed": false,
+              "text": "Over het algemeen laat ik zien hoe ik ben zonder mijn gevoelens te verbergen.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 221,
+            "text": "Ik word zelden van mijn stuk gebracht.",
+            "raw": {
+              "id": 221,
+              "completed": false,
+              "text": "Ik word zelden van mijn stuk gebracht.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 222,
+            "text": "Ik trek profijt uit de ruzies van  anderen.",
+            "raw": {
+              "id": 222,
+              "completed": false,
+              "text": "Ik trek profijt uit de ruzies van  anderen.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 223,
+            "text": "Ik ben in staat mezelf te zijn  en tevens aanvaard te blijven.",
+            "raw": {
+              "id": 223,
+              "completed": false,
+              "text": "Ik ben in staat mezelf te zijn  en tevens aanvaard te blijven.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 224,
+            "text": "Als ik niet akkoord ga, durf ik het te zeggen, men luistert naar mij.",
+            "raw": {
+              "id": 224,
+              "completed": false,
+              "text": "Als ik niet akkoord ga, durf ik het te zeggen, men luistert naar mij.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 225,
+            "text": "Ik draag er zorg voor anderen niet lastig te vallen.",
+            "raw": {
+              "id": 225,
+              "completed": false,
+              "text": "Ik draag er zorg voor anderen niet lastig te vallen.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 226,
+            "text": "Ik kan moeilijk een standpunt innemen en kiezen.",
+            "raw": {
+              "id": 226,
+              "completed": false,
+              "text": "Ik kan moeilijk een standpunt innemen en kiezen.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 227,
+            "text": "Ik hou er niet van alleen te staan met mijn opinie.",
+            "raw": {
+              "id": 227,
+              "completed": false,
+              "text": "Ik hou er niet van alleen te staan met mijn opinie.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 228,
+            "text": "Ik ben niet bang om risicovolle uitdagingen aan te gaan.",
+            "raw": {
+              "id": 228,
+              "completed": false,
+              "text": "Ik ben niet bang om risicovolle uitdagingen aan te gaan.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 229,
+            "text": "Conflicten uitlokken is efficiënter dan spanningen verminderen.",
+            "raw": {
+              "id": 229,
+              "completed": false,
+              "text": "Conflicten uitlokken is efficiënter dan spanningen verminderen.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 230,
+            "text": "Ik ben open om anderen zelfvertrouwen te geven.",
+            "raw": {
+              "id": 230,
+              "completed": false,
+              "text": "Ik ben open om anderen zelfvertrouwen te geven.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 231,
+            "text": "Ik kan luisteren en onderbreek anderen niet.",
+            "raw": {
+              "id": 231,
+              "completed": false,
+              "text": "Ik kan luisteren en onderbreek anderen niet.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 232,
+            "text": "Ik ben niet bang om te verwoorden wat ik voel.",
+            "raw": {
+              "id": 232,
+              "completed": false,
+              "text": "Ik ben niet bang om te verwoorden wat ik voel.",
+              "categoryId": 14
+            },
+            "options": []
+          },
+          {
+            "id": 233,
+            "text": "Ik kan mensen bij mijn ideeën betrekken en ze er tevens toe overhalen.",
+            "raw": {
+              "id": 233,
+              "completed": false,
+              "text": "Ik kan mensen bij mijn ideeën betrekken en ze er tevens toe overhalen.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 234,
+            "text": "Ik heb het moeilijk om mijn spreektijd te beperken.",
+            "raw": {
+              "id": 234,
+              "completed": false,
+              "text": "Ik heb het moeilijk om mijn spreektijd te beperken.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 235,
+            "text": "Ik kan, als het moet, ironisch zijn.",
+            "raw": {
+              "id": 235,
+              "completed": false,
+              "text": "Ik kan, als het moet, ironisch zijn.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 236,
+            "text": "Ik verkies observeren boven deelnemen.",
+            "raw": {
+              "id": 236,
+              "completed": false,
+              "text": "Ik verkies observeren boven deelnemen.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 237,
+            "text": "Ik hou me vaak op de achtergrond.",
+            "raw": {
+              "id": 237,
+              "completed": false,
+              "text": "Ik hou me vaak op de achtergrond.",
+              "categoryId": 11
+            },
+            "options": []
+          },
+          {
+            "id": 238,
+            "text": "Ik maak mijn bedoelingen niet te snel bekend.",
+            "raw": {
+              "id": 238,
+              "completed": false,
+              "text": "Ik maak mijn bedoelingen niet te snel bekend.",
+              "categoryId": 13
+            },
+            "options": []
+          },
+          {
+            "id": 239,
+            "text": "Ik schok mensen door wat ik zeg.",
+            "raw": {
+              "id": 239,
+              "completed": false,
+              "text": "Ik schok mensen door wat ik zeg.",
+              "categoryId": 12
+            },
+            "options": []
+          },
+          {
+            "id": 240,
+            "text": "Ik speel met de anderen om te bekomen wat ik wil.",
+            "raw": {
+              "id": 240,
+              "completed": false,
+              "text": "Ik speel met de anderen om te bekomen wat ik wil.",
+              "categoryId": 13
+            },
+            "options": []
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "uncertain",
+    "groups": [
+      {
+        "id": 11,
+        "name": [
+          "Sub-assertieve houding / onderdanig"
+        ],
+        "raw": {
+          "id": 11,
+          "text": [
+            "Sub-assertieve houding / onderdanig"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 12,
+        "name": [
+          "Aanvallende houding / agressief"
+        ],
+        "raw": {
+          "id": 12,
+          "text": [
+            "Aanvallende houding / agressief"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 13,
+        "name": [
+          "Manipulatieve houding"
+        ],
+        "raw": {
+          "id": 13,
+          "text": [
+            "Manipulatieve houding"
+          ],
+          "value": 0
+        }
+      },
+      {
+        "id": 14,
+        "name": [
+          "Assertieve houding"
+        ],
+        "raw": {
+          "id": 14,
+          "text": [
+            "Assertieve houding"
+          ],
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 21,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik zeg vaak ja als ik eigenlijk nee wil zeggen."
+      },
+      {
+        "questionId": 22,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik verdedig mijn rechten zonder deze van anderen over het hoofd te zien."
+      },
+      {
+        "questionId": 23,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik verberg liever wat ik denk als ik de groep niet ken."
+      },
+      {
+        "questionId": 24,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik ben nogal autoritair en beslist."
+      },
+      {
+        "questionId": 25,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik werk liever met tussenpersonen dan rechtstreeks."
+      },
+      {
+        "questionId": 26,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik deins er niet voor terug kritiek te uiten en de mensen te zeggen wat ik denk."
+      },
+      {
+        "questionId": 27,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik durf niet weigeren wat men mij vraagt."
+      },
+      {
+        "questionId": 28,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik ben niet bang om mijn opinie te geven ten opzichte van \"vijandige\"gesprekspartners."
+      },
+      {
+        "questionId": 29,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Bij een heftige discussie verkies ik mij op de achtergrond te houden en toe te kijken hoe het verloopt."
+      },
+      {
+        "questionId": 210,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik ben vaak \"tegendraads\"."
+      },
+      {
+        "questionId": 211,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Het valt mij moeilijk om naar anderen te luisteren."
+      },
+      {
+        "questionId": 212,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Bij een bijeenkomst met vrienden regel ik het zo dat ik vooraf over \"roddels\"beschik."
+      },
+      {
+        "questionId": 213,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik schenk anderen vertrouwen en domineer ze niet."
+      },
+      {
+        "questionId": 214,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik ben schuchter en ik ben geblokkeerd als men mij aanspreekt."
+      },
+      {
+        "questionId": 215,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik ben erg spraakzaam en ik onderbreek anderen zonder het zelf te beseffen."
+      },
+      {
+        "questionId": 216,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Als men het niet met me eens is, zoek ik een realistisch compromis op basis van wederzijdse overeenstemmingen."
+      },
+      {
+        "questionId": 217,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik verkies om met open kaarten te spelen."
+      },
+      {
+        "questionId": 218,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik heb de neiging om beslissingen te nemen."
+      },
+      {
+        "questionId": 219,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik volg een raadgeving op."
+      },
+      {
+        "questionId": 220,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Over het algemeen laat ik zien hoe ik ben zonder mijn gevoelens te verbergen."
+      },
+      {
+        "questionId": 221,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik word zelden van mijn stuk gebracht."
+      },
+      {
+        "questionId": 222,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik trek profijt uit de ruzies van  anderen."
+      },
+      {
+        "questionId": 223,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik ben in staat mezelf te zijn  en tevens aanvaard te blijven."
+      },
+      {
+        "questionId": 224,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Als ik niet akkoord ga, durf ik het te zeggen, men luistert naar mij."
+      },
+      {
+        "questionId": 225,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik draag er zorg voor anderen niet lastig te vallen."
+      },
+      {
+        "questionId": 226,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik kan moeilijk een standpunt innemen en kiezen."
+      },
+      {
+        "questionId": 227,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik hou er niet van alleen te staan met mijn opinie."
+      },
+      {
+        "questionId": 228,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik ben niet bang om risicovolle uitdagingen aan te gaan."
+      },
+      {
+        "questionId": 229,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Conflicten uitlokken is efficiënter dan spanningen verminderen."
+      },
+      {
+        "questionId": 230,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik ben open om anderen zelfvertrouwen te geven."
+      },
+      {
+        "questionId": 231,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik kan luisteren en onderbreek anderen niet."
+      },
+      {
+        "questionId": 232,
+        "groupId": 14,
+        "source": "question.categoryId",
+        "questionText": "Ik ben niet bang om te verwoorden wat ik voel."
+      },
+      {
+        "questionId": 233,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik kan mensen bij mijn ideeën betrekken en ze er tevens toe overhalen."
+      },
+      {
+        "questionId": 234,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik heb het moeilijk om mijn spreektijd te beperken."
+      },
+      {
+        "questionId": 235,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik kan, als het moet, ironisch zijn."
+      },
+      {
+        "questionId": 236,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik verkies observeren boven deelnemen."
+      },
+      {
+        "questionId": 237,
+        "groupId": 11,
+        "source": "question.categoryId",
+        "questionText": "Ik hou me vaak op de achtergrond."
+      },
+      {
+        "questionId": 238,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik maak mijn bedoelingen niet te snel bekend."
+      },
+      {
+        "questionId": 239,
+        "groupId": 12,
+        "source": "question.categoryId",
+        "questionText": "Ik schok mensen door wat ik zeg."
+      },
+      {
+        "questionId": 240,
+        "groupId": 13,
+        "source": "question.categoryId",
+        "questionText": "Ik speel met de anderen om te bekomen wat ik wil."
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Assertiviteit/Components/Questionnaire.js::handleAddPoint",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertiviteit/Components/Question.js::handleClick",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/Assertiviteit/Components/Answer.js::render",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      }
+    ],
+    "resultCalculations": [],
+    "conditions": [
+      {
+        "source": "src/Components/Assertiviteit/Components/Questionnaire.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "source": "src/Components/Assertiviteit/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/Assertiviteit/Components/Question.js::handleClick",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Assertiviteit.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: \"Assertiviteit\",\n    instruction: \"Beantwoord alle uitspraken om uw resultaat te kennen.\",\n    description: [\"Je antwoordt spontaan door te klikken op Juist of Onjuist bij de uitspraken.\", \"Eerder Juist indien je meestal op die manier handelt.\", \"Eerder onjuist indien je slechts zelden op deze manier handelt.\"],\n    categories: [{\n      id: 11,\n      text: [\"Sub-assertieve houding / onderdanig\"],\n      value: 0\n    }, {\n      id: 12,\n      text: [\"Aanvallende houding / agressief\"],\n      value: 0\n    }, {\n      id: 13,\n      text: [\"Manipulatieve houding\"],\n      value: 0\n    }, {\n      id: 14,\n      text: [\"Assertieve houding\"],\n      value: 0\n    }],\n    questions: [{\n      id: 21,\n      completed: false,\n      text: \"Ik zeg vaak ja als ik eigenlijk nee wil zeggen.\",\n      categoryId: 11\n    }, {\n      id: 22,\n      completed: false,\n      text: \"Ik verdedig mijn rechten zonder deze van anderen over het hoofd te zien.\",\n      categoryId: 14\n    }, {\n      id: 23,\n      completed: false,\n      text: \"Ik verberg liever wat ik denk als ik de groep niet ken.\",\n      categoryId: 13\n    }, {\n      id: 24,\n      completed: false,\n      text: \"Ik ben nogal autoritair en beslist.\",\n      categoryId: 12\n    }, {\n      id: 25,\n      completed: false,\n      text: \"Ik werk liever met tussenpersonen dan rechtstreeks.\",\n      categoryId: 13\n    }, {\n      id: 26,\n      completed: false,\n      text: \"Ik deins er niet voor terug kritiek te uiten en de mensen te zeggen wat ik denk.\",\n      categoryId: 12\n    }, {\n      id: 27,\n      completed: false,\n      text: \"Ik durf niet weigeren wat men mij vraagt.\",\n      categoryId: 11\n    }, {\n      id: 28,\n      completed: false,\n      text: 'Ik ben niet bang om mijn opinie te geven ten opzichte van \"vijandige\"gesprekspartners.',\n      categoryId: 14\n    }, {\n      id: 29,\n      completed: false,\n      text: 'Bij een heftige discussie verkies ik mij op de achtergrond te houden en toe te kijken hoe het verloopt.',\n      categoryId: 13\n    }, {\n      id: 210,\n      completed: false,\n      text: 'Ik ben vaak \"tegendraads\".',\n      categoryId: 12\n    }, {\n      id: 211,\n      completed: false,\n      text: \"Het valt mij moeilijk om naar anderen te luisteren.\",\n      categoryId: 12\n    }, {\n      id: 212,\n      completed: false,\n      text: 'Bij een bijeenkomst met vrienden regel ik het zo dat ik vooraf over \"roddels\"beschik.',\n      categoryId: 13\n    }, {\n      id: 213,\n      completed: false,\n      text: \"Ik schenk anderen vertrouwen en domineer ze niet.\",\n      categoryId: 14\n    }, {\n      id: 214,\n      completed: false,\n      text: \"Ik ben schuchter en ik ben geblokkeerd als men mij aanspreekt.\",\n      categoryId: 11\n    }, {\n      id: 215,\n      completed: false,\n      text: \"Ik ben erg spraakzaam en ik onderbreek anderen zonder het zelf te beseffen.\",\n      categoryId: 12\n    }, {\n      id: 216,\n      completed: false,\n      text: \"Als men het niet met me eens is, zoek ik een realistisch compromis op basis van wederzijdse overeenstemmingen.\",\n      categoryId: 14\n    }, {\n      id: 217,\n      completed: false,\n      text: \"Ik verkies om met open kaarten te spelen.\",\n      categoryId: 14\n    }, {\n      id: 218,\n      completed: false,\n      text: \"Ik heb de neiging om beslissingen te nemen.\",\n      categoryId: 11\n    }, {\n      id: 219,\n      completed: false,\n      text: \"Ik volg een raadgeving op.\",\n      categoryId: 11\n    }, {\n      id: 220,\n      completed: false,\n      text: \"Over het algemeen laat ik zien hoe ik ben zonder mijn gevoelens te verbergen.\",\n      categoryId: 14\n    }, {\n      id: 221,\n      completed: false,\n      text: \"Ik word zelden van mijn stuk gebracht.\",\n      categoryId: 12\n    }, {\n      id: 222,\n      completed: false,\n      text: \"Ik trek profijt uit de ruzies van  anderen.\",\n      categoryId: 13\n    }, {\n      id: 223,\n      completed: false,\n      text: \"Ik ben in staat mezelf te zijn  en tevens aanvaard te blijven.\",\n      categoryId: 14\n    }, {\n      id: 224,\n      completed: false,\n      text: 'Als ik niet akkoord ga, durf ik het te zeggen, men luistert naar mij.',\n      categoryId: 14\n    }, {\n      id: 225,\n      completed: false,\n      text: \"Ik draag er zorg voor anderen niet lastig te vallen.\",\n      categoryId: 11\n    }, {\n      id: 226,\n      completed: false,\n      text: \"Ik kan moeilijk een standpunt innemen en kiezen.\",\n      categoryId: 11\n    }, {\n      id: 227,\n      completed: false,\n      text: \"Ik hou er niet van alleen te staan met mijn opinie.\",\n      categoryId: 11\n    }, {\n      id: 228,\n      completed: false,\n      text: \"Ik ben niet bang om risicovolle uitdagingen aan te gaan.\",\n      categoryId: 12\n    }, {\n      id: 229,\n      completed: false,\n      text: \"Conflicten uitlokken is efficiënter dan spanningen verminderen.\",\n      categoryId: 13\n    }, {\n      id: 230,\n      completed: false,\n      text: \"Ik ben open om anderen zelfvertrouwen te geven.\",\n      categoryId: 13\n    }, {\n      id: 231,\n      completed: false,\n      text: \"Ik kan luisteren en onderbreek anderen niet.\",\n      categoryId: 14\n    }, {\n      id: 232,\n      completed: false,\n      text: \"Ik ben niet bang om te verwoorden wat ik voel.\",\n      categoryId: 14\n    }, {\n      id: 233,\n      completed: false,\n      text: \"Ik kan mensen bij mijn ideeën betrekken en ze er tevens toe overhalen.\",\n      categoryId: 13\n    }, {\n      id: 234,\n      completed: false,\n      text: \"Ik heb het moeilijk om mijn spreektijd te beperken.\",\n      categoryId: 12\n    }, {\n      id: 235,\n      completed: false,\n      text: \"Ik kan, als het moet, ironisch zijn.\",\n      categoryId: 12\n    }, {\n      id: 236,\n      completed: false,\n      text: \"Ik verkies observeren boven deelnemen.\",\n      categoryId: 11\n    }, {\n      id: 237,\n      completed: false,\n      text: \"Ik hou me vaak op de achtergrond.\",\n      categoryId: 11\n    }, {\n      id: 238,\n      completed: false,\n      text: \"Ik maak mijn bedoelingen niet te snel bekend.\",\n      categoryId: 13\n    }, {\n      id: 239,\n      completed: false,\n      text: \"Ik schok mensen door wat ik zeg.\",\n      categoryId: 12\n    }, {\n      id: 240,\n      completed: false,\n      text: \"Ik speel met de anderen om te bekomen wat ik wil.\",\n      categoryId: 13\n    }]\n  };\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questionnaire.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  console.log(\"data questionnaire\", data);\n  /*\r\n  data = {question, value }\r\n  */\n  let questions = this.state.questions;\n  let categories = this.state.categories;\n  const qIndex = questions.findIndex(element => element.id === parseInt(data.question.id));\n  console.log(\"qIndex\", qIndex);\n  if (qIndex > -1) {\n    questions[qIndex].completed = true;\n    const cIndex = categories.findIndex(element => element.id === parseInt(data.question.categoryId));\n    console.log(\"cIndex\", cIndex);\n    if (cIndex > -1) {\n      categories[cIndex].value += data.value;\n    }\n  }\n  this.setState({\n    questions,\n    categories\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state}>\r\n                <div className=\"survey\">\r\n                    <Header questionnaire={this.state} />\r\n                    <Questions handleclick={this.handleAddPoint} />\r\n                    <Answer questions={this.state.questions} categories={this.state.categories} />\r\n\r\n                </div>\r\n        </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n            {data => {\n      return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{data.title}</p>\r\n            </div>  \r\n             <div className=\"description-text\">\r\n                {data.description.map((text, index) => <p key={index}>{text}</p>)} \r\n                </div> \r\n            <div className=\"messageBox\">\r\n                    <p className=\"message-info\"> {data.instruction} </p>    \r\n                </div>  \r\n        </div>;\n    }}\r\n        </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = data => {\n  this.props.handleclick(data);\n};"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {value => <div className=\"questions\">\r\n                   <table className=\"questions-table\">\r\n                        <tbody>\r\n                            {value.questions.map((question, index) => <Question key={index} index={index} question={question} handleclick={this.handleClick} />)}\r\n                        </tbody>\r\n                   </table>\r\n                  \r\n               </div>}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    stickValue: \"\",\n    stickColor: \"green\",\n    btn: {\n      checked: false,\n      text: \"Bevestigen\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Answer.js",
+        "name": "handleOver",
+        "code": "handleOver = element => {\n  let value;\n  element.text === \"\" ? value = \"\" : value = element.text.join(' ');\n  this.setState({\n    stickValue: value,\n    stickColor: \"#002F47\"\n  });\n};"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Verberg het resultaat\" : btn.text = \"Besvestigen\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.questions.every(element => element.completed === true);\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n\n      //Calcul du ou des plus gros score\n      //const scores = categories.map( c => c.value)\n      //const max = Math.max(...scores)\n      //const maxIndex = categories.findIndex(cat => cat.value === max)\n      //const answer = categories[maxIndex]\n\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Opslaan</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                    <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                        <Stick height={element.value * 15} color=\"#002F47\" onMouseOver={() => this.handleOver(element)}><p>{element.value}</p></Stick>\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                {element.text.map((text, index) => {\n                      return <StickValue key={index} color=\"#002F47\">{text}</StickValue>;\n                    })}\r\n                                                    </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <StickValueMobile color={this.state.stickColor}>{this.state.stickValue}</StickValueMobile>\r\n                                        </div>\r\n                                </div>\r\n                                {/*<div className=\"result-div\">\r\n                                    <div className=\"result-title\">\r\n                                                        {answer.text.map((element,index) => {return <p key={index}>{element + \" \"}</p>})}\r\n                                    </div>\r\n                                    <div className=\"result-points\">\r\n                                                        {answer.description.map((text,index) => {return <p key={index}>{text}</p>})}\r\n                                    </div>\r\n                                                    </div> */}\r\n                            </div>;\n      } else {\n        message = <div className=\"answer\">\r\n                                            <div className=\"answer-text\">\r\n                                                {this.state.message}\r\n                                            </div>\r\n                                </div>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>\r\n                            <ToPrint ref={this.printRef} title={data.title}>\r\n                                  {message}\r\n                            </ToPrint>\r\n                            <div className=\"download-button\">\r\n                                {printbutton}\r\n                            </div>\r\n                        </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                            {result}\r\n                            <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                        </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    oldValue: 0,\n    boxesColor: \"#2AA1A9\",\n    Truecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    },\n    Falsecolors: {\n      background: \"transparent\",\n      color: \"#002F47\",\n      selected: false\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Question.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let value = 0;\n  value -= parseInt(this.state.oldValue);\n  value += parseInt(e.target.value);\n  const data = {\n    value: parseInt(value),\n    question: this.props.question\n  };\n  this.props.handleclick(data);\n  if (e.target.value > 0) {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"white\";\n    Truecolors.background = \"#F39325\";\n    Falsecolors.color = \"#002F47\";\n    Falsecolors.background = \"transparent\";\n    Truecolors.selected = true;\n    Falsecolors.selected = false;\n    this.setState({\n      boxesColor: \"#F39325\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  } else {\n    const Truecolors = this.state.Truecolors;\n    const Falsecolors = this.state.Falsecolors;\n    Truecolors.color = \"#002F47\";\n    Truecolors.background = \"transparent\";\n    Falsecolors.color = \"white\";\n    Falsecolors.background = \"#DE0156\";\n    Truecolors.selected = false;\n    Falsecolors.selected = true;\n    this.setState({\n      boxesColor: \"#DE0156\",\n      Truecolors,\n      Falsecolors,\n      oldValue: e.target.value\n    });\n  }\n};"
+      },
+      {
+        "file": "src/Components/Assertiviteit/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  //const choices = question.choices\n\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n            <td className=\"question-text\">{question.text}</td>\r\n            <Possibilites>\r\n                <BoolInput type=\"radio\" id={question.id + \"true\"} name={question.id} value=\"1\" onClick={this.handleClick} />\r\n                <BoolInput type=\"radio\" id={question.id + \"false\"} name={question.id} value=\"0\" onClick={this.handleClick} />\r\n                <BoolCheckboxes color={this.state.boxesColor}>\r\n                    <TrueDiv colors={this.state.Truecolors} />\r\n                    <FalseDiv colors={this.state.Falsecolors} /> \r\n                    <TrueLabel colors={this.state.Truecolors} htmlFor={question.id + \"true\"}>Juist</TrueLabel>\r\n                    <FalseLabel colors={this.state.Falsecolors} htmlFor={question.id + \"false\"}>Onjuist</FalseLabel>\r\n                </BoolCheckboxes>\r\n            </Possibilites>\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

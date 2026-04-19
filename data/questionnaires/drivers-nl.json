@@ -1,0 +1,3223 @@
+{
+  "routePath": "/drivers-nl",
+  "routeComponent": "DriversNL",
+  "routeImportSource": "./Components/DriversNL",
+  "extractionTimestamp": "2026-04-19T10:07:00.180Z",
+  "sourceFiles": [
+    "src/Components/DriversNL.js",
+    "src/Components/DriversNL/Components/Answer.js",
+    "src/Components/DriversNL/Components/Context.js",
+    "src/Components/DriversNL/Components/Header.js",
+    "src/Components/DriversNL/Components/Possibilites.js",
+    "src/Components/DriversNL/Components/Question.js",
+    "src/Components/DriversNL/Components/Questionnaire.js",
+    "src/Components/DriversNL/Components/Questions.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questionnaire": {
+      "title": "Vragenlijst 'drivers'",
+      "description": "Beantwoord de 50 vragen en druk het tabblad Histogram af",
+      "completed": false,
+      "questions": [
+        {
+          "id": 1,
+          "text": "Het voelt alsof ik steeds tegen de klok vecht…",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 2,
+          "text": "Ik denk dat de inspanning belangrijker is dan het resultaat.",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 3,
+          "text": "Ik denk dat ik in het leven voor mezelf moet zorgen",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 4,
+          "text": "Om een taak te beginnen, heb ik alle informatie nodig",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 5,
+          "text": "Het is belangrijk dat anderen mij goed gezind zijn",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 6,
+          "text": "Stress geeft me een boost",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 7,
+          "text": "Ik ben altijd bang dat ik het niet aankan",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 8,
+          "text": "Ik ben erg veeleisend voor mezelf en anderen",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 9,
+          "text": "Om tevreden te zijn, moet ik uitblinken",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 10,
+          "text": "Om geliefd te zijn, lever ik een beter dan gemiddelde dienst",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 11,
+          "text": "Ik kan niet delegeren want anderen zijn te traag",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 12,
+          "text": "Ik steek veel energie in dingen doen",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 13,
+          "text": "Ik uit mijn emoties niet",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 14,
+          "text": "Om effectief te zijn, moet mijn taak perfect zijn",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 15,
+          "text": "Voor mijn baas ben ik beschikbaar, zelfs thuis",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 16,
+          "text": "Ik praat snel",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 17,
+          "text": "Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 18,
+          "text": "Ik verricht graag nobele taken",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 19,
+          "text": "Feiten, cijfers en logica - dat zijn de echte waarden",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 20,
+          "text": "Je moet de mensen vertellen wat ze willen horen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 21,
+          "text": "Ik heb zin om mensen te onderbreken om hun zinnen af te maken",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 22,
+          "text": "Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 23,
+          "text": "Intellectuele uitwisseling is waar ik me goed bij voel",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 24,
+          "text": "Nauwkeurigheid ten koste van alles is de prijs van mijn imago",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 25,
+          "text": "Ik weet graag dat een collega me nodig heeft",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 26,
+          "text": "Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\"",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 27,
+          "text": "Anderen zeggen vaak over mij dat ik loop te klagen",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 28,
+          "text": "Ik hou van dingen die logica gebruiken",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 29,
+          "text": "Ik moet de indruk wekken dat ik alles weet",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 30,
+          "text": "Je moet jezelf in vier kunnen delen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 31,
+          "text": "Ik loop meestal te ijsberen als ik ergens op wacht",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 32,
+          "text": "Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 33,
+          "text": "Ik vind het moeilijk om te vertrouwen en me over te geven",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 34,
+          "text": "Voor mij is een bezwaar een teken van mijn onbekwaamheid",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 35,
+          "text": "Ik hou ervan om anderen te helpen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 36,
+          "text": "Ik tik vaak met mijn vingers of voeten",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 37,
+          "text": "Ik creëer verwarrende situaties waarin ik me dom en machteloos voel",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 38,
+          "text": "Het maakt me veel uit hoe anderen me beoordelen op wat ik doe",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 39,
+          "text": "Ik ben ervan overtuigd dat ik de beste ben",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 40,
+          "text": "Ik kan geen nee zeggen",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 41,
+          "text": "Ik ga te snel, waardoor ik onzorgvuldige fouten maak",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 42,
+          "text": "Zoveel moeite om al deze vragen te beantwoorden!",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 43,
+          "text": "Ik voel me veilig als ik niet emotioneel betrokken ben",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 44,
+          "text": "Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 45,
+          "text": "Ik speel graag de rol van vertrouwenspersoon",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        },
+        {
+          "id": 46,
+          "text": "Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk",
+          "value": 0,
+          "categoryId": 4,
+          "completed": false
+        },
+        {
+          "id": 47,
+          "text": "Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\"",
+          "value": 0,
+          "categoryId": 3,
+          "completed": false
+        },
+        {
+          "id": 48,
+          "text": "In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid",
+          "value": 0,
+          "categoryId": 1,
+          "completed": false
+        },
+        {
+          "id": 49,
+          "text": "Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag",
+          "value": 0,
+          "categoryId": 5,
+          "completed": false
+        },
+        {
+          "id": 50,
+          "text": "Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt",
+          "value": 0,
+          "categoryId": 2,
+          "completed": false
+        }
+      ],
+      "choices": [
+        {
+          "id": 1,
+          "number": "0",
+          "text": "Dat is niet zo voor mij",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "number": "1",
+          "text": "Misschien doe ik dat wel eens",
+          "value": 1
+        },
+        {
+          "id": 3,
+          "number": "2",
+          "text": "Dat doe ik toch wel eens af en toe",
+          "value": 2
+        },
+        {
+          "id": 4,
+          "number": "3",
+          "text": "Dat doe ik vaak",
+          "value": 3
+        },
+        {
+          "id": 5,
+          "number": "4",
+          "text": "Dit ben ik totaal ten voeten uit",
+          "value": 4
+        }
+      ],
+      "answers": [
+        {
+          "maxvalue": 0,
+          "text": "Je hebt het moeilijk om je tijd te beheren. Het is aan jou om te analyseren wat het gevolg is van je werkomgeving en wat aan jezelf ligt."
+        },
+        {
+          "maxvalue": 60,
+          "text": "Gemiddeld tijdsbeheer. Je moet hierin nog verbeteren."
+        },
+        {
+          "maxvalue": 90,
+          "text": "Je beheert je tijd op een actieve en positieve manier. Goed bezig! Maar misschien kan het nog beter... en rust vooral niet op je lauweren, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit."
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "text": "Wees sterk",
+          "value": 0
+        },
+        {
+          "id": 2,
+          "text": "Doe plezier",
+          "value": 0
+        },
+        {
+          "id": 3,
+          "text": "Doe inspanningen",
+          "value": 0
+        },
+        {
+          "id": 4,
+          "text": "Wees snel",
+          "value": 0
+        },
+        {
+          "id": 5,
+          "text": "Wees volmaakt",
+          "value": 0
+        }
+      ]
+    }
+  },
+  "structure": {
+    "responseTypeInference": "single_choice_radio",
+    "sections": [
+      {
+        "id": "questions",
+        "title": "Vragenlijst 'drivers'",
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Het voelt alsof ik steeds tegen de klok vecht…",
+            "raw": {
+              "id": 1,
+              "text": "Het voelt alsof ik steeds tegen de klok vecht…",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Ik denk dat de inspanning belangrijker is dan het resultaat.",
+            "raw": {
+              "id": 2,
+              "text": "Ik denk dat de inspanning belangrijker is dan het resultaat.",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Ik denk dat ik in het leven voor mezelf moet zorgen",
+            "raw": {
+              "id": 3,
+              "text": "Ik denk dat ik in het leven voor mezelf moet zorgen",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Om een taak te beginnen, heb ik alle informatie nodig",
+            "raw": {
+              "id": 4,
+              "text": "Om een taak te beginnen, heb ik alle informatie nodig",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Het is belangrijk dat anderen mij goed gezind zijn",
+            "raw": {
+              "id": 5,
+              "text": "Het is belangrijk dat anderen mij goed gezind zijn",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Stress geeft me een boost",
+            "raw": {
+              "id": 6,
+              "text": "Stress geeft me een boost",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Ik ben altijd bang dat ik het niet aankan",
+            "raw": {
+              "id": 7,
+              "text": "Ik ben altijd bang dat ik het niet aankan",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Ik ben erg veeleisend voor mezelf en anderen",
+            "raw": {
+              "id": 8,
+              "text": "Ik ben erg veeleisend voor mezelf en anderen",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Om tevreden te zijn, moet ik uitblinken",
+            "raw": {
+              "id": 9,
+              "text": "Om tevreden te zijn, moet ik uitblinken",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Om geliefd te zijn, lever ik een beter dan gemiddelde dienst",
+            "raw": {
+              "id": 10,
+              "text": "Om geliefd te zijn, lever ik een beter dan gemiddelde dienst",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Ik kan niet delegeren want anderen zijn te traag",
+            "raw": {
+              "id": 11,
+              "text": "Ik kan niet delegeren want anderen zijn te traag",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Ik steek veel energie in dingen doen",
+            "raw": {
+              "id": 12,
+              "text": "Ik steek veel energie in dingen doen",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Ik uit mijn emoties niet",
+            "raw": {
+              "id": 13,
+              "text": "Ik uit mijn emoties niet",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Om effectief te zijn, moet mijn taak perfect zijn",
+            "raw": {
+              "id": 14,
+              "text": "Om effectief te zijn, moet mijn taak perfect zijn",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Voor mijn baas ben ik beschikbaar, zelfs thuis",
+            "raw": {
+              "id": 15,
+              "text": "Voor mijn baas ben ik beschikbaar, zelfs thuis",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Ik praat snel",
+            "raw": {
+              "id": 16,
+              "text": "Ik praat snel",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan",
+            "raw": {
+              "id": 17,
+              "text": "Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Ik verricht graag nobele taken",
+            "raw": {
+              "id": 18,
+              "text": "Ik verricht graag nobele taken",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Feiten, cijfers en logica - dat zijn de echte waarden",
+            "raw": {
+              "id": 19,
+              "text": "Feiten, cijfers en logica - dat zijn de echte waarden",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "Je moet de mensen vertellen wat ze willen horen",
+            "raw": {
+              "id": 20,
+              "text": "Je moet de mensen vertellen wat ze willen horen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Ik heb zin om mensen te onderbreken om hun zinnen af te maken",
+            "raw": {
+              "id": 21,
+              "text": "Ik heb zin om mensen te onderbreken om hun zinnen af te maken",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt",
+            "raw": {
+              "id": 22,
+              "text": "Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "Intellectuele uitwisseling is waar ik me goed bij voel",
+            "raw": {
+              "id": 23,
+              "text": "Intellectuele uitwisseling is waar ik me goed bij voel",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "Nauwkeurigheid ten koste van alles is de prijs van mijn imago",
+            "raw": {
+              "id": 24,
+              "text": "Nauwkeurigheid ten koste van alles is de prijs van mijn imago",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "Ik weet graag dat een collega me nodig heeft",
+            "raw": {
+              "id": 25,
+              "text": "Ik weet graag dat een collega me nodig heeft",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\"",
+            "raw": {
+              "id": 26,
+              "text": "Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\"",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Anderen zeggen vaak over mij dat ik loop te klagen",
+            "raw": {
+              "id": 27,
+              "text": "Anderen zeggen vaak over mij dat ik loop te klagen",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "Ik hou van dingen die logica gebruiken",
+            "raw": {
+              "id": 28,
+              "text": "Ik hou van dingen die logica gebruiken",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Ik moet de indruk wekken dat ik alles weet",
+            "raw": {
+              "id": 29,
+              "text": "Ik moet de indruk wekken dat ik alles weet",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "Je moet jezelf in vier kunnen delen",
+            "raw": {
+              "id": 30,
+              "text": "Je moet jezelf in vier kunnen delen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "Ik loop meestal te ijsberen als ik ergens op wacht",
+            "raw": {
+              "id": 31,
+              "text": "Ik loop meestal te ijsberen als ik ergens op wacht",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden",
+            "raw": {
+              "id": 32,
+              "text": "Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Ik vind het moeilijk om te vertrouwen en me over te geven",
+            "raw": {
+              "id": 33,
+              "text": "Ik vind het moeilijk om te vertrouwen en me over te geven",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "Voor mij is een bezwaar een teken van mijn onbekwaamheid",
+            "raw": {
+              "id": 34,
+              "text": "Voor mij is een bezwaar een teken van mijn onbekwaamheid",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Ik hou ervan om anderen te helpen",
+            "raw": {
+              "id": 35,
+              "text": "Ik hou ervan om anderen te helpen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "Ik tik vaak met mijn vingers of voeten",
+            "raw": {
+              "id": 36,
+              "text": "Ik tik vaak met mijn vingers of voeten",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Ik creëer verwarrende situaties waarin ik me dom en machteloos voel",
+            "raw": {
+              "id": 37,
+              "text": "Ik creëer verwarrende situaties waarin ik me dom en machteloos voel",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Het maakt me veel uit hoe anderen me beoordelen op wat ik doe",
+            "raw": {
+              "id": 38,
+              "text": "Het maakt me veel uit hoe anderen me beoordelen op wat ik doe",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "Ik ben ervan overtuigd dat ik de beste ben",
+            "raw": {
+              "id": 39,
+              "text": "Ik ben ervan overtuigd dat ik de beste ben",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "Ik kan geen nee zeggen",
+            "raw": {
+              "id": 40,
+              "text": "Ik kan geen nee zeggen",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "Ik ga te snel, waardoor ik onzorgvuldige fouten maak",
+            "raw": {
+              "id": 41,
+              "text": "Ik ga te snel, waardoor ik onzorgvuldige fouten maak",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "Zoveel moeite om al deze vragen te beantwoorden!",
+            "raw": {
+              "id": 42,
+              "text": "Zoveel moeite om al deze vragen te beantwoorden!",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "Ik voel me veilig als ik niet emotioneel betrokken ben",
+            "raw": {
+              "id": 43,
+              "text": "Ik voel me veilig als ik niet emotioneel betrokken ben",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw",
+            "raw": {
+              "id": 44,
+              "text": "Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "Ik speel graag de rol van vertrouwenspersoon",
+            "raw": {
+              "id": 45,
+              "text": "Ik speel graag de rol van vertrouwenspersoon",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "text": "Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk",
+            "raw": {
+              "id": 46,
+              "text": "Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk",
+              "value": 0,
+              "categoryId": 4,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "text": "Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\"",
+            "raw": {
+              "id": 47,
+              "text": "Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\"",
+              "value": 0,
+              "categoryId": 3,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "text": "In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid",
+            "raw": {
+              "id": 48,
+              "text": "In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid",
+              "value": 0,
+              "categoryId": 1,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "text": "Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag",
+            "raw": {
+              "id": 49,
+              "text": "Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag",
+              "value": 0,
+              "categoryId": 5,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "text": "Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt",
+            "raw": {
+              "id": 50,
+              "text": "Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt",
+              "value": 0,
+              "categoryId": 2,
+              "completed": false
+            },
+            "options": [
+              {
+                "id": 1,
+                "number": "0",
+                "text": "Dat is niet zo voor mij",
+                "value": 0
+              },
+              {
+                "id": 2,
+                "number": "1",
+                "text": "Misschien doe ik dat wel eens",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "number": "2",
+                "text": "Dat doe ik toch wel eens af en toe",
+                "value": 2
+              },
+              {
+                "id": 4,
+                "number": "3",
+                "text": "Dat doe ik vaak",
+                "value": 3
+              },
+              {
+                "id": 5,
+                "number": "4",
+                "text": "Dit ben ik totaal ten voeten uit",
+                "value": 4
+              }
+            ]
+          }
+        ],
+        "responseOptions": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Dat is niet zo voor mij",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "Misschien doe ik dat wel eens",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "Dat doe ik toch wel eens af en toe",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "Dat doe ik vaak",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "Dit ben ik totaal ten voeten uit",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "single_choice_radio",
+    "groups": [
+      {
+        "id": 1,
+        "name": "Wees sterk",
+        "raw": {
+          "id": 1,
+          "text": "Wees sterk",
+          "value": 0
+        }
+      },
+      {
+        "id": 2,
+        "name": "Doe plezier",
+        "raw": {
+          "id": 2,
+          "text": "Doe plezier",
+          "value": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": "Doe inspanningen",
+        "raw": {
+          "id": 3,
+          "text": "Doe inspanningen",
+          "value": 0
+        }
+      },
+      {
+        "id": 4,
+        "name": "Wees snel",
+        "raw": {
+          "id": 4,
+          "text": "Wees snel",
+          "value": 0
+        }
+      },
+      {
+        "id": 5,
+        "name": "Wees volmaakt",
+        "raw": {
+          "id": 5,
+          "text": "Wees volmaakt",
+          "value": 0
+        }
+      }
+    ],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Het voelt alsof ik steeds tegen de klok vecht…"
+      },
+      {
+        "questionId": 2,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik denk dat de inspanning belangrijker is dan het resultaat."
+      },
+      {
+        "questionId": 3,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik denk dat ik in het leven voor mezelf moet zorgen"
+      },
+      {
+        "questionId": 4,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Om een taak te beginnen, heb ik alle informatie nodig"
+      },
+      {
+        "questionId": 5,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Het is belangrijk dat anderen mij goed gezind zijn"
+      },
+      {
+        "questionId": 6,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Stress geeft me een boost"
+      },
+      {
+        "questionId": 7,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik ben altijd bang dat ik het niet aankan"
+      },
+      {
+        "questionId": 8,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik ben erg veeleisend voor mezelf en anderen"
+      },
+      {
+        "questionId": 9,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Om tevreden te zijn, moet ik uitblinken"
+      },
+      {
+        "questionId": 10,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Om geliefd te zijn, lever ik een beter dan gemiddelde dienst"
+      },
+      {
+        "questionId": 11,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik kan niet delegeren want anderen zijn te traag"
+      },
+      {
+        "questionId": 12,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik steek veel energie in dingen doen"
+      },
+      {
+        "questionId": 13,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik uit mijn emoties niet"
+      },
+      {
+        "questionId": 14,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Om effectief te zijn, moet mijn taak perfect zijn"
+      },
+      {
+        "questionId": 15,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Voor mijn baas ben ik beschikbaar, zelfs thuis"
+      },
+      {
+        "questionId": 16,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik praat snel"
+      },
+      {
+        "questionId": 17,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan"
+      },
+      {
+        "questionId": 18,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik verricht graag nobele taken"
+      },
+      {
+        "questionId": 19,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Feiten, cijfers en logica - dat zijn de echte waarden"
+      },
+      {
+        "questionId": 20,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je moet de mensen vertellen wat ze willen horen"
+      },
+      {
+        "questionId": 21,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik heb zin om mensen te onderbreken om hun zinnen af te maken"
+      },
+      {
+        "questionId": 22,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt"
+      },
+      {
+        "questionId": 23,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Intellectuele uitwisseling is waar ik me goed bij voel"
+      },
+      {
+        "questionId": 24,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Nauwkeurigheid ten koste van alles is de prijs van mijn imago"
+      },
+      {
+        "questionId": 25,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Ik weet graag dat een collega me nodig heeft"
+      },
+      {
+        "questionId": 26,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\""
+      },
+      {
+        "questionId": 27,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Anderen zeggen vaak over mij dat ik loop te klagen"
+      },
+      {
+        "questionId": 28,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik hou van dingen die logica gebruiken"
+      },
+      {
+        "questionId": 29,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Ik moet de indruk wekken dat ik alles weet"
+      },
+      {
+        "questionId": 30,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Je moet jezelf in vier kunnen delen"
+      },
+      {
+        "questionId": 31,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik loop meestal te ijsberen als ik ergens op wacht"
+      },
+      {
+        "questionId": 32,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden"
+      },
+      {
+        "questionId": 33,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik vind het moeilijk om te vertrouwen en me over te geven"
+      },
+      {
+        "questionId": 34,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Voor mij is een bezwaar een teken van mijn onbekwaamheid"
+      },
+      {
+        "questionId": 35,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Ik hou ervan om anderen te helpen"
+      },
+      {
+        "questionId": 36,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik tik vaak met mijn vingers of voeten"
+      },
+      {
+        "questionId": 37,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Ik creëer verwarrende situaties waarin ik me dom en machteloos voel"
+      },
+      {
+        "questionId": 38,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Het maakt me veel uit hoe anderen me beoordelen op wat ik doe"
+      },
+      {
+        "questionId": 39,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Ik ben ervan overtuigd dat ik de beste ben"
+      },
+      {
+        "questionId": 40,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Ik kan geen nee zeggen"
+      },
+      {
+        "questionId": 41,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik ga te snel, waardoor ik onzorgvuldige fouten maak"
+      },
+      {
+        "questionId": 42,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Zoveel moeite om al deze vragen te beantwoorden!"
+      },
+      {
+        "questionId": 43,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "Ik voel me veilig als ik niet emotioneel betrokken ben"
+      },
+      {
+        "questionId": 44,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw"
+      },
+      {
+        "questionId": 45,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Ik speel graag de rol van vertrouwenspersoon"
+      },
+      {
+        "questionId": 46,
+        "groupId": 4,
+        "source": "question.categoryId",
+        "questionText": "Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk"
+      },
+      {
+        "questionId": 47,
+        "groupId": 3,
+        "source": "question.categoryId",
+        "questionText": "Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\""
+      },
+      {
+        "questionId": 48,
+        "groupId": 1,
+        "source": "question.categoryId",
+        "questionText": "In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid"
+      },
+      {
+        "questionId": 49,
+        "groupId": 5,
+        "source": "question.categoryId",
+        "questionText": "Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag"
+      },
+      {
+        "questionId": 50,
+        "groupId": 2,
+        "source": "question.categoryId",
+        "questionText": "Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt"
+      }
+    ],
+    "responseValueRules": [
+      {
+        "kind": "global_choices",
+        "choices": [
+          {
+            "id": 1,
+            "number": "0",
+            "text": "Dat is niet zo voor mij",
+            "value": 0
+          },
+          {
+            "id": 2,
+            "number": "1",
+            "text": "Misschien doe ik dat wel eens",
+            "value": 1
+          },
+          {
+            "id": 3,
+            "number": "2",
+            "text": "Dat doe ik toch wel eens af en toe",
+            "value": 2
+          },
+          {
+            "id": 4,
+            "number": "3",
+            "text": "Dat doe ik vaak",
+            "value": 3
+          },
+          {
+            "id": 5,
+            "number": "4",
+            "text": "Dit ben ik totaal ten voeten uit",
+            "value": 4
+          }
+        ],
+        "source": "questionnaire.choices"
+      }
+    ],
+    "resultThresholds": [
+      {
+        "source": "questionnaire.answers[].maxvalue",
+        "thresholds": [
+          {
+            "maxvalue": 0,
+            "text": "Je hebt het moeilijk om je tijd te beheren. Het is aan jou om te analyseren wat het gevolg is van je werkomgeving en wat aan jezelf ligt."
+          },
+          {
+            "maxvalue": 60,
+            "text": "Gemiddeld tijdsbeheer. Je moet hierin nog verbeteren."
+          },
+          {
+            "maxvalue": 90,
+            "text": "Je beheert je tijd op een actieve en positieve manier. Goed bezig! Maar misschien kan het nog beter... en rust vooral niet op je lauweren, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit."
+          }
+        ]
+      }
+    ],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/DriversNL/Components/Questionnaire.js::handleValue",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/DriversNL/Components/Possibilites.js::handleChange",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "validationRules": [
+      {
+        "source": "src/Components/DriversNL/Components/Questionnaire.js::handleValue",
+        "rule": "Completion verifiee via every(...completed === true).",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      }
+    ],
+    "resultCalculations": [
+      {
+        "source": "src/Components/DriversNL/Components/Questionnaire.js::constructor",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Vragenlijst 'drivers'\",\n      description: \"Beantwoord de 50 vragen en druk het tabblad Histogram af\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Het voelt alsof ik steeds tegen de klok vecht…\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Ik denk dat de inspanning belangrijker is dan het resultaat.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Ik denk dat ik in het leven voor mezelf moet zorgen\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Om een taak te beginnen, heb ik alle informatie nodig\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Het is belangrijk dat anderen mij goed gezind zijn\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Stress geeft me een boost\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Ik ben altijd bang dat ik het niet aankan\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Ik ben erg veeleisend voor mezelf en anderen\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Om tevreden te zijn, moet ik uitblinken\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Om geliefd te zijn, lever ik een beter dan gemiddelde dienst\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Ik kan niet delegeren want anderen zijn te traag\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Ik steek veel energie in dingen doen\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Ik uit mijn emoties niet\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Om effectief te zijn, moet mijn taak perfect zijn\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Voor mijn baas ben ik beschikbaar, zelfs thuis\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Ik praat snel\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Ik verricht graag nobele taken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Feiten, cijfers en logica - dat zijn de echte waarden\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Je moet de mensen vertellen wat ze willen horen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Ik heb zin om mensen te onderbreken om hun zinnen af te maken\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 22,\n        text: \"Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Intellectuele uitwisseling is waar ik me goed bij voel\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 24,\n        text: \"Nauwkeurigheid ten koste van alles is de prijs van mijn imago\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Ik weet graag dat een collega me nodig heeft\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\"',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Anderen zeggen vaak over mij dat ik loop te klagen',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Ik hou van dingen die logica gebruiken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Ik moet de indruk wekken dat ik alles weet\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Je moet jezelf in vier kunnen delen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Ik loop meestal te ijsberen als ik ergens op wacht\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Ik vind het moeilijk om te vertrouwen en me over te geven\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Voor mij is een bezwaar een teken van mijn onbekwaamheid\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Ik hou ervan om anderen te helpen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Ik tik vaak met mijn vingers of voeten\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Ik creëer verwarrende situaties waarin ik me dom en machteloos voel\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Het maakt me veel uit hoe anderen me beoordelen op wat ik doe\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Ik ben ervan overtuigd dat ik de beste ben\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Ik kan geen nee zeggen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 41,\n        text: \"Ik ga te snel, waardoor ik onzorgvuldige fouten maak\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 42,\n        text: \"Zoveel moeite om al deze vragen te beantwoorden!\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 43,\n        text: \"Ik voel me veilig als ik niet emotioneel betrokken ben\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 44,\n        text: \"Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 45,\n        text: \"Ik speel graag de rol van vertrouwenspersoon\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 46,\n        text: \"Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 47,\n        text: 'Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\"',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 48,\n        text: \"In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 49,\n        text: \"Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 50,\n        text: \"Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Dat is niet zo voor mij\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"Misschien doe ik dat wel eens\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"Dat doe ik toch wel eens af en toe\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"Dat doe ik vaak\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"Dit ben ik totaal ten voeten uit\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Je hebt het moeilijk om je tijd te beheren. Het is aan jou om te analyseren wat het gevolg is van je werkomgeving en wat aan jezelf ligt.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gemiddeld tijdsbeheer. Je moet hierin nog verbeteren.\"\n      }, {\n        maxvalue: 90,\n        text: \"Je beheert je tijd op een actieve en positieve manier. Goed bezig! Maar misschien kan het nog beter... en rust vooral niet op je lauweren, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"Wees sterk\",\n        value: 0\n      }, {\n        id: 2,\n        text: \"Doe plezier\",\n        value: 0\n      }, {\n        id: 3,\n        text: \"Doe inspanningen\",\n        value: 0\n      }, {\n        id: 4,\n        text: \"Wees snel\",\n        value: 0\n      }, {\n        id: 5,\n        text: \"Wees volmaakt\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/DriversNL/Components/Questionnaire.js::handleValue",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "source": "src/Components/DriversNL/Components/Answer.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Bewaren</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    <Stick height={element.value * 10 - element.value * 2} color=\"#002F47\">\r\n                                                                        <StickPoint color=\"#FFFFFF\">{element.value}</StickPoint>\r\n                                                                    </Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>   \r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color=\"#002F47\">{element.text}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <Result className=\"answer\" completed={isCompleted}>\r\n                                            <Result className=\"answer-text\" completed={isCompleted}>\r\n                                                {this.state.message}\r\n                                            </Result>\r\n                                </Result>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>     \r\n                                  <ToPrint ref={this.printRef} title={data.title}>                 \r\n                                {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                    {printbutton}\r\n                                </div>    \r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "source": "src/Components/DriversNL/Components/Possibilites.js::handleChange",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/DriversNL.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/DriversNL.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n                <Questionnaire />\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questionnaire.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questionnaire: {\n      title: \"Vragenlijst 'drivers'\",\n      description: \"Beantwoord de 50 vragen en druk het tabblad Histogram af\",\n      completed: false,\n      questions: [{\n        id: 1,\n        text: \"Het voelt alsof ik steeds tegen de klok vecht…\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 2,\n        text: \"Ik denk dat de inspanning belangrijker is dan het resultaat.\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 3,\n        text: \"Ik denk dat ik in het leven voor mezelf moet zorgen\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 4,\n        text: \"Om een taak te beginnen, heb ik alle informatie nodig\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 5,\n        text: \"Het is belangrijk dat anderen mij goed gezind zijn\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 6,\n        text: \"Stress geeft me een boost\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 7,\n        text: \"Ik ben altijd bang dat ik het niet aankan\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 8,\n        text: \"Ik ben erg veeleisend voor mezelf en anderen\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 9,\n        text: \"Om tevreden te zijn, moet ik uitblinken\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 10,\n        text: \"Om geliefd te zijn, lever ik een beter dan gemiddelde dienst\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 11,\n        text: \"Ik kan niet delegeren want anderen zijn te traag\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 12,\n        text: \"Ik steek veel energie in dingen doen\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 13,\n        text: \"Ik uit mijn emoties niet\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 14,\n        text: \"Om effectief te zijn, moet mijn taak perfect zijn\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 15,\n        text: \"Voor mijn baas ben ik beschikbaar, zelfs thuis\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 16,\n        text: \"Ik praat snel\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 17,\n        text: \"Ik heb een gevoel van onderdrukking en de angst om te exploderen als ik me laat gaan\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 18,\n        text: \"Ik verricht graag nobele taken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 19,\n        text: \"Feiten, cijfers en logica - dat zijn de echte waarden\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 20,\n        text: \"Je moet de mensen vertellen wat ze willen horen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 21,\n        text: \"Ik heb zin om mensen te onderbreken om hun zinnen af te maken\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 22,\n        text: \"Ik voel me al lang verantwoordelijk voor wat er met anderen gebeurt\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 23,\n        text: \"Intellectuele uitwisseling is waar ik me goed bij voel\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 24,\n        text: \"Nauwkeurigheid ten koste van alles is de prijs van mijn imago\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 25,\n        text: \"Ik weet graag dat een collega me nodig heeft\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 26,\n        text: 'Ik zeg vaak \"Laten we opschieten... ja... ja .... En dan?\"',\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 27,\n        text: 'Anderen zeggen vaak over mij dat ik loop te klagen',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 28,\n        text: \"Ik hou van dingen die logica gebruiken\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 29,\n        text: \"Ik moet de indruk wekken dat ik alles weet\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 30,\n        text: \"Je moet jezelf in vier kunnen delen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 31,\n        text: \"Ik loop meestal te ijsberen als ik ergens op wacht\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 32,\n        text: \"Mensen komen naar me toe zonder dat ik het vraag, omdat ze me aardig vinden\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 33,\n        text: \"Ik vind het moeilijk om te vertrouwen en me over te geven\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 34,\n        text: \"Voor mij is een bezwaar een teken van mijn onbekwaamheid\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 35,\n        text: \"Ik hou ervan om anderen te helpen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 36,\n        text: \"Ik tik vaak met mijn vingers of voeten\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 37,\n        text: \"Ik creëer verwarrende situaties waarin ik me dom en machteloos voel\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 38,\n        text: \"Het maakt me veel uit hoe anderen me beoordelen op wat ik doe\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 39,\n        text: \"Ik ben ervan overtuigd dat ik de beste ben\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 40,\n        text: \"Ik kan geen nee zeggen\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 41,\n        text: \"Ik ga te snel, waardoor ik onzorgvuldige fouten maak\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 42,\n        text: \"Zoveel moeite om al deze vragen te beantwoorden!\",\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 43,\n        text: \"Ik voel me veilig als ik niet emotioneel betrokken ben\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 44,\n        text: \"Zolang een taak niet is voltooid zoals ik had verwacht, begin ik opnieuw\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 45,\n        text: \"Ik speel graag de rol van vertrouwenspersoon\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }, {\n        id: 46,\n        text: \"Ik kan niet stil blijven zitten en als het nodig is doe ik meerdere dingen tegelijk\",\n        value: 0,\n        categoryId: 4,\n        completed: false\n      }, {\n        id: 47,\n        text: 'Mijn moeder zei altijd tegen me: \"Met een beetje meer moeite zou je...\"',\n        value: 0,\n        categoryId: 3,\n        completed: false\n      }, {\n        id: 48,\n        text: \"In een taak met meerdere personen hou ik er niet van als de timing en het doel niet gerespecteerd worden en dat er wordt uitgeweid\",\n        value: 0,\n        categoryId: 1,\n        completed: false\n      }, {\n        id: 49,\n        text: \"Ik verwacht dat mijn medewerkers precies doen wat ik ze opdraag\",\n        value: 0,\n        categoryId: 5,\n        completed: false\n      }, {\n        id: 50,\n        text: \"Bij het beantwoorden van deze vragen vraag ik me af of de antwoorden overeenkomen met wat van mij verwacht wordt\",\n        value: 0,\n        categoryId: 2,\n        completed: false\n      }],\n      choices: [{\n        id: 1,\n        number: \"0\",\n        text: \"Dat is niet zo voor mij\",\n        value: 0\n      }, {\n        id: 2,\n        number: \"1\",\n        text: \"Misschien doe ik dat wel eens\",\n        value: 1\n      }, {\n        id: 3,\n        number: \"2\",\n        text: \"Dat doe ik toch wel eens af en toe\",\n        value: 2\n      }, {\n        id: 4,\n        number: \"3\",\n        text: \"Dat doe ik vaak\",\n        value: 3\n      }, {\n        id: 5,\n        number: \"4\",\n        text: \"Dit ben ik totaal ten voeten uit\",\n        value: 4\n      }],\n      answers: [{\n        maxvalue: 0,\n        text: \"Je hebt het moeilijk om je tijd te beheren. Het is aan jou om te analyseren wat het gevolg is van je werkomgeving en wat aan jezelf ligt.\"\n      }, {\n        maxvalue: 60,\n        text: \"Gemiddeld tijdsbeheer. Je moet hierin nog verbeteren.\"\n      }, {\n        maxvalue: 90,\n        text: \"Je beheert je tijd op een actieve en positieve manier. Goed bezig! Maar misschien kan het nog beter... en rust vooral niet op je lauweren, want op dit gebied is niets vanzelfsprekend en gaat alles heel snel achteruit.\"\n      }],\n      categories: [{\n        id: 1,\n        text: \"Wees sterk\",\n        value: 0\n      }, {\n        id: 2,\n        text: \"Doe plezier\",\n        value: 0\n      }, {\n        id: 3,\n        text: \"Doe inspanningen\",\n        value: 0\n      }, {\n        id: 4,\n        text: \"Wees snel\",\n        value: 0\n      }, {\n        id: 5,\n        text: \"Wees volmaakt\",\n        value: 0\n      }]\n    }\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questionnaire.js",
+        "name": "handleValue",
+        "code": "handleValue = props => {\n  let questionnaire = this.state.questionnaire;\n  let questions = questionnaire.questions;\n  const qIndex = questions.findIndex(question => question.id === props.id);\n  questions[qIndex] = props;\n  questionnaire.questions = questions;\n  let categories = this.state.questionnaire.categories;\n\n  //console.log(\"categories\",categories)\n  let cIndex = categories.findIndex(category => category.id === props.categoryId);\n  //console.log(\"cIndex\",cIndex)\n  if (cIndex >= 0) {\n    let newcategory = categories[cIndex];\n    newcategory.value += props.value;\n    categories[cIndex] = newcategory;\n    questionnaire.categories = categories;\n  }\n  questionnaire.completed = questionnaire.questions.every(question => question.completed === true);\n  this.setState({\n    questionnaire\n  });\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questionnaire.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Provider value={this.state.questionnaire} className=\"survey\">\r\n                <Header questionnaire={this.state.questionnaire} />\r\n                <Questions questions={this.state.questionnaire.questions} description={this.state.questionnaire.description} handlevalue={this.handleValue} />\r\n               <Answer questions={this.state.questionnaire.questions} categories={this.state.questionnaire.categories} />\r\n            </Context.Provider>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Header.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    title: this.props.questionnaire.title,\n    choices: this.props.questionnaire.choices\n  };\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Header.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"head\">\r\n            <div className=\"header\">\r\n                    <div className=\"logo\">\r\n                        <img src={logo} alt=\"\" />\r\n                    </div>\r\n                    <div className=\"choices-list\">\r\n                        <ul>\r\n                            {this.state.choices.map((answer, index) => <li className=\"choice-li\" key={index}><p className=\"choice-number\">{answer.number}</p><p className=\"choice-text\">{answer.text}</p></li>)}\r\n                        </ul>\r\n                    </div>\r\n            </div>\r\n            <div className=\"survey-title\">\r\n                <p>{this.state.title}</p>\r\n            </div>   \r\n        </div>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questions.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  const questions = this.props.questions;\n  const description = this.props.description;\n  return <div className=\"questions\">\r\n                <div className=\"questions-description\">\r\n                   <p>{description}</p> \r\n                </div>\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                        {questions.map((question, index) => <Question key={index} index={index} question={question} handlevalue={this.handleValue} />)}     \r\n                    </tbody>\r\n                </table>\r\n\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Answer.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    message: \"Vul alle vragen in om uw score te kennen\",\n    btn: {\n      checked: false,\n      text: \"Valideren\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Answer.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Het resultaat verbergen\" : btn.text = \"Valideren\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Answer.js",
+        "name": "render",
+        "code": "render() {\n  return <Context.Consumer>\r\n                {data => {\n      const isCompleted = data.completed;\n      //const isCompleted = true\n      const categories = data.categories;\n      let message, result, printbutton;\n      if (isCompleted) {\n        printbutton = <ReactToPrint trigger={() => <p>Bewaren</p>} content={() => this.printRef.current} />;\n        message = <div className=\"result\">\r\n                                <div className=\"result-graph\">\r\n                                    <div className=\"result-title\">Resultaten\r\n                                    </div>\r\n                                        <div className=\"result-data\">\r\n                                            <div className='result-data-column'>\r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                    <Stick height={element.value * 10 - element.value * 2} color=\"#002F47\">\r\n                                                                        <StickPoint color=\"#FFFFFF\">{element.value}</StickPoint>\r\n                                                                    </Stick>\r\n                                                                </ResultStick>;\n                })}\r\n                                            </div>\r\n                                            <div className='result-data-column'>   \r\n                                                {categories.map((element, index) => {\n                  return <ResultStick key={index} count={70 / categories.length}>  \r\n                                                                <StickValue color=\"#002F47\">{element.text}</StickValue>\r\n                                                            </ResultStick>;\n                })}\r\n                                            </div>\r\n                                        </div>\r\n                                </div>\r\n                            </div>;\n      } else {\n        message = <Result className=\"answer\" completed={isCompleted}>\r\n                                            <Result className=\"answer-text\" completed={isCompleted}>\r\n                                                {this.state.message}\r\n                                            </Result>\r\n                                </Result>;\n      }\n      if (this.state.btn.checked) {\n        result = <Fragment>     \r\n                                  <ToPrint ref={this.printRef} title={data.title}>                 \r\n                                {message}\r\n                                </ToPrint>\r\n                                <div className=\"download-button\">\r\n                                    {printbutton}\r\n                                </div>    \r\n                            </Fragment>;\n      } else result = null;\n      return <div className=\"answer-div\">\r\n                    {result}\r\n                    <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n                </div>;\n    }}\r\n            </Context.Consumer>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    text: \" \",\n    prevpts: 0\n  };\n  this.handleValue = this.handleValue.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Question.js",
+        "name": "handleValue",
+        "code": "handleValue = question => {\n  this.props.handlevalue(question);\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Question.js",
+        "name": "handleText",
+        "code": "handleText = text => {\n  this.setState({\n    text\n  });\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Question.js",
+        "name": "getId",
+        "code": "getId = id => {\n  //this.props.setquestioncompleted(id)\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Question.js",
+        "name": "render",
+        "code": "render() {\n  return <tr className=\"question\">   \r\n            <td className=\"question-number\">{this.props.index + 1} </td>\r\n    <td className=\"question-text\">{this.state.question.text}</td>\r\n    <td className=\"question-possibilites-text\">{this.state.text}</td>\r\n            <Possibilites className=\"question-possibilites\" handlevalue={this.handleValue} handletext={this.handleText} question={this.state.question} />\r\n        </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Possibilites.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    question: this.props.question,\n    prevValue: 0\n  };\n}"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Possibilites.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  const question = this.state.question;\n  let counter = 0;\n  counter -= parseInt(this.state.prevValue);\n  counter += parseInt(e.target.value);\n  question.value = parseInt(counter);\n  if (!question.completed) question.completed = true;\n  this.props.handlevalue(question);\n  this.setState({\n    prevValue: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Possibilites.js",
+        "name": "handleOver",
+        "code": "handleOver = text => {\n  this.props.handletext(text);\n};"
+      },
+      {
+        "file": "src/Components/DriversNL/Components/Possibilites.js",
+        "name": "render",
+        "code": "render() {\n  const question = this.props.question;\n  return <Context.Consumer>\r\n                    {data => {\n      const choices = data.choices;\n      return <td className=\"possibilites-radio\">\r\n\r\n                            {choices.map((choice, index) => <Fragment key={index}>\r\n                            <input type=\"radio\" id={question.text + choice.id} name={question.text} value={choice.value} onChange={this.handleChange} />\r\n                            <label className=\"possibilite-label\" htmlFor={question.text + choice.id} onMouseOver={() => this.handleOver(choice.text)} onMouseLeave={() => this.handleOver(\"\")}>{choice.number}</label>\r\n                                </Fragment>)}\r\n                        </td>;\n    }}         \r\n                </Context.Consumer>;\n}"
+      }
+    ],
+    "uncertainties": []
+  },
+  "uncertainties": [
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

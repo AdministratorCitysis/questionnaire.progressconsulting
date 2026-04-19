@@ -1,0 +1,334 @@
+{
+  "routePath": "/timing",
+  "routeComponent": "Timing",
+  "routeImportSource": "./Components/Timing",
+  "extractionTimestamp": "2026-04-19T10:06:59.177Z",
+  "sourceFiles": [
+    "src/Components/Timing.js",
+    "src/Components/Timing/components/Header.js",
+    "src/Components/Timing/components/Question.js",
+    "src/Components/Timing/components/Questions.js",
+    "src/Components/Timing/components/Result.js",
+    "src/Components/ToPrint.js"
+  ],
+  "questionnaireData": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "Ne plus être interrompu",
+        "value": 0
+      },
+      {
+        "id": 2,
+        "text": "Avoir un meilleur équilibre entre vos activités “trèfle”",
+        "value": 0
+      },
+      {
+        "id": 3,
+        "text": "Exécuter vos tâches selon votre rythme biologique et vos niveaux d’énergie",
+        "value": 0
+      },
+      {
+        "id": 4,
+        "text": "Déléguer ce qui est moins important pour vous",
+        "value": 0
+      },
+      {
+        "id": 5,
+        "text": "Mettre les pressions de l’urgence à leur juste place et vous focaliser sur les choses importantes",
+        "value": 0
+      }
+    ],
+    "total": "",
+    "inputText": ""
+  },
+  "structure": {
+    "responseTypeInference": "text_or_free_numeric_input",
+    "sections": [
+      {
+        "id": "questions",
+        "title": null,
+        "order": 1,
+        "questions": [
+          {
+            "id": 1,
+            "text": "Ne plus être interrompu",
+            "raw": {
+              "id": 1,
+              "text": "Ne plus être interrompu",
+              "value": 0
+            },
+            "options": []
+          },
+          {
+            "id": 2,
+            "text": "Avoir un meilleur équilibre entre vos activités “trèfle”",
+            "raw": {
+              "id": 2,
+              "text": "Avoir un meilleur équilibre entre vos activités “trèfle”",
+              "value": 0
+            },
+            "options": []
+          },
+          {
+            "id": 3,
+            "text": "Exécuter vos tâches selon votre rythme biologique et vos niveaux d’énergie",
+            "raw": {
+              "id": 3,
+              "text": "Exécuter vos tâches selon votre rythme biologique et vos niveaux d’énergie",
+              "value": 0
+            },
+            "options": []
+          },
+          {
+            "id": 4,
+            "text": "Déléguer ce qui est moins important pour vous",
+            "raw": {
+              "id": 4,
+              "text": "Déléguer ce qui est moins important pour vous",
+              "value": 0
+            },
+            "options": []
+          },
+          {
+            "id": 5,
+            "text": "Mettre les pressions de l’urgence à leur juste place et vous focaliser sur les choses importantes",
+            "raw": {
+              "id": 5,
+              "text": "Mettre les pressions de l’urgence à leur juste place et vous focaliser sur les choses importantes",
+              "value": 0
+            },
+            "options": []
+          }
+        ],
+        "responseOptions": []
+      }
+    ],
+    "uncertainties": []
+  },
+  "scoringModel": {
+    "inputTypeInference": "text_or_free_numeric_input",
+    "groups": [],
+    "questionToGroupMapping": [
+      {
+        "questionId": 1,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Ne plus être interrompu",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 2,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Avoir un meilleur équilibre entre vos activités “trèfle”",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 3,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Exécuter vos tâches selon votre rythme biologique et vos niveaux d’énergie",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 4,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Déléguer ce qui est moins important pour vous",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      },
+      {
+        "questionId": 5,
+        "groupId": null,
+        "source": "no_direct_group",
+        "questionText": "Mettre les pressions de l’urgence à leur juste place et vous focaliser sur les choses importantes",
+        "uncertainty": "Aucun categoryId detecte directement sur la question."
+      }
+    ],
+    "responseValueRules": [],
+    "resultThresholds": [],
+    "multiGroupImpact": [],
+    "uncertainties": [
+      "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+    ]
+  },
+  "logic": {
+    "scoringRules": [
+      {
+        "source": "src/Components/Timing/components/Questions.js::componentDidUpdate",
+        "rule": "Accumulation de score detectee (+= ou reduce).",
+        "snippet": "componentDidUpdate(prevProps, prevState) {\n  if (prevState !== this.state) {\n    let counter = this.state.questions.reduce((prevValue, currentValue) => prevValue + currentValue.value, 0);\n    return this.props.handlegettotal(counter);\n  }\n}"
+      }
+    ],
+    "validationRules": [],
+    "resultCalculations": [
+      {
+        "source": "src/Components/Timing/components/Result.js::render",
+        "rule": "Calcul/resultat base sur seuils ou affichage de score detecte.",
+        "snippet": "render() {\n  let message, printbutton;\n  let isCompleted = false;\n  let value = this.state.value;\n  let text;\n  if (value > 0) {\n    isCompleted = true;\n  }\n  if (value >= 60) {\n    let num = value;\n    let hrs = num / 60;\n    let rhrs = Math.floor(hrs);\n    let min = (hrs - rhrs) * 60;\n    let rmin = Math.round(min);\n    text = <ResultText completed={isCompleted}>\r\n                    Score: {rhrs} heures et {rmin} minutes\r\n                </ResultText>;\n  } else text = <ResultText completed={isCompleted}>Score: {value} minutes</ResultText>;\n  if (this.state.btn.checked) {\n    message = <Answer className=\"answer\" completed={isCompleted}>\r\n         {text}\r\n         </Answer>;\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  } else message = null;\n  return <div className=\"answer-div\">\r\n                 <ToPrint ref={this.printRef} title={this.state.titre}>\r\n                    {message}\r\n                 </ToPrint>\r\n                {printbutton}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      }
+    ],
+    "conditions": [
+      {
+        "source": "src/Components/Timing/components/Questions.js::componentDidUpdate",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "componentDidUpdate(prevProps, prevState) {\n  if (prevState !== this.state) {\n    let counter = this.state.questions.reduce((prevValue, currentValue) => prevValue + currentValue.value, 0);\n    return this.props.handlegettotal(counter);\n  }\n}"
+      },
+      {
+        "source": "src/Components/Timing/components/Questions.js::handleAddPoint",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleAddPoint = data => {\n  this.setState(state => state.questions.filter(question => question.id === data.id).map(question => {\n    if (isNaN(parseInt(data.value))) return question.value = 0;else return question.value = parseInt(data.value);\n  }));\n  return true;\n};"
+      },
+      {
+        "source": "src/Components/Timing/components/Questions.js::handleClick",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleClick = e => {\n  const text = this.state.inputText;\n  if (text) {\n    let list = this.state.questions;\n    const lastid = list[list.length - 1].id;\n    const newquestion = {\n      id: lastid + 1,\n      text: text,\n      value: 0\n    };\n    const newlist = list.concat(newquestion);\n    this.setState({\n      questions: newlist,\n      inputText: \"\"\n    });\n  }\n};"
+      },
+      {
+        "source": "src/Components/Timing/components/Result.js::componentDidUpdate",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "componentDidUpdate(prevProps, prevState) {\n  if (prevProps.value !== this.props.value) this.setState({\n    value: this.props.value\n  });\n}"
+      },
+      {
+        "source": "src/Components/Timing/components/Result.js::render",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "render() {\n  let message, printbutton;\n  let isCompleted = false;\n  let value = this.state.value;\n  let text;\n  if (value > 0) {\n    isCompleted = true;\n  }\n  if (value >= 60) {\n    let num = value;\n    let hrs = num / 60;\n    let rhrs = Math.floor(hrs);\n    let min = (hrs - rhrs) * 60;\n    let rmin = Math.round(min);\n    text = <ResultText completed={isCompleted}>\r\n                    Score: {rhrs} heures et {rmin} minutes\r\n                </ResultText>;\n  } else text = <ResultText completed={isCompleted}>Score: {value} minutes</ResultText>;\n  if (this.state.btn.checked) {\n    message = <Answer className=\"answer\" completed={isCompleted}>\r\n         {text}\r\n         </Answer>;\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  } else message = null;\n  return <div className=\"answer-div\">\r\n                 <ToPrint ref={this.printRef} title={this.state.titre}>\r\n                    {message}\r\n                 </ToPrint>\r\n                {printbutton}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "source": "src/Components/Timing/components/Question.js::componentDidUpdate",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "componentDidUpdate(prevProps, prevState) {\n  if (prevState.value !== this.state.value) {\n    this.props.handleaddoint(this.state);\n  }\n}"
+      },
+      {
+        "source": "src/Components/Timing/components/Question.js::handleOutfocus",
+        "note": "Conditions de branchement detectees dans la logique.",
+        "snippet": "handleOutfocus = e => {\n  if (e.target.value === \"\") this.setState({\n    value: 0\n  });\n};"
+      }
+    ],
+    "logicMethods": [
+      {
+        "file": "src/Components/Timing.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    total: 0\n  };\n  this.handleGetTotal = this.handleGetTotal.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Timing.js",
+        "name": "handleGetTotal",
+        "code": "handleGetTotal = total => {\n  this.setState({\n    total\n  });\n};"
+      },
+      {
+        "file": "src/Components/Timing.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  window.scrollTo(0, 0);\n}"
+      },
+      {
+        "file": "src/Components/Timing.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"App\">\r\n            <div className=\"survey\">\r\n            <Header />\r\n            <Questions handlegettotal={this.handleGetTotal} />\r\n            <Result value={this.state.total} />\r\n            </div>\r\n          </div>;\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {\n    questions: [{\n      id: 1,\n      text: \"Ne plus être interrompu\",\n      value: 0\n    }, {\n      id: 2,\n      text: \"Avoir un meilleur équilibre entre vos activités “trèfle”\",\n      value: 0\n    }, {\n      id: 3,\n      text: \"Exécuter vos tâches selon votre rythme biologique et vos niveaux d’énergie\",\n      value: 0\n    }, {\n      id: 4,\n      text: \"Déléguer ce qui est moins important pour vous\",\n      value: 0\n    }, {\n      id: 5,\n      text: \"Mettre les pressions de l’urgence à leur juste place et vous focaliser sur les choses importantes\",\n      value: 0\n    }],\n    total: \"\",\n    inputText: \"\"\n  };\n  this.handleChange = this.handleChange.bind(this);\n  this.handleAddPoint = this.handleAddPoint.bind(this);\n  this.handleAddQuestion = this.handleAddQuestion.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "componentDidUpdate",
+        "code": "componentDidUpdate(prevProps, prevState) {\n  if (prevState !== this.state) {\n    let counter = this.state.questions.reduce((prevValue, currentValue) => prevValue + currentValue.value, 0);\n    return this.props.handlegettotal(counter);\n  }\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "handleAddQuestion",
+        "code": "handleAddQuestion = () => {\n  console.log(\"Je suis dans le handleAdQuesiton\");\n  let item = {\n    id: new Date().valueOf(),\n    text: this.state.value,\n    value: 0\n  };\n  this.setState(state => {\n    const list = [...state.questions, item];\n    return console.log(list);\n  });\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  this.setState({\n    inputText: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "handleAddPoint",
+        "code": "handleAddPoint = data => {\n  this.setState(state => state.questions.filter(question => question.id === data.id).map(question => {\n    if (isNaN(parseInt(data.value))) return question.value = 0;else return question.value = parseInt(data.value);\n  }));\n  return true;\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  const text = this.state.inputText;\n  if (text) {\n    let list = this.state.questions;\n    const lastid = list[list.length - 1].id;\n    const newquestion = {\n      id: lastid + 1,\n      text: text,\n      value: 0\n    };\n    const newlist = list.concat(newquestion);\n    this.setState({\n      questions: newlist,\n      inputText: \"\"\n    });\n  }\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Questions.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"questions\">\r\n                <table className=\"questions-table\">\r\n                    <tbody>\r\n                    {this.state.questions.map((q, i) => <Question key={i} data={q} handleaddoint={this.handleAddPoint} />)}\r\n                    <tr className=\"question\">\r\n                <td className=\"question-text\">\r\n                    <div className=\"question-input-text\">\r\n                    <input type=\"text\" placeholder=\"Autre...\" onChange={this.handleChange} value={this.state.inputText} />\r\n                    </div>\r\n                </td>\r\n                <td className=\"question-input\">\r\n                    <button className=\"add-button\" onClick={this.handleClick}>Add</button>\r\n                </td>\r\n                </tr>\r\n                    </tbody>\r\n                </table>\r\n                \r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Result.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.printRef = React.createRef();\n  this.state = {\n    titre: \"Activité Gain Minutes\",\n    value: 0,\n    btn: {\n      checked: false,\n      text: \"Valider\"\n    }\n  };\n  this.handleClick = this.handleClick.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Result.js",
+        "name": "handleClick",
+        "code": "handleClick = e => {\n  let btn = this.state.btn;\n  btn.checked = !btn.checked;\n  btn.checked ? btn.text = \"Cacher le résultat\" : btn.text = \"Valider\";\n  this.setState(btn);\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Result.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState({\n    value: this.props.value\n  });\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Result.js",
+        "name": "componentDidUpdate",
+        "code": "componentDidUpdate(prevProps, prevState) {\n  if (prevProps.value !== this.props.value) this.setState({\n    value: this.props.value\n  });\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Result.js",
+        "name": "render",
+        "code": "render() {\n  let message, printbutton;\n  let isCompleted = false;\n  let value = this.state.value;\n  let text;\n  if (value > 0) {\n    isCompleted = true;\n  }\n  if (value >= 60) {\n    let num = value;\n    let hrs = num / 60;\n    let rhrs = Math.floor(hrs);\n    let min = (hrs - rhrs) * 60;\n    let rmin = Math.round(min);\n    text = <ResultText completed={isCompleted}>\r\n                    Score: {rhrs} heures et {rmin} minutes\r\n                </ResultText>;\n  } else text = <ResultText completed={isCompleted}>Score: {value} minutes</ResultText>;\n  if (this.state.btn.checked) {\n    message = <Answer className=\"answer\" completed={isCompleted}>\r\n         {text}\r\n         </Answer>;\n    printbutton = <ReactToPrint trigger={() => <div className=\"download-button\"><p>Sauvegarder</p></div>} content={() => this.printRef.current} />;\n  } else message = null;\n  return <div className=\"answer-div\">\r\n                 <ToPrint ref={this.printRef} title={this.state.titre}>\r\n                    {message}\r\n                 </ToPrint>\r\n                {printbutton}\r\n                <button className=\"add-button\" onClick={this.handleClick} shown={this.state.btn.checked}>{this.state.btn.text}</button>\r\n            </div>;\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "constructor",
+        "code": "constructor(props) {\n  super(props);\n  this.state = {};\n  this.handleChange = this.handleChange.bind(this);\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "componentDidMount",
+        "code": "componentDidMount() {\n  this.setState(this.props.data);\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "componentDidUpdate",
+        "code": "componentDidUpdate(prevProps, prevState) {\n  if (prevState.value !== this.state.value) {\n    this.props.handleaddoint(this.state);\n  }\n}"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "handleChange",
+        "code": "handleChange = e => {\n  this.setState({\n    value: e.target.value\n  });\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "handleOutfocus",
+        "code": "handleOutfocus = e => {\n  if (e.target.value === \"\") this.setState({\n    value: 0\n  });\n};"
+      },
+      {
+        "file": "src/Components/Timing/components/Question.js",
+        "name": "render",
+        "code": "render() {\n  //const [value,setValue] = React.useState(this.state.value);\n\n  return <tr className=\"question\">\r\n                <td className=\"question-text\">\r\n                    <p>{this.state.text}</p>\r\n                </td>\r\n                <td className=\"question-input\">\r\n                    <input type=\"text\" value={this.state.value} onChange={this.handleChange} onBlur={this.handleOutfocus}></input>\r\n                </td>\r\n            </tr>;\n}"
+      },
+      {
+        "file": "src/Components/ToPrint.js",
+        "name": "render",
+        "code": "render() {\n  return <div className=\"ToPrint\">\r\n                <div className=\"hidden\">\r\n                 <div className=\"logo\" style={{\n        width: \"100%\"\n      }}>\r\n                            <img src={Logo} alt=\"\" style={{\n          width: \"50%\"\n        }} />\r\n                </div>\r\n                <div className=\"darkblue fs40 bold w100 text-middle p20\">\r\n                    <p>{this.props.title}</p>\r\n                </div>\r\n                </div>\r\n                {this.props.children}\r\n            </div>;\n}"
+      }
+    ],
+    "uncertainties": [
+      "Aucune regle de validation explicite detectee automatiquement."
+    ]
+  },
+  "uncertainties": [
+    "Aucune regle de validation explicite detectee automatiquement.",
+    "Aucune question n'a explicitement plusieurs champs de groupement detectes; verifier les composants de scoring pour d'eventuels effets indirects."
+  ]
+}

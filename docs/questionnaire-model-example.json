@@ -1,0 +1,279 @@
+{
+  "id": "example-management-profile",
+  "slug": "example-management-profile",
+  "title": "Exemple Questionnaire Canonique",
+  "locale": "fr-BE",
+  "meta": {
+    "description": "Exemple de structure cible basé sur les patterns observés.",
+    "instruction": "Répondez à toutes les sections pour obtenir le résultat.",
+    "sourcePatternReferences": [
+      "single_choice_radio dominant",
+      "conditional_option_value_by_group (delegation*)",
+      "ranking_points_by_position + composed_sum (sct*)",
+      "threshold_based_result",
+      "free_numeric_sum (timing)"
+    ]
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Dimension A"
+    },
+    {
+      "id": "g2",
+      "label": "Dimension B"
+    },
+    {
+      "id": "g3",
+      "label": "Dimension C"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Section Likert",
+      "order": 1,
+      "kind": "question_list",
+      "questions": [
+        {
+          "id": "q1",
+          "order": 1,
+          "text": "Question de type échelle.",
+          "type": "single_choice",
+          "options": [
+            {
+              "id": "o1",
+              "uiLabel": "1",
+              "label": "Jamais",
+              "value": 1
+            },
+            {
+              "id": "o2",
+              "uiLabel": "2",
+              "label": "Rarement",
+              "value": 2
+            },
+            {
+              "id": "o3",
+              "uiLabel": "3",
+              "label": "Parfois",
+              "value": 3
+            },
+            {
+              "id": "o4",
+              "uiLabel": "4",
+              "label": "Souvent",
+              "value": 4
+            }
+          ],
+          "scoringTargets": [
+            {
+              "groupId": "g1",
+              "weight": 1
+            }
+          ],
+          "rules": {
+            "required": true
+          }
+        },
+        {
+          "id": "q2",
+          "order": 2,
+          "text": "Question avec valeur d'option dépendante du groupe.",
+          "type": "single_choice",
+          "options": [
+            {
+              "id": "o1",
+              "uiLabel": "--",
+              "label": "Tout à fait faux",
+              "value": 0
+            },
+            {
+              "id": "o2",
+              "uiLabel": "-",
+              "label": "Plutôt faux",
+              "value": 0
+            },
+            {
+              "id": "o3",
+              "uiLabel": "+",
+              "label": "Plutôt vrai",
+              "value": 0
+            },
+            {
+              "id": "o4",
+              "uiLabel": "++",
+              "label": "Tout à fait vrai",
+              "value": 0
+            }
+          ],
+          "scoringTargets": [
+            {
+              "groupId": "g2",
+              "weight": 1
+            }
+          ],
+          "rules": {
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Section Classement",
+      "order": 2,
+      "kind": "ranking_list",
+      "questions": [
+        {
+          "id": "r1",
+          "order": 1,
+          "text": "Classez ces options.",
+          "type": "ranking_item",
+          "options": [
+            {
+              "id": "p1",
+              "label": "Option 1",
+              "value": 0,
+              "groupId": "g1"
+            },
+            {
+              "id": "p2",
+              "label": "Option 2",
+              "value": 0,
+              "groupId": "g2"
+            },
+            {
+              "id": "p3",
+              "label": "Option 3",
+              "value": 0,
+              "groupId": "g3"
+            }
+          ],
+          "rules": {
+            "required": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Section Numérique libre",
+      "order": 3,
+      "kind": "question_list",
+      "questions": [
+        {
+          "id": "n1",
+          "order": 1,
+          "text": "Entrez un nombre de minutes.",
+          "type": "numeric_input",
+          "options": [],
+          "scoringTargets": [],
+          "rules": {
+            "required": false,
+            "min": 0
+          }
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "requiredSections": [
+      "s1",
+      "s2"
+    ],
+    "completionPolicy": "all_blocks_completed",
+    "customPredicates": [
+      {
+        "id": "timing-like",
+        "description": "Le résultat numérique libre peut rester facultatif."
+      }
+    ]
+  },
+  "scoring": {
+    "rules": [
+      {
+        "id": "rule-1",
+        "kind": "sum_by_group",
+        "source": "section:s1",
+        "target": "groups",
+        "enabled": true
+      },
+      {
+        "id": "rule-2",
+        "kind": "conditional_option_value_by_group",
+        "source": "question:q2",
+        "mappingByGroup": {
+          "g1": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "g2": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        "enabled": true
+      },
+      {
+        "id": "rule-3",
+        "kind": "ranking_points_by_position",
+        "source": "section:s2",
+        "pointsByRank": [
+          14,
+          12,
+          10,
+          8,
+          6,
+          4,
+          2
+        ],
+        "enabled": true
+      },
+      {
+        "id": "rule-4",
+        "kind": "composed_sum",
+        "inputs": [
+          "rule-1",
+          "rule-3"
+        ],
+        "target": "groups",
+        "enabled": true
+      },
+      {
+        "id": "rule-5",
+        "kind": "free_numeric_sum",
+        "source": "section:s3",
+        "target": "global_total",
+        "enabled": true
+      }
+    ]
+  },
+  "result": {
+    "displayMode": "bar_by_group",
+    "thresholds": [
+      {
+        "maxValue": 30,
+        "message": "Niveau 1"
+      },
+      {
+        "maxValue": 60,
+        "message": "Niveau 2"
+      },
+      {
+        "maxValue": 90,
+        "message": "Niveau 3"
+      }
+    ],
+    "fallbackMessage": "Veuillez compléter le questionnaire."
+  },
+  "knownLimits": [
+    "Le cas multi-groupe par une seule réponse est prévu mais pas observé explicitement dans les données actuelles.",
+    "Certains questionnaires existants ont des règles implicites dans le code UI (non entièrement déclaratives)."
+  ]
+}
+
