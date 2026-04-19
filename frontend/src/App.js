@@ -37,9 +37,12 @@ import IndividuelTest from './Components/SCTIndividuelTest'
 import DelegationNL from './Components/DelegationNL'
 import AdminLoginPage from './admin/pages/AdminLoginPage'
 import AdminDashboardPage from './admin/pages/AdminDashboardPage'
+import { AdminAuthProvider } from './admin/context/AdminAuthContext'
+import ProtectedAdminRoute from './admin/components/ProtectedAdminRoute'
 
 function App() {
   return (
+    <AdminAuthProvider>
     <HashRouter className="Route">
       {/* PASSAGE EN PRODUCTION
       <div className="Development">
@@ -50,7 +53,7 @@ function App() {
        {/*<Route path="/couleurs" component={Couleurs} />*/}
         <Route exact path="/admin" render={() => <Redirect to="/admin/login" />} />
         <Route path="/admin/login" component={AdminLoginPage} />
-        <Route path="/admin/dashboard" component={AdminDashboardPage} />
+        <ProtectedAdminRoute path="/admin/dashboard" component={AdminDashboardPage} />
         <Route path="/timing" component={Timing}/>
         <Route path="/gestion" component={GestionTemps}/>
         <Route path="/gestion-nl" component={GestionTempsNL}/>
@@ -86,6 +89,7 @@ function App() {
         <Route component={Gate} />
       </Switch>
     </HashRouter>
+    </AdminAuthProvider>
   );
 }
 

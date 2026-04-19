@@ -1,8 +1,9 @@
-import React, { useMemo, useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import React, { useMemo, useState, useEffect } from 'react'
+import { useHistory, Redirect } from 'react-router-dom'
 import Background from '../../includes/GateBackground.png'
 import logo from '../../includes/logo.svg'
-import { authenticateAdmin, getAdminAuthErrorMessage } from '../services/admin-auth-service'
+import { getAdminAuthErrorMessage } from '../services/admin-auth-service'
+import { useAdminAuth } from '../context/AdminAuthContext'
 
 const sectionStyle = {
   width: '100%',
@@ -15,9 +16,17 @@ const sectionStyle = {
 
 export default function AdminLoginPage() {
   const history = useHistory()
+  const { admin, isCheckingAuth, checkAuth, login } = useAdminAuth()
+
   const [form, setForm] = useState({ email: '', password: '' })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [error, setError] = useState('')
+
+  // On first load, silently check whether the admin is already authenticated.
+  // If yes, skip the login form entirely.
+  useEffect(() => {
+    checkAuth()
+  }, [checkAuth])
 
   const isDisabled = useMemo(() => {
     return isSubmitting || form.email.trim() === '' || form.password.trim() === ''
@@ -26,9 +35,7 @@ export default function AdminLoginPage() {
   const handleChange = (event) => {
     const { name, value } = event.target
     setForm((previous) => ({ ...previous, [name]: value }))
-    if (error !== '') {
-      setError('')
-    }
+    if (error !== '') setError('')
   }
 
   const handleSubmit = async (event) => {
@@ -37,13 +44,18 @@ export default function AdminLoginPage() {
     setError('')
 
     try {
-      await authenticateAdmin({ email: form.email, password: form.password })
+      await login({ email: form.email, password: form.password })
       history.push('/admin/dashboard')
     } catch (authError) {
       setError(getAdminAuthErrorMessage(authError))
     } finally {
       setIsSubmitting(false)
     }
+  }
+
+  // Already authenticated — go straight to the dashboard.
+  if (!isCheckingAuth && admin) {
+    return <Redirect to="/admin/dashboard" />
   }
 
   return (
@@ -87,7 +99,7 @@ export default function AdminLoginPage() {
         {error !== '' ? <p className="message-alert">{error}</p> : <p className="message-alert">&nbsp;</p>}
 
         <p className="asterix" style={{ fontSize: '14px', padding: '0 16px', marginTop: '6px' }}>
-          Acces reserve aux administrateurs autorises. Assistance: support@progressconsulting.be
+          Accès réservé aux administrateurs autorisés. Assistance&nbsp;: support@progressconsulting.be
         </p>
       </div>
     </div>

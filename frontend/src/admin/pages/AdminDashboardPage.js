@@ -1,18 +1,31 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import AdminShell from '../components/AdminShell'
+import { useAdminAuth } from '../context/AdminAuthContext'
 
 export default function AdminDashboardPage() {
+  const { admin, logout } = useAdminAuth()
+  const history = useHistory()
+
+  const handleLogout = () => {
+    logout()                       // clears sessionStorage token + auth state
+    history.push('/admin/login')   // redirect to login
+  }
+
+  const subtitle = admin
+    ? `Connecté en tant que ${admin.name || admin.email}`
+    : 'Tableau de bord administrateur'
+
   return (
     <AdminShell
       title="Dashboard Admin"
-      subtitle="Tableau de bord administrateur - base prête pour la suite (gestion questionnaires/utilisateurs)."
+      subtitle={subtitle}
     >
       <div className="boxes">
         <div className="box">
           <div className="checklist">
             <p className="checklistItem">Authentification</p>
-            <p className="checklistItem">À implémenter côté backend</p>
+            <p className="checklistItem">✓ Connecté au backend</p>
           </div>
         </div>
         <div className="box">
@@ -30,11 +43,20 @@ export default function AdminDashboardPage() {
       </div>
 
       <div className="download-button">
-        <Link to="/admin/login" style={{ textDecoration: 'none' }}>
+        <button
+          onClick={handleLogout}
+          style={{
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            fontFamily: 'inherit',
+            fontSize: 'inherit',
+            color: 'inherit',
+          }}
+        >
           <p>Se déconnecter</p>
-        </Link>
+        </button>
       </div>
     </AdminShell>
   )
 }
-
