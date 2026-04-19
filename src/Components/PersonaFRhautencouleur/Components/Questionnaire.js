@@ -128,7 +128,7 @@ export default class Questionnaire extends Component {
                         choices : [
                             {
                                 id:313,
-                                name:"Attentive",
+                                name:"Attentif",
                                 value : 3,
                             },
                             {
